@@ -1,0 +1,41 @@
+{
+  "id": "20260514",
+  "date": "2026年05月14日",
+  "weekday": "周四",
+  "group": "Sitor AI 产品用户群",
+  "issue": "001",
+  "stats": {
+    "messages": 283,
+    "active": 36,
+    "texts": 209
+  },
+  "topics": {
+    "summary": "Sitor AI 产品用户群 2026-05-14 的群聊讨论。",
+    "tags": [
+      "Sitor",
+      "功能更新",
+      "AI",
+      "产品"
+    ]
+  },
+  "points": [
+    {
+      "title": "问题反馈",
+      "desc": "收到 6 个问题反馈或 bug 报告"
+    },
+    {
+      "title": "功能讨论",
+      "desc": "讨论了产品功能更新和新特性"
+    }
+  ],
+  "infos": [
+    {
+      "user": "也许遇见",
+      "content": "今日最活跃"
+    }
+  ],
+  "actions": [
+    "关注产品更新动态",
+    "收集用户反馈"
+  ]
+}
