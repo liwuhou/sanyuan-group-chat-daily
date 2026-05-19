@@ -1,0 +1,567 @@
+/* Daily Digest - 群聊日报样式 */
+
+:root {
+    --bg: #F7F3EC;
+    --bg-warm: #F0EBE3;
+    --bg-card: #FFFFFF;
+    --text-primary: #3D3229;
+    --text-secondary: #6B5E52;
+    --text-muted: #9A8E82;
+    --accent: #8B7355;
+    --accent-light: #A69476;
+    --border: #D9CFC2;
+    --border-light: #E8E0D6;
+    --shadow: rgba(61, 50, 41, 0.06);
+    --nav-bg: #FFFFFF;
+    --nav-border: #E8E0D6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg);
+    color: var(--text-primary);
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    min-height: 100vh;
+}
+
+/* ===== 导航栏 ===== */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--nav-bg);
+    border-bottom: 1px solid var(--nav-border);
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-icon {
+    font-size: 20px;
+}
+
+.nav-title {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.nav-menu {
+    display: flex;
+    gap: 4px;
+    background: var(--bg-warm);
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.nav-btn {
+    padding: 6px 14px;
+    border: none;
+    background: transparent;
+    color: var(--text-muted);
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.nav-btn.active {
+    background: var(--bg-card);
+    color: var(--text-primary);
+    box-shadow: 0 1px 3px var(--shadow);
+}
+
+.nav-btn:hover:not(.active) {
+    color: var(--text-secondary);
+}
+
+/* ===== 视图切换 ===== */
+.view {
+    display: none;
+    padding-top: 60px;
+    min-height: 100vh;
+}
+
+.view.active {
+    display: block;
+}
+
+/* ===== 加载状态 ===== */
+.loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 20px;
+    color: var(--text-muted);
+}
+
+.loading-spinner {
+    width: 32px;
+    height: 32px;
+    border: 2px solid var(--border-light);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin-bottom: 16px;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* ===== 内容包装 ===== */
+.content-wrapper {
+    max-width: 430px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* ===== 日报文章 ===== */
+.digest {
+    background: var(--bg-card);
+    border-radius: 16px;
+    box-shadow: 0 2px 12px var(--shadow);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+/* Header */
+.digest-header {
+    padding: 28px 24px 20px;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.brand {
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    font-weight: 400;
+}
+
+.issue-badge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    color: var(--text-muted);
+}
+
+.issue-badge .dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--accent);
+}
+
+.issue-number {
+    font-size: 11px;
+    color: var(--text-muted);
+}
+
+.issue-value {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.digest-title {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--text-primary);
+    margin-bottom: 6px;
+}
+
+.digest-subtitle {
+    font-size: 12px;
+    color: var(--text-muted);
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+/* Meta bar */
+.meta-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 0;
+    border-top: 1px solid var(--border-light);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+.meta-bar::-webkit-scrollbar {
+    display: none;
+}
+
+.meta-item {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+    flex-shrink: 0;
+}
+
+.meta-label {
+    font-size: 9px;
+    color: var(--text-muted);
+    letter-spacing: 1px;
+}
+
+.meta-value {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.meta-divider {
+    width: 1px;
+    height: 14px;
+    background: var(--border);
+    flex-shrink: 0;
+}
+
+/* ===== 内容区块 ===== */
+.section {
+    padding: 24px;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.section:last-of-type {
+    border-bottom: none;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.section-number {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 2px solid var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--accent);
+    flex-shrink: 0;
+    font-family: 'Noto Serif SC', serif;
+}
+
+.section-title {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.section-line {
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(to right, var(--border), transparent);
+    margin-left: 8px;
+}
+
+.section-content {
+    padding-left: 38px;
+}
+
+/* Lead text */
+.lead-text {
+    font-size: 14px;
+    line-height: 1.9;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+}
+
+/* Tags */
+.tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.tag {
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 4px;
+    background: var(--bg-warm);
+    color: var(--text-secondary);
+    border: 1px solid var(--border-light);
+}
+
+/* Items */
+.item-list {
+    list-style: none;
+}
+
+.item-list li {
+    position: relative;
+    padding-left: 16px;
+    margin-bottom: 12px;
+    font-size: 13.5px;
+    line-height: 1.8;
+    color: var(--text-secondary);
+}
+
+.item-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: var(--accent);
+}
+
+.item-list li strong {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+/* Action items */
+.action-list {
+    list-style: none;
+}
+
+.action-list li {
+    position: relative;
+    padding: 12px 14px 12px 36px;
+    margin-bottom: 8px;
+    background: var(--bg-warm);
+    border-radius: 8px;
+    border-left: 3px solid var(--accent);
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--text-secondary);
+}
+
+.action-list li::before {
+    content: '▸';
+    position: absolute;
+    left: 14px;
+    top: 12px;
+    color: var(--accent);
+    font-size: 11px;
+}
+
+/* Footer */
+.digest-footer {
+    padding: 24px;
+    text-align: center;
+    border-top: 1px solid var(--border-light);
+}
+
+.footer-brand {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 6px;
+}
+
+.footer-meta {
+    font-size: 10px;
+    color: var(--text-muted);
+    letter-spacing: 1px;
+}
+
+/* ===== 历史记录页面 ===== */
+.history-header {
+    padding: 24px;
+    text-align: center;
+    border-bottom: 1px solid var(--border-light);
+    margin-bottom: 16px;
+}
+
+.history-header h2 {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 6px;
+}
+
+.history-subtitle {
+    font-size: 13px;
+    color: var(--text-muted);
+}
+
+.history-list {
+    max-width: 430px;
+    margin: 0 auto;
+    padding: 0 20px 20px;
+}
+
+/* 历史卡片 */
+.history-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    background: var(--bg-card);
+    border-radius: 12px;
+    box-shadow: 0 1px 4px var(--shadow);
+    margin-bottom: 12px;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.history-card:hover {
+    box-shadow: 0 4px 12px var(--shadow);
+    transform: translateY(-1px);
+}
+
+.history-date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    background: var(--bg-warm);
+    border-radius: 12px;
+    flex-shrink: 0;
+}
+
+.history-date .day {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--accent);
+    line-height: 1;
+}
+
+.history-date .month {
+    font-size: 10px;
+    color: var(--text-muted);
+    margin-top: 2px;
+}
+
+.history-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.history-info .title {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.history-info .meta {
+    font-size: 12px;
+    color: var(--text-muted);
+}
+
+.history-stats {
+    display: flex;
+    gap: 12px;
+    font-size: 11px;
+    color: var(--text-muted);
+}
+
+.history-stats span {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+/* ===== 响应式 ===== */
+@media (min-width: 768px) {
+    body {
+        background: linear-gradient(135deg, #F0EBE3 0%, #F7F3EC 100%);
+    }
+    
+    .content-wrapper {
+        max-width: 600px;
+        padding: 40px 20px;
+    }
+    
+    .history-list {
+        max-width: 600px;
+        padding: 0 20px 40px;
+    }
+    
+    .digest {
+        box-shadow: 0 4px 24px rgba(61, 50, 41, 0.08);
+    }
+    
+    .digest-title {
+        font-size: 32px;
+    }
+    
+    .section-title {
+        font-size: 20px;
+    }
+    
+    .navbar {
+        padding: 16px 24px;
+    }
+    
+    .nav-title {
+        font-size: 18px;
+    }
+}
+
+/* ===== 动画 ===== */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.digest {
+    animation: fadeIn 0.4s ease;
+}
+
+.history-card {
+    animation: fadeIn 0.3s ease;
+}

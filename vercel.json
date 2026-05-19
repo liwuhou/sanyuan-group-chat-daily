@@ -1,0 +1,10 @@
+{
+  "buildCommand": "python src/build.py",
+  "outputDirectory": "dist",
+  "framework": null,
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/sanyuan/:path*", "destination": "/sanyuan/:path*" },
+    { "source": "/sitor/:path*", "destination": "/sitor/:path*" }
+  ]
+}
