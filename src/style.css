@@ -39,9 +39,28 @@ img[loading="lazy"].loaded {
   opacity: 1;
 }
 
-/* 暗黑模式 */
+/* 暗黑模式 - 手动切换 */
+[data-theme="dark"] {
+  --bg: #1C1A17;
+  --bg-warm: #252320;
+  --bg-card: #2D2B27;
+  --text-primary: #E8E2DA;
+  --text-secondary: #B5ADA3;
+  --text-muted: #7A7268;
+  --accent: #A69476;
+  --accent-light: #C4B5A0;
+  --accent-dark: #8B7D68;
+  --border: #3D3830;
+  --border-light: #4A453D;
+  --shadow: rgba(0, 0, 0, 0.2);
+  --shadow-hover: rgba(0, 0, 0, 0.3);
+  --sanyuan-color: #6BB8D4;
+  --sitor-color: #C4A882;
+}
+
+/* 暗黑模式 - 系统偏好 */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --bg: #1C1A17;
     --bg-warm: #252320;
     --bg-card: #2D2B27;

@@ -16,6 +16,10 @@ document.addEventListener('DOMContentLoaded', function() {
         if (savedTheme) {
             document.documentElement.setAttribute('data-theme', savedTheme);
             updateThemeIcon(savedTheme);
+        } else {
+            // 默认设置为亮色模式
+            document.documentElement.setAttribute('data-theme', 'light');
+            updateThemeIcon('light');
         }
     }
     
