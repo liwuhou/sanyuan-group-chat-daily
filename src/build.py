@@ -41,6 +41,9 @@ def load_group_data(group_id):
         return digests
     
     for json_file in sorted(group_dir.glob("*.json"), reverse=True):
+        # 跳过原始消息文件
+        if "_raw" in json_file.stem:
+            continue
         try:
             with open(json_file, "r", encoding="utf-8") as f:
                 data = json.load(f)
@@ -235,6 +238,7 @@ def generate_html(data, group_id):
         </section>
         
         <div class="share-section">
+            <a href="/{group_id}/{data.get('id')}_chat.html" class="view-chat-btn">💬 查看完整对话</a>
             <button id="shareBtn" class="share-btn">📤 分享日报</button>
         </div>
 
@@ -674,6 +678,82 @@ def generate_rss(digests_by_group):
 """
 
 
+def generate_chat_page(data, group_id):
+    """生成对话页面 HTML"""
+    digest_id = data.get('id', '')
+    raw_file = DATA_DIR / group_id / f"{digest_id}_raw.json"
+    
+    if not raw_file.exists():
+        return None
+    
+    try:
+        with open(raw_file, "r", encoding="utf-8") as f:
+            raw_messages = json.load(f)
+    except Exception as e:
+        print(f"Error reading {raw_file}: {e}")
+        return None
+    
+    # 生成消息 HTML
+    messages_html = ""
+    for msg in raw_messages:
+        user = msg.get('user', '未知用户')
+        content = msg.get('content', '')
+        time = msg.get('time', '')
+        
+        # 转义 HTML
+        content = content.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        
+        # 高亮链接
+        import re
+        content = re.sub(r'(https?://\S+)', r'<a href="\1" target="_blank" class="chat-link">\1</a>', content)
+        
+        messages_html += f"""
+            <div class="chat-message">
+                <div class="chat-avatar">{user[0]}</div>
+                <div class="chat-bubble">
+                    <div class="chat-header">
+                        <span class="chat-user">{user}</span>
+                        <span class="chat-time">{time}</span>
+                    </div>
+                    <div class="chat-content">{content}</div>
+                </div>
+            </div>
+        """
+    
+    return f"""<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>{data.get('group', '群聊')} · 完整对话</title>
+    <meta name="description" content="{data.get('date', '')} 的完整聊天记录">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="page">
+        {generate_nav("detail")}
+        
+        {generate_breadcrumb(data.get('group', ''), data.get('date', '') + ' 完整对话')}
+        
+        <header class="chat-page-header">
+            <h1 class="chat-page-title">💬 完整对话</h1>
+            <p class="chat-page-subtitle">{data.get('group', '')} · {data.get('date', '')}</p>
+            <a href="/{group_id}/{digest_id}.html" class="back-to-digest">← 返回日报</a>
+        </header>
+        
+        <div class="chat-container">
+            {messages_html}
+        </div>
+        
+        {generate_footer()}
+    </div>
+    <script src="/main.js"></script>
+</body>
+</html>
+"""
+
+
 def build():
     """构建静态网站"""
     print("🏗️  Building static site...")
@@ -720,6 +800,13 @@ def build():
                 file_path = group_dir / f"{digest['id']}.html"
                 with open(file_path, "w", encoding="utf-8") as f:
                     f.write(html)
+                
+                # 生成对话页面
+                chat_html = generate_chat_page(digest, group_id)
+                if chat_html:
+                    chat_file_path = group_dir / f"{digest['id']}_chat.html"
+                    with open(chat_file_path, "w", encoding="utf-8") as f:
+                        f.write(chat_html)
             
             print(f"✓ Generated {len(digests)} pages for {group_id}")
     

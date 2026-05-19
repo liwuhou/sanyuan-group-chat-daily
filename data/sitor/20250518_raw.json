@@ -1,0 +1,52 @@
+[
+  {
+    "time": "09:15",
+    "user": "用户A",
+    "content": "Sitor 的新功能什么时候上线？"
+  },
+  {
+    "time": "09:18",
+    "user": "sanyuan",
+    "content": "预计明天上线，正在做最后的测试"
+  },
+  {
+    "time": "09:20",
+    "user": "用户B",
+    "content": "期待！是什么功能？"
+  },
+  {
+    "time": "09:22",
+    "user": "sanyuan",
+    "content": "图表渲染功能，支持多种图表类型"
+  },
+  {
+    "time": "09:25",
+    "user": "用户C",
+    "content": "太好了，之前一直想要这个功能"
+  },
+  {
+    "time": "09:30",
+    "user": "用户A",
+    "content": "@sanyuan 有没有 beta 版本可以先体验？"
+  },
+  {
+    "time": "09:35",
+    "user": "sanyuan",
+    "content": "有的，我私发你链接"
+  },
+  {
+    "time": "09:40",
+    "user": "用户D",
+    "content": "我也想要"
+  },
+  {
+    "time": "09:42",
+    "user": "sanyuan",
+    "content": "大家稍等，我整理一下发群里"
+  },
+  {
+    "time": "10:00",
+    "user": "sanyuan",
+    "content": "Beta 链接：https://beta.sitor.ai/charts 欢迎大家试用反馈"
+  }
+]
