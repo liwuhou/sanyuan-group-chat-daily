@@ -69,6 +69,9 @@ def generate_nav(current_page="home"):
                 <a href="/" class="nav-link" {'style="color: var(--accent); font-weight: 600;"' if current_page == "home" else ''}>首页</a>
                 <a href="/archive.html" class="nav-link" {'style="color: var(--accent); font-weight: 600;"' if current_page == "archive" else ''}>归档</a>
                 <a href="/rss.xml" class="nav-link" target="_blank">RSS</a>
+                <button id="themeToggle" class="theme-toggle" title="切换主题">
+                    <span class="theme-icon">🌙</span>
+                </button>
             </div>
         </nav>
     """
@@ -217,6 +220,7 @@ def generate_html(data, group_id):
 
         {generate_footer()}
     </div>
+    <script src="/main.js"></script>
 </body>
 </html>
 """
@@ -329,6 +333,7 @@ def generate_index(digests_by_group):
     </div>
     
     <script src="/search.js"></script>
+    <script src="/main.js"></script>
 </body>
 </html>
 """
@@ -507,7 +512,16 @@ def build():
             js_content = f.read()
         with open(DIST_DIR / "search.js", "w") as f:
             f.write(js_content)
-        print("✓ JS copied")
+        print("✓ search.js copied")
+    
+    # 复制 main.js
+    main_js_source = BASE_DIR / "src" / "main.js"
+    if main_js_source.exists():
+        with open(main_js_source, "r") as f:
+            js_content = f.read()
+        with open(DIST_DIR / "main.js", "w") as f:
+            f.write(js_content)
+        print("✓ main.js copied")
     
     # 加载数据
     digests_by_group = {}
