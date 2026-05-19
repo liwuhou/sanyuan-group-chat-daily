@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-Daily Digest - Static Site Generator v2.0
+Daily Digest - Static Site Generator v3.0
 生成纯静态网站，可部署到 Vercel
+新增：图表统计、标签筛选、面包屑导航
 """
 
 import json
@@ -92,6 +93,21 @@ def generate_footer():
     """
 
 
+def generate_breadcrumb(group_name, date_str):
+    """生成面包屑导航"""
+    return f"""
+        <nav class="breadcrumb" aria-label="breadcrumb">
+            <ol class="breadcrumb-list">
+                <li class="breadcrumb-item"><a href="/">首页</a></li>
+                <li class="breadcrumb-separator">/</li>
+                <li class="breadcrumb-item">{group_name}</li>
+                <li class="breadcrumb-separator">/</li>
+                <li class="breadcrumb-item active">{date_str}</li>
+            </ol>
+        </nav>
+    """
+
+
 def generate_html(data, group_id):
     """生成日报 HTML"""
     group = GROUPS.get(group_id, {})
@@ -128,7 +144,7 @@ def generate_html(data, group_id):
     <div class="page">
         {generate_nav("detail")}
         
-        <a href="/" class="back-link">← 返回首页</a>
+        {generate_breadcrumb(data.get('group', ''), data.get('date', ''))}
         
         <header class="digest-header">
             <div class="header-top">
@@ -217,6 +233,10 @@ def generate_html(data, group_id):
                 </ul>
             </div>
         </section>
+        
+        <div class="share-section">
+            <button id="shareBtn" class="share-btn">📤 分享日报</button>
+        </div>
 
         {generate_footer()}
     </div>
@@ -254,7 +274,7 @@ def generate_index(digests_by_group):
             is_new = digest_id == today
             
             cards_html += f"""
-                <a href="/{group_id}/{digest['id']}.html" class="history-card {group_id}">
+                <a href="/{group_id}/{digest['id']}.html" class="history-card {group_id}" data-tags="{','.join(digest.get('topics', {}).get('tags', []))}">
                     <div class="history-date">
                         <span class="day">{day}</span>
                         <span class="month">{month}月</span>
@@ -279,6 +299,14 @@ def generate_index(digests_by_group):
     tags = get_all_tags(all_digests)
     tags_html = "".join([f'<a href="/archive.html?tag={tag}" class="tag">{tag} ({count})</a>' for tag, count in sorted(tags.items(), key=lambda x: -x[1])[:10]])
     
+    # 计算统计数据
+    total_digests = len(all_digests)
+    total_messages = sum(d.get('stats', {}).get('messages', 0) for d in all_digests)
+    total_active = sum(d.get('stats', {}).get('active', 0) for d in all_digests)
+    
+    # 生成图表数据
+    chart_data = generate_chart_data(digests_by_group)
+    
     return f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -289,6 +317,7 @@ def generate_index(digests_by_group):
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
     <link rel="alternate" type="application/rss+xml" title="群聊日报 RSS" href="/rss.xml">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <div class="page">
@@ -306,6 +335,46 @@ def generate_index(digests_by_group):
             </svg>
             <input type="text" class="search-input" placeholder="搜索日报内容..." id="searchInput">
         </div>
+        
+        <section class="section">
+            <div class="section-header">
+                <div class="section-number">📊</div>
+                <h2 class="section-title">数据概览</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="stats-summary">
+                <div class="stat-item">
+                    <div class="stat-value">{total_digests}</div>
+                    <div class="stat-label">日报期数</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">{total_messages}</div>
+                    <div class="stat-label">总消息数</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">{total_active}</div>
+                    <div class="stat-label">总活跃人数</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value">{len(tags)}</div>
+                    <div class="stat-label">标签数量</div>
+                </div>
+            </div>
+            <div class="chart-container">
+                <canvas id="trendChart" height="200"></canvas>
+            </div>
+        </section>
+        
+        <section class="section">
+            <div class="section-header">
+                <div class="section-number">🏷️</div>
+                <h2 class="section-title">热门标签</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="tag-list">
+                {tags_html}
+            </div>
+        </section>
         
         <section class="section">
             <div class="section-header">
@@ -334,9 +403,118 @@ def generate_index(digests_by_group):
     
     <script src="/search.js"></script>
     <script src="/main.js"></script>
+    <script>
+        // 趋势图表
+        {chart_data}
+    </script>
 </body>
 </html>
 """
+
+
+def generate_chart_data(digests_by_group):
+    """生成图表数据"""
+    all_digests = []
+    for group_id, digests in digests_by_group.items():
+        for digest in digests:
+            digest["_group_id"] = group_id
+            all_digests.append(digest)
+    
+    # 按日期排序
+    all_digests.sort(key=lambda x: x.get("id", ""))
+    
+    if len(all_digests) < 2:
+        return "// 数据不足，无法生成图表"
+    
+    # 准备数据
+    labels = []
+    sanyuan_data = []
+    sitor_data = []
+    
+    for digest in all_digests:
+        digest_id = digest.get("id", "")
+        if len(digest_id) == 8:
+            date_label = f"{digest_id[4:6]}/{digest_id[6:8]}"
+        else:
+            date_label = digest_id
+        
+        if date_label not in labels:
+            labels.append(date_label)
+        
+        group_id = digest.get("_group_id", "")
+        messages = digest.get('stats', {}).get('messages', 0)
+        
+        if group_id == "sanyuan":
+            sanyuan_data.append(messages)
+        elif group_id == "sitor":
+            sitor_data.append(messages)
+    
+    labels_json = json.dumps(labels, ensure_ascii=False)
+    sanyuan_json = json.dumps(sanyuan_data)
+    sitor_json = json.dumps(sitor_data)
+    
+    return f"""
+        document.addEventListener('DOMContentLoaded', function() {{
+            var ctx = document.getElementById('trendChart');
+            if (!ctx) return;
+            
+            new Chart(ctx, {{
+                type: 'line',
+                data: {{
+                    labels: {labels_json},
+                    datasets: [
+                        {{
+                            label: '三元 Agent 课程群',
+                            data: {sanyuan_json},
+                            borderColor: '#4A90A4',
+                            backgroundColor: 'rgba(74, 144, 164, 0.1)',
+                            tension: 0.4,
+                            fill: true
+                        }},
+                        {{
+                            label: 'Sitor AI 产品用户群',
+                            data: {sitor_json},
+                            borderColor: '#8B7355',
+                            backgroundColor: 'rgba(139, 115, 85, 0.1)',
+                            tension: 0.4,
+                            fill: true
+                        }}
+                    ]
+                }},
+                options: {{
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {{
+                        legend: {{
+                            position: 'top',
+                            labels: {{
+                                usePointStyle: true,
+                                padding: 20
+                            }}
+                        }},
+                        title: {{
+                            display: true,
+                            text: '消息数量趋势',
+                            font: {{ size: 16, weight: 'bold' }}
+                        }}
+                    }},
+                    scales: {{
+                        y: {{
+                            beginAtZero: true,
+                            grid: {{
+                                color: 'rgba(0, 0, 0, 0.05)'
+                            }}
+                        }},
+                        x: {{
+                            grid: {{
+                                display: false
+                            }}
+                        }}
+                    }}
+                }}
+            }});
+        }});
+    """
 
 
 def generate_archive(digests_by_group):
@@ -428,6 +606,7 @@ def generate_archive(digests_by_group):
         
         {generate_footer()}
     </div>
+    <script src="/main.js"></script>
 </body>
 </html>
 """
@@ -506,22 +685,14 @@ def build():
         print("✓ CSS copied")
     
     # 复制 JS
-    js_source = BASE_DIR / "src" / "search.js"
-    if js_source.exists():
-        with open(js_source, "r") as f:
-            js_content = f.read()
-        with open(DIST_DIR / "search.js", "w") as f:
-            f.write(js_content)
-        print("✓ search.js copied")
-    
-    # 复制 main.js
-    main_js_source = BASE_DIR / "src" / "main.js"
-    if main_js_source.exists():
-        with open(main_js_source, "r") as f:
-            js_content = f.read()
-        with open(DIST_DIR / "main.js", "w") as f:
-            f.write(js_content)
-        print("✓ main.js copied")
+    for js_file in ["search.js", "main.js", "charts.js"]:
+        js_source = BASE_DIR / "src" / js_file
+        if js_source.exists():
+            with open(js_source, "r") as f:
+                js_content = f.read()
+            with open(DIST_DIR / js_file, "w") as f:
+                f.write(js_content)
+            print(f"✓ {js_file} copied")
     
     # 加载数据
     digests_by_group = {}

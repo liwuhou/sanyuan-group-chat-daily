@@ -1,0 +1,27 @@
+{
+  "id": "20250516",
+  "date": "2025年05月16日",
+  "weekday": "周五",
+  "group": "三元 Agent 课程群",
+  "issue": "001",
+  "stats": {
+    "messages": 178,
+    "active": 14,
+    "texts": 120
+  },
+  "topics": {
+    "summary": "昨日群内讨论了 LLM 模型选择、API 调用优化等话题。",
+    "tags": ["LLM", "API", "优化"]
+  },
+  "points": [
+    {"title": "模型选择", "desc": "讨论了不同 LLM 模型的适用场景"},
+    {"title": "API 优化", "desc": "分享了 API 调用性能优化经验"}
+  ],
+  "infos": [
+    {"user": "小红", "content": "分享了一个好用的 API 调试工具"}
+  ],
+  "actions": [
+    "评估不同 LLM 模型",
+    "优化 API 调用"
+  ]
+}

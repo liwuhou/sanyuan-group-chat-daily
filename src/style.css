@@ -1,4 +1,4 @@
-/* Daily Digest - 群聊日报样式 v2.0 */
+/* Daily Digest - 群聊日报样式 v3.0 */
 
 :root {
   /* 色彩系统 - 亮色模式 */
@@ -22,6 +22,21 @@
   --transition-fast: 0.15s ease;
   --transition-normal: 0.3s ease;
   --transition-slow: 0.5s ease;
+}
+
+/* 性能优化: 减少重绘 */
+* {
+  will-change: auto;
+}
+
+/* 性能优化: 图片懒加载 */
+img[loading="lazy"] {
+  opacity: 0;
+  transition: opacity var(--transition-normal);
+}
+
+img[loading="lazy"].loaded {
+  opacity: 1;
 }
 
 /* 暗黑模式 */
@@ -1014,5 +1029,91 @@ body {
   background: var(--accent);
   color: white;
   border-color: var(--accent);
+}
+
+/* ===== 标签筛选 ===== */
+.tag-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.tag-filter .tag {
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.tag-filter .tag:hover {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+.tag-filter .tag.active {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+/* ===== 面包屑导航 ===== */
+.breadcrumb {
+  padding: 16px 24px;
+  margin-bottom: 0;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.breadcrumb-list {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumb-item a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.breadcrumb-item a:hover {
+  color: var(--accent);
+}
+
+.breadcrumb-item.active {
+  color: var(--text-muted);
+}
+
+.breadcrumb-separator {
+  color: var(--border);
+}
+
+/* ===== 图表容器 ===== */
+.chart-container {
+  position: relative;
+  height: 300px;
+  margin: 24px 0;
+  padding: 16px;
+  background: var(--bg-card);
+  border-radius: 12px;
+  border: 1px solid var(--border-light);
+}
+
+/* ===== 归档月份 ===== */
+.archive-month {
+  margin-bottom: 32px;
+}
+
+.archive-month-title {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
 }
 

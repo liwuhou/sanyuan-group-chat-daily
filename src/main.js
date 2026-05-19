@@ -93,4 +93,53 @@ document.addEventListener('DOMContentLoaded', function() {
             setTimeout(() => toast.remove(), 300);
         }, 2000);
     }
+    
+    // 标签筛选功能
+    const tagFilter = document.getElementById('tagFilter');
+    if (tagFilter) {
+        const tags = tagFilter.querySelectorAll('.tag');
+        let activeTag = null;
+        
+        tags.forEach(tag => {
+            tag.addEventListener('click', function() {
+                const tagName = this.dataset.tag;
+                
+                // 切换激活状态
+                if (activeTag === tagName) {
+                    // 取消筛选
+                    activeTag = null;
+                    tags.forEach(t => t.classList.remove('active'));
+                    showAllCards();
+                } else {
+                    // 激活筛选
+                    activeTag = tagName;
+                    tags.forEach(t => t.classList.remove('active'));
+                    this.classList.add('active');
+                    filterCardsByTag(tagName);
+                }
+            });
+        });
+    }
+    
+    function filterCardsByTag(tagName) {
+        const cards = document.querySelectorAll('.history-card');
+        cards.forEach(card => {
+            const cardTags = card.dataset.tags;
+            if (cardTags && cardTags.includes(tagName)) {
+                card.style.display = 'flex';
+                card.style.opacity = '1';
+            } else {
+                card.style.display = 'none';
+                card.style.opacity = '0';
+            }
+        });
+    }
+    
+    function showAllCards() {
+        const cards = document.querySelectorAll('.history-card');
+        cards.forEach(card => {
+            card.style.display = 'flex';
+            card.style.opacity = '1';
+        });
+    }
 });

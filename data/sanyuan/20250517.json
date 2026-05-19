@@ -1,0 +1,27 @@
+{
+  "id": "20250517",
+  "date": "2025年05月17日",
+  "weekday": "周六",
+  "group": "三元 Agent 课程群",
+  "issue": "001",
+  "stats": {
+    "messages": 203,
+    "active": 15,
+    "texts": 145
+  },
+  "topics": {
+    "summary": "昨日群内讨论了 Agent 框架选型、Prompt 工程优化等话题。",
+    "tags": ["Agent", "Prompt", "框架"]
+  },
+  "points": [
+    {"title": "Agent 框架对比", "desc": "对比了 LangChain、AutoGPT 等框架的优缺点"},
+    {"title": "Prompt 优化", "desc": "分享了 Prompt 工程的最佳实践"}
+  ],
+  "infos": [
+    {"user": "小明", "content": "推荐了一篇关于 Agent 架构的文章"}
+  ],
+  "actions": [
+    "尝试使用新的 Agent 框架",
+    "优化现有 Prompt"
+  ]
+}
