@@ -255,7 +255,7 @@ def generate_index(digests_by_group):
             return '<div class="empty-state"><div class="empty-state-icon">📝</div><div class="empty-state-title">暂无数据</div><div class="empty-state-desc">该群聊暂无日报数据</div></div>'
         
         cards_html = ""
-        for i, digest in enumerate(digests[:5]):  # 只显示最近5条
+        for i, digest in enumerate(digests[:3]):  # 只显示最近3条
             # 从 id (YYYYMMDD) 解析日期
             digest_id = digest['id']
             if len(digest_id) == 8 and digest_id.isdigit():
@@ -289,6 +289,14 @@ def generate_index(digests_by_group):
                     </div>
                 </a>
             """
+        
+        # 添加"查看全部"链接
+        cards_html += f"""
+            <a href="/archive.html" class="view-all-link">
+                <span>查看全部 {len(digests)} 条记录 →</span>
+            </a>
+        """
+        
         return cards_html
     
     # 收集所有标签
