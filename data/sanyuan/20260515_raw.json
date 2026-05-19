@@ -1,0 +1,1872 @@
+[
+  {
+    "time": "2026-05-15 06:59",
+    "user": "小花花",
+    "content": "上午有得学了"
+  },
+  {
+    "time": "2026-05-15 07:04",
+    "user": "阿五",
+    "content": "![图片](http://127.0.0.1:5030/image/87acaa57304b562baf08b8be6cbbc34b,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/b65fe860f8da6b3a3a54e96b56839cc4)"
+  },
+  {
+    "time": "2026-05-15 07:04",
+    "user": "阿五",
+    "content": "[强]"
+  },
+  {
+    "time": "2026-05-15 07:07",
+    "user": "阿五",
+    "content": "昨日群聊汇总"
+  },
+  {
+    "time": "2026-05-15 07:07",
+    "user": "阿五",
+    "content": "[合并转发|阿五与微信ClawBot的聊天记录]\n  微信ClawBot 2026-05-15 07:01:11\n  Cronjob Response: 三元Agent课程群日报\n  (job_id: 8394c0f4fed1)\n  -------------\n  \n  **三元 Agent 课程群 · 每日精选**\n  📅 2026-05-14\n  \n  ### 🔥 昨日核心话题\n  群里主要在聊 Agent/LLM 选型与成本：Claude、Codex、DeepSeek、GLM、Kimi 的体验和花费对比，以及中转站/订阅方案。另一条主线是 RAG 与图片处理，大家讨论了图片 base64 进向量库的坑、VLM caption、原图分离存 MinIO 的更稳做法。晚上 sanyuan 还预告了 RAG 第一节理论课和新一轮课程/产品更新。\n  \n  ### 📌 sanyuan 要点\n  - 强推自己写的 `code-review-expert` skill，称“每天用都被惊艳到”，能抓出边边角角的小问题。\n  - 观点：`claude 4.6 opus` 在他心里仍强于 Codex，`4.7 opus` 反而没那么行。\n  - 预告：今晚更新 RAG 理论课，且新内容更难更长，建议大家留 1-2 天慢慢学。\n  - 也提到产品功能上新、课程更新将同步推进。\n  - 认可 `vite` 小册“教科书级别”。\n  \n  ### 💡 有价值信息\n  - **小花花**: RAG 中图片不要直接进向量库，建议“图片总结文本 + 原图路径”入库，原图放 MinIO，检索后再取图；图片摘要可用 VLM caption。\n  - **procrastination🐼**: 分享前端小册备份仓库：https://github.com/lm-rebooter/NuggetsBooklet\n  - **procrastination🐼**: 推荐 AI 热点聚合页：https://aihot.virxact.com/all\n  - **procrastination🐼**: 提到 WeFlow，可用于微信聊天总结/处理：https://github.com/hicccc77/WeFlow\n  - **阿五**: 分享 Skill 写作文章：https://mp.weixin.qq.com/s/BBJ3aLi0WxzUh1DM0_ytwA\n  - **阿五**: 聊到微信群聊总结链路：本地解密微信库 → HTTP API → Agent 定时拉取 → 生成日报。\n  \n  ### 🗓️ 行动建议\n  - 关注 `code-review-expert` skill 和即将更新的 RAG 课程。\n  - 做 RAG/多模态检索时，优先采用“图片摘要文本 + 原图存储”方案。\n  - 想补前端/小册内容可先看 `NuggetsBooklet` 备份仓库。\n  - 关注 Claude/Codex/DeepSeek 的实际成本，按任务拆分使用。\n  \n  To stop or manage this job, send me a new message (e.g. \"stop reminder 三元Agent课程群日报\").\n\n"
+  },
+  {
+    "time": "2026-05-15 07:11",
+    "user": "小花花",
+    "content": "[强][强]"
+  },
+  {
+    "time": "2026-05-15 07:38",
+    "user": "April.",
+    "content": "[强][强]"
+  },
+  {
+    "time": "2026-05-15 07:40",
+    "user": "嘻🇨🇳嘻",
+    "content": "[强][强]"
+  },
+  {
+    "time": "2026-05-15 07:43",
+    "user": "monkeytao",
+    "content": "[强][强]"
+  },
+  {
+    "time": "2026-05-15 07:52",
+    "user": "Ran萌",
+    "content": "[强]"
+  },
+  {
+    "time": "2026-05-15 07:53",
+    "user": "曹通",
+    "content": "[强][强]"
+  },
+  {
+    "time": "2026-05-15 08:21",
+    "user": "Chan.",
+    "content": "[强]"
+  },
+  {
+    "time": "2026-05-15 09:13",
+    "user": "你真美",
+    "content": "[强]"
+  },
+  {
+    "time": "2026-05-15 09:13",
+    "user": "Amber",
+    "content": "[强][强][强]"
+  },
+  {
+    "time": "2026-05-15 09:15",
+    "user": "Satisfied",
+    "content": "强 咋做的"
+  },
+  {
+    "time": "2026-05-15 09:15",
+    "user": "系统消息",
+    "content": "\"sanyuan\"邀请\"J\"加入了群聊"
+  },
+  {
+    "time": "2026-05-15 09:15",
+    "user": "sanyuan",
+    "content": "有人说我昨天更了两节 太秀了 "
+  },
+  {
+    "time": "2026-05-15 09:16",
+    "user": "sanyuan",
+    "content": "你们学的过来么"
+  },
+  {
+    "time": "2026-05-15 09:16",
+    "user": "小心甘",
+    "content": "还在学Cache，看不过来"
+  },
+  {
+    "time": "2026-05-15 09:16",
+    "user": "阿五",
+    "content": "有点学不过来了，最近都没摸鱼看"
+  },
+  {
+    "time": "2026-05-15 09:17",
+    "user": "阿五",
+    "content": "得周末补一下了"
+  },
+  {
+    "time": "2026-05-15 09:17",
+    "user": "Harrison Wells",
+    "content": "学得过来"
+  },
+  {
+    "time": "2026-05-15 09:17",
+    "user": "你真美",
+    "content": "我还在AgentLoop"
+  },
+  {
+    "time": "2026-05-15 09:17",
+    "user": "Harrison Wells",
+    "content": "我还在休假"
+  },
+  {
+    "time": "2026-05-15 09:17",
+    "user": "你真美",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=cc1edb46e6c76d8090499bff023b3505&filekey=30350201010421301f02020106040253480410cc1edb46e6c76d8090499bff023b35050203096f2f040d00000004627466730000000132&hy=SH&storeid=2631f519a0001bd50000000000000010600004f5053480e7c5960976c5c155&bizid=1023)"
+  },
+  {
+    "time": "2026-05-15 09:17",
+    "user": "那时晴天",
+    "content": "我只有摸鱼的时候才学的进去"
+  },
+  {
+    "time": "2026-05-15 09:17",
+    "user": "你真美",
+    "content": "我也是"
+  },
+  {
+    "time": "2026-05-15 09:17",
+    "user": "许杨",
+    "content": "周末补课"
+  },
+  {
+    "time": "2026-05-15 09:20",
+    "user": "Chan.",
+    "content": "我刚学完agent loop。"
+  },
+  {
+    "time": "2026-05-15 09:20",
+    "user": "Chan.",
+    "content": "准备实战。"
+  },
+  {
+    "time": "2026-05-15 09:20",
+    "user": "他",
+    "content": "我还在六大框架[捂脸]"
+  },
+  {
+    "time": "2026-05-15 09:22",
+    "user": "小花花",
+    "content": "学得过来"
+  },
+  {
+    "time": "2026-05-15 09:22",
+    "user": "小花花",
+    "content": "我每天8小时 拿 5小时学sitor"
+  },
+  {
+    "time": "2026-05-15 09:23",
+    "user": "Harrison Wells",
+    "content": "这班上的舒服"
+  },
+  {
+    "time": "2026-05-15 09:23",
+    "user": "小花花",
+    "content": "我昨天刚写的RAG,今天可以看你的小节优化了"
+  },
+  {
+    "time": "2026-05-15 09:24",
+    "user": "小花花",
+    "content": "我最近不用写代码，带产品和测试 找客户开会讨论，开完我就没事了 他们写文档 和 会议纪要  我负责框范围 和 实现"
+  },
+  {
+    "time": "2026-05-15 09:27",
+    "user": "sanyuan",
+    "content": "进度到一半了 前面的小节最近会出整章测验"
+  },
+  {
+    "time": "2026-05-15 09:27",
+    "user": "sanyuan",
+    "content": "有人说后续章节担心复杂度太高 容易混淆"
+  },
+  {
+    "time": "2026-05-15 09:27",
+    "user": "sanyuan",
+    "content": "从现在开始 我们后续每一节都会融入交叉复习 和前面的内容联动"
+  },
+  {
+    "time": "2026-05-15 09:27",
+    "user": "小花花",
+    "content": "又不下架，慢慢啃 ，我打算二刷，三刷，四刷"
+  },
+  {
+    "time": "2026-05-15 09:28",
+    "user": "阿五",
+    "content": "这个好，一直很需要复习"
+  },
+  {
+    "time": "2026-05-15 09:29",
+    "user": "TreeWish",
+    "content": "周末狠狠学"
+  },
+  {
+    "time": "2026-05-15 09:29",
+    "user": "苏彧",
+    "content": "别人两礼拜更两节 元神一天更两节 这效率没的说"
+  },
+  {
+    "time": "2026-05-15 09:30",
+    "user": "稚",
+    "content": "跟不上了有点"
+  },
+  {
+    "time": "2026-05-15 09:30",
+    "user": "稚",
+    "content": "我还在tool"
+  },
+  {
+    "time": "2026-05-15 09:30",
+    "user": "稚",
+    "content": "主要是看一遍记不住"
+  },
+  {
+    "time": "2026-05-15 09:30",
+    "user": "阿五",
+    "content": "我怀疑你在内涵某光，我有证据"
+  },
+  {
+    "time": "2026-05-15 09:30",
+    "user": "小花花",
+    "content": "二刷，三刷，四刷"
+  },
+  {
+    "time": "2026-05-15 09:30",
+    "user": "苏彧",
+    "content": "面试官再来一遍"
+  },
+  {
+    "time": "2026-05-15 09:30",
+    "user": "Amber",
+    "content": "斗破有这速度就好了"
+  },
+  {
+    "time": "2026-05-15 09:30",
+    "user": "稚",
+    "content": "是"
+  },
+  {
+    "time": "2026-05-15 09:30",
+    "user": "稚",
+    "content": "但是要先看明白"
+  },
+  {
+    "time": "2026-05-15 09:30",
+    "user": "稚",
+    "content": "不然一问就是不知道"
+  },
+  {
+    "time": "2026-05-15 09:30",
+    "user": "苏彧",
+    "content": "别胡说[捂脸]"
+  },
+  {
+    "time": "2026-05-15 09:31",
+    "user": "苏彧",
+    "content": "没毛"
+  },
+  {
+    "time": "2026-05-15 09:31",
+    "user": "苏彧",
+    "content": "@阿五 刀马头像帅不"
+  },
+  {
+    "time": "2026-05-15 09:31",
+    "user": "苏彧",
+    "content": "啊"
+  },
+  {
+    "time": "2026-05-15 09:31",
+    "user": "April.",
+    "content": "功能很好，就是答不出来[流泪][流泪][流泪]"
+  },
+  {
+    "time": "2026-05-15 09:32",
+    "user": "阿五",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=93974148d8256607552de2e7ee5c2d61&filekey=3043020101042f302d02016e040253480420393339373431343864383235363630373535326465326537656535633264363102022bf6040d00000004627466730000000132&hy=SH&storeid=265e51fcb000a735412288a200000006e01004fb153481dd8cbc1e68e7dd34&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-15 09:32",
+    "user": "苏彧",
+    "content": "哈哈哈哈 "
+  },
+  {
+    "time": "2026-05-15 09:32",
+    "user": "Harrison Wells",
+    "content": "太强了，认知被校准了"
+  },
+  {
+    "time": "2026-05-15 09:32",
+    "user": "Harrison Wells",
+    "content": "![图片](http://127.0.0.1:5030/image/12f89fef46121b18481e0bbdafac8252,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/db01de5a8433af6b615615e7ec7c4ef2)"
+  },
+  {
+    "time": "2026-05-15 09:32",
+    "user": "Forrest",
+    "content": "啥？？Sitor可以生成可视化图了？"
+  },
+  {
+    "time": "2026-05-15 09:32",
+    "user": "让玛卡巴卡爬吧",
+    "content": "这个私教的资料，不是和教程同步的吧"
+  },
+  {
+    "time": "2026-05-15 09:33",
+    "user": "monkeytao",
+    "content": "最相关的定义导致有多种实现， 这些方式都是从各种角度给出了一份最相关的答案 组合着中才行 发现太难了"
+  },
+  {
+    "time": "2026-05-15 09:34",
+    "user": "阿五",
+    "content": "嗯，生成讲稿，对话完可以生成，昨天晚上上线的"
+  },
+  {
+    "time": "2026-05-15 09:34",
+    "user": "Forrest",
+    "content": "🐮"
+  },
+  {
+    "time": "2026-05-15 09:34",
+    "user": "CJ",
+    "content": "可以把文章弄成类似思维导图的形式吗？方便记忆@sanyuan 三元老师"
+  },
+  {
+    "time": "2026-05-15 09:37",
+    "user": "风从海上来",
+    "content": "codex app 移动端有连上的么..."
+  },
+  {
+    "time": "2026-05-15 09:39",
+    "user": "sanyuan",
+    "content": "可以 没问题"
+  },
+  {
+    "time": "2026-05-15 09:39",
+    "user": "sanyuan",
+    "content": "每一节都可以生成思维导图"
+  },
+  {
+    "time": "2026-05-15 09:40",
+    "user": "系统消息",
+    "content": "\"monkeytao\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-15 09:55",
+    "user": "鲸鱼",
+    "content": "Hermes，大佬后面有实际的课程嘛 @sanyuan"
+  },
+  {
+    "time": "2026-05-15 09:56",
+    "user": "sanyuan",
+    "content": "当前这两门没有"
+  },
+  {
+    "time": "2026-05-15 09:58",
+    "user": "sanyuan",
+    "content": "@CJ"
+  },
+  {
+    "time": "2026-05-15 09:58",
+    "user": "sanyuan",
+    "content": "![图片](http://127.0.0.1:5030/image/a9731f97bf41e5aa81514280dff88092,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/565e2785e9afd2e1c498fa114e475435)"
+  },
+  {
+    "time": "2026-05-15 09:58",
+    "user": "sanyuan",
+    "content": "这种思维导图可以吗"
+  },
+  {
+    "time": "2026-05-15 09:58",
+    "user": "CJ",
+    "content": "可以的"
+  },
+  {
+    "time": "2026-05-15 09:58",
+    "user": "sanyuan",
+    "content": "OK"
+  },
+  {
+    "time": "2026-05-15 09:58",
+    "user": "CJ",
+    "content": "[强]"
+  },
+  {
+    "time": "2026-05-15 10:03",
+    "user": "liwuhao05",
+    "content": "这么好的产品，没学好真对不起元神"
+  },
+  {
+    "time": "2026-05-15 10:05",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/33f427cf9b66725c52494e35aad248bb,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/f2fdae5eb1d63c965c0f0a0bfaa3ed2a)"
+  },
+  {
+    "time": "2026-05-15 10:05",
+    "user": "小花花",
+    "content": "触发压缩了"
+  },
+  {
+    "time": "2026-05-15 10:08",
+    "user": "auv",
+    "content": "![图片](http://127.0.0.1:5030/image/54fb6b5379246ee1d490ebc08bdbaa08,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/863498d162695ab8a82e496a48d0d685)"
+  },
+  {
+    "time": "2026-05-15 10:08",
+    "user": "auv",
+    "content": "![图片](http://127.0.0.1:5030/image/3317d2f5313fa9513cd4b3e74f41ba44,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/61bcb963068be4e132b3c1fd342d7d5f)"
+  },
+  {
+    "time": "2026-05-15 10:08",
+    "user": "auv",
+    "content": "这个拉下来咋是空的啊"
+  },
+  {
+    "time": "2026-05-15 10:08",
+    "user": "auv",
+    "content": "我还克隆了半天 好奇怪"
+  },
+  {
+    "time": "2026-05-15 10:14",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/6d632f6fcd0f01f030b22827d3494e5f,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/59725ab0b34e6087d52c43de3b9493b0)"
+  },
+  {
+    "time": "2026-05-15 10:15",
+    "user": "小花花",
+    "content": "我还在拉 很慢很慢 一个多小时了"
+  },
+  {
+    "time": "2026-05-15 10:15",
+    "user": "华莱坞",
+    "content": "这速度"
+  },
+  {
+    "time": "2026-05-15 10:15",
+    "user": "华莱坞",
+    "content": "![图片](http://127.0.0.1:5030/image/e259b76d12ea85dd9a05948f6e5403f0,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/0263c1cc79e038af86c631f61fae36ea)"
+  },
+  {
+    "time": "2026-05-15 10:15",
+    "user": "神往",
+    "content": "不行哥挂个代理吧"
+  },
+  {
+    "time": "2026-05-15 10:15",
+    "user": "神往",
+    "content": "别折磨自己了"
+  },
+  {
+    "time": "2026-05-15 10:16",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/d46f3e0ec114593d8e4515f029821434,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/fb233e570afedf3dc3dd647fb81ddc47)"
+  },
+  {
+    "time": "2026-05-15 10:16",
+    "user": "小花花",
+    "content": "挂了  感觉魔界不行"
+  },
+  {
+    "time": "2026-05-15 10:17",
+    "user": "auv",
+    "content": "我拉完了 但是只有.git文件夹 这是咋回事"
+  },
+  {
+    "time": "2026-05-15 10:19",
+    "user": "Miraitowa",
+    "content": "git 得单独设置一下proxy吧，网上搜一下"
+  },
+  {
+    "time": "2026-05-15 10:19",
+    "user": "April.",
+    "content": "不要拉，下zip会快一点"
+  },
+  {
+    "time": "2026-05-15 10:19",
+    "user": "苏彧",
+    "content": "这是啥"
+  },
+  {
+    "time": "2026-05-15 10:19",
+    "user": "苏彧",
+    "content": "@auv "
+  },
+  {
+    "time": "2026-05-15 10:20",
+    "user": "auv",
+    "content": "这里面看的"
+  },
+  {
+    "time": "2026-05-15 10:20",
+    "user": "auv",
+    "content": "@苏彧"
+  },
+  {
+    "time": "2026-05-15 10:20",
+    "user": "auv",
+    "content": "我就好奇为什么拉完了 还是空的 没整明白"
+  },
+  {
+    "time": "2026-05-15 10:21",
+    "user": "苏彧",
+    "content": "哦哦"
+  },
+  {
+    "time": "2026-05-15 10:22",
+    "user": "Harrison Wells",
+    "content": "其实有些话不是我说的"
+  },
+  {
+    "time": "2026-05-15 10:22",
+    "user": "Harrison Wells",
+    "content": "![图片](http://127.0.0.1:5030/image/8c27c2223c0cc11f5d565740cd680a0d,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/12bfda69a16d0603913db60bd32e0eb9)"
+  },
+  {
+    "time": "2026-05-15 10:23",
+    "user": "Harrison Wells",
+    "content": "私教有时候会把课程里的描述当成我说的"
+  },
+  {
+    "time": "2026-05-15 10:23",
+    "user": "sanyuan",
+    "content": "是bug吗"
+  },
+  {
+    "time": "2026-05-15 10:23",
+    "user": "auv",
+    "content": "，解压缩还能报错 你有遇到吗"
+  },
+  {
+    "time": "2026-05-15 10:23",
+    "user": "auv",
+    "content": "![图片](http://127.0.0.1:5030/image/a0edcab4960b3b7befbb7b3fcbbfda9f,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/6259262741ad711e46d965d185978798)"
+  },
+  {
+    "time": "2026-05-15 10:23",
+    "user": "sanyuan",
+    "content": "OK我知道了"
+  },
+  {
+    "time": "2026-05-15 10:23",
+    "user": "sanyuan",
+    "content": "我来优化下指令"
+  },
+  {
+    "time": "2026-05-15 10:25",
+    "user": "小花花",
+    "content": "不是 我在练习最新的压缩实战课"
+  },
+  {
+    "time": "2026-05-15 10:26",
+    "user": "神往",
+    "content": "@小花花 终端需要专门设置一下代理才行"
+  },
+  {
+    "time": "2026-05-15 10:26",
+    "user": "神往",
+    "content": "因为终端默认不走系统代理"
+  },
+  {
+    "time": "2026-05-15 10:26",
+    "user": "小花花",
+    "content": "怎么操作？"
+  },
+  {
+    "time": "2026-05-15 10:27",
+    "user": "Harrison Wells",
+    "content": "这个题目文章倒是没有，但我的回答sitor没有提出任何追问和需要改进的地方"
+  },
+  {
+    "time": "2026-05-15 10:27",
+    "user": "Harrison Wells",
+    "content": "![图片](http://127.0.0.1:5030/image/99cdf9bce64c1138231239cb5c64ba4d,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/b3136521a4af18b7bc2c95d534bd4daa)"
+  },
+  {
+    "time": "2026-05-15 10:29",
+    "user": "神往",
+    "content": "$env:HTTP_PROXY=\"http://127.0.0.1:7890\"; $env:HTTPS_PROXY=\"http://127.0.0.1:7890\"; $env:no_proxy=\"\"\n复制这个环境变量,把端口换成你的,粘贴到你的命令行里就行"
+  },
+  {
+    "time": "2026-05-15 10:31",
+    "user": "系统消息",
+    "content": "\"sanyuan\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-15 10:31",
+    "user": "sanyuan",
+    "content": "公众号"
+  },
+  {
+    "time": "2026-05-15 10:31",
+    "user": "sanyuan",
+    "content": "神光把我拉黑了"
+  },
+  {
+    "time": "2026-05-15 10:31",
+    "user": "热爱",
+    "content": "哈哈哈"
+  },
+  {
+    "time": "2026-05-15 10:31",
+    "user": "热爱",
+    "content": "真的假的"
+  },
+  {
+    "time": "2026-05-15 10:31",
+    "user": "@Ich bin ein Bär",
+    "content": "6"
+  },
+  {
+    "time": "2026-05-15 10:32",
+    "user": "Harrison Wells",
+    "content": "@sanyuan 三元君，严格私教是不是不够严格，有点夸夸夸了"
+  },
+  {
+    "time": "2026-05-15 10:32",
+    "user": "xoxo",
+    "content": "6"
+  },
+  {
+    "time": "2026-05-15 10:32",
+    "user": "许杨",
+    "content": "[Facepalm]"
+  },
+  {
+    "time": "2026-05-15 10:32",
+    "user": "罗十十.十",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=873939554e293828695e472ea8b4b74b&filekey=3043020101042f302d02016e0402535a042038373339333935353465323933383238363935653437326561386234623734620202139b040d00000004627466730000000132&hy=SZ&storeid=265d45c1b0003d1220a3adff90000006e01004fb1535a1b66ebc1e69f711c8&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-15 10:33",
+    "user": "Harrison Wells",
+    "content": "我上次在群里让你别参与神光的讨论，小心上小作文。然后我就被神光拉黑了，别的群转他的公众号，我点进去，一片空白"
+  },
+  {
+    "time": "2026-05-15 10:33",
+    "user": "Harrison Wells",
+    "content": "所以我说，群里有内鬼"
+  },
+  {
+    "time": "2026-05-15 10:33",
+    "user": "鲸鱼",
+    "content": "我靠，这么格局小么"
+  },
+  {
+    "time": "2026-05-15 10:35",
+    "user": "sanyuan",
+    "content": "没事了"
+  },
+  {
+    "time": "2026-05-15 10:35",
+    "user": "sanyuan",
+    "content": "只是删帖而已"
+  },
+  {
+    "time": "2026-05-15 10:35",
+    "user": "sanyuan",
+    "content": "没拉黑"
+  },
+  {
+    "time": "2026-05-15 10:35",
+    "user": "sanyuan",
+    "content": "其它的还能看"
+  },
+  {
+    "time": "2026-05-15 10:35",
+    "user": "sanyuan",
+    "content": "你们能看到 没事了，微信的 bug 这篇文章吗"
+  },
+  {
+    "time": "2026-05-15 10:35",
+    "user": "Pudge",
+    "content": "不能"
+  },
+  {
+    "time": "2026-05-15 10:35",
+    "user": "Harrison Wells",
+    "content": "那我是真被拉黑了"
+  },
+  {
+    "time": "2026-05-15 10:36",
+    "user": "Harrison Wells",
+    "content": "可恶，居然把我这个小册子用户拉黑了"
+  },
+  {
+    "time": "2026-05-15 10:37",
+    "user": "小花花",
+    "content": "不要这样说，你应该说：神光在我的剧本里杀青了"
+  },
+  {
+    "time": "2026-05-15 10:37",
+    "user": "Harrison Wells",
+    "content": "@sanyuan 三元君，严格私教再严格一点"
+  },
+  {
+    "time": "2026-05-15 10:38",
+    "user": "sanyuan",
+    "content": "好"
+  },
+  {
+    "time": "2026-05-15 10:38",
+    "user": "Harrison Wells",
+    "content": "完全没提出任何意见，我反而有点怕，因为我的回答也是猜的[破涕为笑]"
+  },
+  {
+    "time": "2026-05-15 10:38",
+    "user": "sanyuan",
+    "content": "[ThumbsUp]典"
+  },
+  {
+    "time": "2026-05-15 10:38",
+    "user": "rubin",
+    "content": "这个是啥情况，有大佬遇见过没"
+  },
+  {
+    "time": "2026-05-15 10:39",
+    "user": "rubin",
+    "content": "![图片](http://127.0.0.1:5030/image/370806413323555a0855527ac1f8a078,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/6e7b4d4b69ab434e6a4328d575ac5211)"
+  },
+  {
+    "time": "2026-05-15 10:39",
+    "user": "winhok的打工日记",
+    "content": "可以专心看一本agent了"
+  },
+  {
+    "time": "2026-05-15 10:39",
+    "user": "小心甘",
+    "content": "多看点，取长补短"
+  },
+  {
+    "time": "2026-05-15 10:42",
+    "user": "Harrison Wells",
+    "content": "用三元的系统知识，去学习其他的agent[亲亲]"
+  },
+  {
+    "time": "2026-05-15 10:43",
+    "user": "小心甘",
+    "content": "是的没错，合理"
+  },
+  {
+    "time": "2026-05-15 10:44",
+    "user": "小心甘",
+    "content": "其他的很多是讲api有哪些，哪个api是干啥的，啥agent loop以及工具grep 这些都没涉及，看看三元的课，取长补短，挺合适的"
+  },
+  {
+    "time": "2026-05-15 10:44",
+    "user": "小心甘",
+    "content": "[奸笑]"
+  },
+  {
+    "time": "2026-05-15 10:46",
+    "user": "sanyuan",
+    "content": "[链接|做 Agent，请必须学会渐进式披露](https://mp.weixin.qq.com/s?__biz=MzU0MTU4OTU2MA==&mid=2247492899&idx=1&sn=bfc3f1e5c5c68160b1372c032b680917&chksm=fa4532b4bdd202dc79e5f5046865229239f5cb0bd02a2ee7e6a4b0037798fd2e5e3c6f357b88&mpshare=1&scene=1&srcid=0515HvMuP2SEOM1VqDxzoWc6&sharer_shareinfo=258662959f0880facbbf91ecb07eb374&sharer_shareinfo_first=258662959f0880facbbf91ecb07eb374#rd)"
+  },
+  {
+    "time": "2026-05-15 10:47",
+    "user": "liwuhao05",
+    "content": "正在狠狠地看"
+  },
+  {
+    "time": "2026-05-15 10:48",
+    "user": "嘻🇨🇳嘻",
+    "content": "![图片](http://127.0.0.1:5030/image/f27e7b9f0cd5af08135dcf21a410340e,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/9f14440593fadb06cef00cb7633a32e7)"
+  },
+  {
+    "time": "2026-05-15 10:48",
+    "user": "liwuhao05",
+    "content": "![图片](http://127.0.0.1:5030/image/fc20b06cdf343d9faf12da474c61bef9,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/d44c75e147384ac7729374dcc852cdaf)"
+  },
+  {
+    "time": "2026-05-15 10:48",
+    "user": "liwuhao05",
+    "content": "看来元神跟我一样，也很喜欢到处旅游"
+  },
+  {
+    "time": "2026-05-15 10:50",
+    "user": "auv",
+    "content": "你这个这么快啊 我的好多都被封了"
+  },
+  {
+    "time": "2026-05-15 10:51",
+    "user": "鲸鱼",
+    "content": "[强]"
+  },
+  {
+    "time": "2026-05-15 10:52",
+    "user": "Amber",
+    "content": "已读"
+  },
+  {
+    "time": "2026-05-15 10:52",
+    "user": "L",
+    "content": "已赞"
+  },
+  {
+    "time": "2026-05-15 10:52",
+    "user": "liwuhao05",
+    "content": "追云机场，用了三年多了，推荐一下"
+  },
+  {
+    "time": "2026-05-15 10:52",
+    "user": "嘻🇨🇳嘻",
+    "content": "一键三连"
+  },
+  {
+    "time": "2026-05-15 10:53",
+    "user": "TreeWish",
+    "content": "每天就你赞的快"
+  },
+  {
+    "time": "2026-05-15 10:53",
+    "user": "Amber",
+    "content": "收藏"
+  },
+  {
+    "time": "2026-05-15 10:55",
+    "user": "auv",
+    "content": "谢谢大哥"
+  },
+  {
+    "time": "2026-05-15 10:56",
+    "user": "auv",
+    "content": "地址看不到了 再发下撒"
+  },
+  {
+    "time": "2026-05-15 10:56",
+    "user": "auv",
+    "content": "我应该是后进入群 所以看不到原有记录了"
+  },
+  {
+    "time": "2026-05-15 10:56",
+    "user": "liwuhao05",
+    "content": "https://gogogogo.bzdqsmmzhnszhd520.top:456/#/register?code=y4GVIRDx @auv"
+  },
+  {
+    "time": "2026-05-15 10:56",
+    "user": "auv",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=cd246f37de4ce0e254a64fc6f4797138&filekey=30350201010421301f020201060402535a0410cd246f37de4ce0e254a64fc6f47971380203010260040d00000004627466730000000131&hy=SZ&storeid=32303231303632343138303030383030303938313262336239666361613138353536353830393030303030313036&bizid=1023)"
+  },
+  {
+    "time": "2026-05-15 10:56",
+    "user": "小花花",
+    "content": "多少钱一个月？"
+  },
+  {
+    "time": "2026-05-15 10:56",
+    "user": "一期一会",
+    "content": "太有共鸣了，2天前正好做的按需加载"
+  },
+  {
+    "time": "2026-05-15 10:56",
+    "user": "一期一会",
+    "content": "![图片](http://127.0.0.1:5030/image/91fb380133d8a6c70aad553dc742cb01,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/89b7c036d5bd36e8417d0d987f1bcff4)"
+  },
+  {
+    "time": "2026-05-15 10:57",
+    "user": "小心甘",
+    "content": "那个ms没啥用，我之前的站点，显示几十ms,速度好差了"
+  },
+  {
+    "time": "2026-05-15 10:58",
+    "user": "sanyuan",
+    "content": "👍🏻"
+  },
+  {
+    "time": "2026-05-15 11:00",
+    "user": "一期一会",
+    "content": "优化之后AGENTS.md 行数大大降低"
+  },
+  {
+    "time": "2026-05-15 11:00",
+    "user": "一期一会",
+    "content": "![图片](http://127.0.0.1:5030/image/c7e2a2d89652a1c064da39e0005ab32c,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/e675f248ce99969cb7af4cb1fc17d2ab)"
+  },
+  {
+    "time": "2026-05-15 11:02",
+    "user": "我是东山呀",
+    "content": "我也做了，把一个屎山代码的 agent.md 做了优化，用的 openai 那个目录的思路"
+  },
+  {
+    "time": "2026-05-15 11:03",
+    "user": "我是东山呀",
+    "content": "[捂脸]之前的AGENTS.md 看得我头疼"
+  },
+  {
+    "time": "2026-05-15 11:07",
+    "user": "小花花",
+    "content": "agent.md 是干啥的"
+  },
+  {
+    "time": "2026-05-15 11:08",
+    "user": "Roy",
+    "content": "给agent读你这文件是干嘛的用的"
+  },
+  {
+    "time": "2026-05-15 11:08",
+    "user": "罗十十.十",
+    "content": "三元老师，什么时候分享一下 skill-forge 和 code-review-expert 这两个skill 制作思路啊。"
+  },
+  {
+    "time": "2026-05-15 11:09",
+    "user": "小花花",
+    "content": "哦哦  我项目里面都没有agent.md"
+  },
+  {
+    "time": "2026-05-15 11:09",
+    "user": "小花花",
+    "content": "[捂脸]"
+  },
+  {
+    "time": "2026-05-15 11:10",
+    "user": "Roy",
+    "content": "你如果是高效vibe的话可以搞 这样能提高vibe准确率 不需要你每次都跟他重复说明"
+  },
+  {
+    "time": "2026-05-15 11:11",
+    "user": "Roy",
+    "content": "如果还是cursor或者copilot的话其实还好"
+  },
+  {
+    "time": "2026-05-15 11:11",
+    "user": "小花花",
+    "content": "我用的是cursor"
+  },
+  {
+    "time": "2026-05-15 11:12",
+    "user": "一期一会",
+    "content": "文档驱动开发模式，但是文档的治理是个头疼的事情，以及如何保障Agent严格按文档执行也是个难题"
+  },
+  {
+    "time": "2026-05-15 11:12",
+    "user": "procrastination🐼",
+    "content": "cursor也能走agnets.md"
+  },
+  {
+    "time": "2026-05-15 11:12",
+    "user": "procrastination🐼",
+    "content": "但是他自己有rule"
+  },
+  {
+    "time": "2026-05-15 11:12",
+    "user": "procrastination🐼",
+    "content": "可以写mdc"
+  },
+  {
+    "time": "2026-05-15 11:12",
+    "user": "procrastination🐼",
+    "content": "里面可以配置一些多的规则"
+  },
+  {
+    "time": "2026-05-15 11:13",
+    "user": "一期一会",
+    "content": "Claude优先读的是CLAUDE.md也会读AGENTS，cursor优先读的是rule，OpenCode优先读AGENTS"
+  },
+  {
+    "time": "2026-05-15 11:14",
+    "user": "Chan.",
+    "content": "code-review-expert，有时候按他说的来改，改完后重开一个会话review，会说这样改不太行[捂脸]"
+  },
+  {
+    "time": "2026-05-15 11:15",
+    "user": "罗十十.十",
+    "content": "[捂脸] 我直觉是觉得文档驱动开发有点。。奇怪啊，反正我的体验是这样的，大模型看代码不是比看文档更清晰吗？"
+  },
+  {
+    "time": "2026-05-15 11:16",
+    "user": "我是东山呀",
+    "content": "AGENTS 很多工具都会读，也不能叫文档驱动吧  应该叫规范驱动哈哈哈"
+  },
+  {
+    "time": "2026-05-15 11:16",
+    "user": "一期一会",
+    "content": "要做约束的话就还是要有文档的"
+  },
+  {
+    "time": "2026-05-15 11:17",
+    "user": "一期一会",
+    "content": "不然Agent会乱来。"
+  },
+  {
+    "time": "2026-05-15 11:17",
+    "user": "罗十十.十",
+    "content": "奥奥 规范有道理"
+  },
+  {
+    "time": "2026-05-15 11:18",
+    "user": "我是东山呀",
+    "content": "就像每个项目都有自己的流程，你不给他要给范围或者清晰路线，你总不能让 agent 每次都全量读代码，或者自己一层层找代码，这个也浪费时间"
+  },
+  {
+    "time": "2026-05-15 11:18",
+    "user": "一期一会",
+    "content": "比如要一个迭代，读取你的迭代要求，迭代的核心设计，做完之后按照checklist检查，做e2e测试"
+  },
+  {
+    "time": "2026-05-15 11:18",
+    "user": "一期一会",
+    "content": "不然每次都是对话说：帮我实现xxx，然后做一个测试，更新下文档"
+  },
+  {
+    "time": "2026-05-15 11:18",
+    "user": "罗十十.十",
+    "content": "我就是写一下 哪里的业务代码在哪里。"
+  },
+  {
+    "time": "2026-05-15 11:21",
+    "user": "一期一会",
+    "content": "![图片](http://127.0.0.1:5030/image/b300675d8d9d5eb364411a44aa67aed4,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/fc6827cda04186cf0da11f51a603ef85)"
+  },
+  {
+    "time": "2026-05-15 11:22",
+    "user": "一期一会",
+    "content": "写文档还有个弊端，也就是每次代码的改动不一定能同步更新文档，即使目前做了约束的情况下，Agent并不能100%保证按照要求去更新文档，这样就会导致一个问题，文档经常跟代码库不一致，可能会误导Agent，然后Agent还要多一个纠错步骤"
+  },
+  {
+    "time": "2026-05-15 11:23",
+    "user": "罗十十.十",
+    "content": "有碰到 逻辑上不自洽，然后来回反复改不"
+  },
+  {
+    "time": "2026-05-15 11:23",
+    "user": "一期一会",
+    "content": "目前还没有找到一个稳定的文档工作流方式"
+  },
+  {
+    "time": "2026-05-15 11:23",
+    "user": "一期一会",
+    "content": "是的"
+  },
+  {
+    "time": "2026-05-15 11:23",
+    "user": "一期一会",
+    "content": "[捂脸]"
+  },
+  {
+    "time": "2026-05-15 11:23",
+    "user": "Cyan",
+    "content": "群里有没有gpt官方拼车的啊，中转站啥的老是封好烦啊"
+  },
+  {
+    "time": "2026-05-15 11:24",
+    "user": "嗯哼",
+    "content": "plus?"
+  },
+  {
+    "time": "2026-05-15 11:24",
+    "user": "Christopher",
+    "content": "@sanyuan  slides下载失败了"
+  },
+  {
+    "time": "2026-05-15 11:24",
+    "user": "Christopher",
+    "content": "![图片](http://127.0.0.1:5030/image/645117240d07873ff703f94e0940c4f7,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/cf19e68934a093ee4a5eebf0efcc13f2)"
+  },
+  {
+    "time": "2026-05-15 11:24",
+    "user": "小心甘",
+    "content": "有没有碰到过codex写的代码，文件里面正常的，放到线上是乱码的...."
+  },
+  {
+    "time": "2026-05-15 11:26",
+    "user": "auv",
+    "content": "没有，我倒是经常遇到 本来我的注释是中文，经过它的大幅度修改后，中文变成乱码了"
+  },
+  {
+    "time": "2026-05-15 11:26",
+    "user": "小心甘",
+    "content": "![图片](http://127.0.0.1:5030/image/5bfc31afa329a0c86286e517c2cc3126,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/1c4864d9a1fc7f3c142b6e4984b3ef24)"
+  },
+  {
+    "time": "2026-05-15 11:26",
+    "user": "小心甘",
+    "content": "![图片](http://127.0.0.1:5030/image/38ac0bef315a4d0f141e6a95eba3ef29,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/12768325efeff170acd8fe4085fa19c6)"
+  },
+  {
+    "time": "2026-05-15 11:26",
+    "user": "🐟",
+    "content": "![图片](http://127.0.0.1:5030/image/e59863172ea6ddf33922ef7882707c8d,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/e1be923ac7b970352da0e0704fa504e2)"
+  },
+  {
+    "time": "2026-05-15 11:27",
+    "user": "小心甘",
+    "content": "一个月就做三个需求吗，公司挺好"
+  },
+  {
+    "time": "2026-05-15 11:27",
+    "user": "Cyan",
+    "content": "都行，想用正版稳定的"
+  },
+  {
+    "time": "2026-05-15 11:27",
+    "user": "Cyan",
+    "content": "羡慕，我每天并行好几个需求麻了"
+  },
+  {
+    "time": "2026-05-15 11:28",
+    "user": "Cyan",
+    "content": "对啊，这个经常碰到"
+  },
+  {
+    "time": "2026-05-15 11:28",
+    "user": "🐟",
+    "content": "得看什么需求"
+  },
+  {
+    "time": "2026-05-15 11:31",
+    "user": "L",
+    "content": "大家有什么办法 一键或批量把公众号文章保存 markdown 到本地吗"
+  },
+  {
+    "time": "2026-05-15 11:31",
+    "user": "小心甘",
+    "content": "让转一下格式"
+  },
+  {
+    "time": "2026-05-15 11:31",
+    "user": "小心甘",
+    "content": "![图片](http://127.0.0.1:5030/image/b3e7a91b274650d532255739ad5fa699,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/f5e78afc512bc9945be8e2ee7fd6ad47)"
+  },
+  {
+    "time": "2026-05-15 11:31",
+    "user": "小心甘",
+    "content": "![图片](http://127.0.0.1:5030/image/35b05c212fdab1df17b1cbbdb16a2c4e,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/e1afa8a87ad79964f2d55828e79f2295)"
+  },
+  {
+    "time": "2026-05-15 11:31",
+    "user": "小心甘",
+    "content": "@Cyan"
+  },
+  {
+    "time": "2026-05-15 11:31",
+    "user": "L",
+    "content": "除了 ob 有一个插件"
+  },
+  {
+    "time": "2026-05-15 11:31",
+    "user": "小心甘",
+    "content": "让参考一下不会乱码的文件是什么格式"
+  },
+  {
+    "time": "2026-05-15 11:32",
+    "user": "Cyan",
+    "content": "虽然是这么说，但他总会忘了时不时抽风"
+  },
+  {
+    "time": "2026-05-15 11:33",
+    "user": "liwuhao05",
+    "content": "以前有个叫mdnice的，挺好用的。 后面貌似收费了"
+  },
+  {
+    "time": "2026-05-15 11:34",
+    "user": "小心甘",
+    "content": "[捂脸] 你设置到哪里去了，我记得claude code可以配置一下吧."
+  },
+  {
+    "time": "2026-05-15 11:34",
+    "user": "liwuhao05",
+    "content": "![图片](http://127.0.0.1:5030/image/8822753b996de1344723ba13a6e51689,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/0f5fbe7ea7f0367a76cda9a24ef8649c)"
+  },
+  {
+    "time": "2026-05-15 11:36",
+    "user": "我是东山呀",
+    "content": "windows 的 powershell 还要把格式改成 utf-8 不然 ai 读取中文有时候也会乱码[破涕为笑]"
+  },
+  {
+    "time": "2026-05-15 11:36",
+    "user": "系统消息",
+    "content": "\"sanyuan\"邀请\"Yosemite.\"加入了群聊"
+  },
+  {
+    "time": "2026-05-15 11:36",
+    "user": "系统消息",
+    "content": "\"Yosemite.\"与群里其他人都不是朋友关系，请注意隐私安全"
+  },
+  {
+    "time": "2026-05-15 11:37",
+    "user": "liwuhao05",
+    "content": "[文件|做 Agent，请必须学会渐进式披露.md](http://127.0.0.1:5030/file/bcf0aeb614316237b02928560f043534)"
+  },
+  {
+    "time": "2026-05-15 11:38",
+    "user": "liwuhao05",
+    "content": "试了下，还是原来的配方，还是熟悉的味道"
+  },
+  {
+    "time": "2026-05-15 11:38",
+    "user": "liwuhao05",
+    "content": "可以vibe一个chrome插件，或者可能都有现成的了，搜索引擎搜一下应该有这类工具"
+  },
+  {
+    "time": "2026-05-15 11:39",
+    "user": "L",
+    "content": "现在有这个插件"
+  },
+  {
+    "time": "2026-05-15 11:39",
+    "user": "L",
+    "content": "![图片](http://127.0.0.1:5030/image/8b06dd113ee12e8616085061bd4e2bfc,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/1adc318bd3678e6558a6300c189322ba)"
+  },
+  {
+    "time": "2026-05-15 11:39",
+    "user": "L",
+    "content": "你这个咋搞的"
+  },
+  {
+    "time": "2026-05-15 11:39",
+    "user": "Yosemite.",
+    "content": "ob 的web clipper"
+  },
+  {
+    "time": "2026-05-15 11:41",
+    "user": "liwuhao05",
+    "content": "用的mdnice整的"
+  },
+  {
+    "time": "2026-05-15 11:41",
+    "user": "<msg><appmsg appid=\"\" sdkver=\"0\"><title>你这个更好啊</title><des></des><action></action><type>57</type><showtype>0</showtype><soundtype>0</soundtype><mediatagname></mediatagname><messageext></messageext><messageaction></messageaction><content></content><contentattr>0</contentattr><url></url><lowurl></lowurl><dataurl></dataurl><lowdataurl></lowdataurl><songalbumurl></songalbumurl><songlyric></songlyric><template_id></template_id><appattach><totallen>0</totallen><attachid></attachid><emoticonmd5></emoticonmd5><fileext></fileext><aeskey></aeskey></appattach><extinfo></extinfo><sourceusername></sourceusername><sourcedisplayname></sourcedisplayname><thumburl></thumburl><md5></md5><statextstr></statextstr><refermsg><chatusr>shenke1122</chatusr><type>3</type><createtime>1778816363</createtime><msgsource>&lt;msgsource&gt;\n\t&lt;img_file_name&gt;0181c84e-17ad-48c6-b27c-5d981983ac04.png&lt;/img_file_name&gt;\n\t&lt;alnode&gt;\n\t\t&lt;fr&gt;1&lt;/fr&gt;\n\t\t&lt;cf&gt;3&lt;/cf&gt;\n\t&lt;/alnode&gt;\n\t&lt;sec_msg_node&gt;\n\t\t&lt;uuid&gt;d1c6c50c65e172e581b8a8cc68b07689_&lt;/uuid&gt;\n\t\t&lt;risk-file-flag /&gt;\n\t\t&lt;risk-file-md5-list /&gt;\n\t&lt;/sec_msg_node&gt;\n\t&lt;imgmsg_pd cdnbigimgurl_size=\"228076\" cdnbigimgurl_pd_pri=\"30\" cdnbigimgurl_pd=\"0\" /&gt;\n\t&lt;silence&gt;1&lt;/silence&gt;\n\t&lt;membercount&gt;320&lt;/membercount&gt;\n\t&lt;signature&gt;N0_V1_HCZMGnw4|v1_14vdjRQE&lt;/signature&gt;\n\t&lt;tmp_node&gt;\n\t\t&lt;publisher-id&gt;&lt;/publisher-id&gt;\n\t&lt;/tmp_node&gt;\n&lt;/msgsource&gt;\n</msgsource><displayname></displayname><svrid>4438792360343195054</svrid><fromusr>54697511486@chatroom</fromusr><content>shenke1122",
+    "content": "[引用]"
+  },
+  {
+    "time": "2026-05-15 11:41",
+    "user": "L",
+    "content": "嗯嗯"
+  },
+  {
+    "time": "2026-05-15 11:43",
+    "user": "TreeWish",
+    "content": "https://www.anthropic.com/research/2028-ai-leadership"
+  },
+  {
+    "time": "2026-05-15 11:43",
+    "user": "TreeWish",
+    "content": "A社又出了篇新论文，阐述了对美中人工智能竞争的看法。"
+  },
+  {
+    "time": "2026-05-15 11:48",
+    "user": "苏彧",
+    "content": "这是啥插件"
+  },
+  {
+    "time": "2026-05-15 11:48",
+    "user": "苏彧",
+    "content": "@L "
+  },
+  {
+    "time": "2026-05-15 11:48",
+    "user": "Mr. Yu",
+    "content": "就差说，中国大模型厂商是强盗了[捂脸]"
+  },
+  {
+    "time": "2026-05-15 11:49",
+    "user": "L",
+    "content": "Obsidian Web Clipper"
+  },
+  {
+    "time": "2026-05-15 11:49",
+    "user": "(ノ°ο°)ノ WOW",
+    "content": "这TM的 就是一份 zz宣言啊 A社咋这么大敌意"
+  },
+  {
+    "time": "2026-05-15 11:50",
+    "user": "他",
+    "content": "可能根是坏的，长出啥都合理"
+  },
+  {
+    "time": "2026-05-15 11:50",
+    "user": "我是东山呀",
+    "content": "正常，人家坚定立场，对于他来说，只赚不亏"
+  },
+  {
+    "time": "2026-05-15 11:50",
+    "user": "他",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=021274dcb2120a4a8ea09d8f90b53f11&filekey=30440201010430302e02016e04025348042030323132373464636232313230613461386561303964386639306235336631310203016194040d00000004627466730000000132&hy=SH&storeid=262346a8800030dabbb1316960000006e01004fb1534811334b00b74cc66d7&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-15 11:50",
+    "user": "Luo .",
+    "content": "指着鼻子骂国内的ai厂商"
+  },
+  {
+    "time": "2026-05-15 11:53",
+    "user": "小心甘",
+    "content": "真不错"
+  },
+  {
+    "time": "2026-05-15 11:55",
+    "user": "我是东山呀",
+    "content": "蒸馏 还要加个 攻击 来表示一下 也是蛮骚哈哈哈"
+  },
+  {
+    "time": "2026-05-15 11:58",
+    "user": "我是东山呀",
+    "content": "通篇的目的就是想让政府出手，禁止蒸馏"
+  },
+  {
+    "time": "2026-05-15 11:58",
+    "user": "liwuhao05",
+    "content": "是的，坏消息是后面claude管制应该会更严格，好消息是a社要大力出口推广他们模型，claude可能会降价"
+  },
+  {
+    "time": "2026-05-15 12:04",
+    "user": "L",
+    "content": "![图片](http://127.0.0.1:5030/image/231a0bddf5abe05cc8de4e05ef3f3137,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/e4dccda0776eb847efae09fd8eb21f77)"
+  },
+  {
+    "time": "2026-05-15 12:04",
+    "user": "L",
+    "content": "绝了"
+  },
+  {
+    "time": "2026-05-15 12:05",
+    "user": "Omos",
+    "content": "卖什么"
+  },
+  {
+    "time": "2026-05-15 12:05",
+    "user": "L",
+    "content": "卖群主的课"
+  },
+  {
+    "time": "2026-05-15 12:05",
+    "user": "Omos",
+    "content": "哦哦 还以为你卖claude"
+  },
+  {
+    "time": "2026-05-15 12:06",
+    "user": "L",
+    "content": "[发呆]"
+  },
+  {
+    "time": "2026-05-15 12:07",
+    "user": "Amber",
+    "content": "。。。。"
+  },
+  {
+    "time": "2026-05-15 12:22",
+    "user": "Harrison Wells",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=c1df157609ede7fa4e6dfb8b2bba1982&filekey=30340201010420301e020201060402535a0410c1df157609ede7fa4e6dfb8b2bba198202023ac2040d00000004627466730000000131&hy=SZ&storeid=32303231303632373233303831373030306332346662316232323062353330393831356630393030303030313036&bizid=1023)"
+  },
+  {
+    "time": "2026-05-15 12:39",
+    "user": "liwuhao05",
+    "content": "![动画表情]()"
+  },
+  {
+    "time": "2026-05-15 12:44",
+    "user": "L",
+    "content": "大家连上 codex 的 remote control 了吗"
+  },
+  {
+    "time": "2026-05-15 12:45",
+    "user": "Chan.",
+    "content": "中转站用codex，可以用它的desktop应用吗？"
+  },
+  {
+    "time": "2026-05-15 12:46",
+    "user": "L",
+    "content": "可以的"
+  },
+  {
+    "time": "2026-05-15 12:46",
+    "user": "Chan.",
+    "content": "好的，那我试试。"
+  },
+  {
+    "time": "2026-05-15 12:47",
+    "user": "L",
+    "content": "但是不能用 plugin"
+  },
+  {
+    "time": "2026-05-15 12:47",
+    "user": "༺🤔༻",
+    "content": "@阿五 机场网站登录不上"
+  },
+  {
+    "time": "2026-05-15 12:48",
+    "user": "Chan.",
+    "content": "卧槽，这么低么。"
+  },
+  {
+    "time": "2026-05-15 12:48",
+    "user": "Chan.",
+    "content": "![图片](http://127.0.0.1:5030/image/9a36e4ec41f14501bc8b48ee40a43b28,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/1cc062a63fd00fb59ac02518e7bc2eb4)"
+  },
+  {
+    "time": "2026-05-15 13:33",
+    "user": "系统消息",
+    "content": "\"sanyuan\"邀请\"Liuc\"加入了群聊"
+  },
+  {
+    "time": "2026-05-15 13:54",
+    "user": "wei先森.",
+    "content": "a➗"
+  },
+  {
+    "time": "2026-05-15 13:55",
+    "user": "系统消息",
+    "content": "\"auv\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-15 13:55",
+    "user": "系统消息",
+    "content": "\"auv\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-15 13:55",
+    "user": "Pudge",
+    "content": "是不是发错群了 哈哈"
+  },
+  {
+    "time": "2026-05-15 13:56",
+    "user": "auv",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20402/stodownload?m=696ff0cdb1637da2e43fa78ed9d882ab&filekey=30440201010430302e02016e0402535a042036393666663063646231363337646132653433666137386564396438383261620203523450040d00000004627466730000000132&hy=SZ&storeid=269baaedf0008f526cad6e5d80000006e01004fb2535a02864bc1e6eb9886d&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-15 13:56",
+    "user": "🛹",
+    "content": "问题不大"
+  },
+  {
+    "time": "2026-05-15 13:56",
+    "user": "Pudge",
+    "content": "这两天是有点惨"
+  },
+  {
+    "time": "2026-05-15 13:56",
+    "user": "🛹",
+    "content": "课程群目的搞钱"
+  },
+  {
+    "time": "2026-05-15 13:56",
+    "user": "🛹",
+    "content": "炒股也是搞钱"
+  },
+  {
+    "time": "2026-05-15 13:56",
+    "user": "🛹",
+    "content": "殊途同归"
+  },
+  {
+    "time": "2026-05-15 13:57",
+    "user": "auv",
+    "content": "早知道美股买多点对冲了 大A是真的烂完了"
+  },
+  {
+    "time": "2026-05-15 13:57",
+    "user": "CJ",
+    "content": "美股吃的爽死了[旺柴]"
+  },
+  {
+    "time": "2026-05-15 13:57",
+    "user": "🛹",
+    "content": "早上还以为回血"
+  },
+  {
+    "time": "2026-05-15 13:57",
+    "user": "🛹",
+    "content": "他吗午睡一睁眼砸盘"
+  },
+  {
+    "time": "2026-05-15 13:58",
+    "user": "wei先森.",
+    "content": "你这头像"
+  },
+  {
+    "time": "2026-05-15 13:58",
+    "user": "wei先森.",
+    "content": "不会是打cs的吧"
+  },
+  {
+    "time": "2026-05-15 13:58",
+    "user": "xoxo",
+    "content": "买纳斯达克的群友多吗"
+  },
+  {
+    "time": "2026-05-15 13:58",
+    "user": "🛹",
+    "content": "不打了已经"
+  },
+  {
+    "time": "2026-05-15 13:58",
+    "user": "🛹",
+    "content": "纳指基金好多限购了"
+  },
+  {
+    "time": "2026-05-15 13:59",
+    "user": "auv",
+    "content": "每天定投"
+  },
+  {
+    "time": "2026-05-15 13:59",
+    "user": "🛹",
+    "content": "每天 100"
+  },
+  {
+    "time": "2026-05-15 13:59",
+    "user": "CJ",
+    "content": "我纳指买了挺多"
+  },
+  {
+    "time": "2026-05-15 13:59",
+    "user": "🛹",
+    "content": "丑联储是不是换人了"
+  },
+  {
+    "time": "2026-05-15 13:59",
+    "user": "🛹",
+    "content": "都说换人初期会绿一段时间"
+  },
+  {
+    "time": "2026-05-15 14:00",
+    "user": "auv",
+    "content": "换了"
+  },
+  {
+    "time": "2026-05-15 14:03",
+    "user": "Miraitowa",
+    "content": "怎么每个群最后都成了[旺柴]"
+  },
+  {
+    "time": "2026-05-15 16:25",
+    "user": "苏彧",
+    "content": "![图片](http://127.0.0.1:5030/image/28c71ded1b27ef4d585f3c70b82bbdeb,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/72e17f391b823d44b311e1c5587a8c79)"
+  },
+  {
+    "time": "2026-05-15 16:25",
+    "user": "苏彧",
+    "content": "牛批啊"
+  },
+  {
+    "time": "2026-05-15 16:27",
+    "user": "苏彧",
+    "content": "这个怎么用的[奸笑]"
+  },
+  {
+    "time": "2026-05-15 16:28",
+    "user": "sanyuan",
+    "content": "啊"
+  },
+  {
+    "time": "2026-05-15 16:28",
+    "user": "sanyuan",
+    "content": "点一下发送就可以啊"
+  },
+  {
+    "time": "2026-05-15 16:28",
+    "user": "苏彧",
+    "content": "后面不要输入别的是吧"
+  },
+  {
+    "time": "2026-05-15 16:28",
+    "user": "苏彧",
+    "content": "OK"
+  },
+  {
+    "time": "2026-05-15 16:31",
+    "user": "sanyuan",
+    "content": "可以不用输入别的"
+  },
+  {
+    "time": "2026-05-15 16:36",
+    "user": "苏彧",
+    "content": "OK"
+  },
+  {
+    "time": "2026-05-15 16:39",
+    "user": "sanyuan",
+    "content": "我把交互优化一下"
+  },
+  {
+    "time": "2026-05-15 16:48",
+    "user": "橙子🍊",
+    "content": "元佬，今天的私教，面试官模式里面，对话三轮就结束了"
+  },
+  {
+    "time": "2026-05-15 17:02",
+    "user": "xia",
+    "content": "@sanyuan 三元老师，你之前做过的类似于v0的ai coding平台代码编辑器用的也是web container吗？我们现在也想在内部做一个这种平台，我有两个问题，第一个是ai有办法读到webcontainer的文件吗，第二个问题是左侧对话是不是基于claude-code-sdk这个包写前端渲染就好了"
+  },
+  {
+    "time": "2026-05-15 17:03",
+    "user": "sanyuan",
+    "content": "付费咨询"
+  },
+  {
+    "time": "2026-05-15 17:03",
+    "user": "sanyuan",
+    "content": "[旺柴]"
+  },
+  {
+    "time": "2026-05-15 17:03",
+    "user": "sanyuan",
+    "content": "这个水就深了"
+  },
+  {
+    "time": "2026-05-15 17:06",
+    "user": "Amber",
+    "content": "想学焚诀，快开个课"
+  },
+  {
+    "time": "2026-05-15 17:07",
+    "user": "系统消息",
+    "content": "\"嗯哼\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-15 17:07",
+    "user": "嗯哼",
+    "content": "想学焚诀，快开个课"
+  },
+  {
+    "time": "2026-05-15 17:07",
+    "user": "winhok的打工日记",
+    "content": "想学焚诀，快开个课"
+  },
+  {
+    "time": "2026-05-15 17:07",
+    "user": "winhok的打工日记",
+    "content": "开课秒跟"
+  },
+  {
+    "time": "2026-05-15 17:08",
+    "user": "xoxo",
+    "content": "开课秒买"
+  },
+  {
+    "time": "2026-05-15 17:08",
+    "user": "Amber",
+    "content": "开课秒付"
+  },
+  {
+    "time": "2026-05-15 17:08",
+    "user": "Amber",
+    "content": "演唱会我都不舍得这么花钱"
+  },
+  {
+    "time": "2026-05-15 17:09",
+    "user": "L",
+    "content": "开课秒买"
+  },
+  {
+    "time": "2026-05-15 17:09",
+    "user": "Harrison Wells",
+    "content": "三元君后面只要出ai课程"
+  },
+  {
+    "time": "2026-05-15 17:09",
+    "user": "小心甘",
+    "content": "太有实力了，兄弟们"
+  },
+  {
+    "time": "2026-05-15 17:09",
+    "user": "Harrison Wells",
+    "content": "我都颗秒"
+  },
+  {
+    "time": "2026-05-15 17:09",
+    "user": "Harrison Wells",
+    "content": "预售早鸟直接颗秒"
+  },
+  {
+    "time": "2026-05-15 17:10",
+    "user": "Amber",
+    "content": "那必须秒"
+  },
+  {
+    "time": "2026-05-15 17:12",
+    "user": "小花花",
+    "content": "我都没听懂哥们说的啥意思  做个 AI Code 编辑器出来吗"
+  },
+  {
+    "time": "2026-05-15 17:17",
+    "user": "wei先森.",
+    "content": "对"
+  },
+  {
+    "time": "2026-05-15 17:20",
+    "user": "April.",
+    "content": "![图片](http://127.0.0.1:5030/image/6c281715cfcc96ddd8d170bea87fb739,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/4b998d13f706c08f47d1b71caedcf08e)"
+  },
+  {
+    "time": "2026-05-15 17:21",
+    "user": "April.",
+    "content": "Context Collapse是下一节内容麽，他问的是不是超纲啦 @sanyuan"
+  },
+  {
+    "time": "2026-05-15 17:21",
+    "user": "sanyuan",
+    "content": "是的 课程提了一嘴"
+  },
+  {
+    "time": "2026-05-15 17:22",
+    "user": "sanyuan",
+    "content": "他要教 你就让它教吧"
+  },
+  {
+    "time": "2026-05-15 17:27",
+    "user": "系统消息",
+    "content": "\"April.\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-15 17:27",
+    "user": "April.",
+    "content": "好的吧，就两篇，我过完再去问"
+  },
+  {
+    "time": "2026-05-15 18:27",
+    "user": "苏彧",
+    "content": "![视频](http://127.0.0.1:5030/video/c828abab73e163366e17eaa1d277c433,msg/video/2026-05/9ba20efd55db85250c54bd89eaa2a828)"
+  },
+  {
+    "time": "2026-05-15 18:28",
+    "user": "苏彧",
+    "content": "@sanyuan 我点击这个CLAUDE.md跳到claude.com了[捂脸]"
+  },
+  {
+    "time": "2026-05-15 18:28",
+    "user": "sanyuan",
+    "content": "这个锅我不背"
+  },
+  {
+    "time": "2026-05-15 18:29",
+    "user": "嗯哼",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=4cca59e1d7e56cd38030df58cd214f93&filekey=30440201010430302e02016e040253480420346363613539653164376535366364333830333064663538636432313466393302030080dc040d00000004627466730000000132&hy=SH&storeid=267c00ab1000862f2085c2fee0000006e01004fb153481fe381f1567e8ae37&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-15 18:32",
+    "user": "苏彧",
+    "content": "[捂脸][捂脸][捂脸]"
+  },
+  {
+    "time": "2026-05-15 18:44",
+    "user": "liwuhao05",
+    "content": "是不是你的什么插件，我咋没有这个特性"
+  },
+  {
+    "time": "2026-05-15 18:45",
+    "user": "Amber",
+    "content": "那肯定是"
+  },
+  {
+    "time": "2026-05-15 18:47",
+    "user": "Chan.",
+    "content": "我靠，继续都没时间看课程"
+  },
+  {
+    "time": "2026-05-15 18:48",
+    "user": "系统消息",
+    "content": "\"L\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-15 18:48",
+    "user": "L",
+    "content": "[链接|试试Claude这非常牛的/goal指令](https://www.xiaohongshu.com/discovery/item/6a03283900000000070129fc?app_platform=ios&app_version=9.30.1&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBK68Q8Z8fcOt3a2ZgdwIIdskEZFGX1ku_bcRnUmhLTNI=&author_share=1&xhsshare=WeixinSession&shareRedId=N0k3NThKNEI2NzUyOTgwNjczOTc5ODxP&apptime=1778842083&share_id=8bd25ed6e76b44b18cdebdc99758c493)"
+  },
+  {
+    "time": "2026-05-15 18:48",
+    "user": "苏彧",
+    "content": "没啊"
+  },
+  {
+    "time": "2026-05-15 18:48",
+    "user": "苏彧",
+    "content": "![图片](http://127.0.0.1:5030/image/9c082cfebab6d036c85cf282123c9044,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/880c13125e6e7451bbbada3573c155e4)"
+  },
+  {
+    "time": "2026-05-15 18:48",
+    "user": "苏彧",
+    "content": "微信也能点[奸笑]"
+  },
+  {
+    "time": "2026-05-15 18:48",
+    "user": "苏彧",
+    "content": "不过没事 偶然发现的"
+  },
+  {
+    "time": "2026-05-15 18:53",
+    "user": "苏彧",
+    "content": "唉 学完了JIT，"
+  },
+  {
+    "time": "2026-05-15 18:53",
+    "user": "苏彧",
+    "content": "下班了"
+  },
+  {
+    "time": "2026-05-15 18:55",
+    "user": "苏彧",
+    "content": "![图片](http://127.0.0.1:5030/image/0a0befcce5f04534dc931f4cccb61a52,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/c3d2ae097fee1d1981f0d2b06f5e8cb7)"
+  },
+  {
+    "time": "2026-05-15 21:58",
+    "user": "sanyuan",
+    "content": "现在使用 sitor 私教，你将会有完全不同的体验"
+  },
+  {
+    "time": "2026-05-15 21:58",
+    "user": "sanyuan",
+    "content": "![图片](http://127.0.0.1:5030/image/5ff05c56a0cf529f52b4fd1a1a098128,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/23ca5c89ac7ba024b28a949c8073ca87)"
+  },
+  {
+    "time": "2026-05-15 21:58",
+    "user": "sanyuan",
+    "content": "明天录个视频"
+  },
+  {
+    "time": "2026-05-15 21:58",
+    "user": "sanyuan",
+    "content": "![图片](http://127.0.0.1:5030/image/5633f455ee340242936577edb522e89c,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/fa5d0ae4566039ba4bd17e394e679c70)"
+  },
+  {
+    "time": "2026-05-15 21:59",
+    "user": "sanyuan",
+    "content": "![图片](http://127.0.0.1:5030/image/61ad3f85d3d6b54073e2891ec6c9d4ca,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/973e8a89e6aa188b186e43c029091df3)"
+  },
+  {
+    "time": "2026-05-15 22:00",
+    "user": "sanyuan",
+    "content": "私教已涨价"
+  },
+  {
+    "time": "2026-05-15 22:02",
+    "user": "苏彧",
+    "content": "666"
+  },
+  {
+    "time": "2026-05-15 22:05",
+    "user": "Amber",
+    "content": "强"
+  },
+  {
+    "time": "2026-05-15 22:13",
+    "user": "嘻🇨🇳嘻",
+    "content": "我看b站上的agent教程咋都是Python[捂脸]"
+  },
+  {
+    "time": "2026-05-15 22:13",
+    "user": "小心甘",
+    "content": "简单易上手，做课件也方便吧"
+  },
+  {
+    "time": "2026-05-15 22:16",
+    "user": "Chan.",
+    "content": "没太大区别。"
+  },
+  {
+    "time": "2026-05-15 22:56",
+    "user": "让玛卡巴卡爬吧",
+    "content": "python以前的库最先最多吧"
+  },
+  {
+    "time": "2026-05-15 22:58",
+    "user": "尤里安的红茶",
+    "content": "@sanyuan 私教是任何想学的内容都有吗，还是需要自己喂给它"
+  }
+]

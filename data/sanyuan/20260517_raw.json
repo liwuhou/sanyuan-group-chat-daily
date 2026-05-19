@@ -1,0 +1,292 @@
+[
+  {
+    "time": "2026-05-17 08:21",
+    "user": "小花花",
+    "content": "这个可以让AI自动根据有多少接口写接口测试了"
+  },
+  {
+    "time": "2026-05-17 08:42",
+    "user": "阿五",
+    "content": "[合并转发|阿五与微信ClawBot的聊天记录]\n  微信ClawBot 2026-05-17 08:38:53\n  **三元 Agent 课程群 · 每日精选**\n  📅 2026-05-16\n  \n  ### 🔥 昨日核心话题\n  群里主要围绕 Sitor 产品新功能（deep research、思维导图、知识卡片）、AGENTS.md/CLAUDE.md 规范驱动开发、以及工具链实践展开讨论。\n  \n  ### 📌 sanyuan 要点\n  - **Sitor 新功能**：即将上线 deep research（sub agent 自动调研网络信息），有了它可以直接学习 Hermes 等框架，里面命令都是实际能跑的。\n  - **思维导图**：已支持围绕学习内容生成结构化导图，后续学完整个路线后支持一键生成；老对话也会补支持。\n  - **自定义资料导入**：下个月上线，支持导入小学课本等自定义资料。\n  - **邮箱登录问题**：有用户反馈邮箱验证码接收慢，邮箱+密码方式正常。\n  \n  ### 💡 有价值信息\n  - **sanyuan**: 分享文章《做 Agent，请必须学会渐进式披露》https://mp.weixin.qq.com/s?__biz=MzU0MTU4OTU2MA==&mid=2247492899\n  - **L**: 反馈快问功能查看历史记录时，之前引用的提问变成全文内容。\n  - **红桃不花**: 全景导图老对话暂不支持，sanyuan 表示会加。\n  - **尤里安的红茶**: 问快问是否可以记住上下文连续问，答复暂不支持。\n  - **冰眸CC**: 分享 DeepSeek 泄漏聊天记录快讯 https://mp.weixin.qq.com/s?__biz=Mzg3NDIzMjEzNA==&mid=2247485679\n  - **我是东山呀**: 指出该\"泄漏\"实际是 `<think` 特定字符触发 AI 幻觉，并非真泄漏。\n  - **Lola**: 分享小红书文章《比大模型的幻觉问题更糟糕的是老板的幻觉》\n  \n  ### 🗓️ 行动建议\n  - 关注 Sitor 周末 deep research 上线\n  - 阅读 sanyuan 的\"渐进式披露\"文章\n  - 邮箱登录建议先用邮箱+密码方式\n\n  微信ClawBot 2026-05-17 08:39:07\n  **Sitor AI 产品用户群 · 每日精选**\n  📅 2026-05-16\n  \n  ### 🚀 Sitor 功能更新（置顶）\n  - **deep research 即将上线**：sub agent 自动调研网络信息，sanyuan 表示有了它可以直接学 Hermes，里面命令都是实际能跑的。\n  - **思维导图**：已支持，老对话后续也会补支持；增加\"快问\"功能可对任意节点随时提问。\n  - **自定义资料导入**：下个月上线，支持导入小学课本等自定义资料。\n  - **毕业证书**：正在设计，每个 session 学完后生成，包含思维导图、学习数据、成长曲线、易错点回顾等。\n  \n  ### 🔥 昨日核心话题\n  围绕 Sitor 新版学习体验展开，重点是 deep research 上线、思维导图老数据兼容、自定义资料导入、以及用户体验反馈（知识卡片入口、快问历史记录显示等）。\n  \n  ### 💡 产品有价值信息\n  - **sanyuan**: deep research 本周末上线，届时老对话的思维导图也会支持。\n  - **ZH**: 问已学完的课程思维导图怎么获取，答复还没支持，会加。\n  - **wxid_v56sykjfm0i822**: 想导入小学课本，sanyuan 确认下个月支持自定义资料导入。\n  - **红桃不花**: 反馈全景导图老对话不支持；sanyuan 表示 deep research 上线后一起做。\n  - **L**: 反馈快问查看历史记录时，之前引用的提问变成全文内容。\n  - **冰眸CC**: 分享 DeepSeek \"泄漏\"聊天记录快讯。\n  - **我是东山呀**: 指出是 `<think` 特定字符触发 AI 幻觉，并非真泄漏，Lobsters 之前早就讨论过。\n  - **winhok的打工日记**: 来提了个 bug（图片）。\n\n"
+  },
+  {
+    "time": "2026-05-17 08:43",
+    "user": "嗯哼",
+    "content": "可以让ai给总结成图？"
+  },
+  {
+    "time": "2026-05-17 08:44",
+    "user": "嗯哼",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=dadbb3d1228fba0756c8a02f248bb657&filekey=3043020101042f302d02016e040253480420646164626233643132323866626130373536633861303266323438626236353702021fef040d00000004627466730000000131&hy=SH&storeid=323032313039303432313239343830303063636163366261393438316134343636626234306230303030303036653031303034666231&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-17 08:44",
+    "user": "unknown",
+    "content": "\"不散和弦\" 拍了拍 \"阿五\""
+  },
+  {
+    "time": "2026-05-17 08:55",
+    "user": "阿五",
+    "content": "我试试"
+  },
+  {
+    "time": "2026-05-17 09:43",
+    "user": "sanyuan",
+    "content": "![图片](http://127.0.0.1:5030/image/ce331d2f5932faf9cb288477c7ac2bab,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/39b73eaed53a6f0a4fad11021b46f0e1)"
+  },
+  {
+    "time": "2026-05-17 10:38",
+    "user": "阿五",
+    "content": "不太适合搞成图片，一些细节想通过群聊搜索不方便，链接也不能一键跳转"
+  },
+  {
+    "time": "2026-05-17 10:41",
+    "user": "阿五",
+    "content": "![图片](http://127.0.0.1:5030/image/bc5ea726f0f6f499d41edba2ad2a6e8e,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/fc2f4662de142e94bc00cfc584cd3c83)"
+  },
+  {
+    "time": "2026-05-17 10:43",
+    "user": "嗯哼",
+    "content": "那适合网页呗"
+  },
+  {
+    "time": "2026-05-17 10:43",
+    "user": "xoxo",
+    "content": "6"
+  },
+  {
+    "time": "2026-05-17 10:50",
+    "user": "阿五",
+    "content": "没错，打算搞个网页应用，也方便归档，有需要的群友每天定时浏览也可以"
+  },
+  {
+    "time": "2026-05-17 10:51",
+    "user": "sanyuan",
+    "content": "[ThumbsUp]"
+  },
+  {
+    "time": "2026-05-17 10:51",
+    "user": "sanyuan",
+    "content": "微信 clawbot 是咋拿到群消息的呀"
+  },
+  {
+    "time": "2026-05-17 10:52",
+    "user": "小花花",
+    "content": "出个教程"
+  },
+  {
+    "time": "2026-05-17 10:52",
+    "user": "<msg>\n\t<appmsg>\n\t\t<title>群聊的聊天记录</title>\n\t\t<des>Finn Chen: [图片]\nFinn Chen: 可以总结聊天记录了\n宏: 666\nFinn Chen: [图片]\nFinn Chen: 然后可以基于群里讨论的内容问问 ai 的看法，还挺不错的...</des>\n\t\t<action>view</action>\n\t\t<type>19</type>\n\t\t<url>https://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=page/favorite_record__w_unsupport&amp;from=singlemessage&amp;isappinstalled=0</url>\n\t\t<recorditem><![CDATA[<recordinfo>\n\t<title>群聊的聊天记录</title>\n\t<desc>Finn Chen: [图片]\nFinn Chen: 可以总结聊天记录了\n宏: 666\nFinn Chen: [图片]\nFinn Chen: 然后可以基于群里讨论的内容问问 ai 的看法，还挺不错的...</desc>\n\t<datalist count=\"27\">\n\t\t<dataitem datatype=\"2\" dataid=\"738cf5bbf50ba97bb463169b7adf0f12\">\n\t\t\t<datadesc>[图片]</datadesc>\n\t\t\t<cdnthumburl>3057020100044b3049020100020469c1272702032e6ebb02048e6df07802046a06748d042430623736666166642d373338352d346162632d616464372d3331633234373737323435370204059820010201000405004c56fb00</cdnthumburl>\n\t\t\t<cdnthumbkey>0da859a73c05cd78856d7601fb945913</cdnthumbkey>\n\t\t\t<thumbfullmd5>75c561cab97da90974f78cffc4cbc6e7</thumbfullmd5>\n\t\t\t<thumbsize>5399</thumbsize>\n\t\t\t<cdndataurl>3057020100044b3049020100020469c1272702032e6ebb02048e6df07802046a06748d042463356531633637642d396339332d343138372d623262632d3235353166376431626630650204059820010201000405004c4ff300</cdndataurl>\n\t\t\t<cdndatakey>776a0726233b80e5f9a39f8c4cfa72fe</cdndatakey>\n\t\t\t<fullmd5>14262977ee3aa455c4a537cd6b74e76a</fullmd5>\n\t\t\t<datasize>182397</datasize>\n\t\t\t<thumbwidth>96</thumbwidth>\n\t\t\t<thumbheight>210</thumbheight>\n\t\t\t<sourcename>Finn Chen</sourcename>\n\t\t\t<sourceheadurl>https://wx.qlogo.cn/mmhead/ver_1/K5vXdVpMRia5oGm951HTicuJnWXnESwUBvNLNN8el90jfH7qrWwxbJS8PQUqN82icqcfiapJ4frP8W5rWick9rImnEzcThnLDc741yDic3rNPjibB9RXkTgSbkibZVQLk4Lgrkph/132</sourceheadurl>\n\t\t\t<sourcetime>2026-05-13 13:54:03</sourcetime>\n\t\t\t<srcMsgCreateTime>1778651643</srcMsgCreateTime>\n\t\t\t<messageuuid>50374c657201ca3edd5ce8e81e210c31_</messageuuid>\n\t\t\t<fromnewmsgid>867441794280067535</fromnewmsgid>\n\t\t\t<dataitemsource>\n\t\t\t\t<hashusername>a888a10e1c26f122c69653a8d9cf4f283c052b0eaf7e80465cea3e8c534623e8</hashusername>\n\t\t\t</dataitemsource>\n\t\t</dataitem>\n\t\t<dataitem datatype=\"1\" dataid=\"3a75a7b2a4bb3c22eebb0a315f0ceeb0\">\n\t\t\t<datadesc>可以总结聊天记录了</datadesc>\n\t\t\t<sourcename>Finn Chen</sourcename>\n\t\t\t<sourceheadurl>https://wx.qlogo.cn/mmhead/ver_1/K5vXdVpMRia5oGm951HTicuJnWXnESwUBvNLNN8el90jfH7qrWwxbJS8PQUqN82icqcfiapJ4frP8W5rWick9rImnEzcThnLDc741yDic3rNPjibB9RXkTgSbkibZVQLk4Lgrkph/132</sourceheadurl>\n\t\t\t<sourcetime>2026-05-13 13:54:08</sourcetime>\n\t\t\t<srcMsgCreateTime>1778651648</srcMsgCreateTime>\n\t\t\t<fromnewmsgid>1204043759819809392</fromnewmsgid>\n\t\t\t<dataitemsource>\n\t\t\t\t<hashusername>a888a10e1c26f122c69653a8d9cf4f283c052b0eaf7e80465cea3e8c534623e8</hashusername>\n\t\t\t</dataitemsource>\n\t\t</dataitem>\n\t\t<dataitem datatype=\"1\" dataid=\"ad01fb9fb895daff82f72eb4d8c3a2de\">\n\t\t\t<datadesc>666</datadesc>\n\t\t\t<sourcename>宏</sourcename>\n\t\t\t<sourceheadurl>https://wx.qlogo.cn/mmhead/ver_1/sx4cZeMvnQCarEibyyfEtmicQ00J62w2SCqZqoqTRbc3tVHj3wkkZPReStWXSO5M1DC2ZtyVmLITIYeRtyGWyEgKVKdpjzfevztThRovfclLib4TwJc4llgTT8qQTsADmgn/132</sourceheadurl>\n\t\t\t<sourcetime>2026-05-13 13:55:40</sourcetime>\n\t\t\t<srcMsgCreateTime>1778651740</srcMsgCreateTime>\n\t\t\t<fromnewmsgid>4436053779860064394</fromnewmsgid>\n\t\t\t<dataitemsource>\n\t\t\t\t<hashusername>016d9fcae22ec3bff14c9b469b4a2dcf3e6c92b42a7c5a8448d30877396e9305</hashusername>\n\t\t\t</dataitemsource>\n\t\t</dataitem>\n\t\t<dataitem datatype=\"2\" dataid=\"23a84bd46d91b6175eaf36da6863e42b\">\n\t\t\t<datadesc>[图片]</datadesc>\n\t\t\t<cdnthumburl>3057020100044b3049020100020469c1272702032e6ebb02048e6df07802046a06748d042436336262353130302d613135312d346138632d393135392d3562333764643136396362350204059420010201000405004c53db00</cdnthumburl>\n\t\t\t<cdnthumbkey>211e5b3831c0eb1de69bbb688b8df49c</cdnthumbkey>\n\t\t\t<thumbfullmd5>6433c5c5cf4b67362100762c26043207</thumbfullmd5>\n\t\t\t<thumbsize>11264</thumbsize>\n\t\t\t<cdndataurl>3057020100044b3049020100020469c1272702032e6ebb02048e6df07802046a06748d042435653338636565362d386532322d346632382d623533622d3638643161643439313566360204059420010201000405004c537700</cdndataurl>\n\t\t\t<cdndatakey>9a8f73bbcce200e3d77a86fcccb3070d</cdndatakey>\n\t\t\t<fullmd5>93f53c31b314a3becce05e26db1c3f70</fullmd5>\n\t\t\t<datasize>87798</datasize>\n\t\t\t<thumbwidth>195</thumbwidth>\n\t\t\t<thumbheight>210</thumbheight>\n\t\t\t<sourcename>Finn Chen</sourcename>\n\t\t\t<sourceheadurl>https://wx.qlogo.cn/mmhead/ver_1/K5vXdVpMRia5oGm951HTicuJnWXnESwUBvNLNN8el90jfH7qrWwxbJS8PQUqN82icqcfiapJ4frP8W5rWick9rImnEzcThnLDc741yDic3rNPjibB9RXkTgSbkibZVQLk4Lgrkph/132</sourceheadurl>\n\t\t\t<sourcetime>2026-05-13 14:00:00</sourcetime>\n\t\t\t<srcMsgCreateTime>1778652000</srcMsgCreateTime>\n\t\t\t<messageuuid>45ee14651b672dde970a97753058a34f_</messageuuid>\n\t\t\t<fromnewmsgid>7655050841493073736</fromnewmsgid>\n\t\t\t<dataitemsource>\n\t\t\t\t<hashusername>a888a10e1c26f122c69653a8d9cf4f283c052b0eaf7e80465cea3e8c534623e8</hashusername>\n\t\t\t</dataitemsource>\n\t\t</dataitem>\n\t\t<dataitem datatype=\"1\" dataid=\"fec6f576011042c27508e2a86c9485e6\">\n\t\t\t<datadesc>然后可以基于群里讨论的内容问问 ai 的看法，还挺不错的</datadesc>\n\t\t\t<sourcename>Finn Chen</sourcename>\n\t\t\t<sourceheadurl>https://wx.qlogo.cn/mmhead/ver_1/K5vXdVpMRia5oGm951HTicuJnWXnESwUBvNLNN8el90jfH7qrWwxbJS8PQUqN82icqcfiapJ4frP8W5rWick9rImnEzcThnLDc741yDic3rNPjibB9RXkTgSbkibZVQLk4Lgrkph/132</sourceheadurl>\n\t\t\t<sourcetime>2026-05-13 14:01:19</sourcetime>\n\t\t\t<srcMsgCreateTime>1778652079</srcMsgCreateTime>\n\t\t\t<fromnewmsgid>6671429966971424230</fromnewmsgid>\n\t\t\t<dataitemsource>\n\t\t\t\t<hashusername>a888a10e1c26f122c69653a8d9cf4f283c052b0eaf7e80465cea3e8c534623e8</hashusername>\n\t\t\t</dataitemsource>\n\t\t</dataitem>\n\t\t<dataitem datatype=\"1\" dataid=\"c2bc8050b019e9b30d2afc119fc4bd55\">\n\t\t\t<datadesc>只有企微和元宝</datadesc>\n\t\t\t<sourcename>阿五</sourcename>\n\t\t\t<sourceheadurl>https://wx.qlogo.cn/mmhead/ver_1/zSSSz8hEvwg8G2qdUbcN2QTgBrXPtxZOqYcicEhOHPLiaRQTgzOMlpwMJwwFME2AAPv8UgMbfiaW2YYaqYQ9zBenOvuKufN85wr2cWjqnGTCt8f37jtcXf73xxwQY8e7qiaM/96</sourceheadurl>\n\t\t\t<sourcetime>2026-05-13 14:04:58</sourcetime>\n\t\t\t<srcMsgCreateTime>1778652298</srcMsgCreateTime>\n\t\t\t<fromnewmsgid>3615194412039047174</fromnewmsgid>\n\t\t\t<dataitemsource>\n\t\t\t\t<hashusername>8e6639b67cb3077fc27b857bf60e542942dd0b5b61afd92f838b729940d4e4a8</hashusername>\n\t\t\t</dataitemsource>\n\t\t</dataitem>\n\t\t<dataitem datatype=\"1\" dataid=\"0fee5f02aa4d9d1d874dd5f57a87955b\">\n\t\t\t<datadesc>@阿五 是不是我可以让ai去扫描微信的缓存文件去实际获取群聊数据呢</datadesc>\n\t\t\t<sourcename>神往</sourcename>\n\t\t\t<sourceheadurl>http://wx.qlogo.cn/mmhead/ver_1/XiaOUBmMMkVHzSOTQG1cjxjW7ibmS0NVLICFkBSIPxPFMAxeIerOMV5TB4gHN6FT9vqtConJdfDW23uW3yNjWzYqP9p0PDyQ1O0lylHfJjIRg/132</sourceheadurl>\n\t\t\t<sourcetime>2026-05-13 14:05:59</sourcetime>\n\t\t\t<srcMsgCreateTime>1778652359</srcMsgCreateTime>\n\t\t\t<fromnewmsgid>247772499292043699</fromnewmsgid>\n\t\t\t<dataitemsource>\n\t\t\t\t<hashusername>4acffe025266d1cbbd864629438bc2644d9ce54f3b15927a084ee894188975fe</hashusername>\n\t\t\t</dataitemsource>\n\t\t</dataitem>\n\t\t<dataitem datatype=\"1\" dataid=\"7b86456f019ec8ae24d340545ab66db5\">\n\t\t\t<datadesc>我觉得可以</datadesc>\n\t\t\t<sourcename>神往</sourcename>\n\t\t\t<sourceheadurl>http://wx.qlogo.cn/mmhead/ver_1/XiaOUBmMMkVHzSOTQG1cjxjW7ibmS0NVLICFkBSIPxPFMAxeIerOMV5TB4gHN6FT9vqtConJdfDW23uW3yNjWzYqP9p0PDyQ1O0lylHfJjIRg/132</sourceheadurl>\n\t\t\t<sourcetime>2026-05-13 14:06:03</sourcetime>\n\t\t\t<srcMsgCreateTime>1778652363</srcMsgCreateTime>\n\t\t\t<fromnewmsgid>8477636661168626271</fromnewmsgid>\n\t\t\t<dataitemsource>\n\t\t\t\t<hashusername>4acffe025266d1cbbd864629438bc2644d9ce54f3b15927a084ee894188975fe</hashusername>\n\t\t\t</dataitemsource>\n\t\t</dataitem>\n\t\t<dataitem datatype=\"1\" dataid=\"1bf3aa2cf9559bf801e7f4caeb935f09\">\n\t\t\t<datadesc>我尝试一下</datadesc>\n\t\t\t<sourcename>神往</sourcename>\n\t\t\t<sourceheadurl>http://wx.qlogo.cn/mmhead/ver_1/XiaOUBmMMkVHzSOTQG1cjxjW7ibmS0NVLICFkBSIPxPFMAxeIerOMV5TB4gHN6FT9vqtConJdfDW23uW3yNjWzYqP9p0PDyQ1O0lylHfJjIRg/132</sourceheadurl>\n\t\t\t<sourcetime>2026-05-13 14:06:05</sourcetime>\n\t\t\t<srcMsgCreateTime>1778652365</srcMsgCreateTime>\n\t\t\t<fromnewmsgid>6957398974019258140</fromnewmsgid>\n\t\t\t<dataitemsource>\n\t\t\t\t<hashusername>4acffe025266d1cbbd864629438bc2644d9ce54f3b15927a084ee894188975fe</hashusername>\n\t\t\t</dataitemsource>\n\t\t</dataitem>\n\t\t<dataitem datatype=\"1\" dataid=\"39a83aa66e2e683a35022c762f7aed2b\">\n\t\t\t<datadesc>我试试看看</datadesc>\n\t\t\t<sourcename>神往</sourcename>\n\t\t\t<sourceheadurl>http://wx.qlogo.cn/mmhead/ver_1/XiaOUBmMMkVHzSOTQG1cjxjW7ibmS0NVLICFkBSIPxPFMAxeIerOMV5TB4gHN6FT9vqtConJdfDW23uW3yNjWzYqP9p0PDyQ1O0lylHfJjIRg/132</sourceheadurl>\n\t\t\t<sourcetime>2026-05-13 14:06:47</sourcetime>\n\t\t\t<srcMsgCreateTime>1778652407</srcMsgCreateTime>\n\t\t\t<fromnewmsgid>3778268593556478799</fromnewmsgid>\n\t\t\t<dataitemsource>\n\t\t\t\t<hashusername>4acffe025266d1cbbd864629438bc2644d9ce54f3b15927a084ee894188975fe</hashusername>\n\t\t\t</dataitemsource>\n\t\t</dataitem>\n\t\t<dataitem datatype=\"1\" dataid=\"9ea741767cf2e6ba2df9998cdd2fc723\">\n\t\t\t<datadesc>这种手段其实还好了</datadesc>\n\t\t\t<sourcename>神往</sourcename>\n\t\t\t<sourceheadurl>http://wx.qlogo.cn/mmhead/ver_1/XiaOUBmMMkVHzSOTQG1cjxjW7ibmS0NVLICFkBSIPxPFMAxeIerOMV5TB4gHN6FT9vqtConJdfDW23uW3yNjWzYqP9p0PDyQ1O0lylHfJjIRg/132</sourceheadurl>\n\t\t\t<sourcetime>2026-05-13 14:06:58</sourcetime>\n\t\t\t<srcMsgCreateTime>1778652418</srcMsgCreateTime>\n\t\t\t<fromnewmsgid>8651687362555249720</fromnewmsgid>\n\t\t\t<dataitemsource>\n\t\t\t\t<hashusername>4acffe025266d1cbbd864629438bc2644d9ce54f3b15927a084ee894188975fe</hashusername>\n\t\t\t</dataitemsource>\n\t\t</dataitem>\n\t\t<dataitem datatype=\"1\" dataid=\"080089ee8976409d38a422a5d336f83c\">\n\t\t\t<datadesc>要不然其他的就是给ai单独注册一个微信</datadesc>\n\t\t\t<sourcename>神往</sourcename>\n\t\t\t<sourceheadurl>http://wx.qlogo.cn/mmhead/ver_1/XiaOUBmMMkVHzSOTQG1cjxjW7ibmS0NVLICFkBSIPxPFMAxeIerOMV5TB4gHN6FT9vqtConJdfDW23uW3yNjWzYqP9p0PDyQ1O0lylHfJjIRg/132</sourceheadurl>\n\t\t\t<sourcetime>2026-05-13 14:07:12</sourcetime>\n\t\t\t<srcMsgCreateTime>1778652432</srcMsgCreateTime>\n\t\t\t<fromnewmsgid>8949979461476928045</fromnewmsgid>\n\t\t\t<dataitemsource>\n\t\t\t\t<hashusername>4acffe025266d1cbbd864629438bc2644d9ce54f3b15927a084ee894188975fe</hashusername>\n\t\t\t</dataitemsource>\n\t\t</dataitem>\n\t\t<dataitem datatype=\"1\" dataid=\"3caa5a001000d9ab8c5a9205c50bb2c4\">\n\t\t\t<datadesc>搜了下，也问了agent， 微信的消息存放的路径是固定的，但数据被加密，要费劲去逆向解析。 另一个方向可行，使用一些桥接工具，将聊天记录落盘，再发给agent分析</datadesc>\n\t\t\t<sourcename>阿五</sourcename>\n\t\t\t<sourceheadurl>https://wx.qlogo.cn/mmhead/ver_1/zSSSz8hEvwg8G2qdUbcN2QTgBrXPtxZOqYcicEhOHPLiaRQTgzOMlpwMJwwFME2AAPv8UgMbfiaW2YYaqYQ9zBenOvuKufN85wr2cWjqnGTCt8f37jtcXf73xxwQY8e7qiaM/96</sourceheadurl>\n\t\t\t<sourcetime>2026-05-13 14:27:11</sourcetime>\n\t\t\t<srcMsgCreateTime>1778653631</srcMsgCreateTime>\n\t\t\t<fromnewmsgid>5395280998878973966</fromnewmsgid>\n\t\t\t<dataitemsource>\n\t\t\t\t<hashusername>8e6639b67cb3077fc27b857bf60e542942dd0b5b61afd92f838b729940d4e4a8</hashusername>\n\t\t\t</dataitemsource>\n\t\t</dataitem>\n\t\t<dataitem datatype=\"1\" dataid=\"f94ad30f5a5b31e057fa7d840a7f5f21\">\n\t\t\t<datadesc>这玩意天生的灰产</datadesc>\n\t\t\t<sourcename>我是东山呀</sourcename>\n\t\t\t<sourceheadurl>https://wx.qlogo.cn/mmhead/ver_1/GalSPIA5PlWkkibbHkddp2ibkC1ulPWdGBDBDzMm02YHv50cXFcibEWmmGZb5xc0cqUQxWcMeGtpibrGpBZawybCQiaumKK57A5lViam8hSA9qwH550Tiba38kdpenzicmqZnjzo/132</sourceheadurl>\n\t\t\t<sourcetime>2026-05-13 14:27:17</sourcetime>\n\t\t\t<srcMsgCreateTime>1778653637</srcMsgCreateTime>\n\t\t\t<fromnewmsgid>3210258042183553642</fromnewmsgid>\n\t\t\t<dataitemsource>\n\t\t\t\t<hashusername>93f275c34eb9dffc46a266020699314d067551432a68774959e3005ccce5e65e</hashusername>\n\t\t\t</dataitemsource>\n\t\t</dataitem>\n\t\t<dataitem datatype=\"1\" dataid=\"c9733e19dc73f515c41526734eb3c2fe\">\n\t\t\t<datadesc>但也有一定风险</datadesc>\n\t\t\t<sourcename>阿五</sourcename>\n\t\t\t<sourceheadurl>https://wx.qlogo.cn/mmhead/ver_1/zSSSz8hEvwg8G2qdUbcN2QTgBrXPtxZOqYcicEhOHPLiaRQTgzOMlpwMJwwFME2AAPv8UgMbfiaW2YYaqYQ9zBenOvuKufN85wr2cWjqnGTCt8f37jtcXf73xxwQY8e7qiaM/96</sourceheadurl>\n\t\t\t<sourcetime>2026-05-13 14:27:20</sourcetime>\n\t\t\t<srcMsgCreateTime>1778653640</srcMsgCreateTime>\n\t\t\t<fromnewmsgid>6018670637090728456</fromnewmsgid>\n\t\t\t<dataitemsource>\n\t\t\t\t<hashusername>8e6639b67cb3077fc27b857bf60e542942dd0b5b61afd92f838b729940d4e4a8</hashusername>\n\t\t\t</dataitemsource>\n\t\t</dataitem>\n\t\t<dataitem datatype=\"2\" dataid=\"b56c18a1e5bf4f9a72e0602ff5096278\">\n\t\t\t<datadesc>[图片]</datadesc>\n\t\t\t<cdnthumburl>3057020100044b3049020100020469c1272702032e6ebb02048e6df07802046a06748e042464626666623930652d323731632d343461662d393366332d3832613663396630663236650204059420010201000405004c4e6300</cdnthumburl>\n\t\t\t<cdnthumbkey>0895a134369527be85590d372d1b6f50</cdnthumbkey>\n\t\t\t<thumbfullmd5>e9ee30263d5240f594b36aee5fcda1aa</thumbfullmd5>\n\t\t\t<thumbsize>4056</thumbsize>\n\t\t\t<cdndataurl>3057020100044b3049020100020469c1272702032e6ebb02048e6df07802046a06748d042431383539373634392d393430322d346431302d383838342d3135666161303064663761340204059420010201000405004c55cf00</cdndataurl>\n\t\t\t<cdndatakey>96c67be9e83867ced853db24b8b8e624</cdndatakey>\n\t\t\t<fullmd5>286b5cef358a6f7dc26c9597338afcd8</fullmd5>\n\t\t\t<datasize>224255</datasize>\n\t\t\t<thumbwidth>180</thumbwidth>\n\t\t\t<thumbheight>134</thumbheight>\n\t\t\t<sourcename>阿五</sourcename>\n\t\t\t<sourceheadurl>https://wx.qlogo.cn/mmhead/ver_1/zSSSz8hEvwg8G2qdUbcN2QTgBrXPtxZOqYcicEhOHPLiaRQTgzOMlpwMJwwFME2AAPv8UgMbfiaW2YYaqYQ9zBenOvuKufN85wr2cWjqnGTCt8f37jtcXf73xxwQY8e7qiaM/96</sourceheadurl>\n\t\t\t<sourcetime>2026-05-13 14:27:21</sourcetime>\n\t\t\t<srcMsgCreateTime>1778653641</srcMsgCreateTime>\n\t\t\t<messageuuid>6d4f627198434659ed07b95f74874698_</messageuuid>\n\t\t\t<fromnewmsgid>3262881686725976214</fromnewmsgid>\n\t\t\t<dataitemsource>\n\t\t\t\t<hashusername>8e6639b67cb3077fc27b857bf60e542942dd0b5b61afd92f838b729940d4e4a8</hashusername>\n\t\t\t</dataitemsource>\n\t\t</dataitem>\n\t\t<dataitem datatype=\"1\" dataid=\"60c7048a910c1590c05825d090b4d717\">\n\t\t\t<datadesc>我先拿个小号试试水了，稳定了再考虑是否可以拉进群吧</datadesc>\n\t\t\t<sourcename>阿五</sourcename>\n\t\t\t<sourceheadurl>https://wx.qlogo.cn/mmhead/ver_1/zSSSz8hEvwg8G2qdUbcN2QTgBrXPtxZOqYcicEhOHPLiaRQTgzOMlpwMJwwFME2AAPv8UgMbfiaW2YYaqYQ9zBenOvuKufN85wr2cWjqnGTCt8f37jtcXf73xxwQY8e7qiaM/96</sourceheadurl>\n\t\t\t<sourcetime>2026-05-13 14:28:02</sourcetime>\n\t\t\t<srcMsgCreateTime>1778653682</srcMsgCreateTime>\n\t\t\t<fromnewmsgid>6581291809327106646</fromnewmsgid>\n\t\t\t<dataitemsource>\n\t\t\t\t<hashusername>8e6639b67cb3077fc27b857bf60e542942dd0b5b61afd92f838b729940d4e4a8</hashusername>\n\t\t\t</dataitemsource>\n\t\t</dataitem>\n\t\t<dataitem datatype=\"1\" dataid=\"efb4f3b1d03611937739729614b1bc65\">\n\t\t\t<datadesc>你后面说的这个有个库 weflow</datadesc>\n\t\t\t<sourcename>procrastination🐼</sourcename>\n\t\t\t<sourceheadurl>https://wx.qlogo.cn/mmhead/ver_1/Nx4PMoPs5LzJh3HrVbX6LxBftYhfuyBylqG9bpd0zicwSvM2NZpQ8waQJ20fYauEBB7w2puDhx2JmETxUAgSokAmojHWvI6UBgb5u6xc2YGmNxUGEiadZibTeiaoOov985Wv/132</sourceheadurl>\n\t\t\t<sourcetime>2026-05-13 14:28:58</sourcetime>\n\t\t\t<srcMsgCreateTime>1778653738</srcMsgCreateTime>\n\t\t\t<messageuuid>02b4490972294ed2d94854ab1bc8646f_</messageuuid>\n\t\t\t<fromnewmsgid>7090746785710080412</fromnewmsgid>\n\t\t\t<dataitemsource>\n\t\t\t\t<hashusername>68f2d30b249ca3324149aa827f79829e4d6de066b17038c086005736565dc03a</hashusername>\n\t\t\t</dataitemsource>\n\t\t\t<refermsgitem>\n\t\t\t\t<type>1</type>\n\t\t\t\t<svrid>5395280998878973966</svrid>\n\t\t\t\t<displayname>阿五</displayname>\n\t\t\t\t<content>搜了下，也问了agent， 微信的消息存放的路径是固定的，但数据被加密，要费劲去逆向解析。 另一个方向可行，使用一些桥接工具，将聊天记录落盘，再发给agent分析</content>\n\t\t\t\t<referdesc>搜了下，也问了agent， 微信的消息存放的路径是固定的，但数据被加密，要费劲去逆向解析。 另一个方向可行，使用一些桥接工具，将聊天记录落盘，再发给agent分析</referdesc>\n\t\t\t</refermsgitem>\n\t\t</dataitem>\n\t\t<dataitem datatype=\"1\" dataid=\"490786add7fa997c8491e5a973852e5f\">\n\t\t\t<datadesc>https://github.com/hicccc77/WeFlow</datadesc>\n\t\t\t<sourcename>procrastination🐼</sourcename>\n\t\t\t<sourceheadurl>https://wx.qlogo.cn/mmhead/ver_1/Nx4PMoPs5LzJh3HrVbX6LxBftYhfuyBylqG9bpd0zicwSvM2NZpQ8waQJ20fYauEBB7w2puDhx2JmETxUAgSokAmojHWvI6UBgb5u6xc2YGmNxUGEiadZibTeiaoOov985Wv/132</sourceheadurl>\n\t\t\t<sourcetime>2026-05-13 14:30:07</sourcetime>\n\t\t\t<srcMsgCreateTime>1778653807</srcMsgCreateTime>\n\t\t\t<fromnewmsgid>2841602799058860855</fromnewmsgid>\n\t\t\t<dataitemsource>\n\t\t\t\t<hashusername>68f2d30b249ca3324149aa827f79829e4d6de066b17038c086005736565dc03a</hashusername>\n\t\t\t</dataitemsource>\n\t\t</dataitem>\n\t\t<dataitem datatype=\"1\" dataid=\"edbd930a51521c1d712abaadf63e39e8\">\n\t\t\t<datadesc>我现在高度使用hermes</datadesc>\n\t\t\t<sourcename>阿五</sourcename>\n\t\t\t<sourceheadurl>https://wx.qlogo.cn/mmhead/ver_1/zSSSz8hEvwg8G2qdUbcN2QTgBrXPtxZOqYcicEhOHPLiaRQTgzOMlpwMJwwFME2AAPv8UgMbfiaW2YYaqYQ9zBenOvuKufN85wr2cWjqnGTCt8f37jtcXf73xxwQY8e7qiaM/96</sourceheadurl>\n\t\t\t<sourcetime>2026-05-13 14:30:15</sourcetime>\n\t\t\t<srcMsgCreateTime>1778653815</srcMsgCreateTime>\n\t\t\t<fromnewmsgid>3144361830819222490</fromnewmsgid>\n\t\t\t<dataitemsource>\n\t\t\t\t<hashusername>8e6639b67cb3077fc27b857bf60e542942dd0b5b61afd92f838b729940d4e4a8</hashusername>\n\t\t\t</dataitemsource>\n\t\t</dataitem>\n\t\t<dataitem datatype=\"1\" dataid=\"039df30d6808ccb95223daf52b79b0f8\">\n\t\t\t<datadesc>还有这个</datadesc>\n\t\t\t<sourcename>procrastination🐼</sourcename>\n\t\t\t<sourceheadurl>https://wx.qlogo.cn/mmhead/ver_1/Nx4PMoPs5LzJh3HrVbX6LxBftYhfuyBylqG9bpd0zicwSvM2NZpQ8waQJ20fYauEBB7w2puDhx2JmETxUAgSokAmojHWvI6UBgb5u6xc2YGmNxUGEiadZibTeiaoOov985Wv/132</sourceheadurl>\n\t\t\t<sourcetime>2026-05-13 14:30:36</sourcetime>\n\t\t\t<srcMsgCreateTime>1778653836</srcMsgCreateTime>\n\t\t\t<fromnewmsgid>5453809907324250398</fromnewmsgid>\n\t\t\t<dataitemsource>\n\t\t\t\t<hashusername>68f2d30b249ca3324149aa827f79829e4d6de066b17038c086005736565dc03a</hashusername>\n\t\t\t</dataitemsource>\n\t\t</dataitem>\n\t\t<dataitem datatype=\"1\" dataid=\"99e01bc523609b822d3db9e4aaffd9f1\">\n\t\t\t<datadesc>你这个直接是现成的啊</datadesc>\n\t\t\t<cdnthumburl>3057020100044b3049020100020469c1272702032e47ab02049a82f07802046a092d7f042463313438353230362d376261362d343630302d396265392d3430656132653731323762360204059420010201000405004c55cf00</cdnthumburl>\n\t\t\t<cdnthumbkey>ab112728efee1b39bab33ae8152bea9b</cdnthumbkey>\n\t\t\t<thumbfullmd5>6cef02b587fe38af35a35cab086dd6d2</thumbfullmd5>\n\t\t\t<thumbsize>3046</thumbsize>\n\t\t\t<thumbwidth>180</thumbwidth>\n\t\t\t<thumbheight>102</thumbheight>\n\t\t\t<sourcename>阿五</sourcename>\n\t\t\t<sourceheadurl>https://wx.qlogo.cn/mmhead/ver_1/zSSSz8hEvwg8G2qdUbcN2QTgBrXPtxZOqYcicEhOHPLiaRQTgzOMlpwMJwwFME2AAPv8UgMbfiaW2YYaqYQ9zBenOvuKufN85wr2cWjqnGTCt8f37jtcXf73xxwQY8e7qiaM/96</sourceheadurl>\n\t\t\t<sourcetime>2026-05-13 14:30:56</sourcetime>\n\t\t\t<srcMsgCreateTime>1778653856</srcMsgCreateTime>\n\t\t\t<messageuuid>5af7b6ba398a3e424439a3ea9ef41b94_</messageuuid>\n\t\t\t<fromnewmsgid>2532269930401361788</fromnewmsgid>\n\t\t\t<dataitemsource>\n\t\t\t\t<hashusername>8e6639b67cb3077fc27b857bf60e542942dd0b5b61afd92f838b729940d4e4a8</hashusername>\n\t\t\t</dataitemsource>\n\t\t\t<refermsgitem>\n\t\t\t\t<type>3</type>\n\t\t\t\t<svrid>5128868753707814840</svrid>\n\t\t\t\t<displayname>procrastination🐼</displayname>\n\t\t\t\t<content>wxid_27zpg3x4wla911",
+    "content": "[合并转发]"
+  },
+  {
+    "time": "2026-05-17 10:52",
+    "user": "阿五",
+    "content": "@sanyuan 前几天的群聊"
+  },
+  {
+    "time": "2026-05-17 10:53",
+    "user": "sanyuan",
+    "content": "可以"
+  },
+  {
+    "time": "2026-05-17 10:53",
+    "user": "阿五",
+    "content": "Arm 架构的 Mac 可以直接用 weflow"
+  },
+  {
+    "time": "2026-05-17 10:54",
+    "user": "Omos",
+    "content": "https://github.com/jackwener/wx-cli 这个也可"
+  },
+  {
+    "time": "2026-05-17 10:54",
+    "user": "阿五",
+    "content": "![图片](http://127.0.0.1:5030/image/faffc352b7c0b656b5f57ebeda73197f,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/f4d6b7c307e578476baa01f6d4067559)"
+  },
+  {
+    "time": "2026-05-17 10:55",
+    "user": "阿五",
+    "content": "我的 hermes 现在都是 sitor"
+  },
+  {
+    "time": "2026-05-17 10:55",
+    "user": "阿五",
+    "content": "的形状了"
+  },
+  {
+    "time": "2026-05-17 11:01",
+    "user": "小花花",
+    "content": "都好厉害啊"
+  },
+  {
+    "time": "2026-05-17 11:44",
+    "user": "auv",
+    "content": "你们怎么在ios系统上把sitor放到桌面微信登录的啊"
+  },
+  {
+    "time": "2026-05-17 11:44",
+    "user": "auv",
+    "content": "不能截图登陆"
+  },
+  {
+    "time": "2026-05-17 11:56",
+    "user": "Candy",
+    "content": "我在看 context Engineering，问 sitor 关于上下文怎么卸载，但我怎么感觉它在骗我[捂脸]\n\n----\n\n你的推理是：如果我为了释放上下文，把旧工具结果从 prompt 里删了，那之前依赖那段内容的缓存前缀就断了——确实是这样。但 Manus 的做法不是简单粗暴地“删掉”，而是在缓存命中的前提下做 Offload。\n\n具体来说，它们的流程是：\n\n第 1 - 10 轮：缓存正常工作，所有内容都在上下文里，KV Cache 命中，又快又便宜。\n第 10 轮之后：上下文快满了。这时候不是清掉历史，而是把历史中的大块结果写到文件系统，在 prompt 里替换成一行引用（比如 [Previous result saved to /tmp/result_10.json]）。\n关键点：这条引用文本长度固定，而且占位符本身也是 prompt 里可预测的一部分。下一次请求时，prompt 的前缀（System Prompt + 前 9 轮 + 第 10 轮的占位符）仍然是连续不变的，所以缓存还能命中。\n一句话总结：Offload 不是“删掉内容打乱 prompt”，而是“把内容替换成等长的占位符”，这样缓存前缀不被破坏，同时 token 减少了。\n\n你担心的“缓存失效”问题，在实际工程里是通过保前缀连续性来解决的——不是随意删除，而是用固定格式的占位符替换大块内容。文章里说的“文件系统当外挂大脑”，就是这个意思。"
+  },
+  {
+    "time": "2026-05-17 11:59",
+    "user": "Candy",
+    "content": "是不是压缩前都没办法卸载，只是压缩的时候把不要的内容替换掉"
+  },
+  {
+    "time": "2026-05-17 12:42",
+    "user": "🐟",
+    "content": "网络问题吗 发送不了验证码登录不了[捂脸]"
+  },
+  {
+    "time": "2026-05-17 12:46",
+    "user": "sanyuan",
+    "content": "压缩和卸载没有关系 卸载在压缩前后都可以"
+  },
+  {
+    "time": "2026-05-17 12:46",
+    "user": "系统消息",
+    "content": "\"sanyuan\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-17 12:46",
+    "user": "sanyuan",
+    "content": "qq邮箱吗"
+  },
+  {
+    "time": "2026-05-17 12:46",
+    "user": "🐟",
+    "content": "是的"
+  },
+  {
+    "time": "2026-05-17 13:05",
+    "user": "sanyuan",
+    "content": "![图片](http://127.0.0.1:5030/image/45359adb7b729bbb6e496a3a67da630c,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/faf8c72c3867f85d1ac7c6e93896b7db)"
+  },
+  {
+    "time": "2026-05-17 13:05",
+    "user": "sanyuan",
+    "content": "免费用户现在只能解锁 3 次"
+  },
+  {
+    "time": "2026-05-17 13:06",
+    "user": "sanyuan",
+    "content": "pro 无限解锁"
+  },
+  {
+    "time": "2026-05-17 13:06",
+    "user": "sanyuan",
+    "content": "[奸笑]"
+  },
+  {
+    "time": "2026-05-17 13:07",
+    "user": "L",
+    "content": "这个是 ppt 里面那个图吗"
+  },
+  {
+    "time": "2026-05-17 13:08",
+    "user": "sanyuan",
+    "content": "对的"
+  },
+  {
+    "time": "2026-05-17 13:23",
+    "user": "Forrest",
+    "content": "![图片](http://127.0.0.1:5030/image/09939ed18d3640fb1cf26bc83323b657,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/832543e5198973a7ffd68cfbdb163bfb)"
+  },
+  {
+    "time": "2026-05-17 13:23",
+    "user": "Forrest",
+    "content": "移动端有问题了？"
+  },
+  {
+    "time": "2026-05-17 13:23",
+    "user": "Forrest",
+    "content": "@sanyuan "
+  },
+  {
+    "time": "2026-05-17 13:27",
+    "user": "sanyuan",
+    "content": "没问题"
+  },
+  {
+    "time": "2026-05-17 13:36",
+    "user": "Forrest",
+    "content": " 翻墙才好了"
+  },
+  {
+    "time": "2026-05-17 13:38",
+    "user": "系统消息",
+    "content": "\"sanyuan\"邀请\"梓阳\"加入了群聊"
+  },
+  {
+    "time": "2026-05-17 13:38",
+    "user": "系统消息",
+    "content": "\"梓阳\"与群里其他人都不是朋友关系，请注意隐私安全"
+  },
+  {
+    "time": "2026-05-17 14:03",
+    "user": "winhok的打工日记",
+    "content": "![图片](http://127.0.0.1:5030/image/f81b7c4370aabc0f6c5c064a6ef8a50d,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/868ce6f2c29e7ba0fa32b3492bd30536)"
+  },
+  {
+    "time": "2026-05-17 14:03",
+    "user": "winhok的打工日记",
+    "content": "怎么还有听说练习"
+  },
+  {
+    "time": "2026-05-17 14:04",
+    "user": "winhok的打工日记",
+    "content": "[旺柴]"
+  },
+  {
+    "time": "2026-05-17 14:05",
+    "user": "winhok的打工日记",
+    "content": "还藏起来了多少东西哈哈哈哈哈哈"
+  },
+  {
+    "time": "2026-05-17 14:15",
+    "user": "苏彧",
+    "content": "学英语？"
+  },
+  {
+    "time": "2026-05-17 14:18",
+    "user": "sanyuan",
+    "content": "可以学"
+  },
+  {
+    "time": "2026-05-17 14:18",
+    "user": "sanyuan",
+    "content": "听力 口语 我接好了"
+  },
+  {
+    "time": "2026-05-17 14:40",
+    "user": "Rudy",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=8e183bf344ad6eda1bf086b40a12a6b9&filekey=30440201010430302e02016e0402535a042038653138336266333434616436656461316266303836623430613132613662390203008e88040d00000004627466730000000132&hy=SZ&storeid=269520c3d00026d9f7e28a7d10000006e01004fb1535a1231bb6156b0ec83d&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-17 16:11",
+    "user": "CJ",
+    "content": "课程的思维导图是收费的嘛？"
+  },
+  {
+    "time": "2026-05-17 16:48",
+    "user": "苏彧",
+    "content": "不收费"
+  },
+  {
+    "time": "2026-05-17 23:35",
+    "user": "張張張張張臻",
+    "content": "@三元同学助理 邮箱登录没法登录，不会发送验证码"
+  },
+  {
+    "time": "2026-05-17 23:53",
+    "user": "Amber",
+    "content": "这么晚还卷[旺柴]"
+  }
+]

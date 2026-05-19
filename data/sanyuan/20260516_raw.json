@@ -1,0 +1,1302 @@
+[
+  {
+    "time": "2026-05-16 00:12",
+    "user": "Christopher",
+    "content": "惯蛋课程也很需要[旺柴]"
+  },
+  {
+    "time": "2026-05-16 07:02",
+    "user": "sanyuan",
+    "content": "任何想学的都有"
+  },
+  {
+    "time": "2026-05-16 07:06",
+    "user": "sanyuan",
+    "content": "get 不过目前棋牌类的优先级不高 我还打算做个演练场之类的"
+  },
+  {
+    "time": "2026-05-16 07:07",
+    "user": "sanyuan",
+    "content": "喂给它资料可以提升教学质量"
+  },
+  {
+    "time": "2026-05-16 07:41",
+    "user": "sanyuan",
+    "content": "有朋友反馈邮箱登不进sitor了，大家有遇到吗"
+  },
+  {
+    "time": "2026-05-16 08:05",
+    "user": "系统消息",
+    "content": "\"Djmughal\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-16 08:05",
+    "user": "Djmughal",
+    "content": "邮箱加密码可以，邮箱验证码非常久"
+  },
+  {
+    "time": "2026-05-16 08:11",
+    "user": "sanyuan",
+    "content": "[发呆]"
+  },
+  {
+    "time": "2026-05-16 08:12",
+    "user": "Lola",
+    "content": "[链接|比大模型的幻觉问题更糟糕的是老板的幻觉](https://www.xiaohongshu.com/discovery/item/6a055fa20000000007011c67?app_platform=ios&app_version=9.29&share_from_user_hidden=true&xsec_source=app_share&type=video&xsec_token=CBuqEo71nUDX6zkNHUKF_uMx_yPw4uFAgdtiNtfxBRASY=&author_share=1&xhsshare=WeixinSession&shareRedId=ODg4QklKPEo2NzUyOTgwNjg0OTk3OTo_&apptime=1778890359&share_id=0bd879f5896941abb1e15254b4984e82)"
+  },
+  {
+    "time": "2026-05-16 09:07",
+    "user": "阿五",
+    "content": "[合并转发|阿五与微信ClawBot的聊天记录]\n  微信ClawBot 2026-05-16 07:01:16\n  Cronjob Response: 三元Agent课程群日报\n  (job_id: 8394c0f4fed1)\n  -------------\n  \n  **三元 Agent 课程群 · 每日精选**\n  📅 2026-05-15\n  \n  ### 🔥 昨日核心话题\n  群里主要围绕课程进度、Sitor 私教体验升级、AGENTS/CLAUDE.md 规范驱动开发展开讨论。另有不少工具链实践：GitHub 拉取/代理、公众号转 Markdown、Codex desktop/remote control、中文乱码与 UTF-8 编码问题。\n  \n  ### 📌 sanyuan 要点\n  - 课程进度已到一半，前面小节近期会出整章测验；后续每节都会加入交叉复习，与前面内容联动，降低混淆。\n  - Sitor 已支持每节生成思维导图；私教体验有较大升级，后续会录视频说明，且私教已涨价。\n  - 针对私教把课程描述误判为用户发言、严格模式不够严格等反馈，表示会优化指令和交互。\n  - 分享文章：**《做 Agent，请必须学会渐进式披露》**\n    https://mp.weixin.qq.com/s?__biz=MzU0MTU4OTU2MA==&mid=2247492899&idx=1&sn=bfc3f1e5c5c68160b1372c032b680917\n  - 被问类似 v0 的 AI coding 平台/webcontainer/claude-code-sdk 架构时表示“水很深”，偏付费咨询内容。\n  - 当前这两门课暂时没有实际线下/实战课程。\n  \n  ### 💡 有价值信息\n  - **一期一会**: AGENTS.md 可做“规范驱动开发”，让 Agent 按迭代要求、核心设计、checklist、E2E 测试推进；但文档与代码一致性是难点。\n  - **Roy / procrastination🐼 / 一期一会**: Claude 优先读 CLAUDE.md，也会读 AGENTS；OpenCode 优先读 AGENTS；Cursor 可用 rules/mdc。\n  - **神往**: 终端默认不走系统代理，PowerShell 可设置：`$env:HTTP_PROXY=\"http://127.0.0.1:7890\"; $env:HTTPS_PROXY=\"http://127.0.0.1:7890\"`。\n  - **我是东山呀**: Windows PowerShell 需注意 UTF-8，否则 AI 读取中文可能乱码。\n  - **阿五 / L**: 公众号转 Markdown 可用 mdnice、Obsidian Web Clipper，也可考虑 vibe 一个 Chrome 插件。\n  - **TreeWish**: 分享 Anthropic 对 2028 AI 领导权/中美竞争的文章：https://www.anthropic.com/research/2028-ai-leadership\n  - **L / Chan.**: Codex 中转站可用 desktop 应用，但 plugin 可能不可用。\n  \n  ### 🗓️ 行动建议\n  - 重点阅读 sanyuan 的“渐进式披露”文章，并结合 AGENTS.md/CLAUDE.md 做项目规范拆分。\n  - 使用 GitHub/终端拉取慢时，先确认终端代理和 Git proxy 配置；下载 zip 可能更快。\n  - 做 AI coding 项目时，补一份轻量 AGENTS.md/CLAUDE.md/rules，并定期校验文档与代码一致性。\n  \n  To stop or manage this job, send me a new message (e.g. \"stop reminder 三元Agent课程群日报\").\n\n  微信ClawBot 2026-05-16 07:01:19\n  Cronjob Response: Sitor AI 产品用户群每日总结\n  (job_id: 8a3a00bdb8c0)\n  -------------\n  \n  **Sitor AI 产品用户群 · 每日精选**\n  📅 2026-05-16\n  \n  ### 🚀 Sitor 功能更新（置顶）\n  - sanyuan 集中发布新版 Sitor 进展：知识图谱 / 思维导图能力已快速加入，支持围绕学习内容生成结构化导图，并计划在学完整个路线后支持一键生成。\n  - 导图增加“快问”功能：用户可对任意节点随时提问，用于精准复习和追问知识点。\n  - 正在设计“毕业证书”能力：每个 Sitor session 学完后生成证书，包含思维导图、学习数据、成长曲线、易错点回顾等内容。\n  - 知识卡片 / 知识讲稿相关入口继续优化：老节点可通过“生成知识讲稿”按钮补生成；用户反馈入口偏小、扣除学习点较突然，sanyuan 表示会优化说明。\n  - sanyuan 表示新版 Sitor 体验已明显变化，并提到私教已涨价；课程完成 / 检验完成标识需求已确认可做。\n  \n  ### 🔥 昨日核心话题\n  群里围绕 Sitor 新版学习体验展开高密度讨论，重点是个性化知识卡片、思维导图、知识图谱、毕业证书、快问复习等学习闭环功能。\n  另一条主线是用户体验反馈，包括知识卡片入口不明显、自动扣学习点提示不足、会话换行异常、课程完成状态不清晰，以及新功能增多后首页需要更清晰的新手引导。\n  \n  ### 💡 AI 产品有价值信息\n  - monkeytao: 反馈知识卡片入口过小、通知一闪而过，且自动扣除 5 个学习点略突然；建议提前在宣传或产品说明中明确，这是可作为卖点的个性化能力。\n  - sanyuan: 说明知识卡片是个性化生成，会根据用户易错点和信息储备组织内容，熟悉内容不会占用太多图的内容。\n  - sanyuan: 提出学习完成后生成毕业证书，包含导图、学习数据、成长曲线和易错点，强化学习成就感与复盘价值。\n  - unique Y / 5C24 / L: 讨论导图是否可编辑、是否能采用类似 Excalidraw 的视觉风格；用户更希望生成后可继续编辑，并保持 UI 风格一致。\n  - uccs: 反馈输入框粘贴后空行异常增多；sanyuan 已处理一次，但后续仍有复现迹象。\n  - 稚: 反馈「MCP 工程真相」章节一直停留在新对话，没有进入学习流程；sanyuan 表示正在修复。\n  - 阿五: 解释每日群聊总结方案：使用 chatlog 解密微信群聊文件，再交给 Hermes 总结。\n  - procrastination🐼: 分享微信聊天记录落盘 / 桥接工具 WeFlow：https://github.com/hicccc77/WeFlow\n  - 红桃不花: 建议首页放一个简短演示视频，展示特色功能和操作步骤，以降低新版功能增多后的上手成本。\n  \n  To stop or manage this job, send me a new message (e.g. \"stop reminder Sitor AI 产品用户群每日总结\").\n\n"
+  },
+  {
+    "time": "2026-05-16 10:00",
+    "user": "辣洋葱",
+    "content": "[强][强]"
+  },
+  {
+    "time": "2026-05-16 10:07",
+    "user": "Chan.",
+    "content": "[强]"
+  },
+  {
+    "time": "2026-05-16 10:18",
+    "user": "April.",
+    "content": "你们昨天还说小册里的免费ts 好，我发现Sitor 的私教学起来也特别友好，特别是手机端很容易学起来[旺柴]"
+  },
+  {
+    "time": "2026-05-16 10:19",
+    "user": "苏彧",
+    "content": "起床 学习一下"
+  },
+  {
+    "time": "2026-05-16 10:19",
+    "user": "苏彧",
+    "content": "实战"
+  },
+  {
+    "time": "2026-05-16 10:20",
+    "user": "CJ",
+    "content": "私教需要另外收费？"
+  },
+  {
+    "time": "2026-05-16 10:20",
+    "user": "苏彧",
+    "content": "不用"
+  },
+  {
+    "time": "2026-05-16 10:22",
+    "user": "CJ",
+    "content": "手机端下载app还是浏览器打开"
+  },
+  {
+    "time": "2026-05-16 10:23",
+    "user": "苏彧",
+    "content": "浏览器"
+  },
+  {
+    "time": "2026-05-16 10:23",
+    "user": "CJ",
+    "content": "好"
+  },
+  {
+    "time": "2026-05-16 10:25",
+    "user": "小花花",
+    "content": "起床学习"
+  },
+  {
+    "time": "2026-05-16 13:59",
+    "user": "系统消息",
+    "content": "\"sanyuan\"邀请\"Rudy\"加入了群聊"
+  },
+  {
+    "time": "2026-05-16 13:59",
+    "user": "系统消息",
+    "content": "\"Rudy\"与群里其他人都不是朋友关系，请注意隐私安全"
+  },
+  {
+    "time": "2026-05-16 14:17",
+    "user": "y1mwu",
+    "content": "![图片](http://127.0.0.1:5030/image/05b831f9ad90ad1e3a2268731bdb386c,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/057087f35872ae0fc3f1176c722bda6f)"
+  },
+  {
+    "time": "2026-05-16 14:18",
+    "user": "y1mwu",
+    "content": "@sanyuan 哥，似乎有bug，学完不会打钩[旺柴]"
+  },
+  {
+    "time": "2026-05-16 14:18",
+    "user": "sanyuan",
+    "content": "可以哈 我看下"
+  },
+  {
+    "time": "2026-05-16 14:18",
+    "user": "sanyuan",
+    "content": "你翻到底应该是可以打钩的"
+  },
+  {
+    "time": "2026-05-16 14:19",
+    "user": "y1mwu",
+    "content": "我翻到底点了下一篇，学了后面几篇了，今天偶然发现√还停留在前几节"
+  },
+  {
+    "time": "2026-05-16 14:25",
+    "user": "sanyuan",
+    "content": "ok"
+  },
+  {
+    "time": "2026-05-16 15:17",
+    "user": "yearning",
+    "content": "学的好快啊"
+  },
+  {
+    "time": "2026-05-16 15:17",
+    "user": "yearning",
+    "content": "我这个人太喜欢抠细节了，刚刚学到实战第二章"
+  },
+  {
+    "time": "2026-05-16 15:18",
+    "user": "yearning",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=2752c2e4aab66a8ff905d2ff5fdaf95c&filekey=3043020101042f302d02016e0402535a04203237353263326534616162363661386666393035643266663566646166393563020275f9040d00000004627466730000000132&hy=SZ&storeid=268ca6c44000a4d4a03ac96930000006e01004fb1535a2d76bbc1e7789345c&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-16 16:30",
+    "user": "小花花",
+    "content": "@sanyuan  这个理论课什么时候更新啊 我很有用"
+  },
+  {
+    "time": "2026-05-16 16:30",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/7bdea0d83813201c2dd6becc82bfc241,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/f777bb369dcecba8afe387bd49711dc7)"
+  },
+  {
+    "time": "2026-05-16 16:33",
+    "user": "苏彧",
+    "content": "5.19"
+  },
+  {
+    "time": "2026-05-16 16:34",
+    "user": "L",
+    "content": "这不是有时间吗"
+  },
+  {
+    "time": "2026-05-16 16:35",
+    "user": "小花花",
+    "content": "这不是之前定的吗，后来不是说日更模式嘛"
+  },
+  {
+    "time": "2026-05-16 16:35",
+    "user": "小花花",
+    "content": "[抠鼻]"
+  },
+  {
+    "time": "2026-05-16 16:36",
+    "user": "苏彧",
+    "content": "应该交替更吧 好像"
+  },
+  {
+    "time": "2026-05-16 16:37",
+    "user": "苏彧",
+    "content": "理论实战轮流更"
+  },
+  {
+    "time": "2026-05-16 16:43",
+    "user": "sanyuan",
+    "content": "轮流更"
+  },
+  {
+    "time": "2026-05-16 16:43",
+    "user": "sanyuan",
+    "content": "这周是日更"
+  },
+  {
+    "time": "2026-05-16 16:43",
+    "user": "sanyuan",
+    "content": "周末休息"
+  },
+  {
+    "time": "2026-05-16 16:44",
+    "user": "sanyuan",
+    "content": "[旺柴]"
+  },
+  {
+    "time": "2026-05-16 16:44",
+    "user": "sanyuan",
+    "content": "一周五更 强度很高了"
+  },
+  {
+    "time": "2026-05-16 16:45",
+    "user": "苏彧",
+    "content": "很强了"
+  },
+  {
+    "time": "2026-05-16 16:46",
+    "user": "你真美",
+    "content": "我在加班 你在休息！"
+  },
+  {
+    "time": "2026-05-16 16:49",
+    "user": "sanyuan",
+    "content": "我也在加班 搞 sitor"
+  },
+  {
+    "time": "2026-05-16 16:49",
+    "user": "sanyuan",
+    "content": "commit 搞了100 个了"
+  },
+  {
+    "time": "2026-05-16 16:49",
+    "user": "你真美",
+    "content": "心里平衡了"
+  },
+  {
+    "time": "2026-05-16 16:49",
+    "user": "苏彧",
+    "content": "又是重大更新？"
+  },
+  {
+    "time": "2026-05-16 16:49",
+    "user": "万扬",
+    "content": "@sanyuan 元神你现在是不是0编码了"
+  },
+  {
+    "time": "2026-05-16 16:49",
+    "user": "sanyuan",
+    "content": "deep research 贼牛逼"
+  },
+  {
+    "time": "2026-05-16 16:50",
+    "user": "sanyuan",
+    "content": "上了就知道了"
+  },
+  {
+    "time": "2026-05-16 16:50",
+    "user": "sanyuan",
+    "content": "打通私教的知识源"
+  },
+  {
+    "time": "2026-05-16 16:50",
+    "user": "sanyuan",
+    "content": "不再依赖模型本身的知识"
+  },
+  {
+    "time": "2026-05-16 16:50",
+    "user": "sanyuan",
+    "content": "![图片](http://127.0.0.1:5030/image/a2ea0ed35d825e3835622d14de82fa4a,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/30f5a6521a1fd02ba6c2e30b9dbd414c)"
+  },
+  {
+    "time": "2026-05-16 16:50",
+    "user": "浮游",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=d5261e80c277e25feba30b01fff53ef5&filekey=30440201010430302e02016e0402534804206435323631653830633237376532356665626133306230316666663533656635020301063e040d00000004627466730000000131&hy=SH&storeid=323032303132303331393438353930303062353934313032653037623864336566303731363430303030303036653031303034666231&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-16 16:50",
+    "user": "你真美",
+    "content": "6"
+  },
+  {
+    "time": "2026-05-16 16:50",
+    "user": "L",
+    "content": "牛逼"
+  },
+  {
+    "time": "2026-05-16 16:51",
+    "user": "十六",
+    "content": "此刻教培行业的我瑟瑟发抖"
+  },
+  {
+    "time": "2026-05-16 16:51",
+    "user": "十六",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=a5907efce6af628e4bbdbd1ca6296f01&filekey=3043020101042f302d02016e040253480420613539303765666365366166363238653462626462643163613632393666303102026c76040d00000004627466730000000132&hy=SH&storeid=26921ec8f000c9b1332f6120d0000006e01004fb153482e461b01e6c9d009c&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-16 16:52",
+    "user": "万扬",
+    "content": "元神以后出个永久费用吧，离不开了[发呆]"
+  },
+  {
+    "time": "2026-05-16 16:52",
+    "user": "一日看盡長安花",
+    "content": "永久不了一点"
+  },
+  {
+    "time": "2026-05-16 16:52",
+    "user": "一日看盡長安花",
+    "content": "token的成本支出太高了"
+  },
+  {
+    "time": "2026-05-16 16:53",
+    "user": "sanyuan",
+    "content": "这种不是传统应用"
+  },
+  {
+    "time": "2026-05-16 16:53",
+    "user": "sanyuan",
+    "content": "商业模式不适合永久会员"
+  },
+  {
+    "time": "2026-05-16 16:53",
+    "user": "sanyuan",
+    "content": "模型调用成本一次都不少"
+  },
+  {
+    "time": "2026-05-16 16:53",
+    "user": "你真美",
+    "content": "因为有token成本"
+  },
+  {
+    "time": "2026-05-16 16:54",
+    "user": "万扬",
+    "content": "那以后token会越来越便宜还是越来越贵[疑问]"
+  },
+  {
+    "time": "2026-05-16 16:54",
+    "user": "sanyuan",
+    "content": "不知道"
+  },
+  {
+    "time": "2026-05-16 16:55",
+    "user": "sanyuan",
+    "content": "但是商业模式不会变"
+  },
+  {
+    "time": "2026-05-16 16:55",
+    "user": "sanyuan",
+    "content": "token 肯定还是占大头"
+  },
+  {
+    "time": "2026-05-16 16:55",
+    "user": "sanyuan",
+    "content": "成本金额里面"
+  },
+  {
+    "time": "2026-05-16 16:56",
+    "user": "sanyuan",
+    "content": "今天有个老哥 聊了 十几分钟，果断买了年度会员，然后聊了 3.5 个小时，学经济学的"
+  },
+  {
+    "time": "2026-05-16 16:56",
+    "user": "一日看盡長安花",
+    "content": "我司之前做过一个AI小应用，商业模式里引入了永久会员概念，虽然限制了次数，但是现在看起来永久会员是大坑，现在会员体系改制成积分制，就很难推动"
+  },
+  {
+    "time": "2026-05-16 16:56",
+    "user": "sanyuan",
+    "content": "我现在一开始就搞成学力制，把后面路铺平了"
+  },
+  {
+    "time": "2026-05-16 16:56",
+    "user": "sanyuan",
+    "content": "很多功能基于 学力搞"
+  },
+  {
+    "time": "2026-05-16 16:57",
+    "user": "一日看盡長安花",
+    "content": "是的，传统应用的会员制在AI应用里跑不通的"
+  },
+  {
+    "time": "2026-05-16 16:57",
+    "user": "一日看盡長安花",
+    "content": "积分制是必须的"
+  },
+  {
+    "time": "2026-05-16 16:58",
+    "user": "L",
+    "content": "私教回复次数和学历制有什么区别呢"
+  },
+  {
+    "time": "2026-05-16 16:59",
+    "user": "sanyuan",
+    "content": "生图 深度调研 要消耗学力"
+  },
+  {
+    "time": "2026-05-16 17:00",
+    "user": "monkeytao",
+    "content": "[强]"
+  },
+  {
+    "time": "2026-05-16 17:09",
+    "user": "地瓜",
+    "content": "这个visualize指令生成的是不是有问题？"
+  },
+  {
+    "time": "2026-05-16 17:09",
+    "user": "地瓜",
+    "content": "![图片](http://127.0.0.1:5030/image/0075d25d66109fea9a9c7ffded7cf587,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/1c2662bd3ef2c532ca0ce07f09b34fc1)"
+  },
+  {
+    "time": "2026-05-16 17:09",
+    "user": "地瓜",
+    "content": "我理解应该是张图？"
+  },
+  {
+    "time": "2026-05-16 17:09",
+    "user": "地瓜",
+    "content": "@sanyuan"
+  },
+  {
+    "time": "2026-05-16 17:10",
+    "user": "sanyuan",
+    "content": "有问题"
+  },
+  {
+    "time": "2026-05-16 17:10",
+    "user": "sanyuan",
+    "content": "让他重新生成一下看看"
+  },
+  {
+    "time": "2026-05-16 17:10",
+    "user": "sanyuan",
+    "content": "这个有语法错误"
+  },
+  {
+    "time": "2026-05-16 17:12",
+    "user": "L",
+    "content": "@sanyuan"
+  },
+  {
+    "time": "2026-05-16 17:12",
+    "user": "L",
+    "content": "这个链接 404 了，用管吗"
+  },
+  {
+    "time": "2026-05-16 17:13",
+    "user": "L",
+    "content": "![图片](http://127.0.0.1:5030/image/344f6b802e476e86e08f82ebf38eebea,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/1aa815cdac2250ba366e663c57c2cae1)"
+  },
+  {
+    "time": "2026-05-16 17:13",
+    "user": "sanyuan",
+    "content": "我来移除"
+  },
+  {
+    "time": "2026-05-16 17:14",
+    "user": "sanyuan",
+    "content": "这家伙删文了"
+  },
+  {
+    "time": "2026-05-16 17:14",
+    "user": "sanyuan",
+    "content": "[Commando]"
+  },
+  {
+    "time": "2026-05-16 17:14",
+    "user": "L",
+    "content": "我靠"
+  },
+  {
+    "time": "2026-05-16 17:14",
+    "user": "L",
+    "content": "我搜不到了"
+  },
+  {
+    "time": "2026-05-16 17:14",
+    "user": "L",
+    "content": "![图片](http://127.0.0.1:5030/image/0133e24cff43704387e0e32b65bb6623,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/b4c5e7d9a78b982e5807ab6134fcf823)"
+  },
+  {
+    "time": "2026-05-16 17:16",
+    "user": "地瓜",
+    "content": "sitor目前是无法导入自己的本地文件对吗？只能读外部链接"
+  },
+  {
+    "time": "2026-05-16 17:22",
+    "user": "sanyuan",
+    "content": "是的"
+  },
+  {
+    "time": "2026-05-16 17:23",
+    "user": "系统消息",
+    "content": "\"sanyuan\"邀请\"Paul\"加入了群聊"
+  },
+  {
+    "time": "2026-05-16 17:23",
+    "user": "系统消息",
+    "content": "\"Paul\"与群里其他人都不是朋友关系，请注意隐私安全"
+  },
+  {
+    "time": "2026-05-16 17:31",
+    "user": "L",
+    "content": "![图片](http://127.0.0.1:5030/image/b853f1745fffeac317bcdfa198136cf5,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/89e632408192c86b30b1a17067b53aab)"
+  },
+  {
+    "time": "2026-05-16 17:31",
+    "user": "L",
+    "content": "现在 sitor 的体验"
+  },
+  {
+    "time": "2026-05-16 17:33",
+    "user": "sanyuan",
+    "content": "可以吧"
+  },
+  {
+    "time": "2026-05-16 17:33",
+    "user": "L",
+    "content": "只能说上了几个档次"
+  },
+  {
+    "time": "2026-05-16 18:03",
+    "user": "L",
+    "content": "![图片](http://127.0.0.1:5030/image/bd8afe05794e95deb88d539e4cda2df4,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/7b52f9dc8ae467f070447db768469d64)"
+  },
+  {
+    "time": "2026-05-16 18:03",
+    "user": "L",
+    "content": "这也太牛逼了，点击左侧还能展开详情"
+  },
+  {
+    "time": "2026-05-16 18:06",
+    "user": "苏彧",
+    "content": "这完全都不需要自己做笔记了"
+  },
+  {
+    "time": "2026-05-16 18:06",
+    "user": "苏彧",
+    "content": "前面还想着自己做笔记"
+  },
+  {
+    "time": "2026-05-16 18:08",
+    "user": "L",
+    "content": "没错"
+  },
+  {
+    "time": "2026-05-16 18:08",
+    "user": "小花花",
+    "content": "学过的 是不是没有全景导图，可以点什么生成吗"
+  },
+  {
+    "time": "2026-05-16 18:09",
+    "user": "L",
+    "content": "现在没有"
+  },
+  {
+    "time": "2026-05-16 18:10",
+    "user": "小花花",
+    "content": "@sanyuan  在RAG切片图文的时候 有必要做caption吗"
+  },
+  {
+    "time": "2026-05-16 18:10",
+    "user": "Amber",
+    "content": "你们周末也要卷吗"
+  },
+  {
+    "time": "2026-05-16 18:10",
+    "user": "苏彧",
+    "content": "只有周末才能赶上进度"
+  },
+  {
+    "time": "2026-05-16 18:11",
+    "user": "xoxo",
+    "content": "还没下班"
+  },
+  {
+    "time": "2026-05-16 18:11",
+    "user": "xoxo",
+    "content": "[发呆]"
+  },
+  {
+    "time": "2026-05-16 18:12",
+    "user": "苏彧",
+    "content": "？？？"
+  },
+  {
+    "time": "2026-05-16 18:13",
+    "user": "xoxo",
+    "content": "明天还上"
+  },
+  {
+    "time": "2026-05-16 18:13",
+    "user": "xoxo",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20402/stodownload?m=7cccbceb7eecd9ccf358f0cad8ba2015&filekey=30440201010430302e02016e0402535a0420376363636263656237656563643963636633353866306361643862613230313502034d72c1040d00000004627466730000000132&hy=SZ&storeid=26809e49a00081d4c42abe27e0000006e01004fb2535a15ef0151571f4d1c8&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-16 18:14",
+    "user": "小花花",
+    "content": "我今天下午搞了一下对象存储"
+  },
+  {
+    "time": "2026-05-16 18:14",
+    "user": "小花花",
+    "content": "把知识库都存在对象存储里面了 在知识库检索RAG"
+  },
+  {
+    "time": "2026-05-16 18:21",
+    "user": "一雯",
+    "content": "![图片](http://127.0.0.1:5030/image/5f767eaad19107639a94caa57b265c6a,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/fa45270eb2d504bb6588d7cda8435ef2)"
+  },
+  {
+    "time": "2026-05-16 18:22",
+    "user": "一雯",
+    "content": "@sanyuan  我怎么没有全景导图呀。"
+  },
+  {
+    "time": "2026-05-16 18:23",
+    "user": "sanyuan",
+    "content": "昨天更新的功能"
+  },
+  {
+    "time": "2026-05-16 18:23",
+    "user": "sanyuan",
+    "content": "历史还没有加入追加的功能"
+  },
+  {
+    "time": "2026-05-16 18:23",
+    "user": "一雯",
+    "content": "[社会社会]"
+  },
+  {
+    "time": "2026-05-16 18:24",
+    "user": "Harrison Wells",
+    "content": "![图片](http://127.0.0.1:5030/image/dafc51387eba09595c8d20d167fdcc2c,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/dbc7b2acdb952b08cce7a79fc1f27398)"
+  },
+  {
+    "time": "2026-05-16 18:24",
+    "user": "Harrison Wells",
+    "content": "舒服"
+  },
+  {
+    "time": "2026-05-16 18:24",
+    "user": "Harrison Wells",
+    "content": "就是中文还是有点问题，不过还好，中文有问题也看得懂[捂脸]"
+  },
+  {
+    "time": "2026-05-16 18:28",
+    "user": "winhok的打工日记",
+    "content": "历史的是不是得重新开个对话了"
+  },
+  {
+    "time": "2026-05-16 18:29",
+    "user": "sanyuan",
+    "content": "不用"
+  },
+  {
+    "time": "2026-05-16 18:29",
+    "user": "sanyuan",
+    "content": "我会出手"
+  },
+  {
+    "time": "2026-05-16 18:30",
+    "user": "小花花",
+    "content": "我笑了"
+  },
+  {
+    "time": "2026-05-16 18:31",
+    "user": "小花花",
+    "content": "我给老板看我的私教学习RAG, 结果老板来一句，我也去学学AI私教"
+  },
+  {
+    "time": "2026-05-16 18:31",
+    "user": "小花花",
+    "content": "[捂脸]"
+  },
+  {
+    "time": "2026-05-16 18:31",
+    "user": "嗯哼",
+    "content": "[破涕为笑]"
+  },
+  {
+    "time": "2026-05-16 18:32",
+    "user": "Harrison Wells",
+    "content": "你怎么还给老板分享啊"
+  },
+  {
+    "time": "2026-05-16 18:32",
+    "user": "小花花",
+    "content": "做就是给老板看的  让他给我加工资，不然我做干什么"
+  },
+  {
+    "time": "2026-05-16 18:33",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/034c307d666a2304cacae0474004d038,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/6c44630e5125385fc0a221ea4056a715)"
+  },
+  {
+    "time": "2026-05-16 18:33",
+    "user": "小花花",
+    "content": "[捂脸]"
+  },
+  {
+    "time": "2026-05-16 18:33",
+    "user": "Amber",
+    "content": "老板学会了，你该失业了"
+  },
+  {
+    "time": "2026-05-16 18:34",
+    "user": "小花花",
+    "content": "擦 不能让他学会，三元佬在教我一点高级的"
+  },
+  {
+    "time": "2026-05-16 18:34",
+    "user": "小花花",
+    "content": "我们副总 朋友圈还养龙虾"
+  },
+  {
+    "time": "2026-05-16 18:35",
+    "user": "不曾相识",
+    "content": "卷王"
+  },
+  {
+    "time": "2026-05-16 18:35",
+    "user": "Harrison Wells",
+    "content": "牛逼啊"
+  },
+  {
+    "time": "2026-05-16 18:35",
+    "user": "Harrison Wells",
+    "content": "这个方案是不是sitor开小灶了，我记得文章好像没有具体说"
+  },
+  {
+    "time": "2026-05-16 18:35",
+    "user": "Harrison Wells",
+    "content": "![图片](http://127.0.0.1:5030/image/0857c076700c8e0deedafd4c4f27de5f,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/5cf505a765d7d9b15576115a656796ee)"
+  },
+  {
+    "time": "2026-05-16 18:37",
+    "user": "万扬",
+    "content": "@小花花 有没有可能你老板已经在群里了"
+  },
+  {
+    "time": "2026-05-16 18:38",
+    "user": "小花花",
+    "content": "BM2.5是啥 我还没学"
+  },
+  {
+    "time": "2026-05-16 18:39",
+    "user": "小花花",
+    "content": "吓的我赶紧看一下 不再"
+  },
+  {
+    "time": "2026-05-16 18:39",
+    "user": "一雯",
+    "content": "@sanyuan  我的确实是滞后的。不过我也没学到呢。"
+  },
+  {
+    "time": "2026-05-16 18:39",
+    "user": "一雯",
+    "content": "![图片](http://127.0.0.1:5030/image/3b6649649952a641b7157ee6ae092a6b,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/cc2784297c77142c8eded5fadffb36cc)"
+  },
+  {
+    "time": "2026-05-16 18:40",
+    "user": "Evan",
+    "content": "三元老师@sanyuan "
+  },
+  {
+    "time": "2026-05-16 18:40",
+    "user": "一雯",
+    "content": "14号也还看不了。不过不着急。哈哈哈。反正还没看到。"
+  },
+  {
+    "time": "2026-05-16 18:40",
+    "user": "Evan",
+    "content": "对于那种直接通过swagger扫描生成的mcp tool"
+  },
+  {
+    "time": "2026-05-16 18:40",
+    "user": "Evan",
+    "content": "应该搞个什么skill"
+  },
+  {
+    "time": "2026-05-16 18:40",
+    "user": "Evan",
+    "content": "来通用的辅助用户使用呢"
+  },
+  {
+    "time": "2026-05-16 18:43",
+    "user": "sanyuan",
+    "content": "可以强刷下浏览器缓存"
+  },
+  {
+    "time": "2026-05-16 18:48",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/476bb6e04133f7302a2f6f87741db5c6,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/71dad9f7adcc451aa176577d7c8abcc6)"
+  },
+  {
+    "time": "2026-05-16 18:48",
+    "user": "小花花",
+    "content": "我在给我们老板吹牛 哈哈哈"
+  },
+  {
+    "time": "2026-05-16 18:49",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/14f10f58c984097bbfa9278d2c39b320,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/869f7a42d0ad554a85f8b892249235b1)"
+  },
+  {
+    "time": "2026-05-16 18:49",
+    "user": "小花花",
+    "content": "涨薪指日可待"
+  },
+  {
+    "time": "2026-05-16 18:51",
+    "user": "jackson",
+    "content": "![动画表情](http://wxapp.tc.qq.com/275/20304/stodownload?m=1a66881c2cbcb2f656da5e8bf3efe084&filekey=30340201010420301e020201130402534804101a66881c2cbcb2f656da5e8bf3efe084020222cc040d00000004627466730000000132&hy=SH&storeid=2689427a100061d29b46fa7fd0000011300004f50534826d5f1b1568cb73e9&bizid=1023)"
+  },
+  {
+    "time": "2026-05-16 18:51",
+    "user": "小花花",
+    "content": "把私教抄个1/3 都够吹牛逼的 了"
+  },
+  {
+    "time": "2026-05-16 18:59",
+    "user": "winhok的打工日记",
+    "content": "准备晋升花神"
+  },
+  {
+    "time": "2026-05-16 19:01",
+    "user": "Harrison Wells",
+    "content": "花神公司啥业务"
+  },
+  {
+    "time": "2026-05-16 19:11",
+    "user": "小花花",
+    "content": "港口"
+  },
+  {
+    "time": "2026-05-16 19:15",
+    "user": "Harrison Wells",
+    "content": "有背景a"
+  },
+  {
+    "time": "2026-05-16 19:27",
+    "user": "小花花",
+    "content": "不吹牛逼的说，国内知名企业都是我们客户[旺柴]"
+  },
+  {
+    "time": "2026-05-16 19:27",
+    "user": "小花花",
+    "content": "港口领域"
+  },
+  {
+    "time": "2026-05-16 19:48",
+    "user": "April.",
+    "content": "太牛了"
+  },
+  {
+    "time": "2026-05-16 19:51",
+    "user": "Harrison Wells",
+    "content": "太牛了"
+  },
+  {
+    "time": "2026-05-16 19:51",
+    "user": "Harrison Wells",
+    "content": "这还往哪里跳"
+  },
+  {
+    "time": "2026-05-16 19:59",
+    "user": "yearning",
+    "content": "往客户那跳"
+  },
+  {
+    "time": "2026-05-16 20:10",
+    "user": "小花花",
+    "content": "客户不招人，没关系进不去"
+  },
+  {
+    "time": "2026-05-16 20:21",
+    "user": "不曾相识",
+    "content": "牛逼"
+  },
+  {
+    "time": "2026-05-16 20:21",
+    "user": "不曾相识",
+    "content": "我也可以"
+  },
+  {
+    "time": "2026-05-16 20:21",
+    "user": "不曾相识",
+    "content": "再花2年时间"
+  },
+  {
+    "time": "2026-05-16 20:21",
+    "user": "不曾相识",
+    "content": "追赶大佬脚步"
+  },
+  {
+    "time": "2026-05-16 20:51",
+    "user": "苏彧",
+    "content": "关键词匹配"
+  },
+  {
+    "time": "2026-05-16 20:52",
+    "user": "苏彧",
+    "content": "RAG里面有个混合检索， 其中一个就是关键词匹配+向量检索"
+  },
+  {
+    "time": "2026-05-16 21:11",
+    "user": "Evan",
+    "content": "有没有好心人教教我，我这个怎么做"
+  },
+  {
+    "time": "2026-05-16 21:11",
+    "user": "Evan",
+    "content": "![图片](http://127.0.0.1:5030/image/774c8247a3be18e8eba96df774e985d5,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/5789080d72d67cfb116d502ce0cfe086)"
+  },
+  {
+    "time": "2026-05-16 21:15",
+    "user": "小心甘",
+    "content": "问下gpt，在问群友[旺柴]"
+  },
+  {
+    "time": "2026-05-16 21:16",
+    "user": "不散和弦",
+    "content": "没看懂 扫描swagger生成什么"
+  },
+  {
+    "time": "2026-05-16 21:16",
+    "user": "系统消息",
+    "content": "\"不散和弦\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-16 21:17",
+    "user": "不散和弦",
+    "content": "生成前端接口代码？"
+  },
+  {
+    "time": "2026-05-16 21:23",
+    "user": "Chan.",
+    "content": "Swagger 本身并不能直接“扫描”MCP。实际上，你听到的这种说法，通常是指将 Swagger（OpenAPI 规范）转换为 MCP 服务，或者利用 MCP 协议让 AI 工具更精准地读取 Swagger 文档。\n这里的“MCP”在目前的开发语境中，主要指的是 Model Context Protocol（模型上下文协议），它是连接大模型（AI Agent）与外部数据或工具的标准化桥梁。\n目前市面上所谓的“Swagger 扫 MCP”，本质上是以下两种技术落地方向：\n🚀 方向一：将 Swagger 接口一键转为 MCP 服务\n这是目前最主流的场景。它的核心目的是把传统的 REST API（通过 Swagger/OpenAPI 文档描述）打包成标准的 MCP 服务，让 AI 助手（如 Cursor、VS Code Copilot 等）能够直接理解并调用你的业务接口，而无需开发者手动编写大量的“胶水代码”。\n实现原理：通过特定的 CLI 工具或插件，解析 Swagger 的 openapi.yaml 或 json 文件，自动生成符合 MCP 协议的工具描述和执行单元。\n常用工具：\nmcp-swagger-server：这是一个非常流行的命令行工具。只需一条命令，就能将 OpenAPI 3.0+ 文档转换为即插即用的 MCP 服务。它支持热更新，当 Swagger 文档变更时，MCP 服务会自动重启，确保 AI 始终调用最新的接口。\nswagger-to-mcp CLI：可以将 OpenAPI 规范一键生成 MCP 兼容的执行单元，自动注入分布式追踪上下文（traceID）、错误分类标签及健康探针，极大提升了 AI 调用接口的可观测性。"
+  },
+  {
+    "time": "2026-05-16 21:23",
+    "user": "Chan.",
+    "content": "是这样的？"
+  },
+  {
+    "time": "2026-05-16 21:23",
+    "user": "Djmughal",
+    "content": "生成swagger文档？ 盲猜这种mcp应该挺多的吧"
+  },
+  {
+    "time": "2026-05-16 21:24",
+    "user": "不散和弦",
+    "content": "AI读Swagger文档？"
+  },
+  {
+    "time": "2026-05-16 21:24",
+    "user": "不散和弦",
+    "content": "open cli"
+  },
+  {
+    "time": "2026-05-16 21:26",
+    "user": "Chan.",
+    "content": "把swagger接口转成mcp，让模型来调用，就不需要把整个文档扔给模型去读了？"
+  },
+  {
+    "time": "2026-05-16 21:27",
+    "user": "Evan",
+    "content": "对"
+  },
+  {
+    "time": "2026-05-16 21:27",
+    "user": "Evan",
+    "content": "但是这就需要一个不错的 skill"
+  },
+  {
+    "time": "2026-05-16 21:28",
+    "user": "Evan",
+    "content": "而且这个 skill 要抽象，因为不确定用户会问什么问题"
+  },
+  {
+    "time": "2026-05-16 21:30",
+    "user": "不散和弦",
+    "content": "我理解就是把对应页面上的信息抓下来"
+  },
+  {
+    "time": "2026-05-16 21:30",
+    "user": "不散和弦",
+    "content": "然后扔给AI去回复用户"
+  },
+  {
+    "time": "2026-05-16 21:31",
+    "user": "不散和弦",
+    "content": "不知道对不对"
+  },
+  {
+    "time": "2026-05-16 21:32",
+    "user": "Evan",
+    "content": "我感觉不太像，就比如你有用户接口，也有创建消息，那么理论上需要一个 skill 来指导说，创建消息需要先询问用户给谁发消息，用户提供之后去使用xx接口查询用户，然后再调用xx接口创建消息"
+  },
+  {
+    "time": "2026-05-16 21:32",
+    "user": "Evan",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=85f908a2f0efca6794c400813d03c96a&filekey=3043020101042f302d02016e040253480420383566393038613266306566636136373934633430303831336430336339366102021eae040d00000004627466730000000132&hy=SH&storeid=2697b164100076b205190c9c20000006e01004fb153482aeaeb4156adfb09f&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-16 21:32",
+    "user": "Evan",
+    "content": "但是问题是，我要扫的 swagger 接口几百个"
+  },
+  {
+    "time": "2026-05-16 21:32",
+    "user": "Evan",
+    "content": "业务逻辑复杂"
+  },
+  {
+    "time": "2026-05-16 21:32",
+    "user": "Evan",
+    "content": "没法固化 skill"
+  },
+  {
+    "time": "2026-05-16 21:33",
+    "user": "不散和弦",
+    "content": "哦 我好像明白了"
+  },
+  {
+    "time": "2026-05-16 21:34",
+    "user": "不散和弦",
+    "content": "你把接口信息存RAG 然后先去RAG找？"
+  },
+  {
+    "time": "2026-05-16 21:35",
+    "user": "Evan",
+    "content": "也不太行，因为找到了 AI 也不清楚接口之间的联系"
+  },
+  {
+    "time": "2026-05-16 21:35",
+    "user": "Evan",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=85f908a2f0efca6794c400813d03c96a&filekey=3043020101042f302d02016e040253480420383566393038613266306566636136373934633430303831336430336339366102021eae040d00000004627466730000000132&hy=SH&storeid=2697b164100076b205190c9c20000006e01004fb153482aeaeb4156adfb09f&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-16 21:35",
+    "user": "Evan",
+    "content": "我的任务太抽象了"
+  },
+  {
+    "time": "2026-05-16 21:35",
+    "user": "Evan",
+    "content": "下周再想想怎么搞吧"
+  },
+  {
+    "time": "2026-05-16 21:36",
+    "user": "小花花",
+    "content": "什么业务这么复杂"
+  },
+  {
+    "time": "2026-05-16 21:36",
+    "user": "不散和弦",
+    "content": "接口之间的关系能用拓扑建立联系么。。"
+  },
+  {
+    "time": "2026-05-16 21:36",
+    "user": "Evan",
+    "content": "AI赋能的业务"
+  },
+  {
+    "time": "2026-05-16 21:37",
+    "user": "Evan",
+    "content": "这个关系甚至连后端自己都不太清楚[捂脸]"
+  },
+  {
+    "time": "2026-05-16 21:37",
+    "user": "Evan",
+    "content": "三四年的老项目了"
+  },
+  {
+    "time": "2026-05-16 21:38",
+    "user": "Evan",
+    "content": "我打算扫了之后让AI自己根据 rag 去实现 tool 和 skill，再加上一层人工确认，不知道能不能行"
+  },
+  {
+    "time": "2026-05-16 21:38",
+    "user": "Chan.",
+    "content": "你这个更像是要流程编排呀。"
+  },
+  {
+    "time": "2026-05-16 21:38",
+    "user": "Evan",
+    "content": "流程编排这些都有了的"
+  },
+  {
+    "time": "2026-05-16 21:40",
+    "user": "Evan",
+    "content": "这个不太需要编排，就是比如 llm 节点或者 atlas 节点上配置个 mcp。用户比如说我要创建个工单，就能引导用户帮忙创建工单了"
+  },
+  {
+    "time": "2026-05-16 21:46",
+    "user": "Chan.",
+    "content": "如果是单个功能，感觉没啥毛病。但是涉及关联性的功能，你还是得要告诉AI，他们之间的关系，如何触发才行。或者你把你的业务功能的流程给到模型，然后让模型自己来判断？"
+  },
+  {
+    "time": "2026-05-16 21:46",
+    "user": "Evan",
+    "content": "现在的问题就是，没有一个功能范围的约束，也没有确定要做什么的限制[旺柴]"
+  },
+  {
+    "time": "2026-05-16 21:47",
+    "user": "小花花",
+    "content": "现在有mcp 读swagger 文档吗"
+  },
+  {
+    "time": "2026-05-16 21:48",
+    "user": "小花花",
+    "content": "手动存rag 吗"
+  },
+  {
+    "time": "2026-05-16 21:48",
+    "user": "Chan.",
+    "content": "那这就难搞了。信息不足，模型的准确率会很低了。"
+  },
+  {
+    "time": "2026-05-16 21:48",
+    "user": "Evan",
+    "content": "这个不是 mcp 做的"
+  },
+  {
+    "time": "2026-05-16 21:49",
+    "user": "Evan",
+    "content": "是我要根据 swagger 生成 mcp + skill"
+  },
+  {
+    "time": "2026-05-16 21:49",
+    "user": "Evan",
+    "content": "好像市面上还没有这种赋能方案，太抽象了"
+  },
+  {
+    "time": "2026-05-16 21:49",
+    "user": "Evan",
+    "content": "但是领导就想要这种 vibe"
+  },
+  {
+    "time": "2026-05-16 21:49",
+    "user": "Evan",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=85f908a2f0efca6794c400813d03c96a&filekey=3043020101042f302d02016e040253480420383566393038613266306566636136373934633430303831336430336339366102021eae040d00000004627466730000000132&hy=SH&storeid=2697b164100076b205190c9c20000006e01004fb153482aeaeb4156adfb09f&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-16 21:49",
+    "user": "Chan.",
+    "content": "你这种是要跟业务强结合的。有点难搞哦。"
+  },
+  {
+    "time": "2026-05-16 21:50",
+    "user": "Evan",
+    "content": "是的，所以我目前只把 mcp 和业务 auth 配置那些抽象打通了"
+  },
+  {
+    "time": "2026-05-16 21:50",
+    "user": "Evan",
+    "content": "具体的 tool 和 skill 还没动"
+  },
+  {
+    "time": "2026-05-16 21:50",
+    "user": "小花花",
+    "content": "加油，你做第一个"
+  },
+  {
+    "time": "2026-05-16 21:50",
+    "user": "Evan",
+    "content": "目前 tool 都是写死的[旺柴]我还在想怎么弄一个既能说得过去，又不会太脱离现实的方案"
+  },
+  {
+    "time": "2026-05-16 21:51",
+    "user": "Evan",
+    "content": "先泡杯红茶，让AI写几篇文档交作业[苦涩]"
+  },
+  {
+    "time": "2026-05-16 21:51",
+    "user": "Chan.",
+    "content": "[旺柴]让AI来想吧。"
+  },
+  {
+    "time": "2026-05-16 21:56",
+    "user": "Evan",
+    "content": "AI做不到哇，不过现在 AI 能稳定帮我写一万字文章了"
+  },
+  {
+    "time": "2026-05-16 21:56",
+    "user": "Evan",
+    "content": "每年要写8篇"
+  },
+  {
+    "time": "2026-05-16 22:00",
+    "user": "Evan",
+    "content": "@hildxd"
+  },
+  {
+    "time": "2026-05-16 22:00",
+    "user": "Evan",
+    "content": "掏出四川红茶"
+  },
+  {
+    "time": "2026-05-16 22:00",
+    "user": "Evan",
+    "content": "![图片](http://127.0.0.1:5030/image/167e5116ed045792ec49b573b7022b19,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/bc32f43739f2691483d0a36806c7a298)"
+  },
+  {
+    "time": "2026-05-16 22:00",
+    "user": "Evan",
+    "content": "一股花果香"
+  },
+  {
+    "time": "2026-05-16 22:00",
+    "user": "hildxd",
+    "content": "发错群"
+  },
+  {
+    "time": "2026-05-16 22:00",
+    "user": "Evan",
+    "content": "[叹气]"
+  },
+  {
+    "time": "2026-05-16 22:01",
+    "user": "hildxd",
+    "content": "![图片](http://127.0.0.1:5030/image/db781c4a31900ef94e3bdba2fac97753,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/a760701de9292e2dd35c4873fe041b0e)"
+  },
+  {
+    "time": "2026-05-16 22:01",
+    "user": "hildxd",
+    "content": "刚喝完"
+  },
+  {
+    "time": "2026-05-16 22:01",
+    "user": "hildxd",
+    "content": "准备去洗了 洗洗睡"
+  },
+  {
+    "time": "2026-05-16 22:01",
+    "user": "Evan",
+    "content": "睡这么早"
+  },
+  {
+    "time": "2026-05-16 22:01",
+    "user": "Evan",
+    "content": "十点啊东"
+  },
+  {
+    "time": "2026-05-16 22:01",
+    "user": "Evan",
+    "content": "我准备把文章写了去发表了"
+  },
+  {
+    "time": "2026-05-16 22:01",
+    "user": "Evan",
+    "content": "了却一桩事"
+  },
+  {
+    "time": "2026-05-16 22:01",
+    "user": "hildxd",
+    "content": "先上床嘛"
+  },
+  {
+    "time": "2026-05-16 22:02",
+    "user": "Evan",
+    "content": "![图片](http://127.0.0.1:5030/image/493c050ed1e1093d4bb964a1ac6069bc,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/bbdf6e263e09a50ad3463af1e8b38072)"
+  },
+  {
+    "time": "2026-05-16 22:03",
+    "user": "小花花",
+    "content": "公司要求的？"
+  },
+  {
+    "time": "2026-05-16 22:03",
+    "user": "Evan",
+    "content": "对哇"
+  },
+  {
+    "time": "2026-05-16 22:04",
+    "user": "小花花",
+    "content": "[捂脸]"
+  },
+  {
+    "time": "2026-05-16 22:05",
+    "user": "养乐多",
+    "content": "apifox有一个读取swagger的mcp，很好用，前后端联调很实用https://docs.apifox.com/6327891m0"
+  }
+]

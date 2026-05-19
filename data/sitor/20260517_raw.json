@@ -1,0 +1,402 @@
+[
+  {
+    "time": "2026-05-17 03:53",
+    "user": "winhok的打工日记",
+    "content": "![图片](http://127.0.0.1:5030/image/afd1a7e6dfd2449602bb72956f82ceaf,msg/attach/25b0d749d8d3898f5b3e31c4767e8439/2026-05/Img/6b6fa903bc3bc51c79be2a708e6a6751)"
+  },
+  {
+    "time": "2026-05-17 03:53",
+    "user": "winhok的打工日记",
+    "content": "来提个bug哈哈哈哈哈哈"
+  },
+  {
+    "time": "2026-05-17 07:15",
+    "user": "sanyuan",
+    "content": "okok"
+  },
+  {
+    "time": "2026-05-17 07:15",
+    "user": "sanyuan",
+    "content": "我来修下"
+  },
+  {
+    "time": "2026-05-17 07:15",
+    "user": "sanyuan",
+    "content": "@winhok的打工日记 辛苦了 4 点还在用sitor学习"
+  },
+  {
+    "time": "2026-05-17 07:48",
+    "user": "小花花",
+    "content": "卷"
+  },
+  {
+    "time": "2026-05-17 07:51",
+    "user": "嗯哼",
+    "content": "卷"
+  },
+  {
+    "time": "2026-05-17 07:54",
+    "user": "不散和弦",
+    "content": "起床开卷"
+  },
+  {
+    "time": "2026-05-17 08:02",
+    "user": "小花花",
+    "content": "太狠了"
+  },
+  {
+    "time": "2026-05-17 08:10",
+    "user": "系统消息",
+    "content": "\"sanyuan\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-17 08:10",
+    "user": "系统消息",
+    "content": "\"sanyuan\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-17 08:10",
+    "user": "系统消息",
+    "content": "\"sanyuan\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-17 08:12",
+    "user": "嗯哼",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=7774e6ff4da5f52cfa250b062681c9f5&filekey=30440201010430302e02016e04025348042037373734653666663464613566353263666132353062303632363831633966350203118a8b040d00000004627466730000000132&hy=SH&storeid=268ca31750000558d0b4bae230000006e01004fb1534801e65b01e7750be88&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-17 08:42",
+    "user": "阿五",
+    "content": "[合并转发|阿五与微信ClawBot的聊天记录]\n  微信ClawBot 2026-05-17 08:38:53\n  **三元 Agent 课程群 · 每日精选**\n  📅 2026-05-16\n  \n  ### 🔥 昨日核心话题\n  群里主要围绕 Sitor 产品新功能（deep research、思维导图、知识卡片）、AGENTS.md/CLAUDE.md 规范驱动开发、以及工具链实践展开讨论。\n  \n  ### 📌 sanyuan 要点\n  - **Sitor 新功能**：即将上线 deep research（sub agent 自动调研网络信息），有了它可以直接学习 Hermes 等框架，里面命令都是实际能跑的。\n  - **思维导图**：已支持围绕学习内容生成结构化导图，后续学完整个路线后支持一键生成；老对话也会补支持。\n  - **自定义资料导入**：下个月上线，支持导入小学课本等自定义资料。\n  - **邮箱登录问题**：有用户反馈邮箱验证码接收慢，邮箱+密码方式正常。\n  \n  ### 💡 有价值信息\n  - **sanyuan**: 分享文章《做 Agent，请必须学会渐进式披露》https://mp.weixin.qq.com/s?__biz=MzU0MTU4OTU2MA==&mid=2247492899\n  - **L**: 反馈快问功能查看历史记录时，之前引用的提问变成全文内容。\n  - **红桃不花**: 全景导图老对话暂不支持，sanyuan 表示会加。\n  - **尤里安的红茶**: 问快问是否可以记住上下文连续问，答复暂不支持。\n  - **冰眸CC**: 分享 DeepSeek 泄漏聊天记录快讯 https://mp.weixin.qq.com/s?__biz=Mzg3NDIzMjEzNA==&mid=2247485679\n  - **我是东山呀**: 指出该\"泄漏\"实际是 `<think` 特定字符触发 AI 幻觉，并非真泄漏。\n  - **Lola**: 分享小红书文章《比大模型的幻觉问题更糟糕的是老板的幻觉》\n  \n  ### 🗓️ 行动建议\n  - 关注 Sitor 周末 deep research 上线\n  - 阅读 sanyuan 的\"渐进式披露\"文章\n  - 邮箱登录建议先用邮箱+密码方式\n\n  微信ClawBot 2026-05-17 08:39:07\n  **Sitor AI 产品用户群 · 每日精选**\n  📅 2026-05-16\n  \n  ### 🚀 Sitor 功能更新（置顶）\n  - **deep research 即将上线**：sub agent 自动调研网络信息，sanyuan 表示有了它可以直接学 Hermes，里面命令都是实际能跑的。\n  - **思维导图**：已支持，老对话后续也会补支持；增加\"快问\"功能可对任意节点随时提问。\n  - **自定义资料导入**：下个月上线，支持导入小学课本等自定义资料。\n  - **毕业证书**：正在设计，每个 session 学完后生成，包含思维导图、学习数据、成长曲线、易错点回顾等。\n  \n  ### 🔥 昨日核心话题\n  围绕 Sitor 新版学习体验展开，重点是 deep research 上线、思维导图老数据兼容、自定义资料导入、以及用户体验反馈（知识卡片入口、快问历史记录显示等）。\n  \n  ### 💡 产品有价值信息\n  - **sanyuan**: deep research 本周末上线，届时老对话的思维导图也会支持。\n  - **ZH**: 问已学完的课程思维导图怎么获取，答复还没支持，会加。\n  - **wxid_v56sykjfm0i822**: 想导入小学课本，sanyuan 确认下个月支持自定义资料导入。\n  - **红桃不花**: 反馈全景导图老对话不支持；sanyuan 表示 deep research 上线后一起做。\n  - **L**: 反馈快问查看历史记录时，之前引用的提问变成全文内容。\n  - **冰眸CC**: 分享 DeepSeek \"泄漏\"聊天记录快讯。\n  - **我是东山呀**: 指出是 `<think` 特定字符触发 AI 幻觉，并非真泄漏，Lobsters 之前早就讨论过。\n  - **winhok的打工日记**: 来提了个 bug（图片）。\n\n"
+  },
+  {
+    "time": "2026-05-17 08:50",
+    "user": "sanyuan",
+    "content": "![视频](http://127.0.0.1:5030/video/8631a63215a62fd74da62a8c4894e486,msg/video/2026-05/bec1aa76bd14d44734e289677fd41e50)"
+  },
+  {
+    "time": "2026-05-17 08:50",
+    "user": "sanyuan",
+    "content": "@Mention All Sitor 的 Deep Research(深度研究功能)正式上线，PC 端和移动端都可使用，新建对话时打开输入框里面的开关即可，对 Pro 用户全部开放[庆祝]"
+  },
+  {
+    "time": "2026-05-17 08:50",
+    "user": "阿五",
+    "content": "芜湖，起床开机"
+  },
+  {
+    "time": "2026-05-17 08:50",
+    "user": "暂无",
+    "content": "我们也需要打开无痕浏览嘛[奸笑]"
+  },
+  {
+    "time": "2026-05-17 08:52",
+    "user": "小花花",
+    "content": "太强了，这个是课程方案里的自动挡还是手动挡模式@sanyuan "
+  },
+  {
+    "time": "2026-05-17 08:52",
+    "user": "sanyuan",
+    "content": "手动挡"
+  },
+  {
+    "time": "2026-05-17 08:52",
+    "user": "sanyuan",
+    "content": "因为线上产品要考虑成本"
+  },
+  {
+    "time": "2026-05-17 08:52",
+    "user": "sanyuan",
+    "content": "手动档省不少钱"
+  },
+  {
+    "time": "2026-05-17 08:53",
+    "user": "sanyuan",
+    "content": "效果也可控"
+  },
+  {
+    "time": "2026-05-17 08:53",
+    "user": "sanyuan",
+    "content": "现在一次调研要 5 个学力"
+  },
+  {
+    "time": "2026-05-17 08:53",
+    "user": "嗯哼",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=c030253116065dcbc107966bfe3ec311&filekey=30440201010430302e02016e0402535a042063303330323533313136303635646362633130373936366266653365633331310203082167040d00000004627466730000000132&hy=SZ&storeid=268c4076300033ef9446d3b480000006e01004fb1535a194f801157755aad8&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-17 08:54",
+    "user": "sanyuan",
+    "content": "上自动挡得 20 个学力"
+  },
+  {
+    "time": "2026-05-17 08:54",
+    "user": "sanyuan",
+    "content": "懂了吧"
+  },
+  {
+    "time": "2026-05-17 08:54",
+    "user": "小花花",
+    "content": "感觉1000学力不够用了"
+  },
+  {
+    "time": "2026-05-17 08:54",
+    "user": "小花花",
+    "content": "[捂脸]"
+  },
+  {
+    "time": "2026-05-17 08:54",
+    "user": "sanyuan",
+    "content": "够的"
+  },
+  {
+    "time": "2026-05-17 08:54",
+    "user": "sanyuan",
+    "content": "就新开课程的时候的时候会用深度调研"
+  },
+  {
+    "time": "2026-05-17 08:55",
+    "user": "小花花",
+    "content": "上个月没有这么多功能，我就用了900多学力"
+  },
+  {
+    "time": "2026-05-17 08:57",
+    "user": "冰眸CC",
+    "content": "抄抄抄"
+  },
+  {
+    "time": "2026-05-17 08:59",
+    "user": "5C24",
+    "content": "只调用一次吗"
+  },
+  {
+    "time": "2026-05-17 09:00",
+    "user": "sanyuan",
+    "content": "对的 开头调研完就行 中途如果要做网络搜索也没问题 有web search 工具，首次是属于深度调研，会开子agent 做深入的搜索和整理"
+  },
+  {
+    "time": "2026-05-17 09:00",
+    "user": "sanyuan",
+    "content": "@5C24"
+  },
+  {
+    "time": "2026-05-17 09:00",
+    "user": "5C24",
+    "content": "okok"
+  },
+  {
+    "time": "2026-05-17 09:00",
+    "user": "5C24",
+    "content": "agent课程的应该不用开了吧"
+  },
+  {
+    "time": "2026-05-17 09:00",
+    "user": "sanyuan",
+    "content": "嗯嗯 不用开了"
+  },
+  {
+    "time": "2026-05-17 09:00",
+    "user": "sanyuan",
+    "content": "学别的东西开这个 比较好"
+  },
+  {
+    "time": "2026-05-17 09:02",
+    "user": "小花花",
+    "content": "@冰眸CC 能抄明白吗[旺柴]"
+  },
+  {
+    "time": "2026-05-17 09:02",
+    "user": "冰眸CC",
+    "content": "不能"
+  },
+  {
+    "time": "2026-05-17 09:03",
+    "user": "冰眸CC",
+    "content": "只能看着像"
+  },
+  {
+    "time": "2026-05-17 09:34",
+    "user": "sanyuan",
+    "content": "先用起来"
+  },
+  {
+    "time": "2026-05-17 09:35",
+    "user": "系统消息",
+    "content": "\"sanyuan\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-17 09:35",
+    "user": "sanyuan",
+    "content": "效果在细节里面"
+  },
+  {
+    "time": "2026-05-17 09:38",
+    "user": "5C24",
+    "content": "假如说我这个session不是agent课程的，是在回答完前置问题后再deeper吗 @sanyuan"
+  },
+  {
+    "time": "2026-05-17 09:38",
+    "user": "5C24",
+    "content": "![图片](http://127.0.0.1:5030/image/9c48e80c6559f01a2988b62641381855,msg/attach/25b0d749d8d3898f5b3e31c4767e8439/2026-05/Img/aa90fb835bc2a353d830c9a9cefcc8c8)"
+  },
+  {
+    "time": "2026-05-17 09:38",
+    "user": "sanyuan",
+    "content": "depper 不是深度调研"
+  },
+  {
+    "time": "2026-05-17 09:39",
+    "user": "5C24",
+    "content": "o 我知道了，hhh 新开一个session会有个深度调研 sorry"
+  },
+  {
+    "time": "2026-05-17 09:40",
+    "user": "5C24",
+    "content": "我靠 2天没用 多了好多东西"
+  },
+  {
+    "time": "2026-05-17 09:42",
+    "user": "sanyuan",
+    "content": "震惊吧"
+  },
+  {
+    "time": "2026-05-17 09:44",
+    "user": "sanyuan",
+    "content": "![图片](http://127.0.0.1:5030/image/ce331d2f5932faf9cb288477c7ac2bab,msg/attach/25b0d749d8d3898f5b3e31c4767e8439/2026-05/Img/e19b5d6e75fb3fcdec6b9c96100f3e35)"
+  },
+  {
+    "time": "2026-05-17 09:44",
+    "user": "sanyuan",
+    "content": "@所有人 大家学完可以打开旅程卡片 最后有分享海报"
+  },
+  {
+    "time": "2026-05-17 09:44",
+    "user": "sanyuan",
+    "content": "![图片](http://127.0.0.1:5030/image/5b2d0eeddaf5d33dd10d2e8c726f8bdb,msg/attach/25b0d749d8d3898f5b3e31c4767e8439/2026-05/Img/28e65faddf29d964d830708ca729f5c1)"
+  },
+  {
+    "time": "2026-05-17 09:44",
+    "user": "April.",
+    "content": "太棒啦"
+  },
+  {
+    "time": "2026-05-17 09:44",
+    "user": "sanyuan",
+    "content": "[好的][好的]"
+  },
+  {
+    "time": "2026-05-17 09:59",
+    "user": "@Ich bin ein Bär",
+    "content": "6"
+  },
+  {
+    "time": "2026-05-17 10:09",
+    "user": "红桃不花",
+    "content": "[社会社会]"
+  },
+  {
+    "time": "2026-05-17 10:35",
+    "user": "L",
+    "content": "现在这个 depper 不是深入讲解底层原理的逻辑是什么呀"
+  },
+  {
+    "time": "2026-05-17 10:44",
+    "user": "sanyuan",
+    "content": "那个deeper就是加了 个 prompt"
+  },
+  {
+    "time": "2026-05-17 11:14",
+    "user": "monkeytao",
+    "content": "[强]"
+  },
+  {
+    "time": "2026-05-17 11:18",
+    "user": "winhok的打工日记",
+    "content": "一晚已经花了298了哈哈哈"
+  },
+  {
+    "time": "2026-05-17 11:21",
+    "user": "sanyuan",
+    "content": "可以"
+  },
+  {
+    "time": "2026-05-17 11:21",
+    "user": "sanyuan",
+    "content": "太厉害了"
+  },
+  {
+    "time": "2026-05-17 11:34",
+    "user": "Harrison Wells",
+    "content": "学的这么深入"
+  },
+  {
+    "time": "2026-05-17 13:18",
+    "user": "Harrison Wells",
+    "content": "这个不是我提的，是sitor的题目里面提的"
+  },
+  {
+    "time": "2026-05-17 13:18",
+    "user": "Harrison Wells",
+    "content": "![图片](http://127.0.0.1:5030/image/956a346a4d3261f3ee435c43bc8d8d6a,msg/attach/25b0d749d8d3898f5b3e31c4767e8439/2026-05/Img/32b512344cc8efff323d64817f290135)"
+  },
+  {
+    "time": "2026-05-17 13:18",
+    "user": "Harrison Wells",
+    "content": "sitor感觉还是会把他自己的东西说成是我说的"
+  },
+  {
+    "time": "2026-05-17 13:24",
+    "user": "Chan.",
+    "content": "应该是提问的时候，这些内容被作为用户提交的内容了。"
+  },
+  {
+    "time": "2026-05-17 13:39",
+    "user": "系统消息",
+    "content": "\"sanyuan\"邀请\"梓阳\"加入了群聊"
+  },
+  {
+    "time": "2026-05-17 13:39",
+    "user": "系统消息",
+    "content": "\"梓阳\"与群里其他人都不是朋友关系，请注意隐私安全"
+  },
+  {
+    "time": "2026-05-17 13:40",
+    "user": "Harrison Wells",
+    "content": "sitor好像在强行关联"
+  },
+  {
+    "time": "2026-05-17 13:40",
+    "user": "Harrison Wells",
+    "content": "![图片](http://127.0.0.1:5030/image/1e95f49894e3fedb6ae002f7bd7fe1ff,msg/attach/25b0d749d8d3898f5b3e31c4767e8439/2026-05/Img/a4fda10aef419c3fdac2ee04d291c749)"
+  },
+  {
+    "time": "2026-05-17 13:45",
+    "user": "Harrison Wells",
+    "content": "这句话行也很难理解，充满杂质的系统里 跑 高并发任务。什么叫充满杂质的系统，在it领域里有这种表述吗"
+  },
+  {
+    "time": "2026-05-17 13:45",
+    "user": "Harrison Wells",
+    "content": "![图片](http://127.0.0.1:5030/image/a4202a70e1428605c99be1299fa5401c,msg/attach/25b0d749d8d3898f5b3e31c4767e8439/2026-05/Img/4b32da8d8faddc56a1ead9d2cd44607d)"
+  },
+  {
+    "time": "2026-05-17 13:46",
+    "user": "Harrison Wells",
+    "content": "@sanyuan 三元君，上面几条是sitor回复比较难懂的地方\n1. 强行关联\n2. 强行举例有点出戏，而且出现了胡话"
+  },
+  {
+    "time": "2026-05-17 15:01",
+    "user": "Ki.",
+    "content": "@sanyuan 元哥，打开快问，文章内容主体就不能上下滚动了，这个能优化一下吗"
+  },
+  {
+    "time": "2026-05-17 21:44",
+    "user": "sanyuan",
+    "content": "我来优化下哦"
+  },
+  {
+    "time": "2026-05-17 22:27",
+    "user": "奕.初",
+    "content": "现在邮箱登录不了了吗"
+  }
+]

@@ -1,0 +1,4672 @@
+[
+  {
+    "time": "2026-05-14 00:05",
+    "user": "不散和弦",
+    "content": "哎？session 可能是我没刷新[破涕为笑]"
+  },
+  {
+    "time": "2026-05-14 00:20",
+    "user": "嗯哼",
+    "content": "📱 ChatGPT 2个月 Business 羊毛（实测可行）\n\n📋 操作步骤：\n\n1️⃣ 使用 US IP 打开链接注册或登录：https://chatgpt.com/?promoCode=STRIPEATLASGPT4BIZ050126\n2️⃣ 选择 Business 套餐，开通 2 个月\n3️⃣ 完成支付后即可享受百分百满减开通\n\n注意：账单页面 Sests 调整为 2 个席位"
+  },
+  {
+    "time": "2026-05-14 00:20",
+    "user": "嗯哼",
+    "content": "![图片](http://127.0.0.1:5030/image/07621c77053d5a2635cae1161a802f65,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/709cabcf6e976e371b2d82b5a17d4983)"
+  },
+  {
+    "time": "2026-05-14 00:20",
+    "user": "嗯哼",
+    "content": "冲吧"
+  },
+  {
+    "time": "2026-05-14 00:20",
+    "user": "嗯哼",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=c030253116065dcbc107966bfe3ec311&filekey=30440201010430302e02016e0402535a042063303330323533313136303635646362633130373936366266653365633331310203082167040d00000004627466730000000132&hy=SZ&storeid=268c4076300033ef9446d3b480000006e01004fb1535a194f801157755aad8&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 00:20",
+    "user": "知行和一",
+    "content": "工具发一下，兄弟"
+  },
+  {
+    "time": "2026-05-14 00:22",
+    "user": "嗯哼",
+    "content": "发不了"
+  },
+  {
+    "time": "2026-05-14 00:24",
+    "user": "嗯哼",
+    "content": "自己搓"
+  },
+  {
+    "time": "2026-05-14 07:53",
+    "user": "阿五",
+    "content": "[合并转发|阿五与微信ClawBot的聊天记录]\n  微信ClawBot 2026-05-14 07:51:54\n  Cronjob Response: 三元Agent课程群日报\n  (job_id: 8394c0f4fed1)\n  -------------\n  \n  **三元 Agent 课程群 · 每日精选**\n  📅 2026-05-13\n  \n  ### 🔥 昨日核心话题\n  昨天主要围绕 Agent 工程化、Skill/Memory 设计、RAG/PDF 管道、聊天记录总结、垂直 Agent 产品化与副业变现展开。共识是：不要迷信框架，Agent 真正的壁垒在系统设计、业务深度、工程稳定性和“demo 到可用产品”的落地能力。\n  \n  ### 📌 sanyuan 要点\n  - **Agent 框架观**：真实产品会用脚投票，Claude Code / OpenClaw / Hermes 基本都没用重型框架；真正重要的不是代码实现，而是设计思路。\n  - **Prompt 组织**：大型产品里 Prompt 应该单独目录管理，不建议都塞进 context；小花花提出后，sanyuan 表示“正解”。\n  - **Skill 工具**：已做了 `skill-forge`，是在 `skill-creator` 基础上的扩展。\n  - **PDF 解析**：推荐 `pdf-dist`。\n  - **课程进度**：thinking 相关内容会加，最近几天规划中；当晚不更新，优先修复学员反馈的小节对不上问题。\n  - **产品方向**：sanyuan 提到自己也在做命理学 Agent，预计下个月发布。\n  - **平台/抽成**：讨论到平台不好做、课程平台/微信/苹果抽成高，感慨“平台不好做的，我做完了感觉很累”。\n  \n  ### 💡 有价值信息\n  - **小花花**：大型 Agent 项目中可将 Prompt、Pipe、工具按场景拆分，支持动态插拔、互不干扰；下午实操了 Agentic Search × RAG，上传业务 PDF 后做检索教学。\n  - **阿五**：Hermes 的 Memory 要设计“记什么”，Skill 设计工作流，训练/业务数据外挂文件系统；还用 Hermes 做了健身教练，并打通了群聊总结路线。\n  - **阿五**：微信聊天总结可走 `chatlog` 路线：本地解密微信数据库 → 本地 HTTP API → Agent 定时拉取 → 生成总结；Apple Silicon 用户可关注 WeFlow。\n  - **procrastination🐼**：推荐 WeFlow：https://github.com/hicccc77/WeFlow\n  - **阿五**：分享 Skill 写作文章《研读几十个热门 Skills 之后，我总结出了这十个写好 Skill 的套路》：https://mp.weixin.qq.com/s/BBJ3aLi0WxzUh1DM0_ytwA\n  - **sanyuan**：分享文字内容：https://mp.weixin.qq.com/s?scene=1&__biz=MzU0MTU4OTU2MA==&mid=2247492889&idx=1&sn=3f4920d36fbb0615004c96b708c7c072&sharer_shareinfo_first=d7528c160451f086baec706979058861&sharer_shareinfo=d7528c160451f086baec706979058861#wechat_redirect\n  - **Chan. / 我是东山呀 / Roy**：AI 重构屎山代码建议渐进式拆模块，从边缘或单条业务链路开始，跑通后沉淀成 Skill；必须有懂业务的人 review。\n  - **Roy / 鹤之 / 知行和一 / Chan.**：AI 产品机会不在纯技术，而在业务深度、资源积累、设计体验、出海付费和垂直领域壁垒；玄学、心理、旅行规划、AI 漫剧等方向被反复提到。\n  - **Stone / Forrest**：旅行规划 App「圆周旅迹」体验优秀，交互、地图连线、协同规划值得参考：https://www.pitravel.cn/web/journey/detail/19160063?lang=zh_cn&source=wechat\n\n  微信ClawBot 2026-05-14 07:51:55\n  ### 🗓️ 行动建议\n  - 关注 `skill-forge`，结合 Skill 写作文章复盘自己的 Skill 结构。\n  - 做 Agent 项目时优先拆 Prompt / Pipe / Tools / Memory / 外部数据，避免全部塞进上下文。\n  - 有 PDF/RAG 需求可先调研 `pdf-dist` + Agentic Search 流程。\n  - 想做群聊总结的同学可评估 WeFlow 或 chatlog，但注意微信数据解析和账号风险。\n  - 想做副业产品，优先找有业务深度/资源壁垒的垂直场景，不要只停留在“能看”的 demo。\n  \n  To stop or manage this job, send me a new message (e.g. \"stop reminder 三元Agent课程群日报\").\n\n"
+  },
+  {
+    "time": "2026-05-14 07:53",
+    "user": "阿五",
+    "content": "昨日群里总结"
+  },
+  {
+    "time": "2026-05-14 07:55",
+    "user": "他",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=d1caada00fb74f5e4029e3a4fc82c1b6&filekey=30350201010421301f02020106040253480410d1caada00fb74f5e4029e3a4fc82c1b60203052b21040d00000004627466730000000131&hy=SH&storeid=32303232303532343035323232363030303134663936316331316134326262643663623430623030303030313036&bizid=1023)"
+  },
+  {
+    "time": "2026-05-14 08:01",
+    "user": "Chan.",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=9c29db8a15a0f26800e48f56f29b902b&filekey=30350201010421301f020201060402534804109c29db8a15a0f26800e48f56f29b902b020340d115040d00000004627466730000000132&hy=SH&storeid=2631979be000b809f000000000000010600004f50534829bc5960968967deb&bizid=1023)"
+  },
+  {
+    "time": "2026-05-14 08:01",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=6a7f0ec93b46988340221d6bc7fbf205&filekey=30350201010421301f020201060402535a04106a7f0ec93b46988340221d6bc7fbf2050203018e9e040d00000004627466730000000131&hy=SZ&storeid=32303231303632353136303733353030303234663864336465333763336362376461356630393030303030313036&bizid=1023)"
+  },
+  {
+    "time": "2026-05-14 08:04",
+    "user": "嗯哼",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=c030253116065dcbc107966bfe3ec311&filekey=30440201010430302e02016e0402535a042063303330323533313136303635646362633130373936366266653365633331310203082167040d00000004627466730000000132&hy=SZ&storeid=268c4076300033ef9446d3b480000006e01004fb1535a194f801157755aad8&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 08:06",
+    "user": "不散和弦",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=0dc5a728e4174805ff5a16004c4d332d&filekey=30440201010430302e02016e0402535a04203064633561373238653431373438303566663561313630303463346433333264020304c9c6040d00000004627466730000000132&hy=SZ&storeid=26830539e00015a0ba88df2a50000006e01004fb1535a2917b54157194c800&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 09:20",
+    "user": "系统消息",
+    "content": "\"sanyuan\"邀请\"哗啦啦啦天在下雨\"加入了群聊"
+  },
+  {
+    "time": "2026-05-14 09:20",
+    "user": "系统消息",
+    "content": "\"哗啦啦啦天在下雨\"与群里其他人都不是朋友关系，请注意隐私安全"
+  },
+  {
+    "time": "2026-05-14 09:48",
+    "user": "他",
+    "content": "大伙任务转圈圈的时候都干什么，取取经"
+  },
+  {
+    "time": "2026-05-14 09:48",
+    "user": "他",
+    "content": "![图片](http://127.0.0.1:5030/image/773d8cc085dc55815684c90ace5b8ba9,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/29b454c31bb88c3a2be16e41a367107d)"
+  },
+  {
+    "time": "2026-05-14 09:51",
+    "user": "阿五",
+    "content": "来群里问问群友们都在干嘛"
+  },
+  {
+    "time": "2026-05-14 09:51",
+    "user": "yearning",
+    "content": "居家学习"
+  },
+  {
+    "time": "2026-05-14 09:52",
+    "user": "yearning",
+    "content": "很爱扣细节怎么办"
+  },
+  {
+    "time": "2026-05-14 09:52",
+    "user": "yearning",
+    "content": "好烦"
+  },
+  {
+    "time": "2026-05-14 09:52",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/65098491b489faa541e043c8689e843c,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/4567d180f359466841917a7a9d7eec52)"
+  },
+  {
+    "time": "2026-05-14 09:52",
+    "user": "yearning",
+    "content": "又菜又爱玩"
+  },
+  {
+    "time": "2026-05-14 09:52",
+    "user": "小花花",
+    "content": "设计界面 感觉好丑"
+  },
+  {
+    "time": "2026-05-14 09:55",
+    "user": "他",
+    "content": "[666]"
+  },
+  {
+    "time": "2026-05-14 09:55",
+    "user": "你真美",
+    "content": "在当牛马"
+  },
+  {
+    "time": "2026-05-14 09:57",
+    "user": "暂无",
+    "content": "陪同政协委员…"
+  },
+  {
+    "time": "2026-05-14 09:57",
+    "user": "暂无",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=2b00e0a7c26322986ee31a76c70f0633&filekey=30440201010430302e02016e0402535a042032623030653061376332363332323938366565333161373663373066303633330203013e9f040d00000004627466730000000132&hy=SZ&storeid=2654b10c9000c7c1d28c56d6d0000006e01004fb1535a1d064bc1e785f48da&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 09:57",
+    "user": "他",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=5d74219fb5c22685682ba68e18569b8f&filekey=30440201010430302e02016e0402535a042035643734323139666235633232363835363832626136386531383536396238660203008f52040d00000004627466730000000132&hy=SZ&storeid=26569f1770009d8decd1398a20000006e01004fb1535a2ae67bc1e7770d757&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 09:57",
+    "user": "薛定谔的猫",
+    "content": "有没有买了minimax的，觉得咋样啊"
+  },
+  {
+    "time": "2026-05-14 09:59",
+    "user": "魔鬼山椒鱼",
+    "content": "不咋地"
+  },
+  {
+    "time": "2026-05-14 10:00",
+    "user": "苏彧",
+    "content": "我觉得可以置顶一手 或者放到文档里去"
+  },
+  {
+    "time": "2026-05-14 10:00",
+    "user": "choose",
+    "content": "minimax模型上下文太小了 别买了"
+  },
+  {
+    "time": "2026-05-14 10:02",
+    "user": "薛定谔的猫",
+    "content": "就给hermes用的话，够不够"
+  },
+  {
+    "time": "2026-05-14 10:03",
+    "user": "🐟",
+    "content": "那国产的话推荐哪个"
+  },
+  {
+    "time": "2026-05-14 10:04",
+    "user": "魔鬼山椒鱼",
+    "content": "glm，kimi，deepseek"
+  },
+  {
+    "time": "2026-05-14 10:04",
+    "user": "choose",
+    "content": "对 这三个可以"
+  },
+  {
+    "time": "2026-05-14 10:06",
+    "user": "🐟",
+    "content": "够用吗"
+  },
+  {
+    "time": "2026-05-14 10:06",
+    "user": "🐟",
+    "content": "![图片](http://127.0.0.1:5030/image/76f6fe51a72e2059645f515b2101ed96,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/1a48fdca625d1d23bbb7cdda00176d7f)"
+  },
+  {
+    "time": "2026-05-14 10:08",
+    "user": "魔鬼山椒鱼",
+    "content": "deepseek冲个10块钱先用用看"
+  },
+  {
+    "time": "2026-05-14 10:10",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "我们公司貌似要将大部分任务路由到Deepseek "
+  },
+  {
+    "time": "2026-05-14 10:10",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "减少使用Claude 的模型"
+  },
+  {
+    "time": "2026-05-14 10:11",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "现在花费太夸张了，跑一个开发任务下来得好几刀"
+  },
+  {
+    "time": "2026-05-14 10:11",
+    "user": "liwuhao05",
+    "content": "是的，昨天我跑了1000块人民币[Facepalm]"
+  },
+  {
+    "time": "2026-05-14 10:13",
+    "user": "他",
+    "content": "与此同时，0.2b的token大D老是只要几十块"
+  },
+  {
+    "time": "2026-05-14 10:13",
+    "user": "他",
+    "content": "![图片](http://127.0.0.1:5030/image/55e4eb2b3f1f7fd72d63ac12c07a87c6,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/64eab79966e201528df78e95cdef188f)"
+  },
+  {
+    "time": "2026-05-14 10:13",
+    "user": "他",
+    "content": "大D老师"
+  },
+  {
+    "time": "2026-05-14 10:14",
+    "user": "薛定谔的猫",
+    "content": "现在25折，我们公司也在用deepseek"
+  },
+  {
+    "time": "2026-05-14 10:14",
+    "user": "薛定谔的猫",
+    "content": "但是后面正价之后，还不知道用哪家"
+  },
+  {
+    "time": "2026-05-14 10:15",
+    "user": "薛定谔的猫",
+    "content": "deepseek就是没有多模态和web search"
+  },
+  {
+    "time": "2026-05-14 10:15",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "正价了也比其他家的低"
+  },
+  {
+    "time": "2026-05-14 10:15",
+    "user": "liwuhao05",
+    "content": "下半年不是还能再便宜吗？用上国产芯片之后"
+  },
+  {
+    "time": "2026-05-14 10:15",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "后面用华为的还要降价"
+  },
+  {
+    "time": "2026-05-14 10:15",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "最支持华为的一次"
+  },
+  {
+    "time": "2026-05-14 10:16",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "[旺柴]加油华为，加油中国🇨🇳"
+  },
+  {
+    "time": "2026-05-14 10:17",
+    "user": "Stone",
+    "content": "最通人性的一集"
+  },
+  {
+    "time": "2026-05-14 10:20",
+    "user": "mk",
+    "content": "cursor 也不经用，gpt 5.5 一个开发任务能跑掉2.6刀"
+  },
+  {
+    "time": "2026-05-14 10:21",
+    "user": "TreeWish",
+    "content": "如果你需要用 minmax 说明你不需要用大模型[旺柴]"
+  },
+  {
+    "time": "2026-05-14 10:23",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "![图片](http://127.0.0.1:5030/image/93029a722d0181e5f0bcc31d2fdc21f0,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/b1ff684b798a2b594bc6f93a34ee465f)"
+  },
+  {
+    "time": "2026-05-14 10:24",
+    "user": "小心甘",
+    "content": "gpt5.5你用啥平台也不经用啊..."
+  },
+  {
+    "time": "2026-05-14 10:24",
+    "user": "小心甘",
+    "content": "好像出了个gpt5.5 pro，试试，知道啥叫烧钱"
+  },
+  {
+    "time": "2026-05-14 10:25",
+    "user": "小心甘",
+    "content": "30美刀1M"
+  },
+  {
+    "time": "2026-05-14 10:29",
+    "user": "他",
+    "content": "恐怖如斯，难怪经济xx"
+  },
+  {
+    "time": "2026-05-14 10:29",
+    "user": "薛定谔的猫",
+    "content": "阶跃星辰 的模型怎么样啊"
+  },
+  {
+    "time": "2026-05-14 10:31",
+    "user": "苏彧",
+    "content": "请教xdm一个问题， App上的深度思考实现是不是只需要在大模型开启thinking模式即可？"
+  },
+  {
+    "time": "2026-05-14 10:34",
+    "user": "CJ",
+    "content": "大佬们用codex多还是claude多？"
+  },
+  {
+    "time": "2026-05-14 10:36",
+    "user": "他",
+    "content": "你说的是打开个开关，再加点思维链处理的那个么。。APP上的深度思考是啥?[白眼]"
+  },
+  {
+    "time": "2026-05-14 10:39",
+    "user": "苏彧",
+    "content": "![图片](http://127.0.0.1:5030/image/238e04f87a3535626fc6adf6a1c92a74,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/de7bb5ea604eac2e98075c1a7f278709)"
+  },
+  {
+    "time": "2026-05-14 10:39",
+    "user": "苏彧",
+    "content": "就比如这个"
+  },
+  {
+    "time": "2026-05-14 10:40",
+    "user": "苏彧",
+    "content": "cc"
+  },
+  {
+    "time": "2026-05-14 10:40",
+    "user": "choose",
+    "content": "应该是模型自带的能力"
+  },
+  {
+    "time": "2026-05-14 10:40",
+    "user": "苏彧",
+    "content": "是的"
+  },
+  {
+    "time": "2026-05-14 10:40",
+    "user": "苏彧",
+    "content": "自带的thinking模式"
+  },
+  {
+    "time": "2026-05-14 10:43",
+    "user": "他",
+    "content": "oo，那前面老哥是对的[旺柴]"
+  },
+  {
+    "time": "2026-05-14 10:47",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "关注我，每日分享实用工作小技巧"
+  },
+  {
+    "time": "2026-05-14 10:47",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "![图片](http://127.0.0.1:5030/image/5818b84f72cf1732e656ffc7d8c1c19d,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/b293571e6e786b5e07fcdd870c90cd35)"
+  },
+  {
+    "time": "2026-05-14 10:51",
+    "user": "他",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=7383373c65fbcbbcd3c9f03b9659e446&filekey=30440201010430302e02016e0402535a04203733383333373363363566626362626364336339663033623936353965343436020300b480040d00000004627466730000000131&hy=SZ&storeid=323032313037313631303232333030303030323135343930376461313062616132383536303930303030303036653031303034666231&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 11:12",
+    "user": "Amber",
+    "content": "华为内部都买的GLM[旺柴]"
+  },
+  {
+    "time": "2026-05-14 11:13",
+    "user": "Amber",
+    "content": "mass-glm-5-aliyun"
+  },
+  {
+    "time": "2026-05-14 11:13",
+    "user": "Djmughal",
+    "content": "华为内部有啥，pangu？"
+  },
+  {
+    "time": "2026-05-14 11:14",
+    "user": "系统消息",
+    "content": "\"超超\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-14 11:16",
+    "user": "我是东山呀",
+    "content": "华为我看上周那个 avalonia 的作者控诉了哈哈哈 表面跟人家谈合作 雇佣人家做鸿蒙适配，实际偷偷拿人家给的技术信息找外包投标"
+  },
+  {
+    "time": "2026-05-14 11:22",
+    "user": "不散和弦",
+    "content": "话说昨天看要toolsearch有个小问题，用oncall方案让llm通过文本生成tool的参数可靠性为啥低比不上以正常方式tool注册的？"
+  },
+  {
+    "time": "2026-05-14 11:23",
+    "user": "不散和弦",
+    "content": "是因为llm去理解文本形式的参数描述不如结构化形式？"
+  },
+  {
+    "time": "2026-05-14 11:23",
+    "user": "不散和弦",
+    "content": "可能最后输出结构是对的，但是值不对？"
+  },
+  {
+    "time": "2026-05-14 11:26",
+    "user": "wei先森.",
+    "content": "这个作者其实有点那啥了，他想去Avalonia背后的公司上班，只接受去这个公司上班和华为合作，又不想入职华为，然后就找外包，让他带外包一起做，但是作者不愿意，就发出来吐槽了\n背后那个公司是个外企，wlb，他其实想去那个公司上班再和华为合作"
+  },
+  {
+    "time": "2026-05-14 11:26",
+    "user": "wei先森.",
+    "content": "Avalonia当时好像承诺他入职了，但是华为没法和这个公司合作，制裁的原因"
+  },
+  {
+    "time": "2026-05-14 11:27",
+    "user": "wei先森.",
+    "content": "[捂脸]然后就落空了"
+  },
+  {
+    "time": "2026-05-14 11:28",
+    "user": "我是东山呀",
+    "content": "那就没认真看了[破涕为笑]"
+  },
+  {
+    "time": "2026-05-14 11:28",
+    "user": "wei先森.",
+    "content": "就是两边其实都没啥问题"
+  },
+  {
+    "time": "2026-05-14 11:28",
+    "user": "wei先森.",
+    "content": "但是这个作者写ava适配鸿蒙写了很久"
+  },
+  {
+    "time": "2026-05-14 11:28",
+    "user": "wei先森.",
+    "content": "最后估计合作不成"
+  },
+  {
+    "time": "2026-05-14 11:28",
+    "user": "wei先森.",
+    "content": "他肯定很生气的"
+  },
+  {
+    "time": "2026-05-14 11:29",
+    "user": "wei先森.",
+    "content": "[捂脸]"
+  },
+  {
+    "time": "2026-05-14 11:30",
+    "user": "我是东山呀",
+    "content": "[捂脸]"
+  },
+  {
+    "time": "2026-05-14 11:31",
+    "user": "monkeytao",
+    "content": "这种精致利己者 一点点不满意就裹挟流量为自己服务的 确实是有一套"
+  },
+  {
+    "time": "2026-05-14 11:32",
+    "user": "wei先森.",
+    "content": "不是，两边都没啥错"
+  },
+  {
+    "time": "2026-05-14 11:32",
+    "user": "monkeytao",
+    "content": "他的动机和结果 对大家就是个噪音而已 没啥长期、共同的好处"
+  },
+  {
+    "time": "2026-05-14 11:32",
+    "user": "wei先森.",
+    "content": "估计让外包联系让恶心到了"
+  },
+  {
+    "time": "2026-05-14 11:32",
+    "user": "小花花",
+    "content": "我在做RAG的时候，返回的图片base64咋呈现啊  大佬们"
+  },
+  {
+    "time": "2026-05-14 11:32",
+    "user": "我是东山呀",
+    "content": "结构化数据就是为了给 tool 用吧。从文本去理解，再让模型生成结构化数据去给 tool 使用，模型可能理解有偏差，我的理解？"
+  },
+  {
+    "time": "2026-05-14 11:32",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/675d000d5f0837527f58482424bc4e8f,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/66693221f183436d02b04d7f64b37381)"
+  },
+  {
+    "time": "2026-05-14 11:32",
+    "user": "monkeytao",
+    "content": "我是说这是个不值得传播的事情 对社会没啥收益啊"
+  },
+  {
+    "time": "2026-05-14 11:32",
+    "user": "小花花",
+    "content": "现在给我一直输出图片base64编码"
+  },
+  {
+    "time": "2026-05-14 11:32",
+    "user": "不散和弦",
+    "content": "我也是这么理解的"
+  },
+  {
+    "time": "2026-05-14 11:33",
+    "user": "monkeytao",
+    "content": "+1"
+  },
+  {
+    "time": "2026-05-14 11:33",
+    "user": "我是东山呀",
+    "content": "刚才那个哥们说完，我也觉得两边没啥问题。[破涕为笑]"
+  },
+  {
+    "time": "2026-05-14 11:33",
+    "user": "我是东山呀",
+    "content": "华子干活的确实好像也都是 od 居多[捂脸]"
+  },
+  {
+    "time": "2026-05-14 11:34",
+    "user": "不散和弦",
+    "content": "为什么会保存这个？"
+  },
+  {
+    "time": "2026-05-14 11:34",
+    "user": "小花花",
+    "content": "一些复杂的图片"
+  },
+  {
+    "time": "2026-05-14 11:35",
+    "user": "monkeytao",
+    "content": "解析出来 然后用 img 渲染？"
+  },
+  {
+    "time": "2026-05-14 11:35",
+    "user": "小花花",
+    "content": "就是解析一直发编码"
+  },
+  {
+    "time": "2026-05-14 11:35",
+    "user": "小花花",
+    "content": "base64 编码很长的"
+  },
+  {
+    "time": "2026-05-14 11:36",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/e27550477259ad8126a9b8f426c79cbe,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/9ab993ecad08c3192614525703b0ba3b)"
+  },
+  {
+    "time": "2026-05-14 11:36",
+    "user": "不散和弦",
+    "content": "我理解图像也要被转换为向量吧"
+  },
+  {
+    "time": "2026-05-14 11:36",
+    "user": "小花花",
+    "content": "直接把我干停了"
+  },
+  {
+    "time": "2026-05-14 11:36",
+    "user": "monkeytao",
+    "content": "那得用 gemini 的才行，一般只文本向量化"
+  },
+  {
+    "time": "2026-05-14 11:37",
+    "user": "不散和弦",
+    "content": "是不是要用能处理图像的模型"
+  },
+  {
+    "time": "2026-05-14 11:37",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/b68e04602126d056c5e354fedb144ba3,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/41cf36774b8b0676f9ec32890cc09de9)"
+  },
+  {
+    "time": "2026-05-14 11:38",
+    "user": "小花花",
+    "content": "不知道"
+  },
+  {
+    "time": "2026-05-14 11:39",
+    "user": "小花花",
+    "content": "等 大佬更新RAG在学习吧"
+  },
+  {
+    "time": "2026-05-14 11:40",
+    "user": "monkeytao",
+    "content": "大模型输出的 base64 如果不是搬运，感觉很容易就是破图了"
+  },
+  {
+    "time": "2026-05-14 11:41",
+    "user": "不散和弦",
+    "content": "因为之前我搞llm wiki也遇到了类似的问题[破涕为笑]"
+  },
+  {
+    "time": "2026-05-14 11:41",
+    "user": "不散和弦",
+    "content": "没解决"
+  },
+  {
+    "time": "2026-05-14 11:41",
+    "user": "小花花",
+    "content": "[旺柴]"
+  },
+  {
+    "time": "2026-05-14 11:42",
+    "user": "小花花",
+    "content": "[budget] token budget exceeded, stopping loop"
+  },
+  {
+    "time": "2026-05-14 11:42",
+    "user": "小花花",
+    "content": "直接给我预算干超了还没输出完"
+  },
+  {
+    "time": "2026-05-14 11:42",
+    "user": "不散和弦",
+    "content": "花神 要不你召唤下元神问问？"
+  },
+  {
+    "time": "2026-05-14 11:43",
+    "user": "小花花",
+    "content": "不耽误元神时间了，等他课程吧"
+  },
+  {
+    "time": "2026-05-14 13:06",
+    "user": "系统消息",
+    "content": "\"sanyuan\"邀请\"风声边界\"加入了群聊"
+  },
+  {
+    "time": "2026-05-14 13:06",
+    "user": "系统消息",
+    "content": "\"风声边界\"与群里其他人都不是朋友关系，请注意隐私安全"
+  },
+  {
+    "time": "2026-05-14 13:07",
+    "user": "sanyuan",
+    "content": "![图片](http://127.0.0.1:5030/image/578f7da1d22a9a9632eda18b0240e889,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/63662512d7268a19904a28abb6fa00d2)"
+  },
+  {
+    "time": "2026-05-14 13:08",
+    "user": "Y.",
+    "content": "咋了"
+  },
+  {
+    "time": "2026-05-14 13:08",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "买产品的人少"
+  },
+  {
+    "time": "2026-05-14 13:09",
+    "user": "sanyuan",
+    "content": "还有很多人没有进私教产品群，里面会对产品的问题答疑，功能宣发，需要的请进"
+  },
+  {
+    "time": "2026-05-14 13:09",
+    "user": "sanyuan",
+    "content": "给我扣1就行"
+  },
+  {
+    "time": "2026-05-14 13:09",
+    "user": "坐忘道",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:09",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:09",
+    "user": "L",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:10",
+    "user": "winhok的打工日记",
+    "content": "课程问题在这里，产品问题在那边对吧哈哈哈哈哈哈"
+  },
+  {
+    "time": "2026-05-14 13:10",
+    "user": "小心甘",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:10",
+    "user": "Christopher",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:10",
+    "user": "养乐多",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:10",
+    "user": "April.",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:10",
+    "user": "April.",
+    "content": "这两个有啥区别"
+  },
+  {
+    "time": "2026-05-14 13:11",
+    "user": "sanyuan",
+    "content": "是的"
+  },
+  {
+    "time": "2026-05-14 13:11",
+    "user": "让玛卡巴卡爬吧",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:11",
+    "user": "DR",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:12",
+    "user": "sanyuan",
+    "content": "细心的人已经发现了，私教 已经涨价了，一个月 69，一年 599"
+  },
+  {
+    "time": "2026-05-14 13:12",
+    "user": "sanyuan",
+    "content": "早上车的 吃香了"
+  },
+  {
+    "time": "2026-05-14 13:12",
+    "user": "April.",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=004f3c0cf5259ab214d9dabacc337c60&filekey=30350201010421301f020201060402535a0410004f3c0cf5259ab214d9dabacc337c600203059dc6040d00000004627466730000000131&hy=SZ&storeid=32303231303632353131333130353030306263373139336266363231666165653537353830393030303030313036&bizid=1023)"
+  },
+  {
+    "time": "2026-05-14 13:13",
+    "user": "April.",
+    "content": "补差价会涨吗"
+  },
+  {
+    "time": "2026-05-14 13:13",
+    "user": "sanyuan",
+    "content": "还是 400"
+  },
+  {
+    "time": "2026-05-14 13:13",
+    "user": "winhok的打工日记",
+    "content": "我补了400上车私教了"
+  },
+  {
+    "time": "2026-05-14 13:13",
+    "user": "sanyuan",
+    "content": "补差价月底涨价"
+  },
+  {
+    "time": "2026-05-14 13:14",
+    "user": "April.",
+    "content": "那我月底买哈哈哈哈，月底到期[旺柴]"
+  },
+  {
+    "time": "2026-05-14 13:18",
+    "user": "occult-lyc",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:19",
+    "user": "😊",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:21",
+    "user": "那时晴天",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:22",
+    "user": "@Ich bin ein Bär",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:23",
+    "user": "@Ich bin ein Bär",
+    "content": "很垃圾 买必后悔"
+  },
+  {
+    "time": "2026-05-14 13:27",
+    "user": "Augenstern",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:32",
+    "user": "xoxo",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:37",
+    "user": "叮当有耳朵的",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:41",
+    "user": "HUMILITY",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:47",
+    "user": "Zswsown",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:48",
+    "user": "宇",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:50",
+    "user": "嗯哼",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:50",
+    "user": "🐟",
+    "content": "![图片](http://127.0.0.1:5030/image/af641270b257832e5e932b2c4484e20c,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/13f74c592e1b3e37b287a7f3c3088eaf)"
+  },
+  {
+    "time": "2026-05-14 13:51",
+    "user": "稚",
+    "content": "太有乐子了"
+  },
+  {
+    "time": "2026-05-14 13:51",
+    "user": "CSF.永恒",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:51",
+    "user": "monkeytao",
+    "content": "群有点多 三元哥能统一一个 head 群名缓存吗 方便我区分和搜索"
+  },
+  {
+    "time": "2026-05-14 13:51",
+    "user": "monkeytao",
+    "content": "哦不过好像我也可以自己改"
+  },
+  {
+    "time": "2026-05-14 13:51",
+    "user": "Harrison Wells",
+    "content": "马上这些平台都被sitor取代"
+  },
+  {
+    "time": "2026-05-14 13:51",
+    "user": "Harrison Wells",
+    "content": "这就是元神的含金量"
+  },
+  {
+    "time": "2026-05-14 13:52",
+    "user": "Harrison Wells",
+    "content": "一边做课程 一边做产品"
+  },
+  {
+    "time": "2026-05-14 13:52",
+    "user": "心懒意慵",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:52",
+    "user": "他",
+    "content": "这就是元神的含金量"
+  },
+  {
+    "time": "2026-05-14 13:52",
+    "user": "忧郁之王",
+    "content": "谁又惹他不高兴了"
+  },
+  {
+    "time": "2026-05-14 13:52",
+    "user": "忧郁之王",
+    "content": "快30的人了，做事没个稳重"
+  },
+  {
+    "time": "2026-05-14 13:52",
+    "user": "🐟",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:52",
+    "user": "稚",
+    "content": "平台"
+  },
+  {
+    "time": "2026-05-14 13:52",
+    "user": "稚",
+    "content": "据说抽水太多了"
+  },
+  {
+    "time": "2026-05-14 13:52",
+    "user": "稚",
+    "content": "不高兴了"
+  },
+  {
+    "time": "2026-05-14 13:52",
+    "user": "哗啦啦啦天在下雨",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:55",
+    "user": "winhok的打工日记",
+    "content": "确实有乐子"
+  },
+  {
+    "time": "2026-05-14 13:56",
+    "user": "winhok的打工日记",
+    "content": "虽然这课我也买了"
+  },
+  {
+    "time": "2026-05-14 13:56",
+    "user": "winhok的打工日记",
+    "content": "哈哈哈哈哈哈"
+  },
+  {
+    "time": "2026-05-14 13:56",
+    "user": "Harrison Wells",
+    "content": "哥们 还信啊"
+  },
+  {
+    "time": "2026-05-14 13:56",
+    "user": "zls",
+    "content": "claude的agent view用起来真卡啊"
+  },
+  {
+    "time": "2026-05-14 13:57",
+    "user": "winhok的打工日记",
+    "content": "算了，也不贵"
+  },
+  {
+    "time": "2026-05-14 13:57",
+    "user": "winhok的打工日记",
+    "content": "豪出去了"
+  },
+  {
+    "time": "2026-05-14 13:58",
+    "user": "魔鬼山椒鱼",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 13:58",
+    "user": "winhok的打工日记",
+    "content": "感觉对付费用户也不太上心，全凭心情的[破涕為笑]"
+  },
+  {
+    "time": "2026-05-14 13:59",
+    "user": "杰宝大黄",
+    "content": "他都30多了吧"
+  },
+  {
+    "time": "2026-05-14 13:59",
+    "user": "不散和弦",
+    "content": "没事的 过两天心态又好了 会复更的[旺柴]"
+  },
+  {
+    "time": "2026-05-14 14:00",
+    "user": "杰宝大黄",
+    "content": "他离职后的小册就没有好过"
+  },
+  {
+    "time": "2026-05-14 14:00",
+    "user": "杰宝大黄",
+    "content": "之前的小册是他真的在工作中的积累。"
+  },
+  {
+    "time": "2026-05-14 14:04",
+    "user": "嗯哼",
+    "content": "会有反转的  他是懂流量的"
+  },
+  {
+    "time": "2026-05-14 14:04",
+    "user": "嗯哼",
+    "content": "[抠鼻]"
+  },
+  {
+    "time": "2026-05-14 14:04",
+    "user": "winhok的打工日记",
+    "content": "哈哈哈哈哈哈"
+  },
+  {
+    "time": "2026-05-14 14:05",
+    "user": "宇",
+    "content": "哈哈哈"
+  },
+  {
+    "time": "2026-05-14 14:05",
+    "user": "不散和弦",
+    "content": "Tomorrow:想了想 这样太对不起买我课的兄弟们了，所以我会更完的"
+  },
+  {
+    "time": "2026-05-14 14:05",
+    "user": "winhok的打工日记",
+    "content": "如果对付费用户上心，你有困难我钱该给就给了"
+  },
+  {
+    "time": "2026-05-14 14:06",
+    "user": "winhok的打工日记",
+    "content": "课真的好，给多点就给多点了"
+  },
+  {
+    "time": "2026-05-14 14:06",
+    "user": "宇",
+    "content": "我之前和一个群友说他会烂尾"
+  },
+  {
+    "time": "2026-05-14 14:06",
+    "user": "宇",
+    "content": "笑死了，真烂尾啊"
+  },
+  {
+    "time": "2026-05-14 14:06",
+    "user": "宇",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=85344ec731a7082a3f923a3491a00c1a&filekey=30440201010430302e02016e0402535a042038353334346563373331613730383261336639323361333439316130306331610203037dad040d00000004627466730000000132&hy=SZ&storeid=26679c29700091c15400264710000006e01004fb1535a21568bc1e6c8130b4&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 14:06",
+    "user": "procrastination🐼",
+    "content": "微信还能退款吗 哈哈"
+  },
+  {
+    "time": "2026-05-14 14:06",
+    "user": "winhok的打工日记",
+    "content": "不上心那没招了"
+  },
+  {
+    "time": "2026-05-14 14:06",
+    "user": "不散和弦",
+    "content": "没烂 直接太监"
+  },
+  {
+    "time": "2026-05-14 14:07",
+    "user": "不散和弦",
+    "content": "烂尾那好歹有个尾"
+  },
+  {
+    "time": "2026-05-14 14:07",
+    "user": "我是东山呀",
+    "content": "写不下去就直说哈哈哈 还找理由"
+  },
+  {
+    "time": "2026-05-14 14:07",
+    "user": "choose",
+    "content": "按比例退费 哈哈哈"
+  },
+  {
+    "time": "2026-05-14 14:08",
+    "user": "winhok的打工日记",
+    "content": "心情不好都要有个度吧，把用户当猴耍"
+  },
+  {
+    "time": "2026-05-14 14:08",
+    "user": "Cerror.",
+    "content": "群里没人喷他吗"
+  },
+  {
+    "time": "2026-05-14 14:08",
+    "user": "他",
+    "content": "没关注的新人确实容易遭，我认识他就是因为他一系列。。操作"
+  },
+  {
+    "time": "2026-05-14 14:08",
+    "user": "我是东山呀",
+    "content": "他之前不会也在起点开了个号写书吧，太监这事学的炉火纯青"
+  },
+  {
+    "time": "2026-05-14 14:09",
+    "user": "宇",
+    "content": "敢说一句不好，就是小黑子"
+  },
+  {
+    "time": "2026-05-14 14:09",
+    "user": "winhok的打工日记",
+    "content": "舔的多"
+  },
+  {
+    "time": "2026-05-14 14:09",
+    "user": "宇",
+    "content": "哈哈"
+  },
+  {
+    "time": "2026-05-14 14:09",
+    "user": "宇",
+    "content": "![图片](http://127.0.0.1:5030/image/507276ed0fc5fbb3c98a11aec6e70c9e,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/33206ef5dec3ceebe19e7c4d4bb19e87)"
+  },
+  {
+    "time": "2026-05-14 14:09",
+    "user": "procrastination🐼",
+    "content": "明天就反转了"
+  },
+  {
+    "time": "2026-05-14 14:09",
+    "user": "procrastination🐼",
+    "content": "不用急"
+  },
+  {
+    "time": "2026-05-14 14:09",
+    "user": "系统消息",
+    "content": "\"sanyuan\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-14 14:09",
+    "user": "不散和弦",
+    "content": "belike"
+  },
+  {
+    "time": "2026-05-14 14:09",
+    "user": "嗯哼",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=dadbb3d1228fba0756c8a02f248bb657&filekey=3043020101042f302d02016e040253480420646164626233643132323866626130373536633861303266323438626236353702021fef040d00000004627466730000000131&hy=SH&storeid=323032313039303432313239343830303063636163366261393438316134343636626234306230303030303036653031303034666231&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 14:10",
+    "user": "嗯哼",
+    "content": "乐了"
+  },
+  {
+    "time": "2026-05-14 14:10",
+    "user": "辣洋葱",
+    "content": "会不会，其实这是他涨价的一个套路"
+  },
+  {
+    "time": "2026-05-14 14:10",
+    "user": "procrastination🐼",
+    "content": "公众号 留言都是作者同意才能放出的吧"
+  },
+  {
+    "time": "2026-05-14 14:10",
+    "user": "忧郁之王",
+    "content": "yes"
+  },
+  {
+    "time": "2026-05-14 14:10",
+    "user": "忧郁之王",
+    "content": "提纯呢"
+  },
+  {
+    "time": "2026-05-14 14:10",
+    "user": "暂无",
+    "content": "别说，真别说，老弟我还真在起点开的书..."
+  },
+  {
+    "time": "2026-05-14 14:11",
+    "user": "稚",
+    "content": "但是起点买一章给一章钱啊"
+  },
+  {
+    "time": "2026-05-14 14:11",
+    "user": "宇",
+    "content": "其实我觉得他搞这么多幺蛾子还有2000个人支持，黑红也是红"
+  },
+  {
+    "time": "2026-05-14 14:11",
+    "user": "暂无",
+    "content": "是的"
+  },
+  {
+    "time": "2026-05-14 14:11",
+    "user": "Cerror.",
+    "content": "谁在群里啊  直播下"
+  },
+  {
+    "time": "2026-05-14 14:11",
+    "user": "暂无",
+    "content": "12号阅文刚给我打的款"
+  },
+  {
+    "time": "2026-05-14 14:11",
+    "user": "我是东山呀",
+    "content": "牛逼"
+  },
+  {
+    "time": "2026-05-14 14:12",
+    "user": "暂无",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=0cb66bacfd6bf3abee47be2110235f8b&filekey=30350201010421301f020201060402534804100cb66bacfd6bf3abee47be2110235f8b020300907a040d00000004627466730000000132&hy=SH&storeid=268d0123500042bdc43bce63b0000010600004f5053481a9468e0b74ef9496&bizid=1023)"
+  },
+  {
+    "time": "2026-05-14 14:12",
+    "user": "winhok的打工日记",
+    "content": "想在这赚钱，还不提前了解规则，然后自己亏了，就直接不玩了"
+  },
+  {
+    "time": "2026-05-14 14:12",
+    "user": "辣洋葱",
+    "content": "没人冲他的吗，这么搞"
+  },
+  {
+    "time": "2026-05-14 14:13",
+    "user": "🐰哎哟喔哟🐰",
+    "content": "大胆！"
+  },
+  {
+    "time": "2026-05-14 14:13",
+    "user": "winhok的打工日记",
+    "content": "但凡妥善安排下已付费的用户，都不至于招黑"
+  },
+  {
+    "time": "2026-05-14 14:13",
+    "user": "procrastination🐼",
+    "content": "199*2300*0.6=274620"
+  },
+  {
+    "time": "2026-05-14 14:13",
+    "user": "procrastination🐼",
+    "content": "钱也不少了"
+  },
+  {
+    "time": "2026-05-14 14:13",
+    "user": "小心甘",
+    "content": "还要交税呢."
+  },
+  {
+    "time": "2026-05-14 14:13",
+    "user": "我是东山呀",
+    "content": "他自己说了 交完税 差不多 40%"
+  },
+  {
+    "time": "2026-05-14 14:14",
+    "user": "不散和弦",
+    "content": "还有30%苹果税"
+  },
+  {
+    "time": "2026-05-14 14:14",
+    "user": "winhok的打工日记",
+    "content": "Ok"
+  },
+  {
+    "time": "2026-05-14 14:14",
+    "user": "winhok的打工日记",
+    "content": "真的懂"
+  },
+  {
+    "time": "2026-05-14 14:15",
+    "user": "不散和弦",
+    "content": "神光有最新表态了？"
+  },
+  {
+    "time": "2026-05-14 14:15",
+    "user": "sanyuan",
+    "content": "已经反转了"
+  },
+  {
+    "time": "2026-05-14 14:15",
+    "user": "zkam",
+    "content": "这么快"
+  },
+  {
+    "time": "2026-05-14 14:15",
+    "user": "小心甘",
+    "content": "吃瓜"
+  },
+  {
+    "time": "2026-05-14 14:15",
+    "user": "不散和弦",
+    "content": "![图片](http://127.0.0.1:5030/image/bdce6190f2bff09b349039b205d84c39,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/59ab4a0995f09f73993ce89aabafa2da)"
+  },
+  {
+    "time": "2026-05-14 14:15",
+    "user": "winhok的打工日记",
+    "content": "元神也在群里吗[旺柴]"
+  },
+  {
+    "time": "2026-05-14 14:15",
+    "user": "<msg><appmsg appid=\"\" sdkver=\"0\"><title>常规操作了，从昨天元神说他抱怨平台抽成贵我就知道会有这些节奏。之前在掘金更小册就这样</title><des></des><action></action><type>57</type><showtype>0</showtype><soundtype>0</soundtype><mediatagname></mediatagname><messageext></messageext><messageaction></messageaction><content></content><contentattr>0</contentattr><url></url><lowurl></lowurl><dataurl></dataurl><lowdataurl></lowdataurl><songalbumurl></songalbumurl><songlyric></songlyric><template_id></template_id><appattach><totallen>0</totallen><attachid></attachid><emoticonmd5></emoticonmd5><fileext></fileext><aeskey></aeskey></appattach><extinfo></extinfo><sourceusername></sourceusername><sourcedisplayname></sourcedisplayname><thumburl></thumburl><md5></md5><statextstr></statextstr><refermsg><chatusr>wxid_vewkxrsj7pkg22</chatusr><type>3</type><createtime>1778737840</createtime><msgsource>&lt;msgsource&gt;\n\t&lt;alnode&gt;\n\t\t&lt;fr&gt;4&lt;/fr&gt;\n\t&lt;/alnode&gt;\n\t&lt;tmp_node&gt;\n\t\t&lt;publisher-id&gt;&lt;/publisher-id&gt;\n\t&lt;/tmp_node&gt;\n\t&lt;sec_msg_node&gt;\n\t\t&lt;uuid&gt;42f36b856a9078c3fbd1ad0d54070e9c_&lt;/uuid&gt;\n\t\t&lt;risk-file-flag /&gt;\n\t\t&lt;risk-file-md5-list /&gt;\n\t&lt;/sec_msg_node&gt;\n\t&lt;imgmsg_pd cdnbigimgurl_size=\"26568\" cdnbigimgurl_pd_pri=\"30\" cdnbigimgurl_pd=\"0\" /&gt;\n\t&lt;silence&gt;1&lt;/silence&gt;\n\t&lt;membercount&gt;314&lt;/membercount&gt;\n\t&lt;signature&gt;N0_V1_mxp8HpOf|v1_2+qXgl6u&lt;/signature&gt;\n&lt;/msgsource&gt;\n</msgsource><displayname></displayname><svrid>1758531123580389403</svrid><fromusr>54697511486@chatroom</fromusr><content>wxid_vewkxrsj7pkg22",
+    "content": "[引用]"
+  },
+  {
+    "time": "2026-05-14 14:15",
+    "user": "winhok的打工日记",
+    "content": "消息太灵通了"
+  },
+  {
+    "time": "2026-05-14 14:16",
+    "user": "liwuhao05",
+    "content": "@sanyuan 元佬拉我进下sitor产品群[Doge]"
+  },
+  {
+    "time": "2026-05-14 14:16",
+    "user": "sanyuan",
+    "content": "好"
+  },
+  {
+    "time": "2026-05-14 14:16",
+    "user": "Cerror.",
+    "content": "真是给枯燥的下午 增加了乐趣"
+  },
+  {
+    "time": "2026-05-14 14:16",
+    "user": "他",
+    "content": "前面的兄弟预言的太准了"
+  },
+  {
+    "time": "2026-05-14 14:16",
+    "user": "procrastination🐼",
+    "content": "微信可能没掘金那么好糊弄"
+  },
+  {
+    "time": "2026-05-14 14:17",
+    "user": "procrastination🐼",
+    "content": "我觉得是在不行 花点钱用claude 编点课也无所谓"
+  },
+  {
+    "time": "2026-05-14 14:17",
+    "user": "procrastination🐼",
+    "content": "![动画表情](http://wxapp.tc.qq.com/275/20304/stodownload?m=3ad0cc39c07a43aa4903d1056effe3c7&filekey=30350201010421301f020201130402534804103ad0cc39c07a43aa4903d1056effe3c702030252de040d00000004627466730000000132&hy=SH&storeid=26593e26800067837b4259b2e0000011300004f5053482a6831b15662c899a&bizid=1023)"
+  },
+  {
+    "time": "2026-05-14 14:17",
+    "user": "sir.",
+    "content": "看看乐子滋润下让无聊的日子"
+  },
+  {
+    "time": "2026-05-14 14:17",
+    "user": "procrastination🐼",
+    "content": "本身也是说过：小黑子只在乎数量不在乎质量 的人"
+  },
+  {
+    "time": "2026-05-14 14:17",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "这反转的太快了吧"
+  },
+  {
+    "time": "2026-05-14 14:17",
+    "user": "小心甘",
+    "content": "编个锤子，直接用元神的课改改完事了[旺柴]"
+  },
+  {
+    "time": "2026-05-14 14:17",
+    "user": "木木彡哥",
+    "content": "赶在撤回期撤回了一次停更"
+  },
+  {
+    "time": "2026-05-14 14:17",
+    "user": "procrastination🐼",
+    "content": "编点数量课 凑凑数 还是挺有经验的"
+  },
+  {
+    "time": "2026-05-14 14:18",
+    "user": "稚",
+    "content": "就算是真的挣得少"
+  },
+  {
+    "time": "2026-05-14 14:18",
+    "user": "稚",
+    "content": "也不至于卖出去的课停更吧"
+  },
+  {
+    "time": "2026-05-14 14:19",
+    "user": "winhok的打工日记",
+    "content": "你课好，但是挣的少，开多门新课也会支持的"
+  },
+  {
+    "time": "2026-05-14 14:19",
+    "user": "稚",
+    "content": "多大人了为自己负责，在微信更之前自己没弄明白要怪谁呢"
+  },
+  {
+    "time": "2026-05-14 14:19",
+    "user": "procrastination🐼",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=82a1204120f90a61595261d4ce5dae49&filekey=3043020101042f302d02016e040253480420383261313230343132306639306136313539353236316434636535646165343902022a8f040d00000004627466730000000131&hy=SH&storeid=323032313130323731313239343830303037643038323335346633663634613733376230306230303030303036653031303034666231&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 14:19",
+    "user": "嗯哼",
+    "content": "他是懂流量的"
+  },
+  {
+    "time": "2026-05-14 14:19",
+    "user": "winhok的打工日记",
+    "content": "但直接想停的话"
+  },
+  {
+    "time": "2026-05-14 14:19",
+    "user": "嗯哼",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=dadbb3d1228fba0756c8a02f248bb657&filekey=3043020101042f302d02016e040253480420646164626233643132323866626130373536633861303266323438626236353702021fef040d00000004627466730000000131&hy=SH&storeid=323032313039303432313239343830303063636163366261393438316134343636626234306230303030303036653031303034666231&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 14:20",
+    "user": "winhok的打工日记",
+    "content": "算了anyway吧"
+  },
+  {
+    "time": "2026-05-14 14:20",
+    "user": "winhok的打工日记",
+    "content": "哈哈哈哈哈哈"
+  },
+  {
+    "time": "2026-05-14 14:20",
+    "user": "winhok的打工日记",
+    "content": "这钱豪出去了"
+  },
+  {
+    "time": "2026-05-14 14:20",
+    "user": "嗯哼",
+    "content": "@sanyuan 也拉我一个"
+  },
+  {
+    "time": "2026-05-14 14:20",
+    "user": "嗯哼",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=c030253116065dcbc107966bfe3ec311&filekey=30440201010430302e02016e0402535a042063303330323533313136303635646362633130373936366266653365633331310203082167040d00000004627466730000000132&hy=SZ&storeid=268c4076300033ef9446d3b480000006e01004fb1535a194f801157755aad8&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 14:21",
+    "user": "liwuhao05",
+    "content": "![图片](http://127.0.0.1:5030/image/65b212151aad86532d063b742604abaf,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/d0b892c960c95bef52e35dd306244c42)"
+  },
+  {
+    "time": "2026-05-14 14:21",
+    "user": "liwuhao05",
+    "content": "活生生把我们这些光粉熬成光黑"
+  },
+  {
+    "time": "2026-05-14 14:22",
+    "user": "小花花",
+    "content": "我知道应该怎么处理了，图片最好不进向量库，用一句话总结图片的，把总结的话和原图存放路径放向量库，原图存放在minio。检索到图去minio拿。 不知道对不对"
+  },
+  {
+    "time": "2026-05-14 14:22",
+    "user": "liwuhao05",
+    "content": "还拿着停更来威胁平台，u弧都被搞出心理阴影了"
+  },
+  {
+    "time": "2026-05-14 14:22",
+    "user": "小花花",
+    "content": "@不散和弦"
+  },
+  {
+    "time": "2026-05-14 14:22",
+    "user": "不散和弦",
+    "content": "一句话总结图片 也要让AI来做吧"
+  },
+  {
+    "time": "2026-05-14 14:22",
+    "user": "小花花",
+    "content": "对的  VLM caption"
+  },
+  {
+    "time": "2026-05-14 14:23",
+    "user": "我是东山呀",
+    "content": "花神还在进化"
+  },
+  {
+    "time": "2026-05-14 14:23",
+    "user": "不散和弦",
+    "content": "我后来搜了下 方式和你说的也大差不差"
+  },
+  {
+    "time": "2026-05-14 14:24",
+    "user": "Roy",
+    "content": "提纯呢 搞饭圈那一套"
+  },
+  {
+    "time": "2026-05-14 14:24",
+    "user": "Roy",
+    "content": "虐一波"
+  },
+  {
+    "time": "2026-05-14 14:24",
+    "user": "小花花",
+    "content": "我去优化我的检索了"
+  },
+  {
+    "time": "2026-05-14 14:26",
+    "user": "lyz",
+    "content": "[合并转发|蜗牛带我去散步: [聊天记录] 蜗牛带我去散步: 神割 小辰.: 最...]\n  蜗牛带我去散步 2026-5-14 14:18\n  [合并转发|群聊的聊天记录]\n    玻璃酸钠滴眼液 2026-05-14 11:16:57\n    ![图片](http://127.0.0.1:5030/image/8ce06e5997a4efdb73baf86d08ddba8f)\n  \n    edward 2026-05-14 13:46:23\n    ![图片](http://127.0.0.1:5030/image/ea1dbaa5d0f21f208eb4290aafae8693)\n  \n  \n  蜗牛带我去散步 2026-5-14 14:19\n  神割\n\n  小辰. 2026-5-14 14:19\n  最新消息 撤回了\n\n  也无风雨也无晴 2026-5-14 14:24\n  我疑问，真正可用的什么工作流、架构这种得先有个工作才能设计出适合打工人学习的内容吧\n\n  也无风雨也无晴 2026-5-14 14:24\n  他不是家里蹲吗\n\n  小辰. 2026-5-14 14:25\n  他也是边看边更的实际上\n\n"
+  },
+  {
+    "time": "2026-05-14 14:26",
+    "user": "Stone",
+    "content": "![图片](http://127.0.0.1:5030/image/7576c61a64ddc9027247671462aaf25d,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/4dab13a0c3792fa964324cf8e6482259)"
+  },
+  {
+    "time": "2026-05-14 14:27",
+    "user": "忧郁之王",
+    "content": "他不是家里蹲吗"
+  },
+  {
+    "time": "2026-05-14 14:28",
+    "user": "lyz",
+    "content": "别的群都在讨论"
+  },
+  {
+    "time": "2026-05-14 14:29",
+    "user": "Cyan",
+    "content": "放心，群里他也有小号"
+  },
+  {
+    "time": "2026-05-14 14:29",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "这个群别讨论他了"
+  },
+  {
+    "time": "2026-05-14 14:29",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "恶因，死gay"
+  },
+  {
+    "time": "2026-05-14 14:29",
+    "user": "木木彡哥",
+    "content": "@sanyuan 三元大佬，把神光 sitor 号封了，制裁他吧"
+  },
+  {
+    "time": "2026-05-14 14:30",
+    "user": "monkeytao",
+    "content": "我是觉得如果是统计错了还好 那 weixin 其实没收那么多比例对吗"
+  },
+  {
+    "time": "2026-05-14 14:30",
+    "user": "monkeytao",
+    "content": "这算好是吧"
+  },
+  {
+    "time": "2026-05-14 14:30",
+    "user": "monkeytao",
+    "content": "我也没去验证"
+  },
+  {
+    "time": "2026-05-14 14:30",
+    "user": "sanyuan",
+    "content": "我封他sitor号，管什么用"
+  },
+  {
+    "time": "2026-05-14 14:30",
+    "user": "苏彧",
+    "content": "他没买吧"
+  },
+  {
+    "time": "2026-05-14 14:30",
+    "user": "系统消息",
+    "content": "\"sanyuan\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-14 14:31",
+    "user": "木木彡哥",
+    "content": "有买，你封了估计会喜提一篇小作文"
+  },
+  {
+    "time": "2026-05-14 14:31",
+    "user": "sanyuan",
+    "content": "我不搞这种了"
+  },
+  {
+    "time": "2026-05-14 14:31",
+    "user": "sanyuan",
+    "content": "那跟他没区别了"
+  },
+  {
+    "time": "2026-05-14 14:31",
+    "user": "sanyuan",
+    "content": "直接封读者的号"
+  },
+  {
+    "time": "2026-05-14 14:31",
+    "user": "winhok的打工日记",
+    "content": "是的"
+  },
+  {
+    "time": "2026-05-14 14:31",
+    "user": "sanyuan",
+    "content": "谁买"
+  },
+  {
+    "time": "2026-05-14 14:31",
+    "user": "winhok的打工日记",
+    "content": "哈哈哈哈哈哈"
+  },
+  {
+    "time": "2026-05-14 14:31",
+    "user": "liwuhao05",
+    "content": "前段时间某光小号就去骚扰其它agent课程的作者"
+  },
+  {
+    "time": "2026-05-14 14:31",
+    "user": "winhok的打工日记",
+    "content": "起码是付费者啊"
+  },
+  {
+    "time": "2026-05-14 14:31",
+    "user": "木木彡哥",
+    "content": "是的哈哈哈哈"
+  },
+  {
+    "time": "2026-05-14 14:31",
+    "user": "忧郁之王",
+    "content": "对啊，封号就显得没有道理了"
+  },
+  {
+    "time": "2026-05-14 14:31",
+    "user": "winhok的打工日记",
+    "content": "看就看呗"
+  },
+  {
+    "time": "2026-05-14 14:31",
+    "user": "winhok的打工日记",
+    "content": "没事"
+  },
+  {
+    "time": "2026-05-14 14:31",
+    "user": "winhok的打工日记",
+    "content": "别乱抄就行"
+  },
+  {
+    "time": "2026-05-14 14:31",
+    "user": "稚",
+    "content": "给他学"
+  },
+  {
+    "time": "2026-05-14 14:31",
+    "user": "稚",
+    "content": "没事的"
+  },
+  {
+    "time": "2026-05-14 14:32",
+    "user": "liwuhao05",
+    "content": "![图片](http://127.0.0.1:5030/image/42a74c190d83f61f36cd706f6baf8781,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/bb1337d5c437c6b6adf8843912b0271b)"
+  },
+  {
+    "time": "2026-05-14 14:33",
+    "user": "procrastination🐼",
+    "content": "这不是给光神引流吗"
+  },
+  {
+    "time": "2026-05-14 14:33",
+    "user": "procrastination🐼",
+    "content": "直接给三元加入公众号起手式了"
+  },
+  {
+    "time": "2026-05-14 14:33",
+    "user": "liwuhao05",
+    "content": "后被鉴定很大可能性是他小号"
+  },
+  {
+    "time": "2026-05-14 14:33",
+    "user": "sanyuan",
+    "content": "这啥情况"
+  },
+  {
+    "time": "2026-05-14 14:33",
+    "user": "sanyuan",
+    "content": "神光小号"
+  },
+  {
+    "time": "2026-05-14 14:33",
+    "user": "sanyuan",
+    "content": "好阴暗啊"
+  },
+  {
+    "time": "2026-05-14 14:33",
+    "user": "sanyuan",
+    "content": "[Commando]"
+  },
+  {
+    "time": "2026-05-14 14:33",
+    "user": "procrastination🐼",
+    "content": "继华为，我的父亲，我的亲戚，我的房子后 又一热点新闻"
+  },
+  {
+    "time": "2026-05-14 14:33",
+    "user": "洁华",
+    "content": "不还有这个神操作"
+  },
+  {
+    "time": "2026-05-14 14:34",
+    "user": "洁华",
+    "content": "![图片](http://127.0.0.1:5030/image/b646c7f03bfa7b9c5198770da027ac2e,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/4c370758c36a135191d390ad2fe27feb)"
+  },
+  {
+    "time": "2026-05-14 14:34",
+    "user": "苏彧",
+    "content": "这对话人谁啊"
+  },
+  {
+    "time": "2026-05-14 14:34",
+    "user": "monkeytao",
+    "content": "别这么关联 yy 搞得跟小米似的擅长营销了 那他很有前途了"
+  },
+  {
+    "time": "2026-05-14 14:37",
+    "user": "不散和弦",
+    "content": "吃了一小时的瓜 我滚去写代码了[破涕为笑]"
+  },
+  {
+    "time": "2026-05-14 14:37",
+    "user": "敏",
+    "content": "![图片](http://127.0.0.1:5030/image/f9df6e9b31d944cc9540bb905f26835b,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/1e36342a1d36a984ce427d690dfe8410)"
+  },
+  {
+    "time": "2026-05-14 14:37",
+    "user": "Pudge",
+    "content": "确实是吃瓜[Lol]"
+  },
+  {
+    "time": "2026-05-14 14:38",
+    "user": "lyz",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=1662d6e4ee6c0416602f304778ed3f0c&filekey=3043020101042f302d02016e04025348042031363632643665346565366330343136363032663330343737386564336630630202690f040d00000004627466730000000132&hy=SH&storeid=264b7eac000086f442bda787a0000006e01004fb153482b9468e0b1691e124&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 14:38",
+    "user": "liwuhao05",
+    "content": "哈哈"
+  },
+  {
+    "time": "2026-05-14 14:38",
+    "user": "系统消息",
+    "content": "\"宇\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-14 14:38",
+    "user": "liwuhao05",
+    "content": "前端有自己的内娱"
+  },
+  {
+    "time": "2026-05-14 14:38",
+    "user": "lyz",
+    "content": "前端真是娱乐圈"
+  },
+  {
+    "time": "2026-05-14 14:38",
+    "user": "winhok的打工日记",
+    "content": "随便删人这点，也确实不把用户当人"
+  },
+  {
+    "time": "2026-05-14 14:38",
+    "user": "系统消息",
+    "content": "\"宇\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-14 14:38",
+    "user": "宇",
+    "content": "我草，真不是人来的"
+  },
+  {
+    "time": "2026-05-14 14:39",
+    "user": "🐰哎哟喔哟🐰",
+    "content": "大胆！"
+  },
+  {
+    "time": "2026-05-14 14:39",
+    "user": "liwuhao05",
+    "content": "掘金很多人私信他，他一直压力掘金，让他们搞了个屏蔽的功能"
+  },
+  {
+    "time": "2026-05-14 14:39",
+    "user": "Roy",
+    "content": "300节？？"
+  },
+  {
+    "time": "2026-05-14 14:39",
+    "user": "小心甘",
+    "content": "我丢，还能这么玩"
+  },
+  {
+    "time": "2026-05-14 14:39",
+    "user": "小心甘",
+    "content": "屏蔽功能."
+  },
+  {
+    "time": "2026-05-14 14:39",
+    "user": "Cyan",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=1662d6e4ee6c0416602f304778ed3f0c&filekey=3043020101042f302d02016e04025348042031363632643665346565366330343136363032663330343737386564336630630202690f040d00000004627466730000000132&hy=SH&storeid=264b7eac000086f442bda787a0000006e01004fb153482b9468e0b1691e124&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 14:39",
+    "user": "liwuhao05",
+    "content": "然后他就威胁掘金，说不上这个功能就换平台"
+  },
+  {
+    "time": "2026-05-14 14:40",
+    "user": "winhok的打工日记",
+    "content": "哈哈哈哈哈哈"
+  },
+  {
+    "time": "2026-05-14 14:40",
+    "user": "Stone",
+    "content": "笑嘻了，那不是优🦊干的吗，后面也和他撕破脸了"
+  },
+  {
+    "time": "2026-05-14 14:40",
+    "user": "Cyan",
+    "content": "拉黑删除这一块"
+  },
+  {
+    "time": "2026-05-14 14:40",
+    "user": "liwuhao05",
+    "content": "搞得掘金一周内上线这个功能"
+  },
+  {
+    "time": "2026-05-14 14:40",
+    "user": "Stone",
+    "content": "当时闹的沸沸扬扬的"
+  },
+  {
+    "time": "2026-05-14 14:40",
+    "user": "Cyan",
+    "content": "杜兰特和詹姆斯的结合体"
+  },
+  {
+    "time": "2026-05-14 14:40",
+    "user": "Stone",
+    "content": "还有经典的：不更新完我😋💩"
+  },
+  {
+    "time": "2026-05-14 14:40",
+    "user": "liwuhao05",
+    "content": "哈哈"
+  },
+  {
+    "time": "2026-05-14 14:40",
+    "user": "敏",
+    "content": "坐拥那么多粉丝，但凡是个正常人，写写课就能赚很多钱，迟早败坏了自己名声"
+  },
+  {
+    "time": "2026-05-14 14:41",
+    "user": "阿五",
+    "content": "已经败坏得差不多了"
+  },
+  {
+    "time": "2026-05-14 14:41",
+    "user": "winhok的打工日记",
+    "content": "其实把用户当人就行了"
+  },
+  {
+    "time": "2026-05-14 14:41",
+    "user": "一期一会",
+    "content": "水能载舟亦能覆舟"
+  },
+  {
+    "time": "2026-05-14 14:42",
+    "user": "winhok的打工日记",
+    "content": "他现在是我想怎么更就怎么更，想停就停想更就更，你爱看不看的态度"
+  },
+  {
+    "time": "2026-05-14 14:42",
+    "user": "winhok的打工日记",
+    "content": "不把用户当人的"
+  },
+  {
+    "time": "2026-05-14 14:43",
+    "user": "阿五",
+    "content": "他没元佬那些实战经验，家里蹲连生产都没上过的人"
+  },
+  {
+    "time": "2026-05-14 14:43",
+    "user": "winhok的打工日记",
+    "content": "这是在眼馋别人卖得贵[旺柴]"
+  },
+  {
+    "time": "2026-05-14 14:43",
+    "user": "稚",
+    "content": "@小心甘"
+  },
+  {
+    "time": "2026-05-14 14:43",
+    "user": "忧郁之王",
+    "content": "之前的课还可以是自己工作积累的"
+  },
+  {
+    "time": "2026-05-14 14:43",
+    "user": "稚",
+    "content": "你也在这"
+  },
+  {
+    "time": "2026-05-14 14:43",
+    "user": "忧郁之王",
+    "content": "他现在完全没有做过生产的 agent"
+  },
+  {
+    "time": "2026-05-14 14:43",
+    "user": "小心甘",
+    "content": "[旺柴] 跟着学习"
+  },
+  {
+    "time": "2026-05-14 14:43",
+    "user": "我是东山呀",
+    "content": "家里蹲 没有任何实际业务，出的课，真的能得到东西么哈哈哈哈"
+  },
+  {
+    "time": "2026-05-14 14:43",
+    "user": "忧郁之王",
+    "content": "这课自己还不负责"
+  },
+  {
+    "time": "2026-05-14 14:43",
+    "user": "嘻🇨🇳嘻",
+    "content": "![图片](http://127.0.0.1:5030/image/626e9bd0979a5a0f2e68280a514ad339,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/9de28af60e90c989797d3a7d93e7f41b)"
+  },
+  {
+    "time": "2026-05-14 14:44",
+    "user": "小心甘",
+    "content": "@稚 课程学多少了，有没有偷懒"
+  },
+  {
+    "time": "2026-05-14 14:44",
+    "user": "阿五",
+    "content": "有一说一，babel 跟 ts 小册真的挺不错的"
+  },
+  {
+    "time": "2026-05-14 14:44",
+    "user": "忧郁之王",
+    "content": "。。。"
+  },
+  {
+    "time": "2026-05-14 14:44",
+    "user": "我是东山呀",
+    "content": "那时候还在上班"
+  },
+  {
+    "time": "2026-05-14 14:44",
+    "user": "稚",
+    "content": "tool才学完"
+  },
+  {
+    "time": "2026-05-14 14:44",
+    "user": "稚",
+    "content": "跟不上了"
+  },
+  {
+    "time": "2026-05-14 14:44",
+    "user": "稚",
+    "content": "我是差生"
+  },
+  {
+    "time": "2026-05-14 14:44",
+    "user": "Roy",
+    "content": "笑死我了 特别像我某一任前老板"
+  },
+  {
+    "time": "2026-05-14 14:44",
+    "user": "阿五",
+    "content": "后面出的小册都什么玩意，特别是 tree 跟 nest 开始"
+  },
+  {
+    "time": "2026-05-14 14:45",
+    "user": "procrastination🐼",
+    "content": "这就不得不提我了[旺柴]"
+  },
+  {
+    "time": "2026-05-14 14:45",
+    "user": "Harrison Wells",
+    "content": "babel因为他在高德就是架构组"
+  },
+  {
+    "time": "2026-05-14 14:45",
+    "user": "Harrison Wells",
+    "content": "后面全是demo"
+  },
+  {
+    "time": "2026-05-14 14:45",
+    "user": "procrastination🐼",
+    "content": "战绩可查 哈哈"
+  },
+  {
+    "time": "2026-05-14 14:45",
+    "user": "winhok的打工日记",
+    "content": "![图片](http://127.0.0.1:5030/image/187a0d3e3ada648e745694016616775f,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/b5f492796b510c657d565f7f4f258517)"
+  },
+  {
+    "time": "2026-05-14 14:46",
+    "user": "阿五",
+    "content": "还天天整神人操作，忠言逆耳他是真得哄着说的，一不顺眼就拉黑，很难相信这人是 94 年出了学校门多年的人类"
+  },
+  {
+    "time": "2026-05-14 14:46",
+    "user": "winhok的打工日记",
+    "content": "也问我买啥课了，我算是客气了[旺柴]"
+  },
+  {
+    "time": "2026-05-14 14:46",
+    "user": "Stone",
+    "content": "ts 不是有个免费的吗？林不渡的"
+  },
+  {
+    "time": "2026-05-14 14:46",
+    "user": "winhok的打工日记",
+    "content": "就是因为这个才到处问的"
+  },
+  {
+    "time": "2026-05-14 14:51",
+    "user": "忧郁之王",
+    "content": "真让他自己搞个卖课的网站，他这么浮躁又搞不懂"
+  },
+  {
+    "time": "2026-05-14 14:51",
+    "user": "忧郁之王",
+    "content": "搞不动"
+  },
+  {
+    "time": "2026-05-14 15:02",
+    "user": "yearning",
+    "content": "打个飞机就好了"
+  },
+  {
+    "time": "2026-05-14 15:02",
+    "user": "yearning",
+    "content": "taiyayil 太压抑了"
+  },
+  {
+    "time": "2026-05-14 15:02",
+    "user": "yearning",
+    "content": "我经历过"
+  },
+  {
+    "time": "2026-05-14 15:02",
+    "user": "yearning",
+    "content": "不打静不下心"
+  },
+  {
+    "time": "2026-05-14 15:03",
+    "user": "hc",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=1a29f624495d2250ca54db8194272d80&filekey=30350201010421301f020201060402534804101a29f624495d2250ca54db8194272d800203029ca2040d00000004627466730000000132&hy=SH&storeid=26305fbd8000734ee000000000000010600004f5053481c067b40b663eb702&bizid=1023)"
+  },
+  {
+    "time": "2026-05-14 15:03",
+    "user": "sanyuan",
+    "content": "私发给神光吧"
+  },
+  {
+    "time": "2026-05-14 15:04",
+    "user": "sanyuan",
+    "content": "让他静下心"
+  },
+  {
+    "time": "2026-05-14 15:04",
+    "user": "罗十十.十",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=2c4544fa6ed5e70e6d67b604b25817e6&filekey=30440201010430302e02016e0402535a042032633435343466613665643565373065366436376236303462323538313765360203062569040d00000004627466730000000132&hy=SZ&storeid=267eb844a000df2a94e9754210000006e01004fb1535a08b6ebc1e789cc6e2&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 15:04",
+    "user": "Stephen",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=172d6e1f22cf9d9b3bb34808eafa0ed0&filekey=30440201010430302e02016e0402535a04203137326436653166323263663964396233626233343830386561666130656430020300dc48040d00000004627466730000000132&hy=SZ&storeid=268490f89000a0b112ddb32ee0000006e01004fb1535a2e6a70b1568ddac19&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 15:04",
+    "user": "choose",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=172d6e1f22cf9d9b3bb34808eafa0ed0&filekey=30440201010430302e02016e0402535a04203137326436653166323263663964396233626233343830386561666130656430020300dc48040d00000004627466730000000132&hy=SZ&storeid=268490f89000a0b112ddb32ee0000006e01004fb1535a2e6a70b1568ddac19&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 15:04",
+    "user": "choose",
+    "content": "是这样的"
+  },
+  {
+    "time": "2026-05-14 15:04",
+    "user": "阿林Arlyn",
+    "content": "我挺羡慕光神的状态的 不内耗 只耗别人 不找自己的问题 出了事都是别人问题的心态"
+  },
+  {
+    "time": "2026-05-14 15:05",
+    "user": "xoxo",
+    "content": "哈哈哈"
+  },
+  {
+    "time": "2026-05-14 15:05",
+    "user": "xoxo",
+    "content": "确实"
+  },
+  {
+    "time": "2026-05-14 15:05",
+    "user": "阿林Arlyn",
+    "content": "心理健康的"
+  },
+  {
+    "time": "2026-05-14 15:05",
+    "user": "阿林Arlyn",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=129e8f6dab2f60114f2324c4023146ca&filekey=30440201010430302e02016e040253480420313239653866366461623266363031313466323332346334303233313436636102030bff7f040d00000004627466730000000132&hy=SH&storeid=268845791000891aa95dfe4190000006e01004fb153481753903156a24436a&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 15:05",
+    "user": "xoxo",
+    "content": "@苏彧 苏神怎么看"
+  },
+  {
+    "time": "2026-05-14 15:05",
+    "user": "阿林Arlyn",
+    "content": "反正也没啥毛病 自己对劲就行"
+  },
+  {
+    "time": "2026-05-14 15:05",
+    "user": "木木彡哥",
+    "content": "你还真提啊，回头就给你拉黑了"
+  },
+  {
+    "time": "2026-05-14 15:05",
+    "user": "那时晴天",
+    "content": "我觉得挺好，哈哈哈"
+  },
+  {
+    "time": "2026-05-14 15:06",
+    "user": "小花花",
+    "content": "@不散和弦  搞定了"
+  },
+  {
+    "time": "2026-05-14 15:06",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/72ac93050fb1eb6e9cb4621d470f3c2c,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/16869c7da8a23fd7ad7ae06401d7b58d)"
+  },
+  {
+    "time": "2026-05-14 15:06",
+    "user": "unknown",
+    "content": "\"不散和弦\" 拍了拍 \"小花花\" 说句帅哥"
+  },
+  {
+    "time": "2026-05-14 15:06",
+    "user": "不散和弦",
+    "content": "[强][强][强]"
+  },
+  {
+    "time": "2026-05-14 15:06",
+    "user": "不散和弦",
+    "content": "周末我也搞一下"
+  },
+  {
+    "time": "2026-05-14 15:06",
+    "user": "不散和弦",
+    "content": "要搞的东西太多 忙不过来了[破涕为笑]"
+  },
+  {
+    "time": "2026-05-14 15:07",
+    "user": "Ran萌",
+    "content": "[强]"
+  },
+  {
+    "time": "2026-05-14 15:07",
+    "user": "系统消息",
+    "content": "\"sanyuan\"邀请\"y1mwu\"加入了群聊"
+  },
+  {
+    "time": "2026-05-14 15:07",
+    "user": "系统消息",
+    "content": "\"y1mwu\"与群里其他人都不是朋友关系，请注意隐私安全"
+  },
+  {
+    "time": "2026-05-14 15:07",
+    "user": "小花花",
+    "content": "我都是上班搞"
+  },
+  {
+    "time": "2026-05-14 15:07",
+    "user": "不散和弦",
+    "content": "就拿理论课实践吧[呲牙]"
+  },
+  {
+    "time": "2026-05-14 15:07",
+    "user": "小花花",
+    "content": "现在去写公司业务了"
+  },
+  {
+    "time": "2026-05-14 15:07",
+    "user": "小花花",
+    "content": "[旺柴]"
+  },
+  {
+    "time": "2026-05-14 15:07",
+    "user": "choose",
+    "content": "我抓紧看"
+  },
+  {
+    "time": "2026-05-14 15:07",
+    "user": "木木彡哥",
+    "content": "课程不连贯是因为他自己都没有实际项目经验，都是东学一点西学一点就拿来出课了"
+  },
+  {
+    "time": "2026-05-14 15:08",
+    "user": "罗十十.十",
+    "content": "还是催一下 三元老 harness 课程赶紧出吧"
+  },
+  {
+    "time": "2026-05-14 15:08",
+    "user": "小花花",
+    "content": "还是催一下 三元老 harness 课程赶紧出吧"
+  },
+  {
+    "time": "2026-05-14 15:09",
+    "user": "小花花",
+    "content": "给自己上点压力，看看我天天上班还拿那么多时间来学习"
+  },
+  {
+    "time": "2026-05-14 15:09",
+    "user": "不散和弦",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=e2b59537dd7c6fb5202e79811c577feb&filekey=30440201010430302e02016e04025348042065326235393533376464376336666235323032653739383131633537376665620203009852040d00000004627466730000000132&hy=SH&storeid=265a14285000aaad3a91cb8f50000006e01004fb153482a307bd1e67f1e977&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 15:09",
+    "user": "稚",
+    "content": "我觉得林不渡付费那本讲的也不错"
+  },
+  {
+    "time": "2026-05-14 15:09",
+    "user": "稚",
+    "content": "神光那个有点太深了"
+  },
+  {
+    "time": "2026-05-14 15:09",
+    "user": "稚",
+    "content": "而且默认你是会ts的大部分用法的"
+  },
+  {
+    "time": "2026-05-14 15:09",
+    "user": "稚",
+    "content": "第一次看没看懂"
+  },
+  {
+    "time": "2026-05-14 15:10",
+    "user": "稚",
+    "content": "但是他本身就是将类型体操的也能理解吧"
+  },
+  {
+    "time": "2026-05-14 15:10",
+    "user": "那时晴天",
+    "content": "ts 看渡一呀"
+  },
+  {
+    "time": "2026-05-14 15:10",
+    "user": "winhok的打工日记",
+    "content": "拉黑就拉黑吧"
+  },
+  {
+    "time": "2026-05-14 15:10",
+    "user": "那时晴天",
+    "content": "我都是看渡一的短视频学的"
+  },
+  {
+    "time": "2026-05-14 15:10",
+    "user": "那时晴天",
+    "content": "免费，又好"
+  },
+  {
+    "time": "2026-05-14 15:10",
+    "user": "winhok的打工日记",
+    "content": "我还稍微哄了一下的[旺柴]"
+  },
+  {
+    "time": "2026-05-14 15:11",
+    "user": "winhok的打工日记",
+    "content": "其他的anyway了"
+  },
+  {
+    "time": "2026-05-14 15:11",
+    "user": "木木彡哥",
+    "content": "是不是跟哄小孩一样"
+  },
+  {
+    "time": "2026-05-14 15:11",
+    "user": "choose",
+    "content": "@sanyuan"
+  },
+  {
+    "time": "2026-05-14 15:11",
+    "user": "choose",
+    "content": "好像收不到验证码来着 垃圾箱也没有"
+  },
+  {
+    "time": "2026-05-14 15:11",
+    "user": "choose",
+    "content": "![图片](http://127.0.0.1:5030/image/2eb36b9d9fa96ac5ce38f6c672aa006a,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/371e321b55955c09c09b8cfc1a37ae79)"
+  },
+  {
+    "time": "2026-05-14 15:11",
+    "user": "sanyuan",
+    "content": "我擦"
+  },
+  {
+    "time": "2026-05-14 15:12",
+    "user": "sanyuan",
+    "content": "大家先别慌"
+  },
+  {
+    "time": "2026-05-14 15:12",
+    "user": "winhok的打工日记",
+    "content": "![图片](http://127.0.0.1:5030/image/364ee02422356bd7f4717dc9bd1ce5a5,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/7bedc5f85375b1fc63e72133f19544cc)"
+  },
+  {
+    "time": "2026-05-14 15:12",
+    "user": "winhok的打工日记",
+    "content": "哈哈哈哈哈哈"
+  },
+  {
+    "time": "2026-05-14 15:12",
+    "user": "winhok的打工日记",
+    "content": "哄了"
+  },
+  {
+    "time": "2026-05-14 15:12",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "我理解现在不就是吗？"
+  },
+  {
+    "time": "2026-05-14 15:12",
+    "user": "杰宝大黄",
+    "content": "虚伪"
+  },
+  {
+    "time": "2026-05-14 15:13",
+    "user": "L",
+    "content": "我也哄"
+  },
+  {
+    "time": "2026-05-14 15:13",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "Harness=agent-model"
+  },
+  {
+    "time": "2026-05-14 15:13",
+    "user": "Pudge",
+    "content": "[Lol]"
+  },
+  {
+    "time": "2026-05-14 15:14",
+    "user": "sanyuan",
+    "content": "外耗型"
+  },
+  {
+    "time": "2026-05-14 15:14",
+    "user": "Neo",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-14 15:14",
+    "user": "杰宝大黄",
+    "content": "不太好，这种感觉都有点精神不正常了"
+  },
+  {
+    "time": "2026-05-14 15:15",
+    "user": "一期一会",
+    "content": "![图片](http://127.0.0.1:5030/image/25e9a3177f627213c28cc0a72f2cf946,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/83d20926d4861931bdb7305b16e06a11)"
+  },
+  {
+    "time": "2026-05-14 15:15",
+    "user": "procrastination🐼",
+    "content": "够深入要怎么理解"
+  },
+  {
+    "time": "2026-05-14 15:15",
+    "user": "🐟",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=65a3d8e6a127c519e4752fffcbd6e5d9&filekey=30350201010421301f020201060402535a041065a3d8e6a127c519e4752fffcbd6e5d902032d5106040d00000004627466730000000132&hy=SZ&storeid=266c2e45d0006de8d6801f21b0000010600004f50535a056fb01157cb51d21&bizid=1023)"
+  },
+  {
+    "time": "2026-05-14 15:15",
+    "user": "阿五",
+    "content": "？"
+  },
+  {
+    "time": "2026-05-14 15:15",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "晦气"
+  },
+  {
+    "time": "2026-05-14 15:16",
+    "user": "Augenstern",
+    "content": "坏了，真要复刻 sitor 了"
+  },
+  {
+    "time": "2026-05-14 15:16",
+    "user": "sanyuan",
+    "content": "![图片](http://127.0.0.1:5030/image/8898fe1086001cd0f59bade3836e7897,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/5984367d16312f50e688bf8f9d08b2af)"
+  },
+  {
+    "time": "2026-05-14 15:16",
+    "user": "嘻🇨🇳嘻",
+    "content": "哈哈哈哈哈哈哈哈"
+  },
+  {
+    "time": "2026-05-14 15:16",
+    "user": "超超",
+    "content": "![图片](http://127.0.0.1:5030/image/8898fe1086001cd0f59bade3836e7897,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/1f910bb171e7fb8e7dd57b2aae37bfe0)"
+  },
+  {
+    "time": "2026-05-14 15:16",
+    "user": "Augenstern",
+    "content": "[破涕为笑]"
+  },
+  {
+    "time": "2026-05-14 15:16",
+    "user": "财",
+    "content": "啊哈哈哈"
+  },
+  {
+    "time": "2026-05-14 15:17",
+    "user": "财",
+    "content": "笑死我了"
+  },
+  {
+    "time": "2026-05-14 15:17",
+    "user": "choose",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=1509e3838ec8eb628688fcefe564ea6e&filekey=30350201010421301f020201060402535a04101509e3838ec8eb628688fcefe564ea6e02030af75c040d00000004627466730000000132&hy=SZ&storeid=26304f4fb0002bd53000000000000010600004f50535a11f27880963321814&bizid=1023)"
+  },
+  {
+    "time": "2026-05-14 15:17",
+    "user": "JaguarLiu",
+    "content": "[破涕为笑]"
+  },
+  {
+    "time": "2026-05-14 15:17",
+    "user": "财",
+    "content": "分不清一个圈钱的分不清"
+  },
+  {
+    "time": "2026-05-14 15:17",
+    "user": "choose",
+    "content": "元神 邮箱收不到验证码 是在修复吗"
+  },
+  {
+    "time": "2026-05-14 15:17",
+    "user": "杰宝大黄",
+    "content": "骂优弧那段瓜真的是笑死我了"
+  },
+  {
+    "time": "2026-05-14 15:17",
+    "user": "winhok的打工日记",
+    "content": "别管，你就说哄了没"
+  },
+  {
+    "time": "2026-05-14 15:17",
+    "user": "黄璇旋",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=4113ddbe2813a3a34da968822e3e2649&filekey=30440201010430302e02016e04025348042034313133646462653238313361336133346461393638383232653365323634390203009c50040d00000004627466730000000132&hy=SH&storeid=266924c580005a25c101cdd100000006e01004fb153482a589bc1e6a3bf7c7&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 15:17",
+    "user": "winhok的打工日记",
+    "content": "[旺柴]"
+  },
+  {
+    "time": "2026-05-14 15:17",
+    "user": "黄璇旋",
+    "content": "男人之间也会这样吗。。。"
+  },
+  {
+    "time": "2026-05-14 15:17",
+    "user": "苏彧",
+    "content": "这是说神光的？"
+  },
+  {
+    "time": "2026-05-14 15:17",
+    "user": "Pudge",
+    "content": "啊 有关键词吗 好像之前没吃过"
+  },
+  {
+    "time": "2026-05-14 15:17",
+    "user": "procrastination🐼",
+    "content": "这么怕拉黑吗[奸笑]"
+  },
+  {
+    "time": "2026-05-14 15:17",
+    "user": "liwuhao05",
+    "content": "优弧的含金量还在上升"
+  },
+  {
+    "time": "2026-05-14 15:18",
+    "user": "winhok的打工日记",
+    "content": "有聊天记录打包下吗"
+  },
+  {
+    "time": "2026-05-14 15:18",
+    "user": "winhok的打工日记",
+    "content": "我要吃瓜"
+  },
+  {
+    "time": "2026-05-14 15:18",
+    "user": "财",
+    "content": "1 我就想知道"
+  },
+  {
+    "time": "2026-05-14 15:18",
+    "user": "财",
+    "content": "真聊了吗"
+  },
+  {
+    "time": "2026-05-14 15:18",
+    "user": "winhok的打工日记",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=4db8cda4b7976f04f51354133e0e6e4e&filekey=30440201010430302e02016e0402534804203464623863646134623739373666303466353133353431333365306536653465020300e43a040d00000004627466730000000132&hy=SH&storeid=268b85c1f0003ef9f019259200000006e01004fb1534825433031569c90ff2&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 15:18",
+    "user": "财",
+    "content": "@sanyuan 这个方便说吗 真的有和神光聊吗"
+  },
+  {
+    "time": "2026-05-14 15:18",
+    "user": "财",
+    "content": "![图片](http://127.0.0.1:5030/image/5e350d13ed195958f3ff9155be3ba5e1,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/2897d26360efa255a89f3c7dda02ee43)"
+  },
+  {
+    "time": "2026-05-14 15:19",
+    "user": "Pudge",
+    "content": "是 \"赌约\"? google ai 都总结出来了[破涕为笑]"
+  },
+  {
+    "time": "2026-05-14 15:19",
+    "user": "Pudge",
+    "content": "![图片](http://127.0.0.1:5030/image/25824f5385b33f17761346a7c170a497,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/a5318c852dd4c68ba93acc7fd945c15c)"
+  },
+  {
+    "time": "2026-05-14 15:19",
+    "user": "嘻🇨🇳嘻",
+    "content": "6"
+  },
+  {
+    "time": "2026-05-14 15:19",
+    "user": "winhok的打工日记",
+    "content": "牛逼"
+  },
+  {
+    "time": "2026-05-14 15:19",
+    "user": "宇",
+    "content": "优弧维护他说吃屎"
+  },
+  {
+    "time": "2026-05-14 15:19",
+    "user": "超超",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=5f732bf599659318b74d935969f2330d&filekey=30440201010430302e02016e0402535a04203566373332626635393936353933313862373464393335393639663233333064020300d126040d00000004627466730000000132&hy=SZ&storeid=265eef26b000bc0fe9987e5f80000006e01004fb1535a1dbfe0115672a0ae0&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 15:20",
+    "user": "超超",
+    "content": "垃圾中的战斗机"
+  },
+  {
+    "time": "2026-05-14 15:20",
+    "user": "超超",
+    "content": "有什么好聊的"
+  },
+  {
+    "time": "2026-05-14 15:20",
+    "user": "procrastination🐼",
+    "content": "这都多久的事了"
+  },
+  {
+    "time": "2026-05-14 15:20",
+    "user": "procrastination🐼",
+    "content": "应该是优弧离职后"
+  },
+  {
+    "time": "2026-05-14 15:20",
+    "user": "procrastination🐼",
+    "content": "i光在群里说了油壶啥"
+  },
+  {
+    "time": "2026-05-14 15:20",
+    "user": "procrastination🐼",
+    "content": "油壶就在另一个群喷了i光"
+  },
+  {
+    "time": "2026-05-14 15:21",
+    "user": "杰宝大黄",
+    "content": "他是公众号直接骂的"
+  },
+  {
+    "time": "2026-05-14 15:21",
+    "user": "杰宝大黄",
+    "content": "神光"
+  },
+  {
+    "time": "2026-05-14 15:21",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "肯定是光子说油壶不给他结算"
+  },
+  {
+    "time": "2026-05-14 15:21",
+    "user": "杰宝大黄",
+    "content": "后面删了"
+  },
+  {
+    "time": "2026-05-14 15:21",
+    "user": "Pudge",
+    "content": "这.... 还有 (一)  (二)...\n\nhttps://juejin.cn/post/7356894848518275091"
+  },
+  {
+    "time": "2026-05-14 15:21",
+    "user": "Pudge",
+    "content": "![图片](http://127.0.0.1:5030/image/16c7ff71d89ddea9b11a1573121732eb,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/b3e8bc835b7b7a31afe73a5bb9a65f73)"
+  },
+  {
+    "time": "2026-05-14 15:22",
+    "user": "procrastination🐼",
+    "content": "。。。"
+  },
+  {
+    "time": "2026-05-14 15:22",
+    "user": "procrastination🐼",
+    "content": "2年了 还不放过我呀"
+  },
+  {
+    "time": "2026-05-14 15:22",
+    "user": "procrastination🐼",
+    "content": "![动画表情](http://wxapp.tc.qq.com/275/20304/stodownload?m=524f1592a8a61ac9c47bf2b155a9f61b&filekey=30350201010421301f02020113040253480410524f1592a8a61ac9c47bf2b155a9f61b020303e639040d00000004627466730000000132&hy=SH&storeid=26593e2610005a241b4259b2e0000011300004f505348145871b156629ad64&bizid=1023)"
+  },
+  {
+    "time": "2026-05-14 15:22",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "@procrastination🐼 作者在这儿呢"
+  },
+  {
+    "time": "2026-05-14 15:23",
+    "user": "xoxo",
+    "content": "[奸笑]"
+  },
+  {
+    "time": "2026-05-14 15:23",
+    "user": "xoxo",
+    "content": "前端有自己的内娱"
+  },
+  {
+    "time": "2026-05-14 15:23",
+    "user": "Pudge",
+    "content": "啊? 老哥, 这是你写的呐"
+  },
+  {
+    "time": "2026-05-14 15:23",
+    "user": "杰宝大黄",
+    "content": "你这咋没神光骂优弧的后续呀"
+  },
+  {
+    "time": "2026-05-14 15:23",
+    "user": "Pudge",
+    "content": "[Salute][Salute][Salute]"
+  },
+  {
+    "time": "2026-05-14 15:23",
+    "user": "杰宝大黄",
+    "content": "差评了"
+  },
+  {
+    "time": "2026-05-14 15:24",
+    "user": "procrastination🐼",
+    "content": "没时间整理"
+  },
+  {
+    "time": "2026-05-14 15:24",
+    "user": "Pudge",
+    "content": "我也是随便搜了下, 谁让你这搜索结果可靠前了 哈哈[破涕为笑]"
+  },
+  {
+    "time": "2026-05-14 15:24",
+    "user": "procrastination🐼",
+    "content": "做点有意义的事"
+  },
+  {
+    "time": "2026-05-14 15:24",
+    "user": "winhok的打工日记",
+    "content": "哈哈哈哈哈哈"
+  },
+  {
+    "time": "2026-05-14 15:24",
+    "user": "procrastination🐼",
+    "content": "你们说的瓜 我都完整的吃到过"
+  },
+  {
+    "time": "2026-05-14 15:24",
+    "user": "Pudge",
+    "content": "闲鱼 0.9 爆款预定"
+  },
+  {
+    "time": "2026-05-14 15:24",
+    "user": "杰宝大黄",
+    "content": "我也全程吃到"
+  },
+  {
+    "time": "2026-05-14 15:24",
+    "user": "Pudge",
+    "content": "ai 整个 pdf"
+  },
+  {
+    "time": "2026-05-14 15:24",
+    "user": "procrastination🐼",
+    "content": "电脑内存不够 我之前清了下微信的缓存 图片都咋不到罢了"
+  },
+  {
+    "time": "2026-05-14 15:24",
+    "user": "Pudge",
+    "content": "嘎嘎卖"
+  },
+  {
+    "time": "2026-05-14 15:24",
+    "user": "杰宝大黄",
+    "content": "而且我还被神光t了"
+  },
+  {
+    "time": "2026-05-14 15:24",
+    "user": "宇",
+    "content": "![图片](http://127.0.0.1:5030/image/7cc01de48b8bef73cb7006c14ffbff60,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/77ba023fb532a50e22100a8b29e47b99)"
+  },
+  {
+    "time": "2026-05-14 15:25",
+    "user": "杰宝大黄",
+    "content": "那时候我还没喷他"
+  },
+  {
+    "time": "2026-05-14 15:25",
+    "user": "winhok的打工日记",
+    "content": "前端原来这么乱的吗"
+  },
+  {
+    "time": "2026-05-14 15:25",
+    "user": "系统消息",
+    "content": "\"宇\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-14 15:25",
+    "user": "sanyuan",
+    "content": "你确定这不是P 的？"
+  },
+  {
+    "time": "2026-05-14 15:25",
+    "user": "winhok的打工日记",
+    "content": "公众号"
+  },
+  {
+    "time": "2026-05-14 15:25",
+    "user": "杰宝大黄",
+    "content": "哈哈"
+  },
+  {
+    "time": "2026-05-14 15:25",
+    "user": "sanyuan",
+    "content": "公众号我没看到啊"
+  },
+  {
+    "time": "2026-05-14 15:25",
+    "user": "杰宝大黄",
+    "content": "这瓜吃的"
+  },
+  {
+    "time": "2026-05-14 15:26",
+    "user": "宇",
+    "content": "![图片](http://127.0.0.1:5030/image/ed3baca8a1310f9296b9abcd1480ad43,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/edea6505dac3f67bc6a04d9648fd06a4)"
+  },
+  {
+    "time": "2026-05-14 15:26",
+    "user": "杰宝大黄",
+    "content": "链接发出来呀"
+  },
+  {
+    "time": "2026-05-14 15:26",
+    "user": "宇",
+    "content": "7000个人"
+  },
+  {
+    "time": "2026-05-14 15:26",
+    "user": "杰宝大黄",
+    "content": "当初ts 和babel的口碑太好了"
+  },
+  {
+    "time": "2026-05-14 15:27",
+    "user": "杰宝大黄",
+    "content": "很多人都上了车"
+  },
+  {
+    "time": "2026-05-14 15:27",
+    "user": "sanyuan",
+    "content": "![图片](http://127.0.0.1:5030/image/42f5d42a9621eaecfcfa1d2657d5e98d,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/48066539429724b5c114a7dcb5b1d903)"
+  },
+  {
+    "time": "2026-05-14 15:27",
+    "user": "一期一会",
+    "content": "啊，搞半天你们没聊啊"
+  },
+  {
+    "time": "2026-05-14 15:27",
+    "user": "Roy",
+    "content": "啊，搞半天你们没聊啊"
+  },
+  {
+    "time": "2026-05-14 15:27",
+    "user": "他",
+    "content": "啊，搞半天你们没聊啊"
+  },
+  {
+    "time": "2026-05-14 15:27",
+    "user": "罗十十.十",
+    "content": "里面有一个我。。Σ(°ロ°)"
+  },
+  {
+    "time": "2026-05-14 15:27",
+    "user": "杰宝大黄",
+    "content": "也有我一个"
+  },
+  {
+    "time": "2026-05-14 15:27",
+    "user": "winhok的打工日记",
+    "content": "啊，搞半天你们没聊啊"
+  },
+  {
+    "time": "2026-05-14 15:28",
+    "user": "杰宝大黄",
+    "content": "然后就threejs出来，接下来就是大清洗事件"
+  },
+  {
+    "time": "2026-05-14 15:28",
+    "user": "杰宝大黄",
+    "content": "很多人都被t了"
+  },
+  {
+    "time": "2026-05-14 15:28",
+    "user": "杰宝大黄",
+    "content": "我那时候神光小册1群都成黑子群了"
+  },
+  {
+    "time": "2026-05-14 15:28",
+    "user": "财",
+    "content": "上面群友发的"
+  },
+  {
+    "time": "2026-05-14 15:30",
+    "user": "winhok的打工日记",
+    "content": "我还以为很熟呢[旺柴]"
+  },
+  {
+    "time": "2026-05-14 15:30",
+    "user": "sanyuan",
+    "content": "2 个月之前课程还没出"
+  },
+  {
+    "time": "2026-05-14 15:30",
+    "user": "sanyuan",
+    "content": "他偶尔会跟我吐槽和私聊"
+  },
+  {
+    "time": "2026-05-14 15:31",
+    "user": "liwuhao05",
+    "content": "出了课程之后，就形同陌路了吗"
+  },
+  {
+    "time": "2026-05-14 15:31",
+    "user": "Roy",
+    "content": "人啊 最怕被比较"
+  },
+  {
+    "time": "2026-05-14 15:31",
+    "user": "winhok的打工日记",
+    "content": "不过sitor我是在他群里看到有人发链接然后就过来买了"
+  },
+  {
+    "time": "2026-05-14 15:31",
+    "user": "木木彡哥",
+    "content": "他好喜欢讲框架，天天都在 langxx啥的，vercel ai sdk 应该只是作为抹平模型接口产商差异的工具"
+  },
+  {
+    "time": "2026-05-14 15:31",
+    "user": "Roy",
+    "content": "《凭什么他能卖999》"
+  },
+  {
+    "time": "2026-05-14 15:31",
+    "user": "sanyuan",
+    "content": "不多讲了"
+  },
+  {
+    "time": "2026-05-14 15:31",
+    "user": "sanyuan",
+    "content": "都是泪"
+  },
+  {
+    "time": "2026-05-14 15:31",
+    "user": "财",
+    "content": "是啥时候写的"
+  },
+  {
+    "time": "2026-05-14 15:31",
+    "user": "财",
+    "content": "![图片](http://127.0.0.1:5030/image/42f5d42a9621eaecfcfa1d2657d5e98d,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/36074f1c05603af2871bcaff4fadc58a)"
+  },
+  {
+    "time": "2026-05-14 15:31",
+    "user": "苏彧",
+    "content": "蒜鸟蒜鸟 继续学习了"
+  },
+  {
+    "time": "2026-05-14 15:31",
+    "user": "苏彧",
+    "content": "有几个月了"
+  },
+  {
+    "time": "2026-05-14 15:32",
+    "user": "winhok的打工日记",
+    "content": "之前还没找到这个组织[旺柴]"
+  },
+  {
+    "time": "2026-05-14 15:32",
+    "user": "xoxo",
+    "content": "学好跳槽"
+  },
+  {
+    "time": "2026-05-14 15:32",
+    "user": "xoxo",
+    "content": "到时候很多人会自动帮你宣传的"
+  },
+  {
+    "time": "2026-05-14 15:32",
+    "user": "一期一会",
+    "content": "vite小册的含金量，懂的都懂"
+  },
+  {
+    "time": "2026-05-14 15:32",
+    "user": "winhok的打工日记",
+    "content": "前端圈子原来这么乱，涨见识了[奸笑]"
+  },
+  {
+    "time": "2026-05-14 15:33",
+    "user": "unknown",
+    "content": "\"xoxo\" 拍了拍 \"sanyuan\" 并放了一束[烟花]"
+  },
+  {
+    "time": "2026-05-14 15:33",
+    "user": "liwuhao05",
+    "content": "哈哈，不会是我吧"
+  },
+  {
+    "time": "2026-05-14 15:33",
+    "user": "一期一会",
+    "content": "[旺柴]"
+  },
+  {
+    "time": "2026-05-14 15:33",
+    "user": "财",
+    "content": "![图片](http://127.0.0.1:5030/image/e28204ab7e66bc6107fc12cbb528e702,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/ef047b042ce0fc4e4b685cc8d41fc303)"
+  },
+  {
+    "time": "2026-05-14 15:34",
+    "user": "系统消息",
+    "content": "\"Neo\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-14 15:34",
+    "user": "Roy",
+    "content": "你被他拉下神坛了"
+  },
+  {
+    "time": "2026-05-14 15:35",
+    "user": "Roy",
+    "content": "（不是"
+  },
+  {
+    "time": "2026-05-14 15:35",
+    "user": "Neo",
+    "content": "@sanyuan 元佬，拉一下sitor产品群"
+  },
+  {
+    "time": "2026-05-14 15:35",
+    "user": "sanyuan",
+    "content": "vite 小册含金量是教科书级别的"
+  },
+  {
+    "time": "2026-05-14 15:35",
+    "user": "sanyuan",
+    "content": "同意吧"
+  },
+  {
+    "time": "2026-05-14 15:35",
+    "user": "稚",
+    "content": "买了但没看"
+  },
+  {
+    "time": "2026-05-14 15:36",
+    "user": "稚",
+    "content": "我能不能把他喂给sitor让他教我"
+  },
+  {
+    "time": "2026-05-14 15:36",
+    "user": "xoxo",
+    "content": "vite是啥都不知道[捂脸]"
+  },
+  {
+    "time": "2026-05-14 15:36",
+    "user": "初",
+    "content": "没事现在让ai看"
+  },
+  {
+    "time": "2026-05-14 15:36",
+    "user": "我是东山呀",
+    "content": "没事现在可以喂个 ai"
+  },
+  {
+    "time": "2026-05-14 15:36",
+    "user": "稚",
+    "content": "咋喂"
+  },
+  {
+    "time": "2026-05-14 15:36",
+    "user": "稚",
+    "content": "我把链接给他么"
+  },
+  {
+    "time": "2026-05-14 15:37",
+    "user": "小花花",
+    "content": "@sanyuan vite小册有全部的md文档吗"
+  },
+  {
+    "time": "2026-05-14 15:37",
+    "user": "Neo",
+    "content": "+1，我就通过那个小册找到组织的"
+  },
+  {
+    "time": "2026-05-14 15:39",
+    "user": "procrastination🐼",
+    "content": "github可能真有"
+  },
+  {
+    "time": "2026-05-14 15:39",
+    "user": "小心甘",
+    "content": "学习一下"
+  },
+  {
+    "time": "2026-05-14 15:39",
+    "user": "小心甘",
+    "content": "![图片](http://127.0.0.1:5030/image/41ebfd11b30f03ef4878946b05dad94b,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/d9f3030ec796bbeb4c8900d688a4e92d)"
+  },
+  {
+    "time": "2026-05-14 15:39",
+    "user": "木木彡哥",
+    "content": "![图片](http://127.0.0.1:5030/image/d4eb8ede30e40dacc168b8356b3b91ce,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/12e9b0692bd315813ce07112225e8450)"
+  },
+  {
+    "time": "2026-05-14 15:39",
+    "user": "procrastination🐼",
+    "content": "![图片](http://127.0.0.1:5030/image/3df9a50c83ad606447ab38b321d431f1,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/df1bb07a1a45b3d5550549fb2a23fdbd)"
+  },
+  {
+    "time": "2026-05-14 15:39",
+    "user": "木木彡哥",
+    "content": "[旺柴]"
+  },
+  {
+    "time": "2026-05-14 15:40",
+    "user": "procrastination🐼",
+    "content": "![动画表情](http://wxapp.tc.qq.com/275/20304/stodownload?m=a283e3e37066cc2ade37eeaf8acf533c&filekey=30350201010421301f02020113040253480410a283e3e37066cc2ade37eeaf8acf533c020301d7ac040d00000004627466730000000132&hy=SH&storeid=26593e2670003f526b4259b2e0000011300004f5053481d4541b156627378e&bizid=1023)"
+  },
+  {
+    "time": "2026-05-14 15:40",
+    "user": "木木彡哥",
+    "content": "忘了看了"
+  },
+  {
+    "time": "2026-05-14 15:40",
+    "user": "procrastination🐼",
+    "content": "应该没错了"
+  },
+  {
+    "time": "2026-05-14 15:40",
+    "user": "procrastination🐼",
+    "content": "![图片](http://127.0.0.1:5030/image/a3fa7547e1ba48aebab49599792239d5,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/ed21f224ef5c0ee21e72a5c98383fd7c)"
+  },
+  {
+    "time": "2026-05-14 15:41",
+    "user": "liwuhao05",
+    "content": "![图片](http://127.0.0.1:5030/image/e58606711a700cd8f3ef4080a11c99e7,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/b9620321ffdfa91b4cb80387960ca161)"
+  },
+  {
+    "time": "2026-05-14 15:41",
+    "user": "liwuhao05",
+    "content": "当时怕掘金倒了，把自己买的全部小册都爬了"
+  },
+  {
+    "time": "2026-05-14 15:42",
+    "user": "系统消息",
+    "content": "\"木木彡哥\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-14 15:42",
+    "user": "木木彡哥",
+    "content": "不是没可能"
+  },
+  {
+    "time": "2026-05-14 15:42",
+    "user": "April.",
+    "content": "6666"
+  },
+  {
+    "time": "2026-05-14 15:43",
+    "user": "Roy",
+    "content": "现在哪个平台比较好啊"
+  },
+  {
+    "time": "2026-05-14 15:43",
+    "user": "Roy",
+    "content": "总想知道一手ai咨询"
+  },
+  {
+    "time": "2026-05-14 15:43",
+    "user": "procrastination🐼",
+    "content": "算了 供出我的焚绝"
+  },
+  {
+    "time": "2026-05-14 15:43",
+    "user": "小花花",
+    "content": "都压缩分享一下，我可以上传知识库"
+  },
+  {
+    "time": "2026-05-14 15:43",
+    "user": "小花花",
+    "content": "学习"
+  },
+  {
+    "time": "2026-05-14 15:43",
+    "user": "procrastination🐼",
+    "content": "https://github.com/lm-rebooter/NuggetsBooklet"
+  },
+  {
+    "time": "2026-05-14 15:43",
+    "user": "liwuhao05",
+    "content": "那会到处都是前端已死，掘金也确实大不如前"
+  },
+  {
+    "time": "2026-05-14 15:44",
+    "user": "procrastination🐼",
+    "content": "拿去吧"
+  },
+  {
+    "time": "2026-05-14 15:44",
+    "user": "嘻🇨🇳嘻",
+    "content": "牛逼"
+  },
+  {
+    "time": "2026-05-14 15:44",
+    "user": "liwuhao05",
+    "content": "![动画表情]()"
+  },
+  {
+    "time": "2026-05-14 15:45",
+    "user": "宇",
+    "content": "![图片](http://127.0.0.1:5030/image/051387cf6e2afa37f8addb400d37217c,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/8c63ba44e045309e0536ac50697ec5fc)"
+  },
+  {
+    "time": "2026-05-14 15:45",
+    "user": "初",
+    "content": "嗯。。我也爬了"
+  },
+  {
+    "time": "2026-05-14 15:45",
+    "user": "初",
+    "content": "我是PDF"
+  },
+  {
+    "time": "2026-05-14 15:46",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/565c2c44ef2d7e9a59ed5bcbb2c23981,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/d1d4837c78b4b3e465c267daf02308a0)"
+  },
+  {
+    "time": "2026-05-14 15:46",
+    "user": "小花花",
+    "content": "必须给你点star"
+  },
+  {
+    "time": "2026-05-14 15:46",
+    "user": "那时晴天",
+    "content": "我也点了"
+  },
+  {
+    "time": "2026-05-14 15:46",
+    "user": "那时晴天",
+    "content": "太感谢大佬了"
+  },
+  {
+    "time": "2026-05-14 15:46",
+    "user": "liwuhao05",
+    "content": "我感觉没啥用，加了反而影响ai干活，不分享是觉得这会伤了小册作者"
+  },
+  {
+    "time": "2026-05-14 15:47",
+    "user": "一期一会",
+    "content": "https://aihot.virxact.com/all"
+  },
+  {
+    "time": "2026-05-14 15:47",
+    "user": "Roy",
+    "content": "谢谢哥"
+  },
+  {
+    "time": "2026-05-14 15:48",
+    "user": "procrastination🐼",
+    "content": "不是我的 点了也没用 哈哈"
+  },
+  {
+    "time": "2026-05-14 15:48",
+    "user": "procrastination🐼",
+    "content": "建议是fork一份 免得那天没了"
+  },
+  {
+    "time": "2026-05-14 15:48",
+    "user": "一期一会",
+    "content": "[链接|装了这个AI热点Skill之后，你再也不需要自己去刷AI新闻了。](https://mp.weixin.qq.com/s/L3OIqqrZkxDxqLA4RZB14Q)"
+  },
+  {
+    "time": "2026-05-14 15:48",
+    "user": "一期一会",
+    "content": "这个博主也一直在分享AI的，可以关注下"
+  },
+  {
+    "time": "2026-05-14 15:49",
+    "user": "我是东山呀",
+    "content": "他貌似也开发 skill 了"
+  },
+  {
+    "time": "2026-05-14 15:49",
+    "user": "yearning",
+    "content": "我也想分享(ಥ_ಥ)，但是都是基于三元哥的知识点哈哈哈"
+  },
+  {
+    "time": "2026-05-14 15:50",
+    "user": "小心甘",
+    "content": "分享带上三元君的title"
+  },
+  {
+    "time": "2026-05-14 15:50",
+    "user": "小心甘",
+    "content": "[奸笑]、"
+  },
+  {
+    "time": "2026-05-14 15:53",
+    "user": "小花花",
+    "content": "我想请教一下大佬们 一个问题：我现在excel 有四个字段，A,B，C,D ，都需要和数据库表的一个字段 E 比较。必须是 ，abcd需要和E相等。有没有可以优化的对比方法"
+  },
+  {
+    "time": "2026-05-14 15:54",
+    "user": "liwuhao05",
+    "content": "你没token了吗"
+  },
+  {
+    "time": "2026-05-14 15:54",
+    "user": "小花花",
+    "content": "我不相信AI 我相信你们"
+  },
+  {
+    "time": "2026-05-14 15:54",
+    "user": "小花花",
+    "content": "[旺柴]"
+  },
+  {
+    "time": "2026-05-14 15:54",
+    "user": "Pudge",
+    "content": "A, B, C, D 都要和 E 比较, 那意思是, 期望 A,B,C,D 4 个都一样吗?"
+  },
+  {
+    "time": "2026-05-14 15:54",
+    "user": "我是东山呀",
+    "content": "我建议你相信 ai"
+  },
+  {
+    "time": "2026-05-14 15:55",
+    "user": "zkam",
+    "content": "ai这方面还是很强的"
+  },
+  {
+    "time": "2026-05-14 15:55",
+    "user": "我是东山呀",
+    "content": "让 cc 和 codex 互相拷打一下"
+  },
+  {
+    "time": "2026-05-14 15:55",
+    "user": "Pudge",
+    "content": "听上去第一反应是与 DB 比较了一次以后, 那剩下的字段是不是可以优先和比较过的 A, B, C 啥的比较, \n\n不过可能是我理解错了吧."
+  },
+  {
+    "time": "2026-05-14 15:56",
+    "user": "Pudge",
+    "content": "[破涕为笑]问 ai 没毛病, 出方案嘎嘎的"
+  },
+  {
+    "time": "2026-05-14 15:57",
+    "user": "小花花",
+    "content": "很复杂：表里只有一个字段：1400万条数据。需要A,B，C,D 都要在表里存在。我现在 Excel有1000条，算算要查多少次"
+  },
+  {
+    "time": "2026-05-14 16:00",
+    "user": "我是东山呀",
+    "content": "这种数据库逻辑 问 ai 没毛病的"
+  },
+  {
+    "time": "2026-05-14 16:02",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/5f2d59a47ea2ebafd0965776c0980b1d,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/89c505a87f05945e6e7b9daee8b9ff3d)"
+  },
+  {
+    "time": "2026-05-14 16:02",
+    "user": "小花花",
+    "content": "我高级模型用完了 用的DS"
+  },
+  {
+    "time": "2026-05-14 16:04",
+    "user": "Pudge",
+    "content": "56亿次 -> 4000, coool"
+  },
+  {
+    "time": "2026-05-14 16:09",
+    "user": "小花花",
+    "content": "现在的系统 是遍历Excel 每个字段对比 1400万次"
+  },
+  {
+    "time": "2026-05-14 16:12",
+    "user": "Pudge",
+    "content": "那个时长都能接受吗 那听上去可能是不重要的任务啊"
+  },
+  {
+    "time": "2026-05-14 17:08",
+    "user": "系统消息",
+    "content": "\"sanyuan\"邀请\"华莱坞\"加入了群聊"
+  },
+  {
+    "time": "2026-05-14 17:08",
+    "user": "系统消息",
+    "content": "\"华莱坞\"与群里其他人都不是朋友关系，请注意隐私安全"
+  },
+  {
+    "time": "2026-05-14 17:14",
+    "user": "曹通",
+    "content": "[链接|刚刚，Claude Code 额度再涨 50%！Anthropic，急了](https://mp.weixin.qq.com/s/xcho1nIMODozqpSZNzdk9A)"
+  },
+  {
+    "time": "2026-05-14 17:15",
+    "user": "sanyuan",
+    "content": "涨额度没啥用"
+  },
+  {
+    "time": "2026-05-14 17:15",
+    "user": "曹通",
+    "content": "我说早上来写代码，突然周额度只用了50%，昨晚还是90多"
+  },
+  {
+    "time": "2026-05-14 17:15",
+    "user": "sanyuan",
+    "content": "你是pro还是max"
+  },
+  {
+    "time": "2026-05-14 17:15",
+    "user": "Y.",
+    "content": "利好中转站"
+  },
+  {
+    "time": "2026-05-14 17:15",
+    "user": "曹通",
+    "content": "我可以用更多吧 我是 pro"
+  },
+  {
+    "time": "2026-05-14 17:15",
+    "user": "Y.",
+    "content": "成本又降低了"
+  },
+  {
+    "time": "2026-05-14 17:17",
+    "user": "神往",
+    "content": "那也不给国人用啊"
+  },
+  {
+    "time": "2026-05-14 17:17",
+    "user": "神往",
+    "content": "他急个毛线啊"
+  },
+  {
+    "time": "2026-05-14 17:19",
+    "user": "曹通",
+    "content": "双倍可以用还是可以"
+  },
+  {
+    "time": "2026-05-14 17:19",
+    "user": "神往",
+    "content": "claude现在体验没有codex好把"
+  },
+  {
+    "time": "2026-05-14 17:20",
+    "user": "曹通",
+    "content": "我一直用的claude，感觉挺好用的，codex写的快确实"
+  },
+  {
+    "time": "2026-05-14 17:21",
+    "user": "财",
+    "content": "cc 还是比 codex 好"
+  },
+  {
+    "time": "2026-05-14 17:21",
+    "user": "神往",
+    "content": "cc感觉做任务没有codex仔细4"
+  },
+  {
+    "time": "2026-05-14 17:26",
+    "user": "CJ",
+    "content": "我刚开了claude，你们说没codex好用😭"
+  },
+  {
+    "time": "2026-05-14 17:26",
+    "user": "Roy",
+    "content": "codex确实目前风评扭转ing"
+  },
+  {
+    "time": "2026-05-14 17:26",
+    "user": "Roy",
+    "content": "但下个月就不一定了"
+  },
+  {
+    "time": "2026-05-14 17:26",
+    "user": "让玛卡巴卡爬吧",
+    "content": "都开"
+  },
+  {
+    "time": "2026-05-14 17:27",
+    "user": "Roy",
+    "content": "这俩迭代都太快了"
+  },
+  {
+    "time": "2026-05-14 17:27",
+    "user": "choose",
+    "content": "下个月也一定啊"
+  },
+  {
+    "time": "2026-05-14 17:27",
+    "user": "choose",
+    "content": "价格差距太大了"
+  },
+  {
+    "time": "2026-05-14 17:27",
+    "user": "choose",
+    "content": "[捂脸]"
+  },
+  {
+    "time": "2026-05-14 17:28",
+    "user": "神往",
+    "content": "claude 太贵了用不起"
+  },
+  {
+    "time": "2026-05-14 17:29",
+    "user": "尤里安的红茶",
+    "content": "有没有推荐靠谱的中转站啊"
+  },
+  {
+    "time": "2026-05-14 17:29",
+    "user": "CJ",
+    "content": "claude 20美刀的pro版本够用了吧"
+  },
+  {
+    "time": "2026-05-14 17:29",
+    "user": "CJ",
+    "content": "codex现在什么价格"
+  },
+  {
+    "time": "2026-05-14 17:29",
+    "user": "Amber",
+    "content": "codex也是一个cli？"
+  },
+  {
+    "time": "2026-05-14 17:30",
+    "user": "我是东山呀",
+    "content": "都有"
+  },
+  {
+    "time": "2026-05-14 17:33",
+    "user": "sanyuan",
+    "content": "说真的 我觉得 claude 4.6 opus 在我心中还是比 codex 强"
+  },
+  {
+    "time": "2026-05-14 17:33",
+    "user": "sanyuan",
+    "content": "4.7 opus 都不大行"
+  },
+  {
+    "time": "2026-05-14 17:35",
+    "user": "小花花",
+    "content": "我还在用 cursor 的 auto"
+  },
+  {
+    "time": "2026-05-14 17:35",
+    "user": "曹通",
+    "content": "可以下指定版本的 claude code，就可以用 claude 4.6 opus"
+  },
+  {
+    "time": "2026-05-14 17:36",
+    "user": "曹通",
+    "content": "就是不知道 claude 4.6 opus 这个大模型后续还能不能用"
+  },
+  {
+    "time": "2026-05-14 17:36",
+    "user": "L",
+    "content": "最新版的也能用，自己配一下环境变量就好了"
+  },
+  {
+    "time": "2026-05-14 17:37",
+    "user": "L",
+    "content": "它默认都是4.7"
+  },
+  {
+    "time": "2026-05-14 17:37",
+    "user": "曹通",
+    "content": "哦哦"
+  },
+  {
+    "time": "2026-05-14 17:38",
+    "user": "小花花",
+    "content": "@sanyuan  我在摸鱼了，可以更新课程了"
+  },
+  {
+    "time": "2026-05-14 17:41",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/9d55a357d9de3dcc37a634f91c79f7e2,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/d4a8945de4f20dead68a4c232ae1a34c)"
+  },
+  {
+    "time": "2026-05-14 17:41",
+    "user": "Roy",
+    "content": "我也想财务自由"
+  },
+  {
+    "time": "2026-05-14 17:42",
+    "user": "Roy",
+    "content": "等下财务自由和财富自由是一个事吗"
+  },
+  {
+    "time": "2026-05-14 17:42",
+    "user": "小花花",
+    "content": "199 还教k8s 部署。说不定大部分都不知道什么是k8s的概念"
+  },
+  {
+    "time": "2026-05-14 17:42",
+    "user": "Pudge",
+    "content": "你发现了华点... [破涕为笑] 你不说我还没注意到"
+  },
+  {
+    "time": "2026-05-14 17:42",
+    "user": "April.",
+    "content": "什么是k8s"
+  },
+  {
+    "time": "2026-05-14 17:43",
+    "user": "小花花",
+    "content": "KO 只需要8s"
+  },
+  {
+    "time": "2026-05-14 17:44",
+    "user": "小花花",
+    "content": "简称：k8s"
+  },
+  {
+    "time": "2026-05-14 17:44",
+    "user": "xoxo",
+    "content": "没运维的公司"
+  },
+  {
+    "time": "2026-05-14 17:44",
+    "user": "xoxo",
+    "content": "尽量不要去"
+  },
+  {
+    "time": "2026-05-14 17:45",
+    "user": "Amber",
+    "content": "今晚买个彩票去"
+  },
+  {
+    "time": "2026-05-14 17:45",
+    "user": "小花花",
+    "content": "我们公司就没运维"
+  },
+  {
+    "time": "2026-05-14 17:45",
+    "user": "小花花",
+    "content": "运维都是后端做"
+  },
+  {
+    "time": "2026-05-14 17:46",
+    "user": "procrastination🐼",
+    "content": "据说gpt快出5.6了"
+  },
+  {
+    "time": "2026-05-14 17:48",
+    "user": "小心甘",
+    "content": "出来了也用不起吧，看看gpt5.5，还是好贵"
+  },
+  {
+    "time": "2026-05-14 17:48",
+    "user": "Pursuit of Happiness",
+    "content": "什么时候Deepseek能追赶上opus4.6呢"
+  },
+  {
+    "time": "2026-05-14 17:48",
+    "user": "Pursuit of Happiness",
+    "content": "国产模型就崛起了"
+  },
+  {
+    "time": "2026-05-14 17:50",
+    "user": "procrastination🐼",
+    "content": "土耳其开个100$感觉还行"
+  },
+  {
+    "time": "2026-05-14 17:51",
+    "user": "小心甘",
+    "content": "100刀多钱呢，和用中转有啥区别，刚买了个130元的订阅...."
+  },
+  {
+    "time": "2026-05-14 17:51",
+    "user": "神往",
+    "content": "5.5是真好用啊"
+  },
+  {
+    "time": "2026-05-14 17:52",
+    "user": "liwuhao05",
+    "content": "我现在是claude写代码，codex gpt5.5 验证"
+  },
+  {
+    "time": "2026-05-14 17:52",
+    "user": "小心甘",
+    "content": "中转每周210刀额度，先用着看了"
+  },
+  {
+    "time": "2026-05-14 17:52",
+    "user": "小心甘",
+    "content": "![图片](http://127.0.0.1:5030/image/2728218972f36fed0ba4e421a829af4a,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/f622e9f3b9b3b1570a632ea4c38e306e)"
+  },
+  {
+    "time": "2026-05-14 17:52",
+    "user": "TreeWish",
+    "content": "到这个级别也就能放心用了"
+  },
+  {
+    "time": "2026-05-14 17:53",
+    "user": "CJ",
+    "content": "codex你们觉得开什么版本比较合适"
+  },
+  {
+    "time": "2026-05-14 17:54",
+    "user": "小心甘",
+    "content": "开啥版本取决于钱吧，你要说啥合适，最贵的合适"
+  },
+  {
+    "time": "2026-05-14 17:54",
+    "user": "小心甘",
+    "content": "[旺柴]"
+  },
+  {
+    "time": "2026-05-14 17:55",
+    "user": "CJ",
+    "content": "笑死，我没这么多钱"
+  },
+  {
+    "time": "2026-05-14 17:58",
+    "user": "TreeWish",
+    "content": "看用量吧"
+  },
+  {
+    "time": "2026-05-14 17:58",
+    "user": "CJ",
+    "content": "嗯呢"
+  },
+  {
+    "time": "2026-05-14 17:59",
+    "user": "TreeWish",
+    "content": "我自己玩 1-2个 plus / 中转站就够了"
+  },
+  {
+    "time": "2026-05-14 17:59",
+    "user": "CJ",
+    "content": "单单从可视化界面来说，你们觉得cursor好用还是codex还用"
+  },
+  {
+    "time": "2026-05-14 17:59",
+    "user": "TreeWish",
+    "content": "codex app"
+  },
+  {
+    "time": "2026-05-14 17:59",
+    "user": "CJ",
+    "content": "我咋觉得cursor好用，很接近vscode用法了"
+  },
+  {
+    "time": "2026-05-14 18:00",
+    "user": "TreeWish",
+    "content": "cursor 额度不够用，除非是按次数计费的账号"
+  },
+  {
+    "time": "2026-05-14 18:00",
+    "user": "Roy",
+    "content": "cursor现在被抨击的不行吧"
+  },
+  {
+    "time": "2026-05-14 18:00",
+    "user": "Roy",
+    "content": "作为vibe来说"
+  },
+  {
+    "time": "2026-05-14 18:00",
+    "user": "CJ",
+    "content": "不是额度，是可视化的操作体验"
+  },
+  {
+    "time": "2026-05-14 18:00",
+    "user": "TreeWish",
+    "content": "你用的 cursor 3 还是 cursor基于 vscode 改的 ide？"
+  },
+  {
+    "time": "2026-05-14 18:01",
+    "user": "TreeWish",
+    "content": "以前我也觉得的，但是自从使用 cc / codex，发现基本上不需要去编辑器改代码"
+  },
+  {
+    "time": "2026-05-14 18:01",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/16c86ded395d3d1a29e0f731099dc602,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/7af5536e236624417cde1127e85c2298)"
+  },
+  {
+    "time": "2026-05-14 18:01",
+    "user": "小花花",
+    "content": "我感觉我的RAG已经完成60%了"
+  },
+  {
+    "time": "2026-05-14 18:01",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/bd31d0c23b484477314d21f4b1c1d2ba,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/382ed5430d1c16251f145e9d99e6eee7)"
+  },
+  {
+    "time": "2026-05-14 18:02",
+    "user": "CJ",
+    "content": "那你们怎么看代码diff的，还有回退版本之类的"
+  },
+  {
+    "time": "2026-05-14 18:02",
+    "user": "TreeWish",
+    "content": "基本不看"
+  },
+  {
+    "time": "2026-05-14 18:02",
+    "user": "TreeWish",
+    "content": "我猜你说的就是 cursor ide 的 diff 的 接受/拒绝的功能"
+  },
+  {
+    "time": "2026-05-14 18:03",
+    "user": "TreeWish",
+    "content": "回退有git 怕什么"
+  },
+  {
+    "time": "2026-05-14 18:04",
+    "user": "༺🤔༻",
+    "content": "@阿五 这个是怎么操作的呀？用的什么工具让两个模型一起工作呀"
+  },
+  {
+    "time": "2026-05-14 18:04",
+    "user": "CJ",
+    "content": "cursor集成到ide了，体验很像vscode哈哈哈，可能后面用习惯cc就不需要了"
+  },
+  {
+    "time": "2026-05-14 18:04",
+    "user": "Pudge",
+    "content": "我还是喜欢 webstorm/idea JB系的 ide 的 git 可视化."
+  },
+  {
+    "time": "2026-05-14 18:05",
+    "user": "我是东山呀",
+    "content": "codex  app 爽用，直接就能看代码改动。"
+  },
+  {
+    "time": "2026-05-14 18:07",
+    "user": "TreeWish",
+    "content": "claude code 的 codex 插件就行，codex 官方出的"
+  },
+  {
+    "time": "2026-05-14 18:07",
+    "user": "TreeWish",
+    "content": "现在用的最爽的就是这个"
+  },
+  {
+    "time": "2026-05-14 18:08",
+    "user": "TreeWish",
+    "content": "codex cli 有点粗糙"
+  },
+  {
+    "time": "2026-05-14 18:08",
+    "user": "TreeWish",
+    "content": "cli 推荐用 Claude code，desktop app 推荐用 codex app"
+  },
+  {
+    "time": "2026-05-14 18:08",
+    "user": "༺🤔༻",
+    "content": "codex app 可以用其他模型吗"
+  },
+  {
+    "time": "2026-05-14 18:08",
+    "user": "风从海上来",
+    "content": "但是 codex cli  支持  /goal  [捂脸]"
+  },
+  {
+    "time": "2026-05-14 18:08",
+    "user": "Roy",
+    "content": "cc也支持"
+  },
+  {
+    "time": "2026-05-14 18:09",
+    "user": "风从海上来",
+    "content": "cc 封号..."
+  },
+  {
+    "time": "2026-05-14 18:09",
+    "user": "Roy",
+    "content": "哈哈哈哈"
+  },
+  {
+    "time": "2026-05-14 18:09",
+    "user": "系统消息",
+    "content": "\"CJ\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-14 18:09",
+    "user": "系统消息",
+    "content": "\"CJ\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-14 18:09",
+    "user": "procrastination🐼",
+    "content": "土耳其好像380？"
+  },
+  {
+    "time": "2026-05-14 18:10",
+    "user": "procrastination🐼",
+    "content": "codex+cursor不冲突"
+  },
+  {
+    "time": "2026-05-14 18:10",
+    "user": "procrastination🐼",
+    "content": "codex写代码 cursor review"
+  },
+  {
+    "time": "2026-05-14 18:10",
+    "user": "风从海上来",
+    "content": "土耳其就 plus 便宜吧"
+  },
+  {
+    "time": "2026-05-14 18:10",
+    "user": "小心甘",
+    "content": "380rmb买100刀额度吗[捂脸]"
+  },
+  {
+    "time": "2026-05-14 18:10",
+    "user": "procrastination🐼",
+    "content": "100$那个是套餐"
+  },
+  {
+    "time": "2026-05-14 18:10",
+    "user": "procrastination🐼",
+    "content": "额度肯定不止100"
+  },
+  {
+    "time": "2026-05-14 18:10",
+    "user": "procrastination🐼",
+    "content": "具体能用多少 我也不清楚"
+  },
+  {
+    "time": "2026-05-14 18:11",
+    "user": "procrastination🐼",
+    "content": "而且5月底前 额度x2"
+  },
+  {
+    "time": "2026-05-14 18:11",
+    "user": "我是东山呀",
+    "content": "我现在就是这干，如果要手动改的话"
+  },
+  {
+    "time": "2026-05-14 18:12",
+    "user": "procrastination🐼",
+    "content": "手动改也让codex改"
+  },
+  {
+    "time": "2026-05-14 18:12",
+    "user": "procrastination🐼",
+    "content": "去掉如果"
+  },
+  {
+    "time": "2026-05-14 18:13",
+    "user": "我是东山呀",
+    "content": "[旺柴]token还是多"
+  },
+  {
+    "time": "2026-05-14 18:14",
+    "user": "TianTianUp",
+    "content": "有店铺吗"
+  },
+  {
+    "time": "2026-05-14 18:14",
+    "user": "procrastination🐼",
+    "content": "从总体的数据来说 token不会消耗多少"
+  },
+  {
+    "time": "2026-05-14 18:15",
+    "user": "procrastination🐼",
+    "content": "不用店铺买呀 土耳其苹果礼品卡 好像土耳其那边有个啥官方的在卖 x/知乎搜下怎么上车就行"
+  },
+  {
+    "time": "2026-05-14 18:15",
+    "user": "procrastination🐼",
+    "content": "咸鱼现在好像价格也下来了 也贵不了几块钱吧"
+  },
+  {
+    "time": "2026-05-14 18:29",
+    "user": "我是东山呀",
+    "content": "5月底之前 官方说是10个plus账号的额度 5x"
+  },
+  {
+    "time": "2026-05-14 19:32",
+    "user": "系统消息",
+    "content": "\"sanyuan\"邀请\"sonada🤫\"加入了群聊"
+  },
+  {
+    "time": "2026-05-14 19:32",
+    "user": "系统消息",
+    "content": "\"sonada🤫\"与群里其他人都不是朋友关系，请注意隐私安全"
+  },
+  {
+    "time": "2026-05-14 19:34",
+    "user": "🐟",
+    "content": "你们gpt是用中专还是直接代充的"
+  },
+  {
+    "time": "2026-05-14 19:35",
+    "user": "小心甘",
+    "content": "中转"
+  },
+  {
+    "time": "2026-05-14 19:36",
+    "user": "🐟",
+    "content": "会不会觉得中转很慢啊,."
+  },
+  {
+    "time": "2026-05-14 19:36",
+    "user": "🐟",
+    "content": "你用的是什么倍率啊"
+  },
+  {
+    "time": "2026-05-14 19:37",
+    "user": "L",
+    "content": "1x"
+  },
+  {
+    "time": "2026-05-14 19:38",
+    "user": "Chan.",
+    "content": "看中转站吧"
+  },
+  {
+    "time": "2026-05-14 19:38",
+    "user": "🐟",
+    "content": "我用的0.15...感觉好慢 0.35 也慢"
+  },
+  {
+    "time": "2026-05-14 19:38",
+    "user": "🐟",
+    "content": "[捂脸]"
+  },
+  {
+    "time": "2026-05-14 19:39",
+    "user": "🐟",
+    "content": "0.15一天都能干个10块，1x不得几十块"
+  },
+  {
+    "time": "2026-05-14 19:42",
+    "user": "小心甘",
+    "content": "买订阅，倍率1x    130一个月，周限额210刀，还行"
+  },
+  {
+    "time": "2026-05-14 19:45",
+    "user": "🐟",
+    "content": "发来看看"
+  },
+  {
+    "time": "2026-05-14 19:48",
+    "user": "小心甘",
+    "content": "https://routin.ai/register?invitationCode=U771RG"
+  },
+  {
+    "time": "2026-05-14 19:48",
+    "user": "小心甘",
+    "content": "@🐟"
+  },
+  {
+    "time": "2026-05-14 19:49",
+    "user": "🐟",
+    "content": "好 我看看"
+  },
+  {
+    "time": "2026-05-14 19:49",
+    "user": "🐟",
+    "content": "速度你觉得怎么样？"
+  },
+  {
+    "time": "2026-05-14 19:49",
+    "user": "小心甘",
+    "content": "还行吧"
+  },
+  {
+    "time": "2026-05-14 19:49",
+    "user": "小心甘",
+    "content": "![图片](http://127.0.0.1:5030/image/7e715971ed5a9907dd089c903738da4f,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/bec7fec9f754c07901571e014cfd9839)"
+  },
+  {
+    "time": "2026-05-14 19:49",
+    "user": "小心甘",
+    "content": "你可以买个2-3元钱的余额体验体验"
+  },
+  {
+    "time": "2026-05-14 19:50",
+    "user": "🐟",
+    "content": "好的"
+  },
+  {
+    "time": "2026-05-14 20:07",
+    "user": "sanyuan",
+    "content": "我那个code-review- expert 的skill 每天用都被惊艳到"
+  },
+  {
+    "time": "2026-05-14 20:07",
+    "user": "sanyuan",
+    "content": "太值得信赖了"
+  },
+  {
+    "time": "2026-05-14 20:07",
+    "user": "sanyuan",
+    "content": "边边角角的小问题都能找出来"
+  },
+  {
+    "time": "2026-05-14 20:09",
+    "user": "Roy",
+    "content": "git是啥来着？"
+  },
+  {
+    "time": "2026-05-14 20:09",
+    "user": "Roy",
+    "content": "让我抄一下"
+  },
+  {
+    "time": "2026-05-14 20:09",
+    "user": "undefined",
+    "content": "@sanyuan https://github.com/sanyuan0704/sanyuan-skills/tree/main/skills/code-review-expert\n这个吗"
+  },
+  {
+    "time": "2026-05-14 20:09",
+    "user": "sanyuan",
+    "content": "对的 就这个"
+  },
+  {
+    "time": "2026-05-14 20:09",
+    "user": "系统消息",
+    "content": "\"sanyuan\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-14 20:09",
+    "user": "sanyuan",
+    "content": "每天用 幸福感拉满"
+  },
+  {
+    "time": "2026-05-14 20:10",
+    "user": "不曾相识",
+    "content": "太幸福了"
+  },
+  {
+    "time": "2026-05-14 20:10",
+    "user": "sanyuan",
+    "content": "![图片](http://127.0.0.1:5030/image/501233fd3881eb88d9892eded953a544,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/c1bd126140e9f0e7d573917ceb4a43f7)"
+  },
+  {
+    "time": "2026-05-14 20:10",
+    "user": "sanyuan",
+    "content": "差点把 debug 代码待上线"
+  },
+  {
+    "time": "2026-05-14 20:10",
+    "user": "sanyuan",
+    "content": "给我揪出来了"
+  },
+  {
+    "time": "2026-05-14 20:16",
+    "user": "罗十十.十",
+    "content": "我每天都用"
+  },
+  {
+    "time": "2026-05-14 20:16",
+    "user": "罗十十.十",
+    "content": "好用的不行"
+  },
+  {
+    "time": "2026-05-14 20:17",
+    "user": "L",
+    "content": "我每天睡觉都用，好用的不行"
+  },
+  {
+    "time": "2026-05-14 20:18",
+    "user": "Chan.",
+    "content": "可以的，有console. log也会提醒"
+  },
+  {
+    "time": "2026-05-14 20:19",
+    "user": "Chan.",
+    "content": "我今天就用了。"
+  },
+  {
+    "time": "2026-05-14 20:19",
+    "user": "罗十十.十",
+    "content": "还那个 创建  skill 的工具"
+  },
+  {
+    "time": "2026-05-14 20:19",
+    "user": "罗十十.十",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=52722f796dc66cb5fed100ea5fcdfa3e&filekey=30350201010421301f0202010604025348041052722f796dc66cb5fed100ea5fcdfa3e02032f69cf040d00000004627466730000000132&hy=SH&storeid=2630db000000a8b39000000000000010600004f5053480a865b40b7b422894&bizid=1023)"
+  },
+  {
+    "time": "2026-05-14 20:20",
+    "user": "罗十十.十",
+    "content": "好用到昏迷"
+  },
+  {
+    "time": "2026-05-14 20:20",
+    "user": "Chan.",
+    "content": "创建skill的，我还没用。"
+  },
+  {
+    "time": "2026-05-14 20:20",
+    "user": "hc",
+    "content": "跟直接让ai 审查代码有区别吗"
+  },
+  {
+    "time": "2026-05-14 20:21",
+    "user": "Chan.",
+    "content": "不同维度和要求。"
+  },
+  {
+    "time": "2026-05-14 20:29",
+    "user": "JaguarLiu",
+    "content": "![图片](http://127.0.0.1:5030/image/3fcafef7dd9c39776d3fa8c7e5f83d5c,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/5c6812593f59251b82f189c7ac84335a)"
+  },
+  {
+    "time": "2026-05-14 20:29",
+    "user": "JaguarLiu",
+    "content": "很强"
+  },
+  {
+    "time": "2026-05-14 20:29",
+    "user": "JaguarLiu",
+    "content": "非常"
+  },
+  {
+    "time": "2026-05-14 20:29",
+    "user": "JaguarLiu",
+    "content": "之强"
+  },
+  {
+    "time": "2026-05-14 20:29",
+    "user": "JaguarLiu",
+    "content": "@sanyuan 太强了"
+  },
+  {
+    "time": "2026-05-14 20:30",
+    "user": "小花花",
+    "content": "在发布吗？sitor 咋进不去了"
+  },
+  {
+    "time": "2026-05-14 20:31",
+    "user": "风声边界",
+    "content": "没响应报错了"
+  },
+  {
+    "time": "2026-05-14 20:38",
+    "user": "Amber",
+    "content": "创建skill是哪个呀"
+  },
+  {
+    "time": "2026-05-14 20:43",
+    "user": "小花花",
+    "content": "我也写了一个[旺柴]"
+  },
+  {
+    "time": "2026-05-14 20:44",
+    "user": "华莱坞",
+    "content": "![图片](http://127.0.0.1:5030/image/6890768c0add2ce0b96cd88459a66d82,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/0e9b58d7616049fabf039b5e846a85d6)"
+  },
+  {
+    "time": "2026-05-14 20:44",
+    "user": "华莱坞",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=e21e8389d82ea0fd2a453c62f11fb665&filekey=30350201010421301f02020106040253480410e21e8389d82ea0fd2a453c62f11fb6650203106042040d00000004627466730000000132&hy=SH&storeid=269cbd1560000e3e043bce63b0000010600004f5053482cf7c7d156ae2e531&bizid=1023)"
+  },
+  {
+    "time": "2026-05-14 20:44",
+    "user": "L",
+    "content": "forge 那个"
+  },
+  {
+    "time": "2026-05-14 20:44",
+    "user": "小花花",
+    "content": "Sitor进不去了"
+  },
+  {
+    "time": "2026-05-14 20:46",
+    "user": "让玛卡巴卡爬吧",
+    "content": "进得去"
+  },
+  {
+    "time": "2026-05-14 20:47",
+    "user": "让玛卡巴卡爬吧",
+    "content": "进不去"
+  },
+  {
+    "time": "2026-05-14 20:49",
+    "user": "Amber",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=9455a5027592a630119c63e039166351&filekey=30340201010420301e020201060402535a04109455a5027592a630119c63e0391663510202089c040d00000004627466730000000132&hy=SZ&storeid=263189ed5000a5a0f000000000000010600004f50535a20e27880963eb5f27&bizid=1023)"
+  },
+  {
+    "time": "2026-05-14 20:50",
+    "user": "sanyuan",
+    "content": "恢复了"
+  },
+  {
+    "time": "2026-05-14 20:52",
+    "user": "让玛卡巴卡爬吧",
+    "content": "几分钟进不去这算什么级别事故"
+  },
+  {
+    "time": "2026-05-14 20:53",
+    "user": "Stephen",
+    "content": "p0"
+  },
+  {
+    "time": "2026-05-14 20:53",
+    "user": "sanyuan",
+    "content": "sorry"
+  },
+  {
+    "time": "2026-05-14 20:54",
+    "user": "sanyuan",
+    "content": "服务器挂掉了"
+  },
+  {
+    "time": "2026-05-14 20:54",
+    "user": "sanyuan",
+    "content": "我给修理好了"
+  },
+  {
+    "time": "2026-05-14 20:55",
+    "user": "让玛卡巴卡爬吧",
+    "content": "真棒👍"
+  },
+  {
+    "time": "2026-05-14 20:56",
+    "user": "豆子芝麻茶",
+    "content": "今天有课程更新吗"
+  },
+  {
+    "time": "2026-05-14 20:56",
+    "user": "sanyuan",
+    "content": "马上"
+  },
+  {
+    "time": "2026-05-14 20:56",
+    "user": "unknown",
+    "content": "\"豆子芝麻茶\" 拍了拍 \"sanyuan\" 并放了一束[烟花]"
+  },
+  {
+    "time": "2026-05-14 20:56",
+    "user": "sanyuan",
+    "content": "正在 review 稿子"
+  },
+  {
+    "time": "2026-05-14 20:56",
+    "user": "sanyuan",
+    "content": "今天产品功能上新 + 课程更新"
+  },
+  {
+    "time": "2026-05-14 20:56",
+    "user": "sanyuan",
+    "content": "一大波来袭"
+  },
+  {
+    "time": "2026-05-14 20:56",
+    "user": "木木彡哥",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=2c8b8a4777d24bf0cd07c73987ca50dc&filekey=30440201010430302e02016e0402534804203263386238613437373764323462663063643037633733393837636135306463020302223e040d00000004627466730000000132&hy=SH&storeid=2699057030007ea0618b2f1180000006e01004fb1534801e8a17156aa15e2c&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 20:57",
+    "user": "🐰哎哟喔哟🐰",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20402/stodownload?m=6f58b17da874a3d1f5905f3f5b5528d5&filekey=30440201010430302e02016e0402535a042036663538623137646138373461336431663539303566336635623535323864350203593579040d00000004627466730000000132&hy=SZ&storeid=2698d2a2d000379771688fff70000006e01004fb2535a1e207b6156a91cf05&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 20:57",
+    "user": "🐰哎哟喔哟🐰",
+    "content": "![动画表情](http://wxapp.tc.qq.com/275/20304/stodownload?m=811d95a385a0876acdabbcbd3e2d0e01&filekey=30350201010421301f02020113040253480410811d95a385a0876acdabbcbd3e2d0e010203013477040d00000004627466730000000132&hy=SH&storeid=269f2d6f4000cae8bb41d494a0000011300004f50534803485bc1e7c1d7d82&bizid=1023)"
+  },
+  {
+    "time": "2026-05-14 20:57",
+    "user": "系统消息",
+    "content": "\"sanyuan\"邀请\"auv\"加入了群聊"
+  },
+  {
+    "time": "2026-05-14 20:57",
+    "user": "系统消息",
+    "content": "\"auv\"与群里其他人都不是朋友关系，请注意隐私安全"
+  },
+  {
+    "time": "2026-05-14 21:14",
+    "user": "小花花",
+    "content": "还没更新嘛，马上就要睡了"
+  },
+  {
+    "time": "2026-05-14 21:14",
+    "user": "小花花",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20402/stodownload?m=7cccbceb7eecd9ccf358f0cad8ba2015&filekey=30440201010430302e02016e0402535a0420376363636263656237656563643963636633353866306361643862613230313502034d72c1040d00000004627466730000000132&hy=SZ&storeid=26809e49a00081d4c42abe27e0000006e01004fb2535a15ef0151571f4d1c8&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 21:16",
+    "user": "鲸鱼",
+    "content": "不是，我都没有下班，你就睡了？"
+  },
+  {
+    "time": "2026-05-14 21:17",
+    "user": "小花花",
+    "content": "我每天不熬夜，10点前准时睡觉"
+  },
+  {
+    "time": "2026-05-14 21:18",
+    "user": "HUMILITY",
+    "content": "6"
+  },
+  {
+    "time": "2026-05-14 21:18",
+    "user": "HUMILITY",
+    "content": "还在公司"
+  },
+  {
+    "time": "2026-05-14 21:18",
+    "user": "苏彧",
+    "content": "不是 你睡这么早"
+  },
+  {
+    "time": "2026-05-14 21:18",
+    "user": "HUMILITY",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=23fcd540b9ba230c8542c64e213d032b&filekey=30440201010430302e02016e0402535a0420323366636435343062396261323330633835343263363465323133643033326202031f103f040d00000004627466730000000132&hy=SZ&storeid=2678493c700033634299384c90000006e01004fb1535a161ec1515695f8c77&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-14 21:19",
+    "user": "lyz",
+    "content": "小号该下班了，晚上10点后只用大号"
+  },
+  {
+    "time": "2026-05-14 21:21",
+    "user": "小花花",
+    "content": "身体要紧"
+  },
+  {
+    "time": "2026-05-14 21:31",
+    "user": "嘻🇨🇳嘻",
+    "content": "哈哈哈哈哈"
+  },
+  {
+    "time": "2026-05-14 21:31",
+    "user": "Chan.",
+    "content": "看我不给你token用完"
+  },
+  {
+    "time": "2026-05-14 21:54",
+    "user": "鲸鱼",
+    "content": "不经意间展示了 17 pro max 2TB"
+  },
+  {
+    "time": "2026-05-14 21:56",
+    "user": "monkeytao",
+    "content": "[强]"
+  },
+  {
+    "time": "2026-05-14 22:00",
+    "user": "苏彧",
+    "content": "刚下班 你就休息"
+  },
+  {
+    "time": "2026-05-14 22:10",
+    "user": "sanyuan",
+    "content": "即将更新"
+  },
+  {
+    "time": "2026-05-14 22:10",
+    "user": "sanyuan",
+    "content": "新的一节会比较难"
+  },
+  {
+    "time": "2026-05-14 22:10",
+    "user": "sanyuan",
+    "content": "内容也会比较长"
+  },
+  {
+    "time": "2026-05-14 22:10",
+    "user": "系统消息",
+    "content": "\"sanyuan\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-14 22:11",
+    "user": "sanyuan",
+    "content": "大家可以留出一两天时间慢慢学"
+  },
+  {
+    "time": "2026-05-14 22:11",
+    "user": "L",
+    "content": "哇塞"
+  },
+  {
+    "time": "2026-05-14 22:11",
+    "user": "L",
+    "content": "今晚熬夜学"
+  },
+  {
+    "time": "2026-05-14 22:11",
+    "user": "苏彧",
+    "content": "理论课吗"
+  },
+  {
+    "time": "2026-05-14 22:11",
+    "user": "sanyuan",
+    "content": "理论课"
+  },
+  {
+    "time": "2026-05-14 22:11",
+    "user": "sanyuan",
+    "content": "讲 rag"
+  },
+  {
+    "time": "2026-05-14 22:11",
+    "user": "sanyuan",
+    "content": "RAG 第一节"
+  },
+  {
+    "time": "2026-05-14 22:12",
+    "user": "unknown",
+    "content": "\"L\" 拍了拍 \"sanyuan\" 并放了一束[烟花]"
+  },
+  {
+    "time": "2026-05-14 22:12",
+    "user": "L",
+    "content": "讲这么牛逼干嘛"
+  },
+  {
+    "time": "2026-05-14 22:12",
+    "user": "L",
+    "content": "@sanyuan "
+  },
+  {
+    "time": "2026-05-14 22:13",
+    "user": "阿五",
+    "content": "？"
+  },
+  {
+    "time": "2026-05-14 22:13",
+    "user": "苏彧",
+    "content": "现在打不开了？"
+  },
+  {
+    "time": "2026-05-14 22:13",
+    "user": "苏彧",
+    "content": "![图片](http://127.0.0.1:5030/image/98726ce15f6e6b5930c32fcbaaff295b,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/facfc4bad08abff4ba6b0d25d525975f)"
+  },
+  {
+    "time": "2026-05-14 22:15",
+    "user": "阿五",
+    "content": "感觉更新时间选个用 sitor 少的时候比较好[捂脸]"
+  },
+  {
+    "time": "2026-05-14 22:16",
+    "user": "阿五",
+    "content": "主要就下班这段时间金贵，可以上来学会"
+  },
+  {
+    "time": "2026-05-14 22:17",
+    "user": "sanyuan",
+    "content": "[好的]"
+  },
+  {
+    "time": "2026-05-14 22:18",
+    "user": "sanyuan",
+    "content": "我这是好的"
+  },
+  {
+    "time": "2026-05-14 22:18",
+    "user": "lyz",
+    "content": "我这也是好的"
+  },
+  {
+    "time": "2026-05-14 22:20",
+    "user": "阿五",
+    "content": "![图片](http://127.0.0.1:5030/image/1487a68c30d4bdae6c17b6baabd3e9d2,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/1a427a49ebe534de3a863d8373b52a2f)"
+  },
+  {
+    "time": "2026-05-14 22:21",
+    "user": "阿五",
+    "content": "![图片](http://127.0.0.1:5030/image/d58265073ea9e5c8be50fe7b4a20a06a,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/9e6cd9b93a8002cb240c67d4305fbc2f)"
+  },
+  {
+    "time": "2026-05-14 22:21",
+    "user": "阿五",
+    "content": "一样一直卡在这"
+  },
+  {
+    "time": "2026-05-14 22:24",
+    "user": "Chan.",
+    "content": "清理下本机的dns缓存试试"
+  },
+  {
+    "time": "2026-05-14 22:24",
+    "user": "Chan.",
+    "content": "我昨天也是这样。清了之后就好了。"
+  },
+  {
+    "time": "2026-05-14 22:24",
+    "user": "苏彧",
+    "content": "手机清理不了吧"
+  },
+  {
+    "time": "2026-05-14 22:26",
+    "user": "苏彧",
+    "content": "现在进来了"
+  },
+  {
+    "time": "2026-05-14 22:26",
+    "user": "阿五",
+    "content": "可以了，devtool application 那里把数据都清了，重进就行了[捂脸]"
+  },
+  {
+    "time": "2026-05-14 22:27",
+    "user": "敏",
+    "content": "手机刷新一下就出来了"
+  },
+  {
+    "time": "2026-05-14 22:28",
+    "user": "苏彧",
+    "content": "你是说下拉刷新吗"
+  },
+  {
+    "time": "2026-05-14 22:28",
+    "user": "苏彧",
+    "content": "我是退掉重进"
+  },
+  {
+    "time": "2026-05-14 22:31",
+    "user": "苏彧",
+    "content": "废废的 我其他章节都要学一天， 理论+面试官模式"
+  },
+  {
+    "time": "2026-05-14 22:56",
+    "user": "auv",
+    "content": "@苏彧 我在大伟群里看见过你"
+  },
+  {
+    "time": "2026-05-14 22:56",
+    "user": "苏彧",
+    "content": "可以"
+  },
+  {
+    "time": "2026-05-14 22:56",
+    "user": "苏彧",
+    "content": "我最近都没在里面说话了"
+  },
+  {
+    "time": "2026-05-14 22:56",
+    "user": "auv",
+    "content": "以前看见的多[破涕为笑]"
+  },
+  {
+    "time": "2026-05-14 22:57",
+    "user": "苏彧",
+    "content": "![动画表情](http://wxapp.tc.qq.com/275/20304/stodownload?m=f4d2ddbc4bd5b4d0c851afb32809238f&filekey=30340201010420301e02020113040253480410f4d2ddbc4bd5b4d0c851afb32809238f0202670c040d00000004627466730000000132&hy=SH&storeid=2675264e8000455bab409e14c0000011300004f5053480bc75301e74727853&bizid=1023)"
+  },
+  {
+    "time": "2026-05-14 22:58",
+    "user": "苏彧",
+    "content": "也是加入新组织了[奸笑]@auv "
+  },
+  {
+    "time": "2026-05-14 22:59",
+    "user": "auv",
+    "content": "是的，大伟那个我都没咋看[呲牙]"
+  },
+  {
+    "time": "2026-05-14 22:59",
+    "user": "auv",
+    "content": "我掘金看过三元小册 所以来了这个组织"
+  },
+  {
+    "time": "2026-05-14 23:00",
+    "user": "苏彧",
+    "content": "一样 vite react都看了"
+  },
+  {
+    "time": "2026-05-14 23:00",
+    "user": "苏彧",
+    "content": "学前端的时候我看了一些"
+  },
+  {
+    "time": "2026-05-14 23:01",
+    "user": "auv",
+    "content": "这个群大家都是买的了双课程的嘛"
+  },
+  {
+    "time": "2026-05-14 23:01",
+    "user": "auv",
+    "content": "你是后端？"
+  },
+  {
+    "time": "2026-05-14 23:03",
+    "user": "苏彧",
+    "content": "是"
+  },
+  {
+    "time": "2026-05-14 23:03",
+    "user": "苏彧",
+    "content": "现在是前端 刚出来那会是java[奸笑]"
+  },
+  {
+    "time": "2026-05-14 23:05",
+    "user": "苏彧",
+    "content": "![图片](http://127.0.0.1:5030/image/ddcb0e0898b63f82e764e78498fea5c0,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/d4083cceeacdccbb57c19d45aedba76e)"
+  },
+  {
+    "time": "2026-05-14 23:05",
+    "user": "苏彧",
+    "content": "压缩这节实战课啥时候更新的 我去"
+  },
+  {
+    "time": "2026-05-14 23:05",
+    "user": "苏彧",
+    "content": "@sanyuan "
+  },
+  {
+    "time": "2026-05-14 23:13",
+    "user": "auv",
+    "content": "好家伙 全栈"
+  },
+  {
+    "time": "2026-05-14 23:14",
+    "user": "苏彧",
+    "content": "没啥[奸笑]"
+  },
+  {
+    "time": "2026-05-14 23:17",
+    "user": "auv",
+    "content": "太卷了你这"
+  },
+  {
+    "time": "2026-05-14 23:19",
+    "user": "苏彧",
+    "content": "还好 那时候年轻刚出来[奸笑]"
+  },
+  {
+    "time": "2026-05-14 23:20",
+    "user": "auv",
+    "content": "[强]"
+  }
+]
