@@ -61,17 +61,55 @@ document.addEventListener('DOMContentLoaded', function() {
         overlay.className = 'image-overlay';
         overlay.innerHTML = `
             <div class="image-overlay-content">
-                <img src="${originalUrl}" alt="原图" class="loaded">
-                <div class="image-overlay-close">点击关闭</div>
+                <div class="image-overlay-toolbar">
+                    <div class="image-overlay-title">原图预览</div>
+                    <div class="image-overlay-close">✕ 关闭</div>
+                </div>
+                <div class="image-overlay-stage">
+                    <div class="image-overlay-loading">加载原图中...</div>
+                    <img src="${originalUrl}" alt="原图" class="loaded">
+                </div>
             </div>
         `;
         
-        // 点击关闭
+        const stage = overlay.querySelector('.image-overlay-stage');
+        const img = overlay.querySelector('img');
+        const loading = overlay.querySelector('.image-overlay-loading');
+        
+        // 加载完成后移除 loading
+        img.addEventListener('load', () => {
+            if (loading) loading.remove();
+        }, { once: true });
+        img.addEventListener('error', () => {
+            if (loading) loading.textContent = '图片加载失败';
+        }, { once: true });
+        
+        // 单击空白关闭
         overlay.addEventListener('click', function(e) {
-            if (e.target === overlay || e.target.className === 'image-overlay-close') {
+            if (e.target === overlay || e.target.classList.contains('image-overlay-close')) {
                 overlay.remove();
             }
         });
+        
+        // 双击/双指放大切换
+        img.addEventListener('click', (e) => {
+            e.stopPropagation();
+            stage.classList.toggle('zoomed');
+            if (stage.classList.contains('zoomed')) {
+                stage.scrollLeft = 0;
+                stage.scrollTop = 0;
+            }
+        });
+        
+        // ESC 关闭
+        const onKeyDown = (e) => {
+            if (e.key === 'Escape') {
+                overlay.remove();
+                document.removeEventListener('keydown', onKeyDown);
+            }
+        };
+        document.addEventListener('keydown', onKeyDown);
+        overlay.addEventListener('remove', () => document.removeEventListener('keydown', onKeyDown));
         
         document.body.appendChild(overlay);
     }
