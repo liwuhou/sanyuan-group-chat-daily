@@ -729,11 +729,17 @@ def generate_chat_page(data, group_id):
             # 转义 HTML
             content = content.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
             
-            # 恢复图片标签（过滤本地图片）
+            # 恢复图片标签（本地图片映射到下载的图片）
             for i, (alt, src) in enumerate(images):
                 if "127.0.0.1" in src or "localhost" in src:
-                    # 本地图片替换为占位符
-                    content = content.replace(f"__IMG_{i}__", '<span class="chat-image-placeholder">[图片]</span>')
+                    # 提取 hash
+                    hash_match = re.search(r'/image/([^,]+)', src)
+                    if hash_match:
+                        img_hash = hash_match.group(1)
+                        local_img_path = f"/images/{img_hash}.jpg"
+                        content = content.replace(f"__IMG_{i}__", f'<img src="{local_img_path}" alt="{alt}" class="chat-image" loading="lazy" onerror="this.style.display=\'none\'">')
+                    else:
+                        content = content.replace(f"__IMG_{i}__", '<span class="chat-image-placeholder">[图片]</span>')
                 else:
                     content = content.replace(f"__IMG_{i}__", f'<img src="{src}" alt="{alt}" class="chat-image" loading="lazy" onerror="this.style.display=\'none\'">')
             
@@ -814,6 +820,15 @@ def build():
             with open(DIST_DIR / js_file, "w") as f:
                 f.write(js_content)
             print(f"✓ {js_file} copied")
+    
+    # 复制图片
+    images_dir = BASE_DIR / "images"
+    if images_dir.exists():
+        dist_images = DIST_DIR / "images"
+        dist_images.mkdir(exist_ok=True)
+        for img_file in images_dir.glob("*.jpg"):
+            shutil.copy2(img_file, dist_images / img_file.name)
+        print(f"✓ Images copied ({len(list(images_dir.glob('*.jpg')))} files)")
     
     # 加载数据
     digests_by_group = {}
