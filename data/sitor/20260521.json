@@ -1,0 +1,55 @@
+{
+  "id": "20260521",
+  "date": "2026年05月21日",
+  "weekday": "周四",
+  "group": "Sitor AI 产品用户群",
+  "issue": "20260521",
+  "stats": {
+    "messages": 156,
+    "active": 40,
+    "texts": 93
+  },
+  "topics": {
+    "summary": "群内围绕 Sitor 视频导入学习能力展开集中讨论，用户关注 YouTube/B站/本地视频、英文资料中文教学、学力消耗和内容解析方式；同时反馈知识点总结、重复回复、session 异常等产品体验问题。",
+    "tags": [
+      "视频学习",
+      "Bilibili",
+      "YouTube",
+      "英文转中文",
+      "产品反馈"
+    ]
+  },
+  "points": [
+    {
+      "title": "视频导入学习能力",
+      "desc": "Sitor 计划支持上传视频或填写 YouTube、Bilibili 链接，由私教消化内容后教学，并支持英文视频中文教学。"
+    },
+    {
+      "title": "学力与成本讨论",
+      "desc": "长视频会消耗更多学力，30 分钟视频约 20 学力；用户关注 token/API 调用成本与定价。"
+    },
+    {
+      "title": "产品体验反馈",
+      "desc": "用户反馈划词记录显示整章、私教总结知识点未生成、同一句话重复等问题，并建议增加 release 说明和会话分组。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "sanyuan",
+      "content": "Sitor 将支持视频 YouTube、Bilibili 链接导入学习，也规划支持本地视频上传。"
+    },
+    {
+      "user": "sanyuan",
+      "content": "英文视频可以转为中文教学，外网链接可上传学习。"
+    },
+    {
+      "user": "Harrison Wells",
+      "content": "视频学习痛点是耗时且不易检索，希望 AI 直接整理成图文。"
+    },
+    {
+      "user": "不散和弦",
+      "content": "现有方案可通过脚本拉字幕或 Whisper 转文字后交给 AI，多人视频还需整理说话人。"
+    }
+  ],
+  "actions": []
+}
