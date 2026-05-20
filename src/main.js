@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
         overlay.className = 'image-overlay';
         overlay.innerHTML = `
             <div class="image-overlay-content">
-                <img src="${originalUrl}" alt="原图" loading="lazy">
+                <img src="${originalUrl}" alt="原图" class="loaded">
                 <div class="image-overlay-close">点击关闭</div>
             </div>
         `;
