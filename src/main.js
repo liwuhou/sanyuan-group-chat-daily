@@ -76,6 +76,33 @@ document.addEventListener('DOMContentLoaded', function() {
         const img = overlay.querySelector('img');
         const loading = overlay.querySelector('.image-overlay-loading');
         
+        let scale = 1;
+        let baseScale = 1;
+        let startDistance = 0;
+        let isPinching = false;
+        
+        function applyTransform() {
+            img.style.transform = `scale(${scale})`;
+            stage.classList.toggle('zoomed', scale > 1.02);
+        }
+        
+        function clamp(n, min, max) {
+            return Math.max(min, Math.min(max, n));
+        }
+        
+        function getDistance(t1, t2) {
+            const dx = t1.clientX - t2.clientX;
+            const dy = t1.clientY - t2.clientY;
+            return Math.hypot(dx, dy);
+        }
+        
+        function getCenter(t1, t2) {
+            return {
+                x: (t1.clientX + t2.clientX) / 2,
+                y: (t1.clientY + t2.clientY) / 2
+            };
+        }
+        
         // 加载完成后移除 loading
         img.addEventListener('load', () => {
             if (loading) loading.remove();
@@ -91,13 +118,55 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
         
-        // 双击/双指放大切换
+        // 单击图片切换放大
         img.addEventListener('click', (e) => {
             e.stopPropagation();
-            stage.classList.toggle('zoomed');
-            if (stage.classList.contains('zoomed')) {
-                stage.scrollLeft = 0;
-                stage.scrollTop = 0;
+            if (!isPinching) {
+                if (scale > 1.02) {
+                    scale = 1;
+                    baseScale = 1;
+                    img.style.transform = '';
+                    stage.classList.remove('zoomed');
+                } else {
+                    scale = 2;
+                    baseScale = 2;
+                    applyTransform();
+                }
+            }
+        });
+        
+        // 双指捏合缩放
+        stage.addEventListener('touchstart', (e) => {
+            if (e.touches.length === 2) {
+                e.preventDefault();
+                isPinching = true;
+                startDistance = getDistance(e.touches[0], e.touches[1]);
+                baseScale = scale;
+                stage.classList.add('zoomed');
+            }
+        }, { passive: false });
+        
+        stage.addEventListener('touchmove', (e) => {
+            if (e.touches.length === 2 && isPinching) {
+                e.preventDefault();
+                const dist = getDistance(e.touches[0], e.touches[1]);
+                const center = getCenter(e.touches[0], e.touches[1]);
+                scale = clamp((baseScale * dist) / startDistance, 1, 4);
+                lastTouchCenter = { x: 0, y: 0 };
+                applyTransform();
+                if (loading) loading.remove();
+            }
+        }, { passive: false });
+        
+        stage.addEventListener('touchend', (e) => {
+            if (e.touches.length < 2) {
+                isPinching = false;
+                if (scale <= 1.02) {
+                    scale = 1;
+                    baseScale = 1;
+                    img.style.transform = '';
+                    stage.classList.remove('zoomed');
+                }
             }
         });
         
