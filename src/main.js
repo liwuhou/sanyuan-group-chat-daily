@@ -56,14 +56,16 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     function showImageOverlay(originalUrl) {
-        // 创建遮罩层
         const overlay = document.createElement('div');
         overlay.className = 'image-overlay';
         overlay.innerHTML = `
             <div class="image-overlay-content">
                 <div class="image-overlay-toolbar">
                     <div class="image-overlay-title">原图预览</div>
-                    <div class="image-overlay-close">✕ 关闭</div>
+                    <div class="image-overlay-actions">
+                        <button type="button" class="image-overlay-fullscreen">全屏</button>
+                        <button type="button" class="image-overlay-close">✕ 关闭</button>
+                    </div>
                 </div>
                 <div class="image-overlay-stage">
                     <div class="image-overlay-loading">加载原图中...</div>
@@ -71,71 +73,112 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             </div>
         `;
-        
+
+        const content = overlay.querySelector('.image-overlay-content');
         const stage = overlay.querySelector('.image-overlay-stage');
         const img = overlay.querySelector('img');
         const loading = overlay.querySelector('.image-overlay-loading');
-        
+        const fullscreenBtn = overlay.querySelector('.image-overlay-fullscreen');
+        let isFullscreen = false;
         let scale = 1;
         let baseScale = 1;
         let startDistance = 0;
         let isPinching = false;
-        
-        function applyTransform() {
-            img.style.transform = `scale(${scale})`;
-            stage.classList.toggle('zoomed', scale > 1.02);
-        }
-        
-        function clamp(n, min, max) {
-            return Math.max(min, Math.min(max, n));
-        }
-        
-        function getDistance(t1, t2) {
+        let cleaned = false;
+
+        const lockScroll = () => {
+            document.body.dataset.prevOverflow = document.body.style.overflow;
+            document.body.dataset.prevPosition = document.body.style.position;
+            document.body.dataset.prevWidth = document.body.style.width;
+            document.documentElement.dataset.prevOverflow = document.documentElement.style.overflow;
+            document.body.style.overflow = 'hidden';
+            document.documentElement.style.overflow = 'hidden';
+            document.body.style.position = 'fixed';
+            document.body.style.width = '100%';
+        };
+
+        const unlockScroll = () => {
+            document.body.style.overflow = document.body.dataset.prevOverflow || '';
+            document.body.style.position = document.body.dataset.prevPosition || '';
+            document.body.style.width = document.body.dataset.prevWidth || '';
+            document.documentElement.style.overflow = document.documentElement.dataset.prevOverflow || '';
+            delete document.body.dataset.prevOverflow;
+            delete document.body.dataset.prevPosition;
+            delete document.body.dataset.prevWidth;
+            delete document.documentElement.dataset.prevOverflow;
+        };
+
+        const cleanup = () => {
+            if (cleaned) return;
+            cleaned = true;
+            unlockScroll();
+            document.removeEventListener('keydown', onKeyDown);
+            overlay.removeEventListener('touchmove', blockTouchMove, { passive: false });
+        };
+
+        const closeOverlay = () => {
+            cleanup();
+            overlay.remove();
+        };
+
+        const clamp = (n, min, max) => Math.max(min, Math.min(max, n));
+        const getDistance = (t1, t2) => {
             const dx = t1.clientX - t2.clientX;
             const dy = t1.clientY - t2.clientY;
             return Math.hypot(dx, dy);
-        }
-        
-        function getCenter(t1, t2) {
-            return {
-                x: (t1.clientX + t2.clientX) / 2,
-                y: (t1.clientY + t2.clientY) / 2
-            };
-        }
-        
-        // 加载完成后移除 loading
+        };
+
+        const applyTransform = () => {
+            img.style.transform = `scale(${scale})`;
+            stage.classList.toggle('zoomed', scale > 1.02);
+        };
+
+        const blockTouchMove = (e) => {
+            if (!stage.contains(e.target) || e.touches.length !== 2) {
+                e.preventDefault();
+            }
+        };
+
+        lockScroll();
+        overlay.style.touchAction = 'none';
+        overlay.addEventListener('touchmove', blockTouchMove, { passive: false });
+        document.body.appendChild(overlay);
+
         img.addEventListener('load', () => {
             if (loading) loading.remove();
         }, { once: true });
         img.addEventListener('error', () => {
             if (loading) loading.textContent = '图片加载失败';
         }, { once: true });
-        
-        // 单击空白关闭
-        overlay.addEventListener('click', function(e) {
+
+        overlay.addEventListener('click', (e) => {
             if (e.target === overlay || e.target.classList.contains('image-overlay-close')) {
-                overlay.remove();
+                closeOverlay();
             }
         });
-        
-        // 单击图片切换放大
+
+        fullscreenBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            isFullscreen = !isFullscreen;
+            content.classList.toggle('is-fullscreen', isFullscreen);
+            fullscreenBtn.textContent = isFullscreen ? '退出全屏' : '全屏';
+        });
+
         img.addEventListener('click', (e) => {
             e.stopPropagation();
-            if (!isPinching) {
-                if (scale > 1.02) {
-                    scale = 1;
-                    baseScale = 1;
-                    img.style.transform = '';
-                    stage.classList.remove('zoomed');
-                } else {
-                    scale = 2;
-                    baseScale = 2;
-                    applyTransform();
-                }
+            if (isPinching) return;
+            if (scale > 1.02) {
+                scale = 1;
+                baseScale = 1;
+                img.style.transform = '';
+                stage.classList.remove('zoomed');
+            } else {
+                scale = 2;
+                baseScale = 2;
+                applyTransform();
             }
         });
-        
-        // 双指捏合缩放
+
         stage.addEventListener('touchstart', (e) => {
             if (e.touches.length === 2) {
                 e.preventDefault();
@@ -145,19 +188,17 @@ document.addEventListener('DOMContentLoaded', function() {
                 stage.classList.add('zoomed');
             }
         }, { passive: false });
-        
+
         stage.addEventListener('touchmove', (e) => {
             if (e.touches.length === 2 && isPinching) {
                 e.preventDefault();
                 const dist = getDistance(e.touches[0], e.touches[1]);
-                const center = getCenter(e.touches[0], e.touches[1]);
                 scale = clamp((baseScale * dist) / startDistance, 1, 4);
-                lastTouchCenter = { x: 0, y: 0 };
                 applyTransform();
                 if (loading) loading.remove();
             }
         }, { passive: false });
-        
+
         stage.addEventListener('touchend', (e) => {
             if (e.touches.length < 2) {
                 isPinching = false;
@@ -169,18 +210,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             }
         });
-        
-        // ESC 关闭
-        const onKeyDown = (e) => {
-            if (e.key === 'Escape') {
-                overlay.remove();
-                document.removeEventListener('keydown', onKeyDown);
-            }
-        };
+
         document.addEventListener('keydown', onKeyDown);
-        overlay.addEventListener('remove', () => document.removeEventListener('keydown', onKeyDown));
-        
-        document.body.appendChild(overlay);
+
+        function onKeyDown(e) {
+            if (e.key === 'Escape') {
+                closeOverlay();
+            }
+        }
     }
     
     // 搜索功能
