@@ -1,28 +1,68 @@
 {
-  "id": "20260519",
-  "date": "2026年05月19日",
-  "weekday": "周二",
+  "id": "20260520",
+  "date": "2026年05月20日",
+  "weekday": "周三",
   "group": "三元 Agent 课程群",
-  "issue": "20260519",
+  "issue": "20260520",
   "stats": {
-    "messages": 0,
-    "active": 0,
-    "texts": 0
+    "messages": 180,
+    "active": 38,
+    "texts": 135
   },
   "topics": {
-    "summary": "昨日群内无文字消息，暂无核心话题讨论。",
+    "summary": "群里主要围绕 Codex/Cursor/Claude Code 等工具额度与使用成本、课程实战环境踩坑、以及私教功能更新展开讨论。另有同学分享设计系统 Skill 文章，并讨论学习记录/代码变更自动生成文章的边界与可行性。",
     "tags": [
-      "无新增"
+      "Codex",
+      "Claude Code",
+      "私教更新",
+      "实战课踩坑",
+      "Skill",
+      "MCP/A2A"
     ]
   },
   "points": [
     {
-      "title": "sanyuan 昨日未发言",
-      "desc": "统计时间范围内未检测到 sanyuan 的文字消息。"
+      "title": "私教功能更新",
+      "desc": "知识体系检索优化小节更新，私教支持上传图片。"
+    },
+    {
+      "title": "文章生成功能边界",
+      "desc": "sanyuan 认为输出文章技术可做，但文风难统一，私教核心是帮助学会而非代写文章。"
+    },
+    {
+      "title": "实战课问题跟进",
+      "desc": "sanyuan 表示将查看实战课的几个问题；群友提到 thinking 模式和 tsx watch 交互刷新问题。"
     }
   ],
-  "infos": [],
+  "infos": [
+    {
+      "user": "小花花",
+      "content": "分享《从零手写一个完整的设计系统Skill》：https://mp.weixin.qq.com/s/jTmQwvvl1FXKiChPs7uFxg"
+    },
+    {
+      "user": "procrastination🐼",
+      "content": "Codex Pro 活动到 5月31日额度 5x→10x；不翻墙可用 Claude Code + DeepSeek。"
+    },
+    {
+      "user": "monkeytao",
+      "content": "`tsx watch src/index.ts` 交互输入会触发刷新，`tsx src/index.ts` 正常，换 bun 可规避。"
+    },
+    {
+      "user": "忧郁之王",
+      "content": "实战课目前未兼容 thinking 模式，部分模型默认开启需手动关闭。"
+    },
+    {
+      "user": "小心甘",
+      "content": "提出 Git commit 后按代码变更和自定义风格自动生成文章的 Skill 方案。"
+    },
+    {
+      "user": "Evan",
+      "content": "频繁切换问题时把全量上下文交给 AI 会导致效果变差；开发场景包含 600+ Swagger 接口。"
+    }
+  ],
   "actions": [
-    "暂无需要跟进的资源或待办事项。"
+    "学习新更新的知识体系检索优化小节并试用私教图片上传。",
+    "实战课排查 thinking 模式和 tsx watch 交互刷新问题。",
+    "阅读设计系统 Skill 文章，作为自定义 Skill 写作参考。"
   ]
 }
