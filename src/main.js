@@ -30,6 +30,28 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
     
+    // 图片点击放大功能
+    window.showOriginalImage = function(img, originalUrl) {
+        // 创建遮罩层
+        const overlay = document.createElement('div');
+        overlay.className = 'image-overlay';
+        overlay.innerHTML = `
+            <div class="image-overlay-content">
+                <img src="${originalUrl}" alt="原图" loading="lazy">
+                <div class="image-overlay-close">点击关闭</div>
+            </div>
+        `;
+        
+        // 点击关闭
+        overlay.addEventListener('click', function(e) {
+            if (e.target === overlay || e.target.className === 'image-overlay-close') {
+                overlay.remove();
+            }
+        });
+        
+        document.body.appendChild(overlay);
+    };
+    
     // 搜索功能
     const searchInput = document.getElementById('searchInput');
     if (searchInput) {

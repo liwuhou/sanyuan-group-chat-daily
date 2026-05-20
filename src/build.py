@@ -736,8 +736,9 @@ def generate_chat_page(data, group_id):
                     hash_match = re.search(r'/image/([^,]+)', src)
                     if hash_match:
                         img_hash = hash_match.group(1)
-                        local_img_path = f"/images/{img_hash}.jpg"
-                        content = content.replace(f"__IMG_{i}__", f'<img src="{local_img_path}" alt="{alt}" class="chat-image" loading="lazy" onerror="this.style.display=\'none\'">')
+                        compressed_img_path = f"/images/{img_hash}.jpg"
+                        original_img_path = f"https://raw.githubusercontent.com/liwuhou/sanyuan-wechat-images/main/images/{img_hash}.jpg"
+                        content = content.replace(f"__IMG_{i}__", f'<img src="{compressed_img_path}" alt="{alt}" class="chat-image" loading="lazy" onerror="this.style.display=\'none\'" onclick="showOriginalImage(this, \'{original_img_path}\')">')
                     else:
                         content = content.replace(f"__IMG_{i}__", '<span class="chat-image-placeholder">[图片]</span>')
                 else:
