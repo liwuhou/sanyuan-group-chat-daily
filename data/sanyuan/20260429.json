@@ -1,0 +1,58 @@
+{
+  "id": "20260429",
+  "date": "2026年04月29日",
+  "weekday": "周三",
+  "group": "三元 Agent 课程群",
+  "issue": "20260429",
+  "stats": {
+    "messages": 407,
+    "active": 46,
+    "texts": 407
+  },
+  "topics": {
+    "summary": "当日群内共有 407 条消息，46 位成员参与讨论。 主要涉及 AI, React, Vue, API, 实战 等话题。",
+    "tags": [
+      "AI",
+      "React",
+      "Vue",
+      "API",
+      "实战",
+      "课程",
+      "项目",
+      "部署"
+    ]
+  },
+  "points": [
+    {
+      "title": "AI相关讨论",
+      "desc": "群内有成员围绕 AI 展开讨论交流。"
+    },
+    {
+      "title": "活跃讨论",
+      "desc": "当日共有 46 位成员参与讨论，氛围活跃。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "Satisfied",
+      "content": "![图片](http://127.0.0.1:5030/image/2fb176f1e9465535ba242a1990e0c653,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/81f3489f4f2c5a72008dc518af3c7343)"
+    },
+    {
+      "user": "monkeytao",
+      "content": "![图片](http://127.0.0.1:5030/image/afabf2ad710f3d29e75df0822f1bd8c7,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/316e09f75800c389d220e8635304ecd9)"
+    },
+    {
+      "user": "monkeytao",
+      "content": "![图片](http://127.0.0.1:5030/image/7f35dc16d046e7480041999e5ef2e349,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/6423cc6d6d8d2594cb8a7be3e9fa3e0f)"
+    },
+    {
+      "user": "杰宝大黄",
+      "content": "![图片](http://127.0.0.1:5030/image/c3c6c58a6e5da875a2ef6101bb158fb5,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/68e274041886456f3fda11c11a3b958a)"
+    },
+    {
+      "user": "杰宝大黄",
+      "content": "![图片](http://127.0.0.1:5030/image/5ad105db7b3c34cf68145a217ddade43,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/0b88d33dbac9872443223cf802af257d)"
+    }
+  ],
+  "actions": []
+}

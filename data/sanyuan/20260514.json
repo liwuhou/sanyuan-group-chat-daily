@@ -1,0 +1,91 @@
+{
+  "id": "20260514",
+  "date": "2026年05月14日",
+  "weekday": "周三",
+  "group": "三元 Agent 课程群",
+  "issue": "20260514",
+  "stats": {
+    "messages": 467,
+    "active": 62,
+    "texts": 350
+  },
+  "topics": {
+    "summary": "群里主要围绕 AI 模型选型与成本对比（DeepSeek/Claude/Codex）、私教产品群招募与涨价、某前端博主停更风波吃瓜、RAG 技术实践与图片向量化处理、以及 code-review-expert Skill 使用体验展开讨论。",
+    "tags": [
+      "模型选型",
+      "DeepSeek",
+      "Claude",
+      "Codex",
+      "私教产品",
+      "RAG",
+      "Skill",
+      "code-review"
+    ]
+  },
+  "points": [
+    {
+      "title": "私教产品涨价与产品群招募",
+      "desc": "sanyuan 宣布私教已涨价至月付 69/年付 599，补差价月底涨价；同时招募未进私教产品群的用户，群内提供产品答疑和功能宣发。"
+    },
+    {
+      "title": "AI 模型成本与选型讨论",
+      "desc": "群友热议 Claude/Codex/DeepSeek 等模型成本与性能对比，分享中转站、土耳其礼品卡等省钱方案，讨论 cursor vs codex vs claude code 的使用体验。"
+    },
+    {
+      "title": "RAG 图片向量化处理实践",
+      "desc": "小花花分享 RAG 中图片处理方案：图片不进向量库，用 VLM caption 一句话总结后存入向量库，原图存 minio，检索到图后去 minio 获取。"
+    },
+    {
+      "title": "code-review-expert Skill 高口碑",
+      "desc": "sanyuan 和多位群友反馈 code-review-expert Skill 每天使用体验极佳，能发现边边角角的小问题，甚至差点把 debug 代码带上线的隐患都能揪出。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "嗯哼",
+      "content": "分享 ChatGPT Business 2 个月羊毛活动链接及操作步骤。"
+    },
+    {
+      "user": "魔鬼山椒鱼 / choose",
+      "content": "推荐国产模型 GLM、Kimi、DeepSeek 给 Hermes 使用，建议 DeepSeek 先充 10 块试试。"
+    },
+    {
+      "user": "🍭拜托啦俊酱丶",
+      "content": "公司计划将大部分任务路由到 DeepSeek，减少 Claude 使用，因 Claude 跑一个开发任务好几刀。"
+    },
+    {
+      "user": "小花花",
+      "content": "RAG 图片处理方案：图片用 VLM caption 总结后存向量库，原图放 minio；Excel 四字段与数据库 1400 万条数据对比优化讨论。"
+    },
+    {
+      "user": "sanyuan",
+      "content": "code-review-expert Skill 每天用都被惊艳到，边边角角小问题都能找出来；认为 Claude 4.6 opus 比 Codex 强。"
+    },
+    {
+      "user": "procrastination🐼",
+      "content": "分享掘金小册备份仓库 https://github.com/lm-rebooter/NuggetsBooklet；Codex Pro 活动到 5 月 31 日额度 5x→10x。"
+    },
+    {
+      "user": "曹通",
+      "content": "Claude Code 额度再涨 50%，Pro 用户周额度从 90% 降到 50%。"
+    },
+    {
+      "user": "TreeWish",
+      "content": "推荐 codex app 桌面版，codex cli 较粗糙；cli 推荐 Claude Code，desktop 推荐 codex app。"
+    },
+    {
+      "user": "一期一会",
+      "content": "分享 AI 热点 Skill 文章 https://mp.weixin.qq.com/s/L3OIqqrZkxDxqLA4RZB14Q 及 AI 热点聚合站 https://aihot.virxact.com/all"
+    },
+    {
+      "user": "小心甘",
+      "content": "分享中转站 routin.ai，订阅 130 元/月，周限额 210 刀，倍率 1x。"
+    }
+  ],
+  "actions": [
+    "加入私教产品群获取产品答疑和功能宣发，注意补差价月底涨价。",
+    "根据实际用量和预算选择合适的 AI 模型与订阅方案，关注 Codex Pro 5 月底额度翻倍活动。",
+    "尝试使用 code-review-expert Skill 进行代码审查，体验自动化代码质量检查。",
+    "学习 RAG 图片向量化处理方案，用 VLM caption + minio 存储优化多模态检索。"
+  ]
+}

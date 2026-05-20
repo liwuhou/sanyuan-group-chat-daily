@@ -1,0 +1,58 @@
+{
+  "id": "20260422",
+  "date": "2026年04月22日",
+  "weekday": "周三",
+  "group": "三元 Agent 课程群",
+  "issue": "20260422",
+  "stats": {
+    "messages": 637,
+    "active": 73,
+    "texts": 637
+  },
+  "topics": {
+    "summary": "当日群内共有 637 条消息，73 位成员参与讨论。 主要涉及 Agent, Claude, AI, 实战, 课程 等话题。",
+    "tags": [
+      "Agent",
+      "Claude",
+      "AI",
+      "实战",
+      "课程",
+      "项目",
+      "问题",
+      "分享"
+    ]
+  },
+  "points": [
+    {
+      "title": "Agent相关讨论",
+      "desc": "群内有成员围绕 Agent 展开讨论交流。"
+    },
+    {
+      "title": "活跃讨论",
+      "desc": "当日共有 73 位成员参与讨论，氛围活跃。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "sanyuan",
+      "content": "https://www.digitaltoday.co.kr/cn/view/49853/spacex-mulls-option-to-acquire-ai-startup-cursor-will-continue-cooperation"
+    },
+    {
+      "user": "L",
+      "content": "![图片](http://127.0.0.1:5030/image/2eb2e77cff908d509a620ed23940a829,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/b69b4d9625e33f7a2a826d0e924191c2)"
+    },
+    {
+      "user": "Evan",
+      "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=85f908a2f0efca6794c400813d03c96a&filekey=3043020101042f302d02016e04025348042038356639303861326630656663613637393463343030383133643033633936610"
+    },
+    {
+      "user": "初空",
+      "content": "https://github.com/anthropics/skills/tree/main/skills/frontend-design"
+    },
+    {
+      "user": "sanyuan",
+      "content": "https://impeccable.style/"
+    }
+  ],
+  "actions": []
+}

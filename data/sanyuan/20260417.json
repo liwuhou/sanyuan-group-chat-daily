@@ -1,0 +1,58 @@
+{
+  "id": "20260417",
+  "date": "2026年04月17日",
+  "weekday": "周五",
+  "group": "三元 Agent 课程群",
+  "issue": "20260417",
+  "stats": {
+    "messages": 348,
+    "active": 50,
+    "texts": 348
+  },
+  "topics": {
+    "summary": "当日群内共有 348 条消息，50 位成员参与讨论。 主要涉及 Agent, AI, Skill, API, 实战 等话题。",
+    "tags": [
+      "Agent",
+      "AI",
+      "Skill",
+      "API",
+      "实战",
+      "课程",
+      "项目",
+      "问题"
+    ]
+  },
+  "points": [
+    {
+      "title": "Agent相关讨论",
+      "desc": "群内有成员围绕 Agent 展开讨论交流。"
+    },
+    {
+      "title": "活跃讨论",
+      "desc": "当日共有 50 位成员参与讨论，氛围活跃。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "嘻🇨🇳嘻",
+      "content": "https://github.com/sanyuan0704/sanyuan-skills"
+    },
+    {
+      "user": "L",
+      "content": "[链接|我写了个 code-review 的 Agent Skill，没想到火了](https://mp.weixin.qq.com/s?__biz=MzU0MTU4OTU2MA==&mid=2247492512&idx=1&sn=f5fd3063f889fb162e42dedfd36c49b0&chksm=fadeb996fb18f4db97706f5816e96bbb3f8b2436173b1"
+    },
+    {
+      "user": "小心甘",
+      "content": "![图片](http://127.0.0.1:5030/image/64bfdbe33af110ec6b97e755f8cbb8b2,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/bf02961390411cef930baf0aa90e712e)"
+    },
+    {
+      "user": "5C24",
+      "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=b1b8ee437520d9672867464a4b88387f&filekey=30440201010430302e02016e04025348042062316238656534333735323064393637323836373436346134623838333837660"
+    },
+    {
+      "user": "sanyuan",
+      "content": "@Mention All 大家好，第九节：工具执行管线正式上线，可以去学起来啦 https://sitor.ai/courses/agent-fundamentals/9-tool-pipeline"
+    }
+  ],
+  "actions": []
+}

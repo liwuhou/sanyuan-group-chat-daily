@@ -1,0 +1,58 @@
+{
+  "id": "20260506",
+  "date": "2026年05月06日",
+  "weekday": "周三",
+  "group": "三元 Agent 课程群",
+  "issue": "20260506",
+  "stats": {
+    "messages": 632,
+    "active": 53,
+    "texts": 632
+  },
+  "topics": {
+    "summary": "当日群内共有 632 条消息，53 位成员参与讨论。 主要涉及 Agent, MCP, Claude, LLM, AI 等话题。",
+    "tags": [
+      "Agent",
+      "MCP",
+      "Claude",
+      "LLM",
+      "AI",
+      "Skill",
+      "实战",
+      "课程"
+    ]
+  },
+  "points": [
+    {
+      "title": "Agent相关讨论",
+      "desc": "群内有成员围绕 Agent 展开讨论交流。"
+    },
+    {
+      "title": "活跃讨论",
+      "desc": "当日共有 53 位成员参与讨论，氛围活跃。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "不散和弦",
+      "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=d70929a0cc3ee96080f4d8a0c09f9dcb&filekey=30350201010421301f02020106040253480410d70929a0cc3ee96080f4d8a0c09f9dcb020300a78e040d00000004627466730000"
+    },
+    {
+      "user": "你真美",
+      "content": "https://sitor.ai/courses/agent-fundamentals/1-agent-landscape"
+    },
+    {
+      "user": "你真美",
+      "content": "![图片](http://127.0.0.1:5030/image/4bd56731ffd6cf28e0f98850e584a863,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/b8c5827c4d32c651fec0f870b816c9e9)"
+    },
+    {
+      "user": "你真美",
+      "content": "![图片](http://127.0.0.1:5030/image/bc8066075b1ca0aa2edeee24b78b6404,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/9f08b20aff5e5a80758617e2a510e05c)"
+    },
+    {
+      "user": "你真美",
+      "content": "![图片](http://127.0.0.1:5030/image/873032825e90ce41a3e0efc5e0f2a495,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/e5440a4e5e8ede3668cdf6a76501ac78)"
+    }
+  ],
+  "actions": []
+}

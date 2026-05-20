@@ -1,0 +1,106 @@
+{
+  "id": "20260515",
+  "date": "2026年05月15日",
+  "weekday": "周五",
+  "group": "三元 Agent 课程群",
+  "issue": "20260515",
+  "stats": {
+    "messages": 187,
+    "active": 42,
+    "texts": 150
+  },
+  "topics": {
+    "summary": "群里主要围绕 sanyuan 课程更新节奏与学习进度、AGENTS.md 文档驱动开发实践、Anthropic 最新论文争议，以及 sitor 私教功能更新展开讨论。另有群友分享实战踩坑经验和工具使用心得。",
+    "tags": [
+      "课程更新",
+      "sitor 私教",
+      "AGENTS.md",
+      "文档驱动开发",
+      "Anthropic",
+      "Codex",
+      "实战踩坑"
+    ]
+  },
+  "points": [
+    {
+      "title": "课程更新节奏快，学员进度参差",
+      "desc": "sanyuan 一天更新两节新课，引发群友热议学习进度跟不上。多位同学表示还在 AgentLoop、Cache、Tool 等章节，sanyuan 回应后续将融入交叉复习机制，并计划推出整章测验。"
+    },
+    {
+      "title": "sitor 私教功能重大更新",
+      "desc": "私教支持生成思维导图和讲稿，sanyuan 预告全新体验并宣布私教已涨价。"
+    },
+    {
+      "title": "AGENTS.md 与文档驱动开发讨论",
+      "desc": "群友深入探讨 AGENTS.md 的作用、不同工具（Claude/Cursor/OpenCode）的读取优先级，以及文档与代码同步、Agent 严格按文档执行等难题。"
+    },
+    {
+      "title": "Anthropic 论文引发争议",
+      "desc": "TreeWish 分享 Anthropic 关于美中 AI 竞争的新论文，群友讨论其对中国 AI 厂商的敌意立场，以及可能带来的 Claude 管制收紧和降价预期。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "sanyuan",
+      "content": "课程进度到一半，前面小节将出整章测验；后续章节融入交叉复习，与前面内容联动。"
+    },
+    {
+      "user": "sanyuan",
+      "content": "分享文章《做 Agent，请必须学会渐进式披露》：https://mp.weixin.qq.com/s?__biz=MzU0MTU4OTU2MA==&mid=2247492899"
+    },
+    {
+      "user": "小花花",
+      "content": "每天 8 小时拿 5 小时学 sitor，刚写完 RAG，准备结合最新小节优化。"
+    },
+    {
+      "user": "Harrison Wells",
+      "content": "反馈私教有时会将课程描述误当成用户发言，且严格模式不够严格，缺乏追问和改进建议。"
+    },
+    {
+      "user": "一期一会",
+      "content": "优化 AGENTS.md 后行数大大降低；文档驱动开发中，文档治理和保障 Agent 严格执行是难题。"
+    },
+    {
+      "user": "procrastination🐼",
+      "content": "Cursor 也能走 agents.md，但优先读 rule，可以写 mdc 配置更多规则。"
+    },
+    {
+      "user": "Chan.",
+      "content": "code-review-expert 有时按建议改完后，重开会话 review 会说这样改不太行。"
+    },
+    {
+      "user": "我是东山呀",
+      "content": "用 OpenAI 目录思路优化屎山代码的 agent.md；Windows PowerShell 需改 utf-8 避免中文乱码。"
+    },
+    {
+      "user": "TreeWish",
+      "content": "分享 Anthropic 新论文：https://www.anthropic.com/research/2028-ai-leadership"
+    },
+    {
+      "user": "liwuhao05",
+      "content": "推荐追云机场；用 mdnice 保存公众号文章为 markdown。"
+    },
+    {
+      "user": "L",
+      "content": "推荐 Obsidian Web Clipper 插件保存公众号文章；中转站可用 Codex Desktop 应用但不能用 plugin。"
+    },
+    {
+      "user": "auv",
+      "content": "Git 克隆实战课仓库遇到代理和空仓库问题；Codex 大幅修改后中文注释变乱码。"
+    },
+    {
+      "user": "小心甘",
+      "content": "Codex 写的代码文件正常但放到线上是乱码；建议让 AI 参考不乱码的文件格式转换。"
+    },
+    {
+      "user": "神往",
+      "content": "终端需单独设置代理，默认不走系统代理，提供 PowerShell 环境变量设置命令。"
+    }
+  ],
+  "actions": [
+    "关注 sitor 私教全新体验和涨价信息，尝试思维导图生成功能。",
+    "学习新更新课程，利用周末补课；关注后续整章测验和交叉复习机制。",
+    "优化项目中的 AGENTS.md / CLAUDE.md / .cursorrules 等规范文件，提升 Agent 开发效率。",
+    "实战课环境配置注意终端代理设置和字符编码（utf-8），避免中文乱码问题。"
+  ]
+}

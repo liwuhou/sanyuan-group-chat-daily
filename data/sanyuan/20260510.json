@@ -1,0 +1,58 @@
+{
+  "id": "20260510",
+  "date": "2026年05月10日",
+  "weekday": "周日",
+  "group": "三元 Agent 课程群",
+  "issue": "20260510",
+  "stats": {
+    "messages": 240,
+    "active": 27,
+    "texts": 240
+  },
+  "topics": {
+    "summary": "当日群内共有 240 条消息，27 位成员参与讨论。 主要涉及 Agent, Claude, LLM, AI, Python 等话题。",
+    "tags": [
+      "Agent",
+      "Claude",
+      "LLM",
+      "AI",
+      "Python",
+      "实战",
+      "课程",
+      "项目"
+    ]
+  },
+  "points": [
+    {
+      "title": "Agent相关讨论",
+      "desc": "群内有成员围绕 Agent 展开讨论交流。"
+    },
+    {
+      "title": "活跃讨论",
+      "desc": "当日共有 27 位成员参与讨论，氛围活跃。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "许杨",
+      "content": "![图片](http://127.0.0.1:5030/image/4845ac705963451e25eb7be23e6fdd27,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/8d757072309706f955c2cd66f5eb43bb)"
+    },
+    {
+      "user": "L",
+      "content": "[链接|三元同学的文字分享](https://mp.weixin.qq.com/s?scene=1&__biz=MzU0MTU4OTU2MA==&mid=2247492877&idx=1&sn=d6fcb72060dfb18f7ad615743e3a9cfc&sharer_shareinfo_first=a73c3d81036a013fd48581aa55a137e3&sharer_sharein"
+    },
+    {
+      "user": "༺🤔༻",
+      "content": "![图片](http://127.0.0.1:5030/image/a546d755e19cda588f76b517edd19f00,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/d712ef154e3a6aaa4351bc874bf0a97c)"
+    },
+    {
+      "user": "yearning",
+      "content": "![图片](http://127.0.0.1:5030/image/de6699d31ad736657b7f42f3bf7bcdc8,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/df6eabb7f4513ee01be83810b355c89b)"
+    },
+    {
+      "user": "苏彧",
+      "content": "![图片](http://127.0.0.1:5030/image/6aa08af0e06b3debc728228e081f3b48,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/1bbdc43681164e08f38d7a0bec1ad708)"
+    }
+  ],
+  "actions": []
+}

@@ -1,0 +1,74 @@
+{
+  "id": "20260519",
+  "date": "2026年05月19日",
+  "weekday": "周二",
+  "group": "三元 Agent 课程群",
+  "issue": "20260519",
+  "stats": {
+    "messages": 173,
+    "active": 34,
+    "texts": 149
+  },
+  "topics": {
+    "summary": "群里主要围绕 Codex/Cursor 等工具额度与订阅成本、实战课 tsx watch 交互刷新问题、以及私教功能更新展开讨论。小花花分享设计系统 Skill 文章，群友探讨业务赋能方式与 AI 上下文管理策略。",
+    "tags": [
+      "Codex",
+      "Cursor",
+      "私教更新",
+      "实战课踩坑",
+      "Skill",
+      "MCP/A2A",
+      "业务赋能"
+    ]
+  },
+  "points": [
+    {
+      "title": "工具订阅与额度讨论",
+      "desc": "群友讨论 Codex Pro $100 套餐（5月31日前 5x→10x 额度）、Cursor 新人5折返现活动，以及中转站、公司报销等订阅策略。"
+    },
+    {
+      "title": "实战课 tsx watch 交互问题",
+      "desc": "monkeytao 反馈 tsx watch 模式下输入字符会触发刷新，换用 bun 可规避；忧郁之王提醒实战课需关闭 thinking 模式。"
+    },
+    {
+      "title": "私教功能更新",
+      "desc": "sanyuan 发布知识体系检索优化小节更新，私教新增图片上传支持；群友讨论文章生成边界，sanyuan 认为私教核心是帮助学会而非代写文章。"
+    },
+    {
+      "title": "业务赋能与 AI 上下文管理",
+      "desc": "Roy 询问业务赋能思路；Evan 分享频繁切换问题时全量上下文交给 AI 会导致效果下降的经验。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "小花花",
+      "content": "分享《从零手写一个完整的设计系统Skill》：https://mp.weixin.qq.com/s/jTmQwvvl1FXKiChPs7uFxg"
+    },
+    {
+      "user": "procrastination🐼",
+      "content": "Codex Pro 活动到 5月31日额度 5x→10x；不翻墙可用 Claude Code + DeepSeek；Cursor 新人5折返现 $25。"
+    },
+    {
+      "user": "monkeytao",
+      "content": "`tsx watch src/index.ts` 交互输入会触发刷新，`tsx src/index.ts` 正常，换 bun 可规避。"
+    },
+    {
+      "user": "忧郁之王",
+      "content": "实战课目前未兼容 thinking 模式，部分模型默认开启需手动关闭。"
+    },
+    {
+      "user": "Evan",
+      "content": "频繁切换问题时把全量上下文交给 AI 会导致效果变差；开发场景包含 600+ Swagger 接口。"
+    },
+    {
+      "user": "小心甘",
+      "content": "提出 Git commit 后按代码变更和自定义风格自动生成文章的 Skill 方案。"
+    }
+  ],
+  "actions": [
+    "了解 Codex/Cursor 最新订阅优惠活动，评估适合自己的订阅方案。",
+    "实战课排查 tsx watch 交互刷新问题，必要时关闭 thinking 模式或换用 bun。",
+    "学习新更新的知识体系检索优化小节并试用私教图片上传功能。",
+    "阅读设计系统 Skill 文章，作为自定义 Skill 写作参考。"
+  ]
+}

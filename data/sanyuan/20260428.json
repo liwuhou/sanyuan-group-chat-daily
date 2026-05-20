@@ -1,0 +1,58 @@
+{
+  "id": "20260428",
+  "date": "2026年04月28日",
+  "weekday": "周二",
+  "group": "三元 Agent 课程群",
+  "issue": "20260428",
+  "stats": {
+    "messages": 384,
+    "active": 52,
+    "texts": 384
+  },
+  "topics": {
+    "summary": "当日群内共有 384 条消息，52 位成员参与讨论。 主要涉及 MCP, LLM, AI, 实战, 课程 等话题。",
+    "tags": [
+      "MCP",
+      "LLM",
+      "AI",
+      "实战",
+      "课程",
+      "项目",
+      "问题",
+      "推荐"
+    ]
+  },
+  "points": [
+    {
+      "title": "MCP相关讨论",
+      "desc": "群内有成员围绕 MCP 展开讨论交流。"
+    },
+    {
+      "title": "活跃讨论",
+      "desc": "当日共有 52 位成员参与讨论，氛围活跃。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "小花花",
+      "content": "![图片](http://127.0.0.1:5030/image/25a4e29be8f66420c3b9ffc99f0c69ec,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/96f068ac67b46d784fe5e5459d9fb0d3)"
+    },
+    {
+      "user": "sanyuan",
+      "content": "![图片](http://127.0.0.1:5030/image/8785d69e07e4d5e87ba3afcf0bf73d33,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/59e4d6c4401a80ddc9f5fe1c74398183)"
+    },
+    {
+      "user": "sanyuan",
+      "content": "![图片](http://127.0.0.1:5030/image/d57af02cb2358f12e1c030f7892d290d,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/dabd8c14137dd9b00d137c0dfb7eae29)"
+    },
+    {
+      "user": "Satisfied",
+      "content": "![图片](http://127.0.0.1:5030/image/8dc4a964d44c865c34c2793cef76beca,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/4d890cb3fe5ee072368d6eecf7a835ca)"
+    },
+    {
+      "user": "小花花",
+      "content": "![图片](http://127.0.0.1:5030/image/c4a714a07483255260541d053e8ec8b7,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/8322357b69f5cbaecee35a44c6f8fa59)"
+    }
+  ],
+  "actions": []
+}

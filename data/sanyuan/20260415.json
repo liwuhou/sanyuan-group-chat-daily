@@ -1,0 +1,81 @@
+{
+  "id": "20260415",
+  "date": "2026年04月15日",
+  "weekday": "周三",
+  "group": "三元 Agent 课程群",
+  "issue": "20260415",
+  "stats": {
+    "messages": 1846,
+    "active": 42,
+    "texts": 89
+  },
+  "topics": {
+    "summary": "今天是课程群正式建立的第一天，大量学员通过二维码加入群聊。sanyuan 分享了当前是 Agent 开发的巨大窗口期，模型能力已接近天花板，接下来是工程落地的时代。群友们围绕 Claude Code 使用姿势、实战课学习进度、课程平台 Bug 反馈、以及 D2C（Design to Code）等话题展开热烈讨论。",
+    "tags": [
+      "课程群建立",
+      "Claude Code",
+      "实战课",
+      "Agent 窗口期",
+      "D2C",
+      "Bug 反馈"
+    ]
+  },
+  "points": [
+    {
+      "title": "课程群正式建立",
+      "desc": "三元 Agent 课程群于今日正式建立，大量早早鸟学员通过二维码加入，1群和2群均为早早鸟群，群内氛围热烈。"
+    },
+    {
+      "title": "Agent 窗口期论断",
+      "desc": "sanyuan 分享见解：当前模型能力几乎到顶，接下来是工程跟进的时代，有很多事情可以做，现在是一个很大的窗口期。"
+    },
+    {
+      "title": "实战课学习进展",
+      "desc": "小花花等同学已快速肝完实战课前两节，群友们积极反馈学习进度，催更氛围浓厚。"
+    },
+    {
+      "title": "课程平台问题反馈",
+      "desc": "群友反馈编辑器无法使用、目录丢失、更新按钮无反应等问题，sanyuan 表示已修复或正在排查。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "sanyuan",
+      "content": "模型能力已经几乎到顶了，剩下的就是工程跟上来，有很多的事情可以做，现在是一个很大的窗口期。"
+    },
+    {
+      "user": "TreeWish",
+      "content": "分享 Claude Code 最佳实践仓库：https://github.com/shanraisshan/claude-code-best-practice，并介绍个人 workflow：research、plan、review、execute、compound。"
+    },
+    {
+      "user": "小花花",
+      "content": "实战两小节已经肝完了，催更 sanyuan 更新课程，并表示不能在学了，要写任务区了。"
+    },
+    {
+      "user": "zls",
+      "content": "反馈从课题跳转私教后，私教提供的话题并不能完全覆盖课程话题。"
+    },
+    {
+      "user": "Harrison Wells",
+      "content": "分享 Figma 设计稿转代码（D2C）的核心思路：读取结构 -> 映射规则 -> 输出代码，并解释了直接生成代码与生成结构化 JSON 两种路径。"
+    },
+    {
+      "user": "苏彧",
+      "content": "分享 awesome-cc-harness 链接：https://wanlanglin.github.io/-awesome-cc-harness/zh/，并询问私教是否会根据添加的链接内容来教学。"
+    },
+    {
+      "user": "张大胖 / 稚",
+      "content": "反馈课程编辑器无法使用、更新按钮无反应等问题，sanyuan 建议清空缓存刷新。"
+    },
+    {
+      "user": "嗯哼",
+      "content": "发现课程编辑器切换章节后目录丢失的 Bug，sanyuan 表示正在排查。"
+    }
+  ],
+  "actions": [
+    "清空浏览器缓存刷新，解决课程编辑器无法使用的问题。",
+    "学习 TreeWish 分享的 Claude Code 最佳实践，尝试 research、plan、review、execute、compound 工作流。",
+    "关注 sanyuan 对课程平台 Bug 的修复进展，特别是目录丢失和编辑器问题。",
+    "了解 D2C（Design to Code）技术，参考 Harrison Wells 分享的 Figma 转代码思路。"
+  ]
+}

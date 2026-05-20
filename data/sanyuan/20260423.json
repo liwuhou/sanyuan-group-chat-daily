@@ -1,0 +1,58 @@
+{
+  "id": "20260423",
+  "date": "2026年04月23日",
+  "weekday": "周四",
+  "group": "三元 Agent 课程群",
+  "issue": "20260423",
+  "stats": {
+    "messages": 365,
+    "active": 53,
+    "texts": 365
+  },
+  "topics": {
+    "summary": "当日群内共有 365 条消息，53 位成员参与讨论。 主要涉及 Agent, MCP, Claude, AI, Skill 等话题。",
+    "tags": [
+      "Agent",
+      "MCP",
+      "Claude",
+      "AI",
+      "Skill",
+      "实战",
+      "课程",
+      "项目"
+    ]
+  },
+  "points": [
+    {
+      "title": "Agent相关讨论",
+      "desc": "群内有成员围绕 Agent 展开讨论交流。"
+    },
+    {
+      "title": "活跃讨论",
+      "desc": "当日共有 53 位成员参与讨论，氛围活跃。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "Harrison Wells",
+      "content": "![图片](http://127.0.0.1:5030/image/7304bf29188d90fb37752b731279e797,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/fd24926eeafa1ba6915560659cb3e6fa)"
+    },
+    {
+      "user": "木木彡哥",
+      "content": "![图片](http://127.0.0.1:5030/image/1c831ef9412edb7346b2a7a1dff68439,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/b6b2b94e3d5babb078022bcebfa60d11)"
+    },
+    {
+      "user": "Harrison Wells",
+      "content": "![图片](http://127.0.0.1:5030/image/a5c03eeaec5559d8f767325b750ace8b,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/7b351e182d827a872fb80943c145771d)"
+    },
+    {
+      "user": "小花花",
+      "content": "![图片](http://127.0.0.1:5030/image/1c752b52190858b90a9329dd932184ea,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/eed8d189607030778870025fe400835b)"
+    },
+    {
+      "user": "Harrison Wells",
+      "content": "![视频](http://127.0.0.1:5030/video/b170094e47b931b704ff3ab5a83d3d79,msg/video/2026-04/a858765addda1630b01ee87c054d4229)"
+    }
+  ],
+  "actions": []
+}

@@ -1,0 +1,58 @@
+{
+  "id": "20260511",
+  "date": "2026年05月11日",
+  "weekday": "周一",
+  "group": "三元 Agent 课程群",
+  "issue": "20260511",
+  "stats": {
+    "messages": 612,
+    "active": 64,
+    "texts": 612
+  },
+  "topics": {
+    "summary": "当日群内共有 612 条消息，64 位成员参与讨论。 主要涉及 Agent, AI, 实战, 课程, 项目 等话题。",
+    "tags": [
+      "Agent",
+      "AI",
+      "实战",
+      "课程",
+      "项目",
+      "部署",
+      "问题",
+      "推荐"
+    ]
+  },
+  "points": [
+    {
+      "title": "Agent相关讨论",
+      "desc": "群内有成员围绕 Agent 展开讨论交流。"
+    },
+    {
+      "title": "活跃讨论",
+      "desc": "当日共有 64 位成员参与讨论，氛围活跃。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "三元同学助理",
+      "content": "![图片](http://127.0.0.1:5030/image/c6ea948d495e2732b53096bbd44ca4cc,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/72d6acb5cf3fd5fc01ae4b1351b416fd)"
+    },
+    {
+      "user": "@Ich bin ein Bär",
+      "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=22021e5a9d9503a7ebbb34de37c1c555&filekey=30440201010430302e02016e04025348042032323032316535613964393530336137656262623334646533376331633535350"
+    },
+    {
+      "user": "🐰哎哟喔哟🐰",
+      "content": "![图片](http://127.0.0.1:5030/image/9351336819ac2b89c6a00b3439038ffe,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/899cdadd5a1d1f154888b70260a1373f)"
+    },
+    {
+      "user": "🐰哎哟喔哟🐰",
+      "content": "![图片](http://127.0.0.1:5030/image/be5d8d93065a1bec56579b219687ce87,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/2eb72b43932ab087cf3b2ce05408bff2)"
+    },
+    {
+      "user": "小花花",
+      "content": "![图片](http://127.0.0.1:5030/image/f21b899ab1949b2ddb90bd4aaedf75ce,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/85c95a9e6069e41e7b5f12fa3a87f510)"
+    }
+  ],
+  "actions": []
+}

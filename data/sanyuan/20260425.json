@@ -1,0 +1,57 @@
+{
+  "id": "20260425",
+  "date": "2026年04月25日",
+  "weekday": "周六",
+  "group": "三元 Agent 课程群",
+  "issue": "20260425",
+  "stats": {
+    "messages": 183,
+    "active": 28,
+    "texts": 183
+  },
+  "topics": {
+    "summary": "当日群内共有 183 条消息，28 位成员参与讨论。 主要涉及 AI, API, 实战, 课程, 项目 等话题。",
+    "tags": [
+      "AI",
+      "API",
+      "实战",
+      "课程",
+      "项目",
+      "问题",
+      "推荐"
+    ]
+  },
+  "points": [
+    {
+      "title": "AI相关讨论",
+      "desc": "群内有成员围绕 AI 展开讨论交流。"
+    },
+    {
+      "title": "活跃讨论",
+      "desc": "当日共有 28 位成员参与讨论，氛围活跃。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "小花花",
+      "content": "![图片](http://127.0.0.1:5030/image/961f9c9d72c655527eb50120c77bfdfe,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/175fbb2f9eac2e863e2663e3e121e275)"
+    },
+    {
+      "user": "恰比",
+      "content": "![图片](http://127.0.0.1:5030/image/e59979dc9636d0ce43c57c7d24f02b4b,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/8e889ef051d1164d3b46b70b81f6a5be)"
+    },
+    {
+      "user": "小花花",
+      "content": "![图片](http://127.0.0.1:5030/image/421dfe1aaadcf311bcfcdab44655ba06,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/bf31a3ddca81df44e6f759b5aa09ab3c)"
+    },
+    {
+      "user": "Y.",
+      "content": "![动画表情](http://wxapp.tc.qq.com/275/20304/stodownload?m=98190e153a6638cdaefa3116a4b1d424&filekey=30350201010421301f0202011304025348041098190e153a6638cdaefa3116a4b1d424020300ed81040d00000004627466730000"
+    },
+    {
+      "user": "阿五",
+      "content": "![图片](http://127.0.0.1:5030/image/1e6e8d24d8746e699b606edb2a99c67d,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/789059b4588bfc1e905f69a92c627119)"
+    }
+  ],
+  "actions": []
+}

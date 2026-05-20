@@ -1,0 +1,322 @@
+[
+  {
+    "time": "2026-04-26 07:57",
+    "user": "系统消息",
+    "content": "\"sanyuan(wxid_5iauaqt1md6921)\"邀请\"沐泽(wxid_j1b0u6es4sny21)\"加入了群聊"
+  },
+  {
+    "time": "2026-04-26 10:28",
+    "user": "monkeytao",
+    "content": "实战课 大家跑通了吗 我试了几次还是有报错"
+  },
+  {
+    "time": "2026-04-26 10:28",
+    "user": "monkeytao",
+    "content": "![图片](http://127.0.0.1:5030/image/5bebcdff56c86c4638194519ee794c7f,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/2c292ce33ed341029984b3171c1c3950)"
+  },
+  {
+    "time": "2026-04-26 10:29",
+    "user": "monkeytao",
+    "content": "glm 5.1 还没找出来 rootcause"
+  },
+  {
+    "time": "2026-04-26 10:29",
+    "user": "monkeytao",
+    "content": "The feature \"specificationVersion\" is used in acompatibility mode. Using v2 specification compatibility mode. Some features may not be available \n这段是版本错误？"
+  },
+  {
+    "time": "2026-04-26 10:31",
+    "user": "monkeytao",
+    "content": "第一章第 3 课"
+  },
+  {
+    "time": "2026-04-26 10:33",
+    "user": "sapen",
+    "content": "没遇到过，用的是阿里的模型，可以跑通"
+  },
+  {
+    "time": "2026-04-26 10:35",
+    "user": "许杨",
+    "content": "[链接|HyperMem：超图记忆——三层架构解决高阶关联难题](https://mp.weixin.qq.com/s?__biz=MzA3NjE4MDIzOQ==&mid=2650370384&idx=1&sn=4c577854f97b71ea7874307d2f2ebed6&chksm=86d1748086211e7d7f2661e9d61113e6d0b4ed00a5a426f7daae6d5d45915d933c7147401ee4&mpshare=1&scene=1&srcid=0426upzART2tunODoSjD9gnS&sharer_shareinfo=26a5062ef3d13149298d10afe602ad82&sharer_shareinfo_first=26a5062ef3d13149298d10afe602ad82#rd)"
+  },
+  {
+    "time": "2026-04-26 10:43",
+    "user": "monkeytao",
+    "content": "我下载 project.zip 试了下，\n\n配置 .env 不报错但是也没有真正跑效果\n不配置 .env （用本地 mock 跑）可以跑通 测试死循环 但是 测试重试 报错！"
+  },
+  {
+    "time": "2026-04-26 10:43",
+    "user": "monkeytao",
+    "content": "这应该不是依赖等各种问题，就是有报错\n\ncc  @sanyuan 这是符合预期的吗"
+  },
+  {
+    "time": "2026-04-26 10:43",
+    "user": "monkeytao",
+    "content": "![图片](http://127.0.0.1:5030/image/bfd7504fc6ba3bae7b87b078c2ff8014,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/baa6d9da56ef18d8e15875f1151f0eb8)"
+  },
+  {
+    "time": "2026-04-26 10:44",
+    "user": "monkeytao",
+    "content": "不用 mock 本质上应该都没跑"
+  },
+  {
+    "time": "2026-04-26 10:44",
+    "user": "monkeytao",
+    "content": "![图片](http://127.0.0.1:5030/image/8f82b943618dd4480e0f9bab54c1a4c1,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/7e775ac930983eb79cb0319ae1071883)"
+  },
+  {
+    "time": "2026-04-26 10:53",
+    "user": "Pudge",
+    "content": "这种错误应该要用 mock 跑吧 我用真实的和你输出的一样"
+  },
+  {
+    "time": "2026-04-26 10:55",
+    "user": "monkeytao",
+    "content": "mock 有上面的报错，不过我全部下下来覆盖就好了，应该是某个中间步骤的问题，找不到了"
+  },
+  {
+    "time": "2026-04-26 10:55",
+    "user": "monkeytao",
+    "content": "是的 用模型跑不会有错"
+  },
+  {
+    "time": "2026-04-26 10:59",
+    "user": "monkeytao",
+    "content": "累加也有问题导致一直不溢出"
+  },
+  {
+    "time": "2026-04-26 10:59",
+    "user": "monkeytao",
+    "content": "![图片](http://127.0.0.1:5030/image/c9654d2aadcdd34573dad23ecf4afba9,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/48e85ab2f7937bde8d994f3d17197197)"
+  },
+  {
+    "time": "2026-04-26 11:10",
+    "user": "小心甘",
+    "content": "不会啊，这一节我试过是可以累加的"
+  },
+  {
+    "time": "2026-04-26 11:14",
+    "user": "monkeytao",
+    "content": "调试了下\n1 前面的错误是因为死循环的代码里面还没有写重试逻辑，加上了代码就好了。\n2 后面累加的错误是因为。我理解错了，应该是一个用例里面累加，而不是整体累加。"
+  },
+  {
+    "time": "2026-04-26 11:15",
+    "user": "monkeytao",
+    "content": "所以课程的代码是可以跑的，但是在这个过程中可能会有一些问题。\n比如 1 是我在死循环提前测试了重试，因为代码中的提示语已经有重试部分了和累加部分，被误导了\n2 是我在测试累加的时候以为是整体也会累加，结果是一次对话中会累加而已。"
+  },
+  {
+    "time": "2026-04-26 11:18",
+    "user": "monkeytao",
+    "content": "2 我感觉是 bug"
+  },
+  {
+    "time": "2026-04-26 11:34",
+    "user": "monkeytao",
+    "content": "这个如果能放到例子中就更好了，可能是鼓励我们自己写吧 我猜的对吗"
+  },
+  {
+    "time": "2026-04-26 11:34",
+    "user": "monkeytao",
+    "content": "![图片](http://127.0.0.1:5030/image/e994742c4e3d79414fc1443d16cd94a2,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/80a87fadb41bce05fb9ea18c63579bbc)"
+  },
+  {
+    "time": "2026-04-26 11:34",
+    "user": "monkeytao",
+    "content": "包括这个"
+  },
+  {
+    "time": "2026-04-26 11:34",
+    "user": "monkeytao",
+    "content": "![图片](http://127.0.0.1:5030/image/c0926d2a99af14810dcc2bf3cf4bbfb3,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/48f32eebe3b946bfc91109320c77dcc6)"
+  },
+  {
+    "time": "2026-04-26 11:35",
+    "user": "monkeytao",
+    "content": "我得找时间慢慢整理下这几课"
+  },
+  {
+    "time": "2026-04-26 12:02",
+    "user": "阿林Arlyn",
+    "content": "sitor没有ios端吧"
+  },
+  {
+    "time": "2026-04-26 12:03",
+    "user": "L",
+    "content": "pwa"
+  },
+  {
+    "time": "2026-04-26 12:04",
+    "user": "Djmughal",
+    "content": "@monkey.tao 点代码右上角的【应用】就有了"
+  },
+  {
+    "time": "2026-04-26 13:09",
+    "user": "嗯哼",
+    "content": "秀"
+  },
+  {
+    "time": "2026-04-26 13:09",
+    "user": "嗯哼",
+    "content": "![图片](http://127.0.0.1:5030/image/52cca3121b63b4fe47838a3834380c9e,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/4c8f3fb7deb2f241437ded31db8264dd)"
+  },
+  {
+    "time": "2026-04-26 13:09",
+    "user": "嗯哼",
+    "content": "![图片](http://127.0.0.1:5030/image/f45635888d71b09c2ea4a9626ccda9f7,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/91b232e9d9a62ec3ec8665aaeb511b71)"
+  },
+  {
+    "time": "2026-04-26 13:22",
+    "user": "monkeytao",
+    "content": "我点过了，由于没搞定，还下载了代码"
+  },
+  {
+    "time": "2026-04-26 13:22",
+    "user": "monkeytao",
+    "content": "上面都是我使用多次后的反馈"
+  },
+  {
+    "time": "2026-04-26 15:00",
+    "user": "sapen",
+    "content": "![图片](http://127.0.0.1:5030/image/195f17dd610dcfda9471f88b8c5d3416,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/b2e48c6282b60a2e6414a787a081b5f4)"
+  },
+  {
+    "time": "2026-04-26 15:01",
+    "user": "sapen",
+    "content": "手机上挡住提问了"
+  },
+  {
+    "time": "2026-04-26 15:01",
+    "user": "上帝子民",
+    "content": "滑动屏幕可解"
+  },
+  {
+    "time": "2026-04-26 15:05",
+    "user": "sapen",
+    "content": "可以了"
+  },
+  {
+    "time": "2026-04-26 15:34",
+    "user": "测不准'  '&a=3",
+    "content": "有没可能每一章最后来个总结文章或者复习文章，把这一章的几片文章串一下"
+  },
+  {
+    "time": "2026-04-26 15:56",
+    "user": "sanyuan",
+    "content": "每一章都串一下嘛 我打算在最后放一节来串一下整体的"
+  },
+  {
+    "time": "2026-04-26 15:57",
+    "user": "Chan.",
+    "content": "我觉得可以总体串一下。"
+  },
+  {
+    "time": "2026-04-26 15:58",
+    "user": "L",
+    "content": "每一章最好串一下"
+  },
+  {
+    "time": "2026-04-26 16:00",
+    "user": "测不准'  '&a=3",
+    "content": "例如 loop，可以来一个，把前面三篇串一下，当然看大家有没需要，因为现在每一节的私教都是各自的"
+  },
+  {
+    "time": "2026-04-26 16:00",
+    "user": "测不准'  '&a=3",
+    "content": "![图片](http://127.0.0.1:5030/image/2be055b11d6a238db04c618706f3e752,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/0e886a1d5d5c95e46c253cf61e153ca1)"
+  },
+  {
+    "time": "2026-04-26 16:00",
+    "user": "系统消息",
+    "content": "\"sanyuan\"邀请\"Edwin\"加入了群聊"
+  },
+  {
+    "time": "2026-04-26 16:00",
+    "user": "系统消息",
+    "content": "\"Edwin\"与群里其他人都不是朋友关系，请注意隐私安全"
+  },
+  {
+    "time": "2026-04-26 16:01",
+    "user": "Chan.",
+    "content": "就是每个大章节串一下"
+  },
+  {
+    "time": "2026-04-26 16:03",
+    "user": "L",
+    "content": "每一大章节，把每一小节串一下，每一小节感觉并列的知识点较多，没什么串的必要，基本都是对比"
+  },
+  {
+    "time": "2026-04-26 18:05",
+    "user": "Cerror.",
+    "content": "![图片](http://127.0.0.1:5030/image/f1257d21e4747db3c1aca237004ed1d9,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/c46273ef91aae753d4828dcc47125812)"
+  },
+  {
+    "time": "2026-04-26 18:06",
+    "user": "Cerror.",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=8521c2c67e417353b545426fcd908316&filekey=3043020101042f302d02016e0402534804203835323163326336376534313733353362353435343236666364393038333136020230c6040d00000004627466730000000132&hy=SH&storeid=2666415be00034d45f04e1b200000006e01004fb1534827335b00b700ddd2f&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-04-26 18:06",
+    "user": "Cerror.",
+    "content": "重新登录 也还是这样"
+  },
+  {
+    "time": "2026-04-26 18:07",
+    "user": "Cerror.",
+    "content": "又可以了"
+  },
+  {
+    "time": "2026-04-26 20:00",
+    "user": "养乐多",
+    "content": "今天课程什么时候更新啊？ @sanyuan"
+  },
+  {
+    "time": "2026-04-26 20:08",
+    "user": "sanyuan",
+    "content": "等下发布后群里通知哈"
+  },
+  {
+    "time": "2026-04-26 20:08",
+    "user": "sanyuan",
+    "content": "今天是实战课"
+  },
+  {
+    "time": "2026-04-26 20:12",
+    "user": "养乐多",
+    "content": "坐等更新了[社会社会]"
+  },
+  {
+    "time": "2026-04-26 21:00",
+    "user": "sanyuan",
+    "content": "实战课已更新 各位"
+  },
+  {
+    "time": "2026-04-26 21:01",
+    "user": "codon",
+    "content": "[强]"
+  },
+  {
+    "time": "2026-04-26 21:01",
+    "user": "知行和一",
+    "content": "要不出个三元包月服务吧"
+  },
+  {
+    "time": "2026-04-26 21:01",
+    "user": "知行和一",
+    "content": "包月讲解最新的agent的进展"
+  },
+  {
+    "time": "2026-04-26 21:02",
+    "user": "知行和一",
+    "content": "比如我看现在又有一个项目，说是在token烧的比hermes少多了"
+  },
+  {
+    "time": "2026-04-26 21:02",
+    "user": "知行和一",
+    "content": "斯坦福又出了一个一个自进化herness的论文"
+  },
+  {
+    "time": "2026-04-26 21:03",
+    "user": "L",
+    "content": "[强]"
+  }
+]

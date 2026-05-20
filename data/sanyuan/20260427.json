@@ -1,0 +1,58 @@
+{
+  "id": "20260427",
+  "date": "2026年04月27日",
+  "weekday": "周一",
+  "group": "三元 Agent 课程群",
+  "issue": "20260427",
+  "stats": {
+    "messages": 359,
+    "active": 45,
+    "texts": 359
+  },
+  "topics": {
+    "summary": "当日群内共有 359 条消息，45 位成员参与讨论。 主要涉及 Claude, LLM, AI, API, 实战 等话题。",
+    "tags": [
+      "Claude",
+      "LLM",
+      "AI",
+      "API",
+      "实战",
+      "课程",
+      "作业",
+      "项目"
+    ]
+  },
+  "points": [
+    {
+      "title": "Claude相关讨论",
+      "desc": "群内有成员围绕 Claude 展开讨论交流。"
+    },
+    {
+      "title": "活跃讨论",
+      "desc": "当日共有 45 位成员参与讨论，氛围活跃。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "小花花",
+      "content": "![图片](http://127.0.0.1:5030/image/c46b83bb5b9165f4d82b17b8bd297ae7,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/4a7f35036dae17a490cbd3b46b3a9e04)"
+    },
+    {
+      "user": "木木彡哥",
+      "content": "![图片](http://127.0.0.1:5030/image/2e9660ae4a0e15c8a761aadecb1579ba,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/31bb2971ad192e6d9bd37ef3b304c452)"
+    },
+    {
+      "user": "小花花",
+      "content": "![动画表情](http://vweixinf.tc.qq.com/110/20402/stodownload?m=7cccbceb7eecd9ccf358f0cad8ba2015&filekey=30440201010430302e02016e0402535a042037636363626365623765656364396363663335386630636164386261323031350"
+    },
+    {
+      "user": "阿五",
+      "content": "![图片](http://127.0.0.1:5030/image/bd69d05b39db6e4dd3187452a900cfed,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/b485a45fbc571104c0d9f9fda0972b1e)"
+    },
+    {
+      "user": "阿五",
+      "content": "![图片](http://127.0.0.1:5030/image/4ec64eba9e6a11ae41a826acbadeb389,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/4a25616c1ce757e8479f52d82ee5674d)"
+    }
+  ],
+  "actions": []
+}

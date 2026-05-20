@@ -1,0 +1,58 @@
+{
+  "id": "20260416",
+  "date": "2026年04月16日",
+  "weekday": "周四",
+  "group": "三元 Agent 课程群",
+  "issue": "20260416",
+  "stats": {
+    "messages": 381,
+    "active": 32,
+    "texts": 381
+  },
+  "topics": {
+    "summary": "当日群内共有 381 条消息，32 位成员参与讨论。 主要涉及 Agent, LLM, AI, 实战, 课程 等话题。",
+    "tags": [
+      "Agent",
+      "LLM",
+      "AI",
+      "实战",
+      "课程",
+      "项目",
+      "问题",
+      "分享"
+    ]
+  },
+  "points": [
+    {
+      "title": "Agent相关讨论",
+      "desc": "群内有成员围绕 Agent 展开讨论交流。"
+    },
+    {
+      "title": "活跃讨论",
+      "desc": "当日共有 32 位成员参与讨论，氛围活跃。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "Djmughal",
+      "content": "![图片](http://127.0.0.1:5030/image/4d6d0cd5f480a9caef7402f3744c1243,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/3e7f5e9717d2e61ae9fea013964b352c)"
+    },
+    {
+      "user": "嘻🇨🇳嘻",
+      "content": "![图片](http://127.0.0.1:5030/image/7e408d1c3723c522d0eb6a83dcb83eed,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/1d016dc475aa64afa9150aac260e4b82)"
+    },
+    {
+      "user": "小心甘",
+      "content": "![图片](http://127.0.0.1:5030/image/b02c30dc89330366920d61dbc9aadd70,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/29fcc2ade986db2c4307e54ce05b7b05)"
+    },
+    {
+      "user": "黄璇旋",
+      "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=37d4a481904abe866d1dd59f09a4ddff&filekey=30440201010430302e02016e04025348042033376434613438313930346162653836366431646435396630396134646466660"
+    },
+    {
+      "user": "Y.",
+      "content": "![图片](http://127.0.0.1:5030/image/95d69a6efd2044381c6564f0599168a2,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/7bcc209ddd6c8b750814011ad0490990)"
+    }
+  ],
+  "actions": []
+}

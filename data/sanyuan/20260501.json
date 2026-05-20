@@ -1,0 +1,54 @@
+{
+  "id": "20260501",
+  "date": "2026年05月01日",
+  "weekday": "周五",
+  "group": "三元 Agent 课程群",
+  "issue": "20260501",
+  "stats": {
+    "messages": 54,
+    "active": 13,
+    "texts": 54
+  },
+  "topics": {
+    "summary": "当日群内共有 54 条消息，13 位成员参与讨论。 主要涉及 AI, 实战, 课程, 问题 等话题。",
+    "tags": [
+      "AI",
+      "实战",
+      "课程",
+      "问题"
+    ]
+  },
+  "points": [
+    {
+      "title": "AI相关讨论",
+      "desc": "群内有成员围绕 AI 展开讨论交流。"
+    },
+    {
+      "title": "活跃讨论",
+      "desc": "当日共有 13 位成员参与讨论，氛围活跃。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "小花花",
+      "content": "![图片](http://127.0.0.1:5030/image/34a3092b19fa3e4b9369144dcf2c80e6,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/04a8868e6e3c6d19c519866f01bcf190)"
+    },
+    {
+      "user": "ᴍɪɴɢ",
+      "content": "![图片](http://127.0.0.1:5030/image/0f21fe97b5811e6ce48052ef40a13f1e,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/6ab2e932125f36e40c8b726695574135)"
+    },
+    {
+      "user": "稚",
+      "content": "![图片](http://127.0.0.1:5030/image/916b452f2cfc3608ddb69c45c563eaea,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/c349fb6d09e6e47c805250d2623f7332)"
+    },
+    {
+      "user": "小花花",
+      "content": "![图片](http://127.0.0.1:5030/image/d800d4640c678462ded3e33afda0c58f,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/5466532345c0ca2379622fb8de689f54)"
+    },
+    {
+      "user": "sapen",
+      "content": "![图片](http://127.0.0.1:5030/image/6edecc20ef8547e42592078e5232378c,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/0619a0c7fd1111e4f998c83f5c7dbb6f)"
+    }
+  ],
+  "actions": []
+}

@@ -1,0 +1,57 @@
+{
+  "id": "20260426",
+  "date": "2026年04月26日",
+  "weekday": "周日",
+  "group": "三元 Agent 课程群",
+  "issue": "20260426",
+  "stats": {
+    "messages": 64,
+    "active": 17,
+    "texts": 64
+  },
+  "topics": {
+    "summary": "当日群内共有 64 条消息，17 位成员参与讨论。 主要涉及 实战, 课程, 项目, 调试, 问题 等话题。",
+    "tags": [
+      "实战",
+      "课程",
+      "项目",
+      "调试",
+      "问题",
+      "链接",
+      "文章"
+    ]
+  },
+  "points": [
+    {
+      "title": "实战相关讨论",
+      "desc": "群内有成员围绕 实战 展开讨论交流。"
+    },
+    {
+      "title": "活跃讨论",
+      "desc": "当日共有 17 位成员参与讨论，氛围活跃。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "monkeytao",
+      "content": "![图片](http://127.0.0.1:5030/image/5bebcdff56c86c4638194519ee794c7f,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/2c292ce33ed341029984b3171c1c3950)"
+    },
+    {
+      "user": "许杨",
+      "content": "[链接|HyperMem：超图记忆——三层架构解决高阶关联难题](https://mp.weixin.qq.com/s?__biz=MzA3NjE4MDIzOQ==&mid=2650370384&idx=1&sn=4c577854f97b71ea7874307d2f2ebed6&chksm=86d1748086211e7d7f2661e9d61113e6d0b4ed00a5a426f7daae6d"
+    },
+    {
+      "user": "monkeytao",
+      "content": "![图片](http://127.0.0.1:5030/image/bfd7504fc6ba3bae7b87b078c2ff8014,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/baa6d9da56ef18d8e15875f1151f0eb8)"
+    },
+    {
+      "user": "monkeytao",
+      "content": "![图片](http://127.0.0.1:5030/image/8f82b943618dd4480e0f9bab54c1a4c1,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/7e775ac930983eb79cb0319ae1071883)"
+    },
+    {
+      "user": "monkeytao",
+      "content": "![图片](http://127.0.0.1:5030/image/c9654d2aadcdd34573dad23ecf4afba9,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/48e85ab2f7937bde8d994f3d17197197)"
+    }
+  ],
+  "actions": []
+}

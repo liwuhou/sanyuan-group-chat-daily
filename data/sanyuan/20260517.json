@@ -1,0 +1,80 @@
+{
+  "id": "20260517",
+  "date": "2026年05月17日",
+  "weekday": "周日",
+  "group": "三元 Agent 课程群",
+  "issue": "20260517",
+  "stats": {
+    "messages": 43,
+    "active": 15,
+    "texts": 35
+  },
+  "topics": {
+    "summary": "群里主要围绕群聊日报网页应用的构想、Sitor 产品功能讨论（deep research、思维导图、自定义资料导入）、以及 Context Engineering 上下文卸载技术展开讨论。同时涉及邮箱登录问题反馈和移动端访问问题。",
+    "tags": [
+      "Sitor",
+      "群聊日报",
+      "Context Engineering",
+      "deep research",
+      "思维导图",
+      "邮箱登录"
+    ]
+  },
+  "points": [
+    {
+      "title": "群聊日报网页应用构想",
+      "desc": "阿五提出将群聊精选内容做成网页应用，方便搜索、链接跳转和归档，替代图片形式。得到群友支持，sanyuan 也对此表示认可。"
+    },
+    {
+      "title": "Sitor 功能更新讨论",
+      "desc": "deep research 即将上线（sub agent 自动调研网络信息），思维导图已支持且老对话后续补支持，自定义资料导入下个月上线。免费用户解锁次数限制为 3 次，Pro 用户无限。"
+    },
+    {
+      "title": "Context Engineering 上下文卸载",
+      "desc": "Candy 询问上下文卸载与压缩的关系，sanyuan 解释卸载与压缩无关，卸载在压缩前后都可以进行。涉及 Manus 的 Offload 技术原理讨论。"
+    },
+    {
+      "title": "邮箱登录与移动端问题",
+      "desc": "多位用户反馈 QQ 邮箱无法接收验证码，建议先用邮箱+密码方式。Forrest 反馈移动端访问需翻墙才能正常使用。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "阿五",
+      "content": "提出群聊日报网页应用构想，认为图片形式不方便搜索和链接跳转，网页应用更利于归档和定时浏览。"
+    },
+    {
+      "user": "Omos",
+      "content": "分享 wx-cli 项目链接：https://github.com/jackwener/wx-cli，作为微信消息获取的替代方案。"
+    },
+    {
+      "user": "Candy",
+      "content": "讨论 Context Engineering 中上下文卸载技术，询问卸载与压缩的关系，涉及 Manus Offload 缓存命中原理。"
+    },
+    {
+      "user": "sanyuan",
+      "content": "解释上下文卸载与压缩无关，卸载在压缩前后都可以进行。分享 Sitor 免费用户解锁限制为 3 次，Pro 无限。"
+    },
+    {
+      "user": "🐟",
+      "content": "反馈 QQ 邮箱无法接收验证码导致无法登录。"
+    },
+    {
+      "user": "張張張張張臻",
+      "content": "反馈邮箱登录无法发送验证码的问题。"
+    },
+    {
+      "user": "Forrest",
+      "content": "反馈移动端访问有问题，翻墙后才恢复正常。"
+    },
+    {
+      "user": "winhok的打工日记",
+      "content": "发现 Sitor 中隐藏的听说练习功能，感叹产品还藏了多少功能。"
+    }
+  ],
+  "actions": [
+    "关注阿五的群聊日报网页应用项目进展。",
+    "Sitor 邮箱登录问题建议先用邮箱+密码方式，等待验证码修复。",
+    "了解 Context Engineering 中上下文卸载与压缩的技术原理。"
+  ]
+}

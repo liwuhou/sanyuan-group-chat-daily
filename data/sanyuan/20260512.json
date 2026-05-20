@@ -1,0 +1,58 @@
+{
+  "id": "20260512",
+  "date": "2026年05月12日",
+  "weekday": "周二",
+  "group": "三元 Agent 课程群",
+  "issue": "20260512",
+  "stats": {
+    "messages": 301,
+    "active": 53,
+    "texts": 301
+  },
+  "topics": {
+    "summary": "当日群内共有 301 条消息，53 位成员参与讨论。 主要涉及 Claude, Cursor, AI, 实战, 课程 等话题。",
+    "tags": [
+      "Claude",
+      "Cursor",
+      "AI",
+      "实战",
+      "课程",
+      "项目",
+      "问题",
+      "分享"
+    ]
+  },
+  "points": [
+    {
+      "title": "Claude相关讨论",
+      "desc": "群内有成员围绕 Claude 展开讨论交流。"
+    },
+    {
+      "title": "活跃讨论",
+      "desc": "当日共有 53 位成员参与讨论，氛围活跃。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "Harrison Wells",
+      "content": "![图片](http://127.0.0.1:5030/image/ae0d341decc7e17a81a7704fd8858c4e,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/adf75e7db6c5d8cc504199556099a772)"
+    },
+    {
+      "user": "小花花",
+      "content": "![图片](http://127.0.0.1:5030/image/dfaef0072ac6f65e481a15ad3d3ee2eb,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/c9cb8d966713753421e25e574ba8fe62)"
+    },
+    {
+      "user": "Nauxscript",
+      "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=e013edbd39c1f7096e3cba21cc650f24&filekey=30350201010421301f020201060402535a0410e013edbd39c1f7096e3cba21cc650f2402031b51c7040d00000004627466730000"
+    },
+    {
+      "user": "小花花",
+      "content": "![图片](http://127.0.0.1:5030/image/377c6851e9b0ffb99866790bb9452b94,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/fe047808997e4596de9337971412376d)"
+    },
+    {
+      "user": "暂无",
+      "content": "![动画表情](http://wxapp.tc.qq.com/275/20304/stodownload?m=9a49e4f3078758a6947023f9f94482a4&filekey=30350201010421301f020201130402534804109a49e4f3078758a6947023f9f94482a40203012ebd040d00000004627466730000"
+    }
+  ],
+  "actions": []
+}

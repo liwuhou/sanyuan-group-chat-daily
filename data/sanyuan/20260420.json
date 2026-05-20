@@ -1,0 +1,58 @@
+{
+  "id": "20260420",
+  "date": "2026年04月20日",
+  "weekday": "周一",
+  "group": "三元 Agent 课程群",
+  "issue": "20260420",
+  "stats": {
+    "messages": 586,
+    "active": 71,
+    "texts": 586
+  },
+  "topics": {
+    "summary": "当日群内共有 586 条消息，71 位成员参与讨论。 主要涉及 Agent, MCP, AI, Skill, Node.js 等话题。",
+    "tags": [
+      "Agent",
+      "MCP",
+      "AI",
+      "Skill",
+      "Node.js",
+      "API",
+      "实战",
+      "课程"
+    ]
+  },
+  "points": [
+    {
+      "title": "Agent相关讨论",
+      "desc": "群内有成员围绕 Agent 展开讨论交流。"
+    },
+    {
+      "title": "活跃讨论",
+      "desc": "当日共有 71 位成员参与讨论，氛围活跃。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "sapen",
+      "content": "![图片](http://127.0.0.1:5030/image/0966c932e727d63e05ddaf0feac25e19,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/d9085ccf5ebd30c4dd44e7ccf4813dc1)"
+    },
+    {
+      "user": "嘻🇨🇳嘻",
+      "content": "![图片](http://127.0.0.1:5030/image/9b5fc1bc46951a19b844d0b5ce9881f5,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/4e14247746356c00ff384f8a72023222)"
+    },
+    {
+      "user": "小花花",
+      "content": "![图片](http://127.0.0.1:5030/image/59c2b35d637a1a52c914739e55aa6d3a,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/62ef6e59912c805b8fb6bc2fa172cb2e)"
+    },
+    {
+      "user": "罗十十.十",
+      "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=2c4544fa6ed5e70e6d67b604b25817e6&filekey=30440201010430302e02016e0402535a042032633435343466613665643565373065366436376236303462323538313765360"
+    },
+    {
+      "user": "嗯哼",
+      "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=4cca59e1d7e56cd38030df58cd214f93&filekey=30440201010430302e02016e04025348042034636361353965316437653536636433383033306466353863643231346639330"
+    }
+  ],
+  "actions": []
+}

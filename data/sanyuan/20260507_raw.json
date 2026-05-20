@@ -1,0 +1,1737 @@
+[
+  {
+    "time": "2026-05-07 08:26",
+    "user": "sanyuan",
+    "content": "Claude code记忆机制 提前分享一下"
+  },
+  {
+    "time": "2026-05-07 08:26",
+    "user": "sanyuan",
+    "content": "[链接|一文讲清楚 AutoDream：Claude Code 是如何\"做梦\"，更新记忆的？](https://mp.weixin.qq.com/s?__biz=MzU0MTU4OTU2MA==&mid=2247492868&idx=1&sn=050644e6ea611111e604d618f32b613d&chksm=fac7d6eae53a11a2face695e2e30a254dca0ba4a775decfbc1a165d8b288ae94e1fe2e84908a&mpshare=1&scene=1&srcid=0507vBIrLRke8HJ2M9OYckQN&sharer_shareinfo=a7e2b8e82a2c25b03a3850280221b2e1&sharer_shareinfo_first=a7e2b8e82a2c25b03a3850280221b2e1#rd)"
+  },
+  {
+    "time": "2026-05-07 08:29",
+    "user": "xoxo",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=d82f9f280dfd25d1afcf6c36f4d03934&filekey=30350201010421301f020201060402535a0410d82f9f280dfd25d1afcf6c36f4d0393402030dd8fa040d00000004627466730000000131&hy=SZ&storeid=32303231303632363032313930303030303662623866363265323734393162393536353830393030303030313036&bizid=1023)"
+  },
+  {
+    "time": "2026-05-07 08:55",
+    "user": "稚",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=2abbc74fa46a36a2119993ae96a44e82&filekey=30440201010430302e02016e040253480420326162626337346661343661333661323131393939336165393661343465383202030769e6040d00000004627466730000000132&hy=SH&storeid=269a90903000b87958aaa61120000006e01004fb153480408c17156f1ebe06&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-07 08:55",
+    "user": "稚",
+    "content": "有没有好一点的codex plus或者pro渠道啊"
+  },
+  {
+    "time": "2026-05-07 08:55",
+    "user": "procrastination🐼",
+    "content": "土耳其"
+  },
+  {
+    "time": "2026-05-07 08:56",
+    "user": "稚",
+    "content": "咋买"
+  },
+  {
+    "time": "2026-05-07 08:56",
+    "user": "财",
+    "content": "礼品卡"
+  },
+  {
+    "time": "2026-05-07 08:56",
+    "user": "财",
+    "content": "改区"
+  },
+  {
+    "time": "2026-05-07 08:57",
+    "user": "procrastination🐼",
+    "content": "x搜搜  实在不行 知乎好像也行"
+  },
+  {
+    "time": "2026-05-07 08:58",
+    "user": "稚",
+    "content": "好我看看"
+  },
+  {
+    "time": "2026-05-07 09:08",
+    "user": "小花花",
+    "content": "你们做 Research 深度搜索，用到的tool 是不是课程没有提供"
+  },
+  {
+    "time": "2026-05-07 09:08",
+    "user": "小花花",
+    "content": "web_search ?"
+  },
+  {
+    "time": "2026-05-07 09:14",
+    "user": "嘻🇨🇳嘻",
+    "content": "大佬们 你们OpenSpec用的体验如何？"
+  },
+  {
+    "time": "2026-05-07 09:17",
+    "user": "sanyuan",
+    "content": "![图片](http://127.0.0.1:5030/image/73d1266958083f31a0c01c2d03e2e29a,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/1d2552c9165cd26db8db5f3006133ac3)"
+  },
+  {
+    "time": "2026-05-07 09:17",
+    "user": "sanyuan",
+    "content": "都有需求吗"
+  },
+  {
+    "time": "2026-05-07 09:17",
+    "user": "🐰哎哟喔哟🐰",
+    "content": "有的"
+  },
+  {
+    "time": "2026-05-07 09:18",
+    "user": "小花花",
+    "content": "有的"
+  },
+  {
+    "time": "2026-05-07 09:18",
+    "user": "🐰哎哟喔哟🐰",
+    "content": "![动画表情](http://wxapp.tc.qq.com/275/20304/stodownload?m=811d95a385a0876acdabbcbd3e2d0e01&filekey=30350201010421301f02020113040253480410811d95a385a0876acdabbcbd3e2d0e010203013477040d00000004627466730000000132&hy=SH&storeid=269f2d6f4000cae8bb41d494a0000011300004f50534803485bc1e7c1d7d82&bizid=1023)"
+  },
+  {
+    "time": "2026-05-07 09:18",
+    "user": "xoxo",
+    "content": "有的老表"
+  },
+  {
+    "time": "2026-05-07 09:19",
+    "user": "曹通",
+    "content": "有的"
+  },
+  {
+    "time": "2026-05-07 09:19",
+    "user": "不散和弦",
+    "content": "昨天我推荐过了[吃瓜]"
+  },
+  {
+    "time": "2026-05-07 09:21",
+    "user": "sanyuan",
+    "content": "brave更快"
+  },
+  {
+    "time": "2026-05-07 09:21",
+    "user": "sanyuan",
+    "content": "trvily等半天"
+  },
+  {
+    "time": "2026-05-07 09:23",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/df7c71bf0d429f42c5f5d37bdfaea7f2,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/c170d5efecf7144c0e4848d6b424971b)"
+  },
+  {
+    "time": "2026-05-07 09:23",
+    "user": "小花花",
+    "content": "已经成功了"
+  },
+  {
+    "time": "2026-05-07 09:23",
+    "user": "不散和弦",
+    "content": "回家我切换看看[机智]"
+  },
+  {
+    "time": "2026-05-07 09:24",
+    "user": "小花花",
+    "content": "我记得群里有个老表做了 深度搜索 录视频了，是不是工具我们课程没有？"
+  },
+  {
+    "time": "2026-05-07 09:25",
+    "user": "不散和弦",
+    "content": "我的半成品搜索[破涕为笑] 还没时间好好调整"
+  },
+  {
+    "time": "2026-05-07 09:25",
+    "user": "苏彧",
+    "content": "这是mcp"
+  },
+  {
+    "time": "2026-05-07 09:25",
+    "user": "苏彧",
+    "content": "？？"
+  },
+  {
+    "time": "2026-05-07 09:25",
+    "user": "小花花",
+    "content": "是的 最新实战课程的"
+  },
+  {
+    "time": "2026-05-07 09:25",
+    "user": "小花花",
+    "content": "需要哪几个tool"
+  },
+  {
+    "time": "2026-05-07 09:26",
+    "user": "小心甘",
+    "content": "大佬就是快啊，都自己实现了"
+  },
+  {
+    "time": "2026-05-07 09:26",
+    "user": "小心甘",
+    "content": "太强了"
+  },
+  {
+    "time": "2026-05-07 09:26",
+    "user": "不散和弦",
+    "content": "我单独写了一个research的tool，里面开了一个subagent用miniloop跑web search"
+  },
+  {
+    "time": "2026-05-07 09:26",
+    "user": "苏彧",
+    "content": "你换成官方的github mcp了吗"
+  },
+  {
+    "time": "2026-05-07 09:27",
+    "user": "小花花",
+    "content": "哦哦  @sanyuan  这个安排一下吗[旺柴]"
+  },
+  {
+    "time": "2026-05-07 09:27",
+    "user": "sanyuan",
+    "content": "sub agent倒数第二节"
+  },
+  {
+    "time": "2026-05-07 09:27",
+    "user": "sanyuan",
+    "content": "期待一下"
+  },
+  {
+    "time": "2026-05-07 09:27",
+    "user": "不散和弦",
+    "content": "我觉得这个当课后作业做挺好的"
+  },
+  {
+    "time": "2026-05-07 09:27",
+    "user": "不散和弦",
+    "content": "不难的"
+  },
+  {
+    "time": "2026-05-07 09:28",
+    "user": "小花花",
+    "content": "不会写research的tool"
+  },
+  {
+    "time": "2026-05-07 09:28",
+    "user": "不散和弦",
+    "content": "就是要调整好效果挺难的"
+  },
+  {
+    "time": "2026-05-07 09:28",
+    "user": "小花花",
+    "content": "没有 用的是@modelcontextprotocol/server-github"
+  },
+  {
+    "time": "2026-05-07 09:29",
+    "user": "小心甘",
+    "content": "找个开源的webSearch抄一下"
+  },
+  {
+    "time": "2026-05-07 09:30",
+    "user": "JaguarLiu",
+    "content": "个人用下来，感觉chatgpt的websearch做的很强；而且很快，可以多源很精准的检索"
+  },
+  {
+    "time": "2026-05-07 09:33",
+    "user": "不散和弦",
+    "content": "提示词工程写得好&搜索源也好"
+  },
+  {
+    "time": "2026-05-07 09:34",
+    "user": "不散和弦",
+    "content": "晚上回去头脑风暴下看怎么整这个提示词"
+  },
+  {
+    "time": "2026-05-07 09:40",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/7a72dc460122364e7ebca1d2656a0dde,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/55eb2843552e52ff8ed46d02d99b8bcf)"
+  },
+  {
+    "time": "2026-05-07 09:40",
+    "user": "小花花",
+    "content": "好的"
+  },
+  {
+    "time": "2026-05-07 09:45",
+    "user": "sanyuan",
+    "content": "底层都没区别啊 各位"
+  },
+  {
+    "time": "2026-05-07 09:45",
+    "user": "sanyuan",
+    "content": "google bing"
+  },
+  {
+    "time": "2026-05-07 09:45",
+    "user": "sanyuan",
+    "content": "brave"
+  },
+  {
+    "time": "2026-05-07 09:45",
+    "user": "L",
+    "content": "有的 哥哥"
+  },
+  {
+    "time": "2026-05-07 09:45",
+    "user": "L",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=3e39f4975bf3fc59ad88ae6a239bfc02&filekey=3043020101042f302d02016e040253480420336533396634393735626633666335396164383861653661323339626663303202024294040d00000004627466730000000132&hy=SH&storeid=2695205ae0000b050d8930b840000006e01004fb153482d2e41b156a84bda4&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-07 09:45",
+    "user": "sanyuan",
+    "content": "我来加餐一节吧"
+  },
+  {
+    "time": "2026-05-07 09:45",
+    "user": "sanyuan",
+    "content": "专门围绕 怎么做 research tool"
+  },
+  {
+    "time": "2026-05-07 09:46",
+    "user": "L",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=155982c4732c86a94c0e28f0337a5db1&filekey=30440201010430302e02016e04025348042031353539383263343733326338366139346330653238663033333761356462310203008e80040d00000004627466730000000132&hy=SH&storeid=269dcf7570006101c63bff3cc0000006e01004fb1534801081bc1e6b7b091e&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-07 09:46",
+    "user": "小心甘",
+    "content": "啥时候更，三元君"
+  },
+  {
+    "time": "2026-05-07 09:46",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=6a7f0ec93b46988340221d6bc7fbf205&filekey=30350201010421301f020201060402535a04106a7f0ec93b46988340221d6bc7fbf2050203018e9e040d00000004627466730000000131&hy=SZ&storeid=32303231303632353136303733353030303234663864336465333763336362376461356630393030303030313036&bizid=1023)"
+  },
+  {
+    "time": "2026-05-07 09:46",
+    "user": "L",
+    "content": "坐等 "
+  },
+  {
+    "time": "2026-05-07 09:46",
+    "user": "L",
+    "content": "啥时候更"
+  },
+  {
+    "time": "2026-05-07 09:46",
+    "user": "mk",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=4ff8f185c9bb4860ba1d6d0ef33ecfbf&filekey=3043020101042f302d02016e040253480420346666386631383563396262343836306261316436643065663333656366626602022837040d00000004627466730000000132&hy=SH&storeid=265880b0d0006f4d5a652e1ff0000006e01004fb1534812f06bd1e7f0a1290&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-07 09:46",
+    "user": "L",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=d1f68ef12a8a67931e341986bbb615a9&filekey=30440201010430302e02016e04025348042064316636386566313261386136373933316533343139383662626236313561390203011315040d00000004627466730000000132&hy=SH&storeid=268d11fd8000ecf3978b6cf380000006e01004fb153480b8df1715741914d9&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-07 09:46",
+    "user": "sanyuan",
+    "content": "今天或者明天吧"
+  },
+  {
+    "time": "2026-05-07 09:46",
+    "user": "sanyuan",
+    "content": "今天事挺多"
+  },
+  {
+    "time": "2026-05-07 09:47",
+    "user": "sanyuan",
+    "content": "抽空搞搞"
+  },
+  {
+    "time": "2026-05-07 09:47",
+    "user": "小花花",
+    "content": "坐等"
+  },
+  {
+    "time": "2026-05-07 09:48",
+    "user": "L",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=aa6c1fa6dc53c4b69c478c7fd2ba1460&filekey=30440201010430302e02016e04025348042061613663316661366463353363346236396334373863376664326261313436300203011f8a040d00000004627466730000000132&hy=SH&storeid=263e631460000b09963fe44a50000006e01004fb1534823a6cb40b791e4bbe&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-07 09:54",
+    "user": "procrastination🐼",
+    "content": "之前我用electron 搞了个骚操作"
+  },
+  {
+    "time": "2026-05-07 09:54",
+    "user": "procrastination🐼",
+    "content": "后台开个浏览器 跑google搜索 除了第一次要人机验证一下 没别的毛病"
+  },
+  {
+    "time": "2026-05-07 10:07",
+    "user": "sanyuan",
+    "content": "web search tool 教大家两种方式：手动挡和自动挡"
+  },
+  {
+    "time": "2026-05-07 10:08",
+    "user": "sanyuan",
+    "content": "手动挡就是接底层搜索引擎  Serach api + web fetch，自动挡就是 tavily，自动搜索并整理成agent可读的文本"
+  },
+  {
+    "time": "2026-05-07 10:08",
+    "user": "sanyuan",
+    "content": "前者便宜 后者贵"
+  },
+  {
+    "time": "2026-05-07 10:13",
+    "user": "系统消息",
+    "content": "\"Harrison Wells\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-07 10:13",
+    "user": "Harrison Wells",
+    "content": "教我们实现tavily brave"
+  },
+  {
+    "time": "2026-05-07 10:14",
+    "user": "小心甘",
+    "content": "这个编辑器还是看不到是啥情况啊，重新加载了页面"
+  },
+  {
+    "time": "2026-05-07 10:14",
+    "user": "小心甘",
+    "content": "![图片](http://127.0.0.1:5030/image/931b479b89aa0ee41c5f8f91e906eb9e,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/53b6fbe59d94fab6b0fbec13313e5215)"
+  },
+  {
+    "time": "2026-05-07 10:15",
+    "user": "sanyuan",
+    "content": "@小心甘 怎么回事"
+  },
+  {
+    "time": "2026-05-07 10:15",
+    "user": "sanyuan",
+    "content": "刷新更新缓存也不行吗"
+  },
+  {
+    "time": "2026-05-07 10:18",
+    "user": "小心甘",
+    "content": "不行，这个怎么绑定微信啊，我换个浏览器试试，密码我忘记了."
+  },
+  {
+    "time": "2026-05-07 10:18",
+    "user": "小心甘",
+    "content": "[捂脸]"
+  },
+  {
+    "time": "2026-05-07 10:18",
+    "user": "小花花",
+    "content": "我喜欢自动挡的"
+  },
+  {
+    "time": "2026-05-07 10:27",
+    "user": "小心甘",
+    "content": "换个浏览器可以，还会提示留下微信号...."
+  },
+  {
+    "time": "2026-05-07 10:27",
+    "user": "小心甘",
+    "content": "![图片](http://127.0.0.1:5030/image/1b5968e7a6d5cc156bf534de4d166475,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/4d066959564ec0415c964d0dac102308)"
+  },
+  {
+    "time": "2026-05-07 10:33",
+    "user": "sanyuan",
+    "content": "ok"
+  },
+  {
+    "time": "2026-05-07 10:37",
+    "user": "小心甘",
+    "content": "是不是我浏览器的问题啊，欧朋浏览器，每个章节的编辑器都不行，用edge没啥问题"
+  },
+  {
+    "time": "2026-05-07 10:37",
+    "user": "sanyuan",
+    "content": "是的"
+  },
+  {
+    "time": "2026-05-07 10:37",
+    "user": "sanyuan",
+    "content": "opera 不支持web container"
+  },
+  {
+    "time": "2026-05-07 10:44",
+    "user": "小心甘",
+    "content": "了解. 我看有微信登录的功能，怎么绑定上呢。"
+  },
+  {
+    "time": "2026-05-07 10:45",
+    "user": "稚",
+    "content": "还能绑定微信登录么"
+  },
+  {
+    "time": "2026-05-07 10:45",
+    "user": "稚",
+    "content": "那太好了"
+  },
+  {
+    "time": "2026-05-07 10:48",
+    "user": "阿五",
+    "content": "卧槽，opera还在吗？ 以前赛班时代那会最喜欢的浏览器"
+  },
+  {
+    "time": "2026-05-07 10:49",
+    "user": "sanyuan",
+    "content": "有的"
+  },
+  {
+    "time": "2026-05-07 10:49",
+    "user": "sanyuan",
+    "content": "直接微信登"
+  },
+  {
+    "time": "2026-05-07 10:49",
+    "user": "sanyuan",
+    "content": "设置按钮里面有绑定邮箱的功能"
+  },
+  {
+    "time": "2026-05-07 10:50",
+    "user": "sanyuan",
+    "content": "@小心甘 @稚 "
+  },
+  {
+    "time": "2026-05-07 10:50",
+    "user": "5C24",
+    "content": "mcp接入 这节大家跑的通嘛，为啥我是这样的"
+  },
+  {
+    "time": "2026-05-07 10:50",
+    "user": "5C24",
+    "content": "![图片](http://127.0.0.1:5030/image/45fa2bc63379375b58121dda0b439b08,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/55baf3635895b7c7c45e24b049e290ea)"
+  },
+  {
+    "time": "2026-05-07 10:50",
+    "user": "5C24",
+    "content": "web端的跑起来也一样"
+  },
+  {
+    "time": "2026-05-07 10:50",
+    "user": "5C24",
+    "content": "![图片](http://127.0.0.1:5030/image/2eafe115aebd09a6e1c005587488f169,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/af132211db698619d1e7b61a4801b960)"
+  },
+  {
+    "time": "2026-05-07 10:51",
+    "user": "小心甘",
+    "content": "才刚看完接入工具，准备接着看了"
+  },
+  {
+    "time": "2026-05-07 10:51",
+    "user": "稚",
+    "content": "没找到"
+  },
+  {
+    "time": "2026-05-07 10:51",
+    "user": "稚",
+    "content": "![图片](http://127.0.0.1:5030/image/f6885fcda9bff992056332f82bf6e95f,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/e5850a4169c013b1ffe099fa7c9461ef)"
+  },
+  {
+    "time": "2026-05-07 10:52",
+    "user": "小花花",
+    "content": "看这"
+  },
+  {
+    "time": "2026-05-07 10:52",
+    "user": "小心甘",
+    "content": "还有个问题，我在欧朋浏览器更换了头像，在edge头像没过来，是因为头像存的本地吗[捂脸]"
+  },
+  {
+    "time": "2026-05-07 10:53",
+    "user": "小心甘",
+    "content": "有"
+  },
+  {
+    "time": "2026-05-07 10:53",
+    "user": "5C24",
+    "content": "不是有个mock mcp兜底嘛，mock的跑不通呀"
+  },
+  {
+    "time": "2026-05-07 10:53",
+    "user": "苏彧",
+    "content": "可以跑通"
+  },
+  {
+    "time": "2026-05-07 10:54",
+    "user": "小心甘",
+    "content": "用微信登录，绑定一下邮箱 @稚"
+  },
+  {
+    "time": "2026-05-07 10:54",
+    "user": "稚",
+    "content": "我找找奥"
+  },
+  {
+    "time": "2026-05-07 10:54",
+    "user": "小心甘",
+    "content": "绑定了就看不到邮箱了"
+  },
+  {
+    "time": "2026-05-07 10:54",
+    "user": "小心甘",
+    "content": "我这边刚刚看到是有的，绑定后就看不到了"
+  },
+  {
+    "time": "2026-05-07 10:54",
+    "user": "5C24",
+    "content": "@苏彧 mock 可以跑通吗"
+  },
+  {
+    "time": "2026-05-07 10:55",
+    "user": "小花花",
+    "content": "mock 也可以的，我先跑的mock"
+  },
+  {
+    "time": "2026-05-07 10:55",
+    "user": "小花花",
+    "content": "这是mock的"
+  },
+  {
+    "time": "2026-05-07 10:56",
+    "user": "苏彧",
+    "content": "可以"
+  },
+  {
+    "time": "2026-05-07 10:56",
+    "user": "5C24",
+    "content": "坏！ 我这是哪儿出了问题。。"
+  },
+  {
+    "time": "2026-05-07 10:57",
+    "user": "苏彧",
+    "content": "![图片](http://127.0.0.1:5030/image/aa5444ab0280ce9bcffd8be5698aafe6,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/e1dc068a298f01c78d523e3895aa6ea4)"
+  },
+  {
+    "time": "2026-05-07 11:00",
+    "user": "༺🤔༻",
+    "content": "claude code 中没有 /dream 命令呀 @sanyuan"
+  },
+  {
+    "time": "2026-05-07 11:00",
+    "user": "༺🤔༻",
+    "content": "![图片](http://127.0.0.1:5030/image/8624739d5b046322d59f4b854986a876,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/1c2fb7a3fc86e26bc34514300f967e67)"
+  },
+  {
+    "time": "2026-05-07 11:01",
+    "user": "小心甘",
+    "content": "升级一下claude试试。我没用过这个命令..."
+  },
+  {
+    "time": "2026-05-07 11:01",
+    "user": "༺🤔༻",
+    "content": "已经是最新版本了"
+  },
+  {
+    "time": "2026-05-07 11:04",
+    "user": "稚",
+    "content": "登上了"
+  },
+  {
+    "time": "2026-05-07 11:04",
+    "user": "5C24",
+    "content": "@小花花 你的mock model的版本是0.4.2么"
+  },
+  {
+    "time": "2026-05-07 11:04",
+    "user": "5C24",
+    "content": "![图片](http://127.0.0.1:5030/image/cf8e8a970850d94fdd65ed8eb5f8f0fb,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/8870aa1355604d1eaad1be03a78a3098)"
+  },
+  {
+    "time": "2026-05-07 11:06",
+    "user": "苏彧",
+    "content": "是0.4唉"
+  },
+  {
+    "time": "2026-05-07 11:06",
+    "user": "小花花",
+    "content": "我mock的删除了 我不记得了，都是按照文档来的  你是不是没有添加token ？"
+  },
+  {
+    "time": "2026-05-07 11:06",
+    "user": "5C24",
+    "content": "对呀 没加token 会走mock model的嘛，我现在就是跑mock这条路"
+  },
+  {
+    "time": "2026-05-07 11:06",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/0e6fc71be68dc40783bfae8f0b489ac3,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/403341c86f38993f9d8e66b76369ccfd)"
+  },
+  {
+    "time": "2026-05-07 11:06",
+    "user": "小花花",
+    "content": "我从实战开始都没用过mock的"
+  },
+  {
+    "time": "2026-05-07 11:06",
+    "user": "小花花",
+    "content": "我都是直接接 阿里的模型了"
+  },
+  {
+    "time": "2026-05-07 11:07",
+    "user": "5C24",
+    "content": "oo 那没事了"
+  },
+  {
+    "time": "2026-05-07 11:07",
+    "user": "阿五",
+    "content": "我也是，反正有免费额度"
+  },
+  {
+    "time": "2026-05-07 11:07",
+    "user": "5C24",
+    "content": "我切换真实的token 也正常了"
+  },
+  {
+    "time": "2026-05-07 11:08",
+    "user": "L",
+    "content": "不走 mock，循环检测那节，真实接口能模拟吗"
+  },
+  {
+    "time": "2026-05-07 11:08",
+    "user": "L",
+    "content": "不太行吧？"
+  },
+  {
+    "time": "2026-05-07 11:08",
+    "user": "L",
+    "content": "测试死循环那个"
+  },
+  {
+    "time": "2026-05-07 11:09",
+    "user": "阿五",
+    "content": "哈哈，确实，这个我用的mock的"
+  },
+  {
+    "time": "2026-05-07 11:09",
+    "user": "小花花",
+    "content": "那个我用的也是mock"
+  },
+  {
+    "time": "2026-05-07 11:10",
+    "user": "L",
+    "content": "哈哈哈，我就说"
+  },
+  {
+    "time": "2026-05-07 11:10",
+    "user": "L",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=3e39f4975bf3fc59ad88ae6a239bfc02&filekey=3043020101042f302d02016e040253480420336533396634393735626633666335396164383861653661323339626663303202024294040d00000004627466730000000132&hy=SH&storeid=2695205ae0000b050d8930b840000006e01004fb153482d2e41b156a84bda4&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-07 11:24",
+    "user": "Nauxscript",
+    "content": "私教这里，记录擅长项，然后就没有下文了哈哈"
+  },
+  {
+    "time": "2026-05-07 11:24",
+    "user": "Nauxscript",
+    "content": "![图片](http://127.0.0.1:5030/image/c0fcad762410a0598fb4e7375c4d4a96,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/69dad241c1f35c042d83bb45509600ee)"
+  },
+  {
+    "time": "2026-05-07 11:34",
+    "user": "阿五",
+    "content": "跟他说一下继续，试试"
+  },
+  {
+    "time": "2026-05-07 12:14",
+    "user": "许杨",
+    "content": "@sanyuan 针对 Cloud Agent ，在沙箱这块有什么性价比高的方案吗"
+  },
+  {
+    "time": "2026-05-07 12:19",
+    "user": "不散和弦",
+    "content": "有开源的 有商业的E2B"
+  },
+  {
+    "time": "2026-05-07 12:44",
+    "user": "sanyuan",
+    "content": "e2b 目前是性价比最高的"
+  },
+  {
+    "time": "2026-05-07 12:44",
+    "user": "sanyuan",
+    "content": "manus用的就是e2b"
+  },
+  {
+    "time": "2026-05-07 12:45",
+    "user": "sanyuan",
+    "content": "课程现在没有用 e2b 大家知道为什么吗"
+  },
+  {
+    "time": "2026-05-07 12:46",
+    "user": "L",
+    "content": "为什么"
+  },
+  {
+    "time": "2026-05-07 12:48",
+    "user": "yearning",
+    "content": "点解呢"
+  },
+  {
+    "time": "2026-05-07 13:05",
+    "user": "不散和弦",
+    "content": "因为用了就不知道怎么实现的了[发呆]"
+  },
+  {
+    "time": "2026-05-07 13:06",
+    "user": "不散和弦",
+    "content": "它全帮你做完了 你做什么[吃瓜]"
+  },
+  {
+    "time": "2026-05-07 13:10",
+    "user": "小花花",
+    "content": "e2b 是什么"
+  },
+  {
+    "time": "2026-05-07 13:11",
+    "user": "L",
+    "content": "因为自己要实现一个[发呆]"
+  },
+  {
+    "time": "2026-05-07 13:11",
+    "user": "?",
+    "content": "\"L\" 拍了拍 \"小花花\" 说句帅哥"
+  },
+  {
+    "time": "2026-05-07 13:13",
+    "user": "?",
+    "content": "\"爱睡觉的小黑\" 拍了拍 \"L\""
+  },
+  {
+    "time": "2026-05-07 13:18",
+    "user": "许杨",
+    "content": "这种 saas 沙箱服务，感觉 mount file，以及产物的回传是个麻烦事"
+  },
+  {
+    "time": "2026-05-07 13:19",
+    "user": "许杨",
+    "content": "我记得 e2b 它沙箱最多就只能存活 24 小时"
+  },
+  {
+    "time": "2026-05-07 13:20",
+    "user": "不散和弦",
+    "content": "你需要买Ultimate套餐[破涕为笑]"
+  },
+  {
+    "time": "2026-05-07 14:55",
+    "user": "Y.",
+    "content": "@sanyuan"
+  },
+  {
+    "time": "2026-05-07 14:55",
+    "user": "Y.",
+    "content": "![图片](http://127.0.0.1:5030/image/65e255ee5309659285b188acce4591d4,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/4fe175f0b5a2fc6069b28f7a3e25bfe9)"
+  },
+  {
+    "time": "2026-05-07 14:55",
+    "user": "Y.",
+    "content": "![图片](http://127.0.0.1:5030/image/876497f87934f561f2edf5919a28863c,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/a085a7ea9896062d31dac7a97ecd4bd6)"
+  },
+  {
+    "time": "2026-05-07 14:56",
+    "user": "Y.",
+    "content": "三元佬，我这边示意图放大后成这样了"
+  },
+  {
+    "time": "2026-05-07 15:11",
+    "user": "系统消息",
+    "content": "\"Amber\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-05-07 15:12",
+    "user": "Amber",
+    "content": "我们已经开始搞昇腾销售报告数据了"
+  },
+  {
+    "time": "2026-05-07 15:13",
+    "user": "Amber",
+    "content": "领导临时插入需求，其它要滞后"
+  },
+  {
+    "time": "2026-05-07 15:49",
+    "user": "Miraitowa",
+    "content": "用真实 api 的时候直接把我 app/index.html 改了"
+  },
+  {
+    "time": "2026-05-07 15:49",
+    "user": "Miraitowa",
+    "content": "![图片](http://127.0.0.1:5030/image/4e3c652bfb2fdd82fa13270e21f3a355,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/e34e4e3b55f9cb7371a40030c36a2513)"
+  },
+  {
+    "time": "2026-05-07 15:56",
+    "user": "小心甘",
+    "content": "我也是直接改了"
+  },
+  {
+    "time": "2026-05-07 15:57",
+    "user": "小心甘",
+    "content": "这是qwen生成的，调用api"
+  },
+  {
+    "time": "2026-05-07 15:57",
+    "user": "小心甘",
+    "content": "![图片](http://127.0.0.1:5030/image/e48bf1dc78d25180723e76cb4b41d7d4,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/8ffa4d2d17a473f964489b1ab5b54072)"
+  },
+  {
+    "time": "2026-05-07 16:14",
+    "user": "小花花",
+    "content": "今天理论课会更新吗"
+  },
+  {
+    "time": "2026-05-07 17:10",
+    "user": "小心甘",
+    "content": "GITHUB_PERSONAL_ACCESS_TOKEN @小花花 佬，你这个怎么生成的，我生成了一个，启动Mcp失败了...."
+  },
+  {
+    "time": "2026-05-07 17:11",
+    "user": "小花花",
+    "content": "去gitbub 个人setting 里面 申请，申请的时候给权限"
+  },
+  {
+    "time": "2026-05-07 17:13",
+    "user": "小心甘",
+    "content": "给的哪个呀"
+  },
+  {
+    "time": "2026-05-07 17:13",
+    "user": "小心甘",
+    "content": "![图片](http://127.0.0.1:5030/image/3de556318e035e028231e7bc2a262a36,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/9e0091bb65b8d72785bc87774d1c3cbe)"
+  },
+  {
+    "time": "2026-05-07 17:13",
+    "user": "阿五",
+    "content": "![图片](http://127.0.0.1:5030/image/378723a1afd7f39f4b66465e2f263247,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/4a1c3e834f48ff72fb0e8c04bcee6a12)"
+  },
+  {
+    "time": "2026-05-07 17:13",
+    "user": "小心甘",
+    "content": "我之前是第一个，不行，我现在换第二个试试"
+  },
+  {
+    "time": "2026-05-07 17:13",
+    "user": "小心甘",
+    "content": "![图片](http://127.0.0.1:5030/image/0db8b51802019f4c58f3905623c69747,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/311af3ab4a76255250fcc206ddf9cfbf)"
+  },
+  {
+    "time": "2026-05-07 17:14",
+    "user": "小心甘",
+    "content": "[捂脸] 感觉是哪里漏了啥"
+  },
+  {
+    "time": "2026-05-07 17:14",
+    "user": "小心甘",
+    "content": "![图片](http://127.0.0.1:5030/image/bfa8f024c1672bf8c175b475595b1e23,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/639c30480c450b4171ef852fcc585535)"
+  },
+  {
+    "time": "2026-05-07 17:14",
+    "user": "小心甘",
+    "content": "我在检查一下"
+  },
+  {
+    "time": "2026-05-07 17:15",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/919621b5ff675672bf30fc8a834bbda7,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/113cae545f760a52a1882c21b4d5be1b)"
+  },
+  {
+    "time": "2026-05-07 17:15",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "index.ts里面的prompt没更新吧"
+  },
+  {
+    "time": "2026-05-07 17:15",
+    "user": "小花花",
+    "content": "@小心甘  这个"
+  },
+  {
+    "time": "2026-05-07 17:16",
+    "user": "小心甘",
+    "content": "我在检查一下，我已经替换成下面那个了，给了repo权限"
+  },
+  {
+    "time": "2026-05-07 17:17",
+    "user": "小花花",
+    "content": "还是不行吗"
+  },
+  {
+    "time": "2026-05-07 17:17",
+    "user": "小花花",
+    "content": "代码部分有个 token 是不是没给"
+  },
+  {
+    "time": "2026-05-07 17:19",
+    "user": "小心甘",
+    "content": "这里给"
+  },
+  {
+    "time": "2026-05-07 17:19",
+    "user": "小心甘",
+    "content": "![图片](http://127.0.0.1:5030/image/693931d663d61d13dbbe3627ca5e1a27,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/1f7905ea715e7ca7af5c236182c1fdc9)"
+  },
+  {
+    "time": "2026-05-07 17:19",
+    "user": "小心甘",
+    "content": "env里面"
+  },
+  {
+    "time": "2026-05-07 17:21",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/449f0cefe93084f874185a8571f678fb,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/728e8ba04859bf7ba1e9180ffaed3edb)"
+  },
+  {
+    "time": "2026-05-07 17:23",
+    "user": "小心甘",
+    "content": "mcp-client我都直接复制的编辑器里面的[捂脸]"
+  },
+  {
+    "time": "2026-05-07 17:24",
+    "user": "小花花",
+    "content": "让AI给你优化一下"
+  },
+  {
+    "time": "2026-05-07 17:24",
+    "user": "小花花",
+    "content": "[旺柴]"
+  },
+  {
+    "time": "2026-05-07 17:25",
+    "user": "小心甘",
+    "content": "[捂脸] 有道理，刚刚用这个agent做的markdown倒是不错，可以保存和导入"
+  },
+  {
+    "time": "2026-05-07 17:25",
+    "user": "小心甘",
+    "content": "![图片](http://127.0.0.1:5030/image/35010c8234cf4fae471a36d80da2747c,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/bd15d9fe598c379b5b321430c22a30c4)"
+  },
+  {
+    "time": "2026-05-07 17:26",
+    "user": "小花花",
+    "content": "太强了"
+  },
+  {
+    "time": "2026-05-07 17:32",
+    "user": "༺🤔༻",
+    "content": "@sanyuan 发现个海报的bug。我在六大支柱生成了海报，然后切到loop保险丝后查看海报，显示的是六大支柱的海报。"
+  },
+  {
+    "time": "2026-05-07 17:32",
+    "user": "༺🤔༻",
+    "content": "![图片](http://127.0.0.1:5030/image/2f1331c792ae0313bd553921b7fb471b,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/146641b96cd373a25a2574f172df3ff9)"
+  },
+  {
+    "time": "2026-05-07 17:40",
+    "user": "系统消息",
+    "content": "\"sanyuan\"邀请\"wei先森.\"加入了群聊"
+  },
+  {
+    "time": "2026-05-07 17:40",
+    "user": "系统消息",
+    "content": "\"wei先森.\"与群里其他人都不是朋友关系，请注意隐私安全"
+  },
+  {
+    "time": "2026-05-07 17:45",
+    "user": "苏彧",
+    "content": "![图片](http://127.0.0.1:5030/image/8b900765d7ede58fc6f41c197c1b66da,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/1038e40649ddc58e27927a68d72cd4e9)"
+  },
+  {
+    "time": "2026-05-07 17:46",
+    "user": "苏彧",
+    "content": "废废的 撑不到11号了"
+  },
+  {
+    "time": "2026-05-07 17:46",
+    "user": "choose",
+    "content": "好狠"
+  },
+  {
+    "time": "2026-05-07 17:46",
+    "user": "L",
+    "content": "好狠"
+  },
+  {
+    "time": "2026-05-07 17:54",
+    "user": "Elvis",
+    "content": "好狠"
+  },
+  {
+    "time": "2026-05-07 17:55",
+    "user": "lhvision",
+    "content": "好狠"
+  },
+  {
+    "time": "2026-05-07 17:55",
+    "user": "薛定谔的猫",
+    "content": "好狠"
+  },
+  {
+    "time": "2026-05-07 17:56",
+    "user": "April.",
+    "content": "好狠"
+  },
+  {
+    "time": "2026-05-07 17:57",
+    "user": "April.",
+    "content": "为啥海报生成失败了"
+  },
+  {
+    "time": "2026-05-07 17:57",
+    "user": "April.",
+    "content": "![图片](http://127.0.0.1:5030/image/9d738e5c40bd22d878749001a886d74f,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/18f9acd146a33296035c791249f39b85)"
+  },
+  {
+    "time": "2026-05-07 17:58",
+    "user": "L",
+    "content": "又是服务不稳定"
+  },
+  {
+    "time": "2026-05-07 17:58",
+    "user": "小花花",
+    "content": "正常   image2 稀缺"
+  },
+  {
+    "time": "2026-05-07 17:59",
+    "user": "April.",
+    "content": "哪个时间点生成会比较顺利"
+  },
+  {
+    "time": "2026-05-07 18:00",
+    "user": "L",
+    "content": "img2 太不稳定了"
+  },
+  {
+    "time": "2026-05-07 18:00",
+    "user": "小花花",
+    "content": "看运气"
+  },
+  {
+    "time": "2026-05-07 18:02",
+    "user": "April.",
+    "content": "好嘟"
+  },
+  {
+    "time": "2026-05-07 18:02",
+    "user": "小花花",
+    "content": "今天理论课更新吗"
+  },
+  {
+    "time": "2026-05-07 18:02",
+    "user": "嗯哼",
+    "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=c030253116065dcbc107966bfe3ec311&filekey=30440201010430302e02016e0402535a042063303330323533313136303635646362633130373936366266653365633331310203082167040d00000004627466730000000132&hy=SZ&storeid=268c4076300033ef9446d3b480000006e01004fb1535a194f801157755aad8&ef=1&bizid=1022)"
+  },
+  {
+    "time": "2026-05-07 18:02",
+    "user": "嗯哼",
+    "content": "自己搭号池吧  哈哈哈稳定"
+  },
+  {
+    "time": "2026-05-07 18:03",
+    "user": "Amber",
+    "content": "好狠"
+  },
+  {
+    "time": "2026-05-07 18:03",
+    "user": "小心甘",
+    "content": "@小花花 我可以了，是因为不是直接安装的node，用fnm去安装的，然后执行npx的时候没有这个命令."
+  },
+  {
+    "time": "2026-05-07 18:03",
+    "user": "小心甘",
+    "content": "[Emm]"
+  },
+  {
+    "time": "2026-05-07 18:03",
+    "user": "阿五",
+    "content": "是img2吗？ 上回不是说是qwen"
+  },
+  {
+    "time": "2026-05-07 18:03",
+    "user": "小心甘",
+    "content": "![图片](http://127.0.0.1:5030/image/154027d4a4459167e8ef1bbee394257d,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/5b969cb4e0496785b3d1f4d315006254)"
+  },
+  {
+    "time": "2026-05-07 18:04",
+    "user": "嗯哼",
+    "content": "千问能做这图？"
+  },
+  {
+    "time": "2026-05-07 18:05",
+    "user": "小心甘",
+    "content": "没有生图功能吧，千问"
+  },
+  {
+    "time": "2026-05-07 18:05",
+    "user": "小心甘",
+    "content": "没注意有啥模型支不支持."
+  },
+  {
+    "time": "2026-05-07 18:09",
+    "user": "苏彧",
+    "content": "有文生图功能"
+  },
+  {
+    "time": "2026-05-07 18:09",
+    "user": "苏彧",
+    "content": "qwen image"
+  },
+  {
+    "time": "2026-05-07 18:10",
+    "user": "小花花",
+    "content": "专业"
+  },
+  {
+    "time": "2026-05-07 18:11",
+    "user": "小心甘",
+    "content": "还是花神专业。"
+  },
+  {
+    "time": "2026-05-07 18:13",
+    "user": "苏彧",
+    "content": "你两都专业"
+  },
+  {
+    "time": "2026-05-07 18:20",
+    "user": "L",
+    "content": "专业"
+  },
+  {
+    "time": "2026-05-07 18:36",
+    "user": "༺🤔༻",
+    "content": "@sanyuan 严格教练模式这个回答有点问题吧？"
+  },
+  {
+    "time": "2026-05-07 18:36",
+    "user": "༺🤔༻",
+    "content": "![图片](http://127.0.0.1:5030/image/ad843418bdbee533593470e9d971dadc,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/3d5ebdd789e1694bdc7ed730a335c7a3)"
+  },
+  {
+    "time": "2026-05-07 18:36",
+    "user": "༺🤔༻",
+    "content": "我说不知道。他回复思路对了。。。"
+  },
+  {
+    "time": "2026-05-07 18:37",
+    "user": "༺🤔༻",
+    "content": "@sanyuan 有点乱回答的意思呀"
+  },
+  {
+    "time": "2026-05-07 18:37",
+    "user": "༺🤔༻",
+    "content": "![图片](http://127.0.0.1:5030/image/a7ca5d7610cbf38b6fe25b72d8d0391a,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/2d7518aaf7582546a69924a4cf4b3482)"
+  },
+  {
+    "time": "2026-05-07 19:36",
+    "user": "sanyuan",
+    "content": "@༺🤔༻ "
+  },
+  {
+    "time": "2026-05-07 19:37",
+    "user": "sanyuan",
+    "content": "他引用了你之前的回答"
+  },
+  {
+    "time": "2026-05-07 19:37",
+    "user": "sanyuan",
+    "content": "你之前有这些回答不"
+  },
+  {
+    "time": "2026-05-07 19:37",
+    "user": "?",
+    "content": "\"sanyuan\" 拍了拍 \"༺🤔༻\""
+  },
+  {
+    "time": "2026-05-07 19:37",
+    "user": "sanyuan",
+    "content": "今天不更 忙死了"
+  },
+  {
+    "time": "2026-05-07 19:37",
+    "user": "sanyuan",
+    "content": "search tool 可能更"
+  },
+  {
+    "time": "2026-05-07 19:37",
+    "user": "sanyuan",
+    "content": "实战那里"
+  },
+  {
+    "time": "2026-05-07 19:38",
+    "user": "xoxo",
+    "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=d82f9f280dfd25d1afcf6c36f4d03934&filekey=30350201010421301f020201060402535a0410d82f9f280dfd25d1afcf6c36f4d0393402030dd8fa040d00000004627466730000000131&hy=SZ&storeid=32303231303632363032313930303030303662623866363265323734393162393536353830393030303030313036&bizid=1023)"
+  },
+  {
+    "time": "2026-05-07 19:38",
+    "user": "sanyuan",
+    "content": "正在修"
+  },
+  {
+    "time": "2026-05-07 19:38",
+    "user": "小花花",
+    "content": "好的"
+  },
+  {
+    "time": "2026-05-07 19:38",
+    "user": "小花花",
+    "content": "不催，我最近也忙[旺柴]"
+  },
+  {
+    "time": "2026-05-07 19:44",
+    "user": "苏彧",
+    "content": "深度研究吗？"
+  },
+  {
+    "time": "2026-05-07 19:47",
+    "user": "sanyuan",
+    "content": "嗯嗯"
+  },
+  {
+    "time": "2026-05-07 19:47",
+    "user": "sanyuan",
+    "content": "search 工具"
+  },
+  {
+    "time": "2026-05-07 19:47",
+    "user": "sanyuan",
+    "content": "想要更这节的扣 1"
+  },
+  {
+    "time": "2026-05-07 19:47",
+    "user": "L",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-07 19:47",
+    "user": "lhvision",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-07 19:47",
+    "user": "Pudge",
+    "content": "1 先叫上 哈哈[吃瓜]"
+  },
+  {
+    "time": "2026-05-07 19:47",
+    "user": "养乐多",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-07 19:48",
+    "user": "sanyuan",
+    "content": "现在国内模型里面哪个模型生图最快"
+  },
+  {
+    "time": "2026-05-07 19:48",
+    "user": "我是东山呀",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-07 19:48",
+    "user": "sanyuan",
+    "content": "我希望几秒出u那种"
+  },
+  {
+    "time": "2026-05-07 19:49",
+    "user": "codon",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-07 19:49",
+    "user": "初空",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-07 19:50",
+    "user": "Tatata.",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-07 19:50",
+    "user": "小花花",
+    "content": "1"
+  },
+  {
+    "time": "2026-05-07 19:50",
+    "user": "TreeWish",
+    "content": "累了就歇一天[旺柴]"
+  },
+  {
+    "time": "2026-05-07 19:50",
+    "user": "小花花",
+    "content": "出图的都不快"
+  },
+  {
+    "time": "2026-05-07 19:51",
+    "user": "sanyuan",
+    "content": "ok"
+  },
+  {
+    "time": "2026-05-07 19:51",
+    "user": "sanyuan",
+    "content": "改天更"
+  },
+  {
+    "time": "2026-05-07 19:51",
+    "user": "sanyuan",
+    "content": "企业微信要是能接 openclaw 就好了"
+  },
+  {
+    "time": "2026-05-07 19:52",
+    "user": "sanyuan",
+    "content": "你用手机豆包 3 s 出图不是吹的"
+  },
+  {
+    "time": "2026-05-07 19:59",
+    "user": "苏彧",
+    "content": "大家都在用哪些skills"
+  },
+  {
+    "time": "2026-05-07 19:59",
+    "user": "苏彧",
+    "content": "find skills\nsuperpowers\ncreate skills\nandrej-karpathy−skills\ncode-review-expert"
+  },
+  {
+    "time": "2026-05-07 19:59",
+    "user": "苏彧",
+    "content": "我目前就是这些"
+  },
+  {
+    "time": "2026-05-07 19:59",
+    "user": "sanyuan",
+    "content": "你自己不开发 skills 吗"
+  },
+  {
+    "time": "2026-05-07 20:00",
+    "user": "小花花",
+    "content": "如果想用一个skill，咋开发啊"
+  },
+  {
+    "time": "2026-05-07 20:02",
+    "user": "苏彧",
+    "content": "开发业务skills[奸笑]"
+  },
+  {
+    "time": "2026-05-07 20:02",
+    "user": "sanyuan",
+    "content": "复习skills那节"
+  },
+  {
+    "time": "2026-05-07 20:02",
+    "user": "sanyuan",
+    "content": "我现在一言不合就写 skill"
+  },
+  {
+    "time": "2026-05-07 20:03",
+    "user": "苏彧",
+    "content": "白学？"
+  },
+  {
+    "time": "2026-05-07 20:03",
+    "user": "苏彧",
+    "content": "关于sitor的？"
+  },
+  {
+    "time": "2026-05-07 20:03",
+    "user": "苏彧",
+    "content": "@sanyuan "
+  },
+  {
+    "time": "2026-05-07 20:03",
+    "user": "小花花",
+    "content": "我的意思是不知道写啥样的skills"
+  },
+  {
+    "time": "2026-05-07 20:04",
+    "user": "万扬",
+    "content": "那你就写一个不知道啥样skill的skill"
+  },
+  {
+    "time": "2026-05-07 20:05",
+    "user": "苏彧",
+    "content": "元哥一般写啥类型的skills"
+  },
+  {
+    "time": "2026-05-07 20:08",
+    "user": "小花花",
+    "content": "不是不知道咋写，是没写的方向"
+  },
+  {
+    "time": "2026-05-07 20:09",
+    "user": "sanyuan",
+    "content": "我一般在 claude code 里面重复了一个 SOP 就会考虑抽出一个 skill"
+  },
+  {
+    "time": "2026-05-07 20:10",
+    "user": "小花花",
+    "content": "写在本地还是发布公开"
+  },
+  {
+    "time": "2026-05-07 20:12",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/3fbed87cd64369fd6aa83418c34f0d9f,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/a39920c7b50707df6969e747c4064de5)"
+  },
+  {
+    "time": "2026-05-07 20:12",
+    "user": "小花花",
+    "content": "补课"
+  },
+  {
+    "time": "2026-05-07 20:20",
+    "user": "阿五",
+    "content": "有需求可以直接让 agent 写，cc 有个 skill-creator"
+  },
+  {
+    "time": "2026-05-07 20:20",
+    "user": "阿五",
+    "content": "可以用这个 skill 写 skill"
+  },
+  {
+    "time": "2026-05-07 20:22",
+    "user": "苏彧",
+    "content": "面试官模式？"
+  },
+  {
+    "time": "2026-05-07 20:23",
+    "user": "苏彧",
+    "content": "![图片](http://127.0.0.1:5030/image/15dbe508001d211b639a6c6eca102668,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/c9a146dd68a7abee0219c4d87d99210f)"
+  },
+  {
+    "time": "2026-05-07 20:23",
+    "user": "苏彧",
+    "content": "我的路线咋比你的少"
+  },
+  {
+    "time": "2026-05-07 20:23",
+    "user": "L",
+    "content": "兄弟，timi 时候也学习吗"
+  },
+  {
+    "time": "2026-05-07 20:24",
+    "user": "暂无",
+    "content": "你看看打野都去对抗路抓了"
+  },
+  {
+    "time": "2026-05-07 20:24",
+    "user": "阿五",
+    "content": "妈的，太刻苦了，一边玩一边学"
+  },
+  {
+    "time": "2026-05-07 20:24",
+    "user": "暂无",
+    "content": "不对啊，中路去对抗路抓了"
+  },
+  {
+    "time": "2026-05-07 20:24",
+    "user": "暂无",
+    "content": "是时候我也去抓了"
+  },
+  {
+    "time": "2026-05-07 20:25",
+    "user": "苏彧",
+    "content": "在看直播"
+  },
+  {
+    "time": "2026-05-07 20:25",
+    "user": "L",
+    "content": "马可本来对线就弱"
+  },
+  {
+    "time": "2026-05-07 20:25",
+    "user": "苏彧",
+    "content": "没学习 只是打开看一眼"
+  },
+  {
+    "time": "2026-05-07 20:26",
+    "user": "L",
+    "content": "咱俩这个应该是私教"
+  },
+  {
+    "time": "2026-05-07 20:26",
+    "user": "L",
+    "content": "他那个路线多是面试官"
+  },
+  {
+    "time": "2026-05-07 20:26",
+    "user": "暂无",
+    "content": "![图片](http://127.0.0.1:5030/image/0ce545bbbdfe5c3e8cd413eb402a8b0b,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/7411c23c19f95804adb9eb92a630ead2)"
+  },
+  {
+    "time": "2026-05-07 20:26",
+    "user": "暂无",
+    "content": "看我一发入魂"
+  },
+  {
+    "time": "2026-05-07 20:30",
+    "user": "苏彧",
+    "content": "哦哦"
+  },
+  {
+    "time": "2026-05-07 20:34",
+    "user": "sanyuan",
+    "content": "![图片](http://127.0.0.1:5030/image/d2a571f6ba2278fb53a7830bea4f2f1e,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/1591ba52b759689b16534ea32b0f963a)"
+  },
+  {
+    "time": "2026-05-07 20:35",
+    "user": "sanyuan",
+    "content": "严格教练语气 不错"
+  },
+  {
+    "time": "2026-05-07 20:35",
+    "user": "Roy",
+    "content": "![图片](http://127.0.0.1:5030/image/313334581831c592845fbea66e15ec69,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/213e7508964777ae2085106b4a827a98)"
+  },
+  {
+    "time": "2026-05-07 20:35",
+    "user": "Roy",
+    "content": "好凶 笑死了"
+  },
+  {
+    "time": "2026-05-07 20:35",
+    "user": "xoxo",
+    "content": "哈哈哈"
+  },
+  {
+    "time": "2026-05-07 20:40",
+    "user": "lhvision",
+    "content": "哈哈😂"
+  },
+  {
+    "time": "2026-05-07 20:42",
+    "user": "L",
+    "content": "哈哈"
+  },
+  {
+    "time": "2026-05-07 20:57",
+    "user": "阿五",
+    "content": "奶凶奶凶的"
+  },
+  {
+    "time": "2026-05-07 21:07",
+    "user": "Pudge",
+    "content": "有屁快放[旺柴]"
+  },
+  {
+    "time": "2026-05-07 21:07",
+    "user": "小花花",
+    "content": "看来提示词又优化了"
+  },
+  {
+    "time": "2026-05-07 21:12",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "[链接|半小时 AI 帮我谈下来 400块 优惠](https://mp.weixin.qq.com/s?__biz=MzkzMjIxNTcyMA==&mid=2247495892&idx=1&sn=ff56744682c652614eddadaff1bd45bf&chksm=c3cb19002e682deef6a6186a9bf2f099faa3868f688b69eaba668287e56b9d97a2ed61e0ab23&mpshare=1&scene=1&srcid=0507PnotryK4hcVMdoljZxPJ&sharer_shareinfo=a031fe366b5016c56d373728ed4369fb&sharer_shareinfo_first=a031fe366b5016c56d373728ed4369fb#rd)"
+  },
+  {
+    "time": "2026-05-07 21:13",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "卡子这篇文章挺有意思的"
+  },
+  {
+    "time": "2026-05-07 21:13",
+    "user": "阿五",
+    "content": "刚看完，挺好玩的"
+  },
+  {
+    "time": "2026-05-07 21:24",
+    "user": "Pudge",
+    "content": "额 发微信消息是咋实现的"
+  },
+  {
+    "time": "2026-05-07 21:27",
+    "user": "阿五",
+    "content": "之前 ChatGPT 火的时候，github 上很多这种开源工具，但都有被封号的风险"
+  },
+  {
+    "time": "2026-05-07 21:27",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/c9cf34b74d834e3864c6b34381dba975,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/119045009fd335f16097187a01cfc61f)"
+  },
+  {
+    "time": "2026-05-07 21:28",
+    "user": "小花花",
+    "content": "你们会觉得有时候小场景会过剩吗"
+  },
+  {
+    "time": "2026-05-07 21:28",
+    "user": "L",
+    "content": "多余 是吗@小花花 "
+  },
+  {
+    "time": "2026-05-07 21:29",
+    "user": "小花花",
+    "content": "是的，一个知识点两三个例子了，我觉得最后一个综合例子就可以了"
+  },
+  {
+    "time": "2026-05-07 21:29",
+    "user": "小花花",
+    "content": "关键是每个例子回答的不完美还继续给例子场景"
+  },
+  {
+    "time": "2026-05-07 21:30",
+    "user": "小花花",
+    "content": "[捂脸][捂脸]"
+  },
+  {
+    "time": "2026-05-07 21:30",
+    "user": "Pudge",
+    "content": "噢 懂了 用了那种库么 那确实有风险"
+  },
+  {
+    "time": "2026-05-07 21:31",
+    "user": "小花花",
+    "content": "比如我现在在学skill，输入参数设计给我三个例子了，然后下一个执行逻辑又给我几个例子，是不是所有节点都讲完理论，最后一个节点综合实战一个例子就可以了"
+  },
+  {
+    "time": "2026-05-07 21:35",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/d95b107325edaa3a40eaf2eaf8e0847b,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/d31cee3db72439209912a9f9a18a4034)"
+  },
+  {
+    "time": "2026-05-07 21:35",
+    "user": "小花花",
+    "content": "加餐了"
+  },
+  {
+    "time": "2026-05-07 21:35",
+    "user": "小花花",
+    "content": "夜宵来了"
+  },
+  {
+    "time": "2026-05-07 21:36",
+    "user": "小心甘",
+    "content": "我靠，太卷了哥"
+  },
+  {
+    "time": "2026-05-07 21:43",
+    "user": "monkeytao",
+    "content": "[强]"
+  },
+  {
+    "time": "2026-05-07 21:43",
+    "user": "L",
+    "content": "[强][强][强]"
+  },
+  {
+    "time": "2026-05-07 21:48",
+    "user": "Chan.",
+    "content": "卧槽，太卷了。"
+  },
+  {
+    "time": "2026-05-07 21:49",
+    "user": "小花花",
+    "content": "看完了，明天去公司就实现，卷死你们"
+  },
+  {
+    "time": "2026-05-07 21:51",
+    "user": "Amber",
+    "content": "太卷了"
+  },
+  {
+    "time": "2026-05-07 21:51",
+    "user": "Amber",
+    "content": "我才打完球"
+  },
+  {
+    "time": "2026-05-07 22:36",
+    "user": "JaguarLiu",
+    "content": "@sanyuan 好奇一个技术细节；在网站里直接可以拉起一个浏览器环境，用的是开源的方案还是codesandbox这种云方案呀"
+  },
+  {
+    "time": "2026-05-07 23:45",
+    "user": "苏彧",
+    "content": "[链接|深度｜一文带你解读国家最新AI政策！](https://mp.weixin.qq.com/s?t=pages/image_detail&scene=1&__biz=Mzk0MTAzNDUxMA==&mid=2247490530&idx=1&sn=cb8fa0f182ec371dfe5192c0f06a24d2&from_masonry=1&sharer_shareinfo_first=c3efdcf1f7d037edd9b1a8725fe552f6&sharer_shareinfo=2f9b29aef188967d6c45966ee8761e14#wechat_redirect)"
+  }
+]

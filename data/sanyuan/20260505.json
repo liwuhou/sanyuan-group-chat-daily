@@ -1,0 +1,58 @@
+{
+  "id": "20260505",
+  "date": "2026年05月05日",
+  "weekday": "周二",
+  "group": "三元 Agent 课程群",
+  "issue": "20260505",
+  "stats": {
+    "messages": 222,
+    "active": 29,
+    "texts": 222
+  },
+  "topics": {
+    "summary": "当日群内共有 222 条消息，29 位成员参与讨论。 主要涉及 Claude, Codex, 实战, 课程, 项目 等话题。",
+    "tags": [
+      "Claude",
+      "Codex",
+      "实战",
+      "课程",
+      "项目",
+      "部署",
+      "问题",
+      "推荐"
+    ]
+  },
+  "points": [
+    {
+      "title": "Claude相关讨论",
+      "desc": "群内有成员围绕 Claude 展开讨论交流。"
+    },
+    {
+      "title": "活跃讨论",
+      "desc": "当日共有 29 位成员参与讨论，氛围活跃。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "十六",
+      "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=14117b85aaa94fbdb8a06f0098ce7d8a&filekey=3043020101042f302d02016e0402535a042031343131376238356161613934666264623861303666303039386365376438610"
+    },
+    {
+      "user": "Arina柯柯",
+      "content": "![图片](http://127.0.0.1:5030/image/6c00c05f884ccc1a147b5d866bba4f8a,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/6b818774ebc692f7186ed57a15760bf0)"
+    },
+    {
+      "user": "小花花",
+      "content": "![图片](http://127.0.0.1:5030/image/0ba4a0615f6cf0ccd38723d027ef72d8,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/e56e85ecda0fc9f88f1bbd8e57b789dd)"
+    },
+    {
+      "user": "L",
+      "content": "![图片](http://127.0.0.1:5030/image/4f7c2ad5baff84f3a9c133770ed2a4a0,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/f5a2a7c8a8edd30c9c863113515fe5f8)"
+    },
+    {
+      "user": "L",
+      "content": "![图片](http://127.0.0.1:5030/image/7dd9b1c3bd65379c68d2b4567d98b44a,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/9d2153dd7999ddb985e39d5727eafeb5)"
+    }
+  ],
+  "actions": []
+}

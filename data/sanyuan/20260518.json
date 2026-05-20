@@ -1,0 +1,84 @@
+{
+  "id": "20260518",
+  "date": "2026年05月18日",
+  "weekday": "周一",
+  "group": "三元 Agent 课程群",
+  "issue": "20260518",
+  "stats": {
+    "messages": 260,
+    "active": 52,
+    "texts": 195
+  },
+  "topics": {
+    "summary": "群里主要围绕 Codex/Claude Code/Cursor 等 AI 编程工具的使用体验与额度成本展开热烈讨论，同时涉及课程更新进度、RAG 学习资料分享、模型蒸馏话题以及 sitor 平台使用心得。",
+    "tags": [
+      "Codex",
+      "Claude Code",
+      "Cursor",
+      "课程更新",
+      "sitor",
+      "模型蒸馏",
+      "RAG",
+      "AI额度成本"
+    ]
+  },
+  "points": [
+    {
+      "title": "AI 编程工具选型讨论",
+      "desc": "群友热议 Codex、Claude Code、Cursor 等工具的优劣势，sanyuan 力荐 Codex 称其\"可以封神\"，多位群友分享从 CC/Cursor 转 Codex 的体验。"
+    },
+    {
+      "title": "AI 额度与成本焦虑",
+      "desc": "多位群友讨论 AI 工具使用成本，包括 Codex 100$ 额度消耗、中转站使用、Cursor 高级模型额度问题等，有人一个月消耗 12 个账号。"
+    },
+    {
+      "title": "课程更新与实战课",
+      "desc": "sanyuan 表示课程更新效率比市面上其他课高，6 月份能更完；实战课本周准备搞起来。"
+    },
+    {
+      "title": "模型蒸馏话题",
+      "desc": "群友讨论国内外大模型蒸馏现象，涉及 GLM、Kimi、豆包等，认为\"说不蒸馏都是骗人的\"，闭源模型之间也互相蒸馏。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "小花花",
+      "content": "分享《基于UI设计的Skill架构体系》文章链接，并展示 sitor 生成的优雅架构图。"
+    },
+    {
+      "user": "木木彡哥",
+      "content": "分享 claude-tap 项目链接，讨论 Claude Code 的 prompt cache 命中机制及 CLAUDE_CODE_ATTRIBUTION_HEADER 设置。"
+    },
+    {
+      "user": "procrastination🐼",
+      "content": "Codex 活动到 5 月 31 日额度 5x→10x；Cursor 可以开小号，5 折 200$→100$ 还给大号送 25$。"
+    },
+    {
+      "user": "sanyuan",
+      "content": "课程更新效率比市面上其他课高，6 月份能更完；codex 可以封神，agent first 的 UI 设计。"
+    },
+    {
+      "user": "Mr. Yu",
+      "content": "Claude Code 内部有处理算法，调用 API 每轮都不会命中 cache，token 飞起；设置 CLAUDE_CODE_ATTRIBUTION_HEADER=0 可解决。"
+    },
+    {
+      "user": "abc123",
+      "content": "一个月需要消耗 12 个 Codex 账号，平均一个号 50-60 元。"
+    },
+    {
+      "user": "Chan.",
+      "content": "分享中兴 U30 Air CPE 使用经验：信号 60db 左右，ping 延迟 3-40ms，最快下载速度 30+M/s，充一次电可用约 10 小时。"
+    },
+    {
+      "user": "choose",
+      "content": "Codex 有 VSCode 插件但没必要，现在真不太需要用编辑器，app 和 cli 就够了。"
+    }
+  ],
+  "actions": [
+    "尝试 Codex app/cli 体验 agent first 的编程方式，对比 Claude Code/Cursor。",
+    "关注 Codex 5x→10x 额度活动（截止 5 月 31 日），合理规划 AI 工具使用成本。",
+    "阅读小花花分享的《基于UI设计的Skill架构体系》文章，学习 Skill 架构设计。",
+    "学习 Claude Code prompt cache 优化技巧，设置 CLAUDE_CODE_ATTRIBUTION_HEADER=0 降低 token 消耗。",
+    "跟进课程更新，尤其是实战课新内容。"
+  ]
+}

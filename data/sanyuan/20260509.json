@@ -1,0 +1,58 @@
+{
+  "id": "20260509",
+  "date": "2026年05月09日",
+  "weekday": "周六",
+  "group": "三元 Agent 课程群",
+  "issue": "20260509",
+  "stats": {
+    "messages": 469,
+    "active": 58,
+    "texts": 469
+  },
+  "topics": {
+    "summary": "当日群内共有 469 条消息，58 位成员参与讨论。 主要涉及 AI, Skill, API, 实战, 课程 等话题。",
+    "tags": [
+      "AI",
+      "Skill",
+      "API",
+      "实战",
+      "课程",
+      "项目",
+      "部署",
+      "问题"
+    ]
+  },
+  "points": [
+    {
+      "title": "AI相关讨论",
+      "desc": "群内有成员围绕 AI 展开讨论交流。"
+    },
+    {
+      "title": "活跃讨论",
+      "desc": "当日共有 58 位成员参与讨论，氛围活跃。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "L",
+      "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=c030253116065dcbc107966bfe3ec311&filekey=30440201010430302e02016e0402535a042063303330323533313136303635646362633130373936366266653365633331310"
+    },
+    {
+      "user": "阿五",
+      "content": "![图片](http://127.0.0.1:5030/image/c95eba4570790e0bd2188012e804a1e1,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/b8e32d27baef7b259270b8835fd2045b)"
+    },
+    {
+      "user": "小花花",
+      "content": "![图片](http://127.0.0.1:5030/image/4e30ce18c6d19430aaef96427fea4755,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/b9390dd665e7e787d97bf685221c4118)"
+    },
+    {
+      "user": "苏彧",
+      "content": "[链接|三元同学的文字分享](https://mp.weixin.qq.com/s?scene=1&__biz=MzU0MTU4OTU2MA==&mid=2247492875&idx=1&sn=92fc0a1eb433056382877688e0096195&sharer_shareinfo_first=023732acc61e34840b9423c4756fe46c&sharer_sharein"
+    },
+    {
+      "user": "xoxo",
+      "content": "![动画表情](http://wxapp.tc.qq.com/262/20304/stodownload?m=d82f9f280dfd25d1afcf6c36f4d03934&filekey=30350201010421301f020201060402535a0410d82f9f280dfd25d1afcf6c36f4d0393402030dd8fa040d00000004627466730000"
+    }
+  ],
+  "actions": []
+}

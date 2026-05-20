@@ -1,0 +1,91 @@
+{
+  "id": "20260516",
+  "date": "2026年05月16日",
+  "weekday": "周六",
+  "group": "三元 Agent 课程群",
+  "issue": "20260516",
+  "stats": {
+    "messages": 130,
+    "active": 28,
+    "texts": 95
+  },
+  "topics": {
+    "summary": "群里主要围绕 Sitor 私教功能重大更新、学力制商业模式、Swagger/MCP 工具链实践，以及课程学习进度与体验反馈展开讨论。Sitor 上线了 deep research 和知识源打通功能，私教体验大幅提升。",
+    "tags": [
+      "Sitor",
+      "私教更新",
+      "deep research",
+      "学力制",
+      "Swagger",
+      "MCP",
+      "RAG",
+      "课程进度"
+    ]
+  },
+  "points": [
+    {
+      "title": "Sitor 私教重大更新",
+      "desc": "sanyuan 发布新版 Sitor 私教功能，支持 deep research，打通私教知识源，不再依赖模型本身知识。同时支持思维导图/知识图谱生成，私教体验大幅提升。"
+    },
+    {
+      "title": "学力制商业模式讨论",
+      "desc": "群友讨论 AI 应用不适合永久会员制，sanyuan 采用学力制（积分制）设计，生图、深度调研等功能消耗学力，为后续功能扩展铺路。"
+    },
+    {
+      "title": "Swagger 转 MCP 工具链探讨",
+      "desc": "Evan 提出将 Swagger 接口扫描生成 MCP + Skill 的需求，涉及复杂业务场景下接口关联与流程编排，群友讨论了 mcp-swagger-server、apifox 等方案。"
+    },
+    {
+      "title": "课程学习体验与 Bug 反馈",
+      "desc": "y1mwu 反馈学完不会打钩的 Bug；小花花询问理论课更新时间，确认课程采用理论实战轮流更、一周五更的节奏。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "sanyuan",
+      "content": "Sitor 私教上线 deep research 功能，打通知识源，不再依赖模型本身知识，commit 已超 100 个。"
+    },
+    {
+      "user": "L",
+      "content": "反馈 Sitor 体验上了几个档次，思维导图点击左侧还能展开详情。"
+    },
+    {
+      "user": "小花花",
+      "content": "将 Sitor 私教展示给老板看，老板也表示要去学 AI 私教；下午研究了对象存储做知识库 RAG。"
+    },
+    {
+      "user": "Djmughal",
+      "content": "Sitor 邮箱加密码可以登录，邮箱验证码非常久。"
+    },
+    {
+      "user": "y1mwu",
+      "content": "反馈 Sitor 学完不会打钩的 Bug，翻到底点了下一篇后学习进度√停留在前几节。"
+    },
+    {
+      "user": "Chan.",
+      "content": "分享 Swagger 转 MCP 的技术方案：mcp-swagger-server 可将 OpenAPI 3.0+ 文档转换为 MCP 服务，支持热更新。"
+    },
+    {
+      "user": "Evan",
+      "content": "探讨将 Swagger 扫描生成 MCP + Skill 的方案，涉及 600+ 接口的复杂业务场景，目前 tool 都是写死的，正在寻找抽象方案。"
+    },
+    {
+      "user": "养乐多",
+      "content": "推荐 apifox 读取 swagger 的 MCP 工具，前后端联调很实用：https://docs.apifox.com/6327891m0"
+    },
+    {
+      "user": "苏彧",
+      "content": "提到 RAG 混合检索包含关键词匹配 + 向量检索。"
+    },
+    {
+      "user": "一日看盡長安花",
+      "content": "分享 AI 应用会员制经验：永久会员是大坑，后改制成积分制，传统会员制在 AI 应用里跑不通。"
+    }
+  ],
+  "actions": [
+    "体验 Sitor 新版私教 deep research 和思维导图功能，强刷浏览器缓存获取最新体验。",
+    "关注课程理论实战轮流更的进度，周末休息，工作日日更。",
+    "研究 Swagger 转 MCP 工具链，可参考 mcp-swagger-server 和 apifox 方案。",
+    "学习 RAG 混合检索（关键词匹配 + 向量检索）在实际项目中的应用。"
+  ]
+}

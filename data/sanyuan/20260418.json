@@ -1,0 +1,57 @@
+{
+  "id": "20260418",
+  "date": "2026年04月18日",
+  "weekday": "周六",
+  "group": "三元 Agent 课程群",
+  "issue": "20260418",
+  "stats": {
+    "messages": 198,
+    "active": 21,
+    "texts": 198
+  },
+  "topics": {
+    "summary": "当日群内共有 198 条消息，21 位成员参与讨论。 主要涉及 Claude, AI, React, 实战, 课程 等话题。",
+    "tags": [
+      "Claude",
+      "AI",
+      "React",
+      "实战",
+      "课程",
+      "问题",
+      "文章"
+    ]
+  },
+  "points": [
+    {
+      "title": "Claude相关讨论",
+      "desc": "群内有成员围绕 Claude 展开讨论交流。"
+    },
+    {
+      "title": "活跃讨论",
+      "desc": "当日共有 21 位成员参与讨论，氛围活跃。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "小花花",
+      "content": "![图片](http://127.0.0.1:5030/image/072c41be7d5a88aae5a083c9e55c6171,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/2606ffb495e5fad323172a8c7749061a)"
+    },
+    {
+      "user": "小花花",
+      "content": "![图片](http://127.0.0.1:5030/image/63f1d30a98656ab10a9ef62dceeb873b,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/c7eb6f447b9a038675bcee280249dd97)"
+    },
+    {
+      "user": "yearning",
+      "content": "![动画表情](http://vweixinf.tc.qq.com/110/20401/stodownload?m=a29a76db98f46f5e249d7fbed6f71007&filekey=30440201010430302e02016e04025348042061323961373664623938663436663565323439643766626564366637313030370"
+    },
+    {
+      "user": "sapen",
+      "content": "![图片](http://127.0.0.1:5030/image/c6b4687ea94ea2803ac9c050c8d78bc8,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/b350c1a91f667a27c15696297c4adab5)"
+    },
+    {
+      "user": "sapen",
+      "content": "![图片](http://127.0.0.1:5030/image/76b7cfc95929c665cabe54d647894359,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/a29e5680a561293013d5a3f1f9001106)"
+    }
+  ],
+  "actions": []
+}

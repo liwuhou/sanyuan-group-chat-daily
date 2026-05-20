@@ -532,60 +532,65 @@ def generate_chart_data(digests_by_group):
 def generate_archive(digests_by_group):
     """生成归档页面"""
     
-    all_digests = []
-    for group_id, digests in digests_by_group.items():
-        for digest in digests:
-            digest["_group_id"] = group_id
-            all_digests.append(digest)
-    
-    # 按日期分组
-    months = {}
-    for digest in all_digests:
-        digest_id = digest.get("id", "")
-        if len(digest_id) == 8:
-            year_month = f"{digest_id[:4]}年{digest_id[4:6]}月"
-        else:
-            year_month = "未知日期"
-        
-        if year_month not in months:
-            months[year_month] = []
-        months[year_month].append(digest)
-    
-    # 生成归档列表
+    # 按群聊分组生成归档
     archive_html = ""
-    for month, digests in sorted(months.items(), reverse=True):
+    
+    for group_id, digests in digests_by_group.items():
+        if not digests:
+            continue
+        
         archive_html += f"""
-            <div class="archive-month">
-                <h3 class="archive-month-title">{month}</h3>
+            <div class="archive-group">
+                <h3 class="archive-group-title">{GROUPS[group_id]['icon']} {GROUPS[group_id]['name']}</h3>
         """
         
-        for digest in sorted(digests, key=lambda x: x.get("id", ""), reverse=True):
-            group_id = digest.get("_group_id", "")
+        # 按月份分组
+        months = {}
+        for digest in digests:
             digest_id = digest.get("id", "")
-            
             if len(digest_id) == 8:
-                day = digest_id[6:8]
-                month_num = digest_id[4:6]
+                year_month = f"{digest_id[:4]}年{digest_id[4:6]}月"
             else:
-                day = "--"
-                month_num = "--"
+                year_month = "未知日期"
             
+            if year_month not in months:
+                months[year_month] = []
+            months[year_month].append(digest)
+        
+        for month, month_digests in sorted(months.items(), reverse=True):
             archive_html += f"""
-                <a href="/{group_id}/{digest_id}.html" class="history-card {group_id}">
-                    <div class="history-date">
-                        <span class="day">{day}</span>
-                        <span class="month">{month_num}月</span>
-                    </div>
-                    <div class="history-info">
-                        <div class="title">{GROUPS[group_id]['name']} · 每日精选</div>
-                        <div class="meta">{digest.get('date', '')} · {digest.get('weekday', '')}</div>
-                    </div>
-                    <div class="history-stats">
-                        <span>💬 {digest.get('stats', {}).get('messages', 0)}</span>
-                        <span>👥 {digest.get('stats', {}).get('active', 0)}</span>
-                    </div>
-                </a>
+                <div class="archive-month">
+                    <h4 class="archive-month-title">{month}</h4>
             """
+            
+            for digest in sorted(month_digests, key=lambda x: x.get("id", ""), reverse=True):
+                digest_id = digest.get("id", "")
+                
+                if len(digest_id) == 8:
+                    day = digest_id[6:8]
+                    month_num = digest_id[4:6]
+                else:
+                    day = "--"
+                    month_num = "--"
+                
+                archive_html += f"""
+                    <a href="/{group_id}/{digest_id}.html" class="history-card {group_id}">
+                        <div class="history-date">
+                            <span class="day">{day}</span>
+                            <span class="month">{month_num}月</span>
+                        </div>
+                        <div class="history-info">
+                            <div class="title">{GROUPS[group_id]['name']} · 每日精选</div>
+                            <div class="meta">{digest.get('date', '')} · {digest.get('weekday', '')}</div>
+                        </div>
+                        <div class="history-stats">
+                            <span>💬 {digest.get('stats', {}).get('messages', 0)}</span>
+                            <span>👥 {digest.get('stats', {}).get('active', 0)}</span>
+                        </div>
+                    </a>
+                """
+            
+            archive_html += "</div>"
         
         archive_html += "</div>"
     
@@ -695,30 +700,39 @@ def generate_chat_page(data, group_id):
     
     # 生成消息 HTML
     messages_html = ""
-    for msg in raw_messages:
-        user = msg.get('user', '未知用户')
-        content = msg.get('content', '')
-        time = msg.get('time', '')
-        
-        # 转义 HTML
-        content = content.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-        
-        # 高亮链接
-        import re
-        content = re.sub(r'(https?://\S+)', r'<a href="\1" target="_blank" class="chat-link">\1</a>', content)
-        
-        messages_html += f"""
-            <div class="chat-message">
-                <div class="chat-avatar">{user[0]}</div>
-                <div class="chat-bubble">
-                    <div class="chat-header">
-                        <span class="chat-user">{user}</span>
-                        <span class="chat-time">{time}</span>
-                    </div>
-                    <div class="chat-content">{content}</div>
-                </div>
+    if not raw_messages:
+        messages_html = """
+            <div class="empty-state">
+                <div class="empty-state-icon">📭</div>
+                <div class="empty-state-title">暂无聊天记录</div>
+                <div class="empty-state-desc">该日期的原始聊天记录未保留</div>
             </div>
         """
+    else:
+        for msg in raw_messages:
+            user = msg.get('user', '未知用户')
+            content = msg.get('content', '')
+            time = msg.get('time', '')
+            
+            # 转义 HTML
+            content = content.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+            
+            # 高亮链接
+            import re
+            content = re.sub(r'(https?://\S+)', r'<a href="\1" target="_blank" class="chat-link">\1</a>', content)
+            
+            messages_html += f"""
+                <div class="chat-message">
+                    <div class="chat-avatar">{user[0]}</div>
+                    <div class="chat-bubble">
+                        <div class="chat-header">
+                            <span class="chat-user">{user}</span>
+                            <span class="chat-time">{time}</span>
+                        </div>
+                        <div class="chat-content">{content}</div>
+                    </div>
+                </div>
+            """
     
     return f"""<!DOCTYPE html>
 <html lang="zh-CN">

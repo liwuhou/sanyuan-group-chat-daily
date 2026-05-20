@@ -1,0 +1,58 @@
+{
+  "id": "20260424",
+  "date": "2026年04月24日",
+  "weekday": "周五",
+  "group": "三元 Agent 课程群",
+  "issue": "20260424",
+  "stats": {
+    "messages": 340,
+    "active": 56,
+    "texts": 340
+  },
+  "topics": {
+    "summary": "当日群内共有 340 条消息，56 位成员参与讨论。 主要涉及 Agent, Claude, LLM, API, 实战 等话题。",
+    "tags": [
+      "Agent",
+      "Claude",
+      "LLM",
+      "API",
+      "实战",
+      "课程",
+      "问题",
+      "链接"
+    ]
+  },
+  "points": [
+    {
+      "title": "Agent相关讨论",
+      "desc": "群内有成员围绕 Agent 展开讨论交流。"
+    },
+    {
+      "title": "活跃讨论",
+      "desc": "当日共有 56 位成员参与讨论，氛围活跃。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "Miraitowa",
+      "content": "![图片](http://127.0.0.1:5030/image/01cb2412c9c16d6195526227129125a1,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/77e38da5f48f65f4db1271b7247b0abb)"
+    },
+    {
+      "user": "Miraitowa",
+      "content": "https://www.feishu.cn/feishu-cli"
+    },
+    {
+      "user": "monkeytao",
+      "content": "![图片](http://127.0.0.1:5030/image/84d2307397be57c7fd7768abb5b946d2,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/6dfe72b02cff92c7373e2b6f225a0b7b)"
+    },
+    {
+      "user": "小花花",
+      "content": "![图片](http://127.0.0.1:5030/image/6c73ed96a9d2de394a1b909037eb7e8f,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/6e6aff2ff59a0f35e84b4effbd71b5b5)"
+    },
+    {
+      "user": "sanyuan",
+      "content": "![图片](http://127.0.0.1:5030/image/7df22e78048ada47fe574998a5314cf8,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/68c27a01004819f830e779314bfa1341)"
+    }
+  ],
+  "actions": []
+}

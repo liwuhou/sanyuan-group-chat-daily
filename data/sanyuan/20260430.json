@@ -1,0 +1,58 @@
+{
+  "id": "20260430",
+  "date": "2026年04月30日",
+  "weekday": "周四",
+  "group": "三元 Agent 课程群",
+  "issue": "20260430",
+  "stats": {
+    "messages": 542,
+    "active": 60,
+    "texts": 542
+  },
+  "topics": {
+    "summary": "当日群内共有 542 条消息，60 位成员参与讨论。 主要涉及 Agent, AI, API, 实战, 课程 等话题。",
+    "tags": [
+      "Agent",
+      "AI",
+      "API",
+      "实战",
+      "课程",
+      "项目",
+      "问题",
+      "分享"
+    ]
+  },
+  "points": [
+    {
+      "title": "Agent相关讨论",
+      "desc": "群内有成员围绕 Agent 展开讨论交流。"
+    },
+    {
+      "title": "活跃讨论",
+      "desc": "当日共有 60 位成员参与讨论，氛围活跃。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "小花花",
+      "content": "![图片](http://127.0.0.1:5030/image/29f209639ccdee6796e19689f2c31a86,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/5b5d5b83895d4840740b6ea5d64d82e1)"
+    },
+    {
+      "user": "Luo .",
+      "content": "![图片](http://127.0.0.1:5030/image/7f7115362980226888613bfc19b34a13,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/bc4c1818a4c838948d3fc262a8f2decf)"
+    },
+    {
+      "user": "小花花",
+      "content": "![图片](http://127.0.0.1:5030/image/30ae65e45f8e57beb424871a19d45f2b,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/9e5e0f0e6bd997df3db1ebcb29780cf0)"
+    },
+    {
+      "user": "苏彧",
+      "content": "![图片](http://127.0.0.1:5030/image/2ac6b5f69743d3dfe4f0fa81a6bab33f,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/082f73352a094e0d549fcf3b6f4e1a86)"
+    },
+    {
+      "user": "小心甘",
+      "content": "![图片](http://127.0.0.1:5030/image/8b127e898ee2c31e9df2e9b4bdc0fcc0,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-04/Img/843c0fae5c959878492923aadbd601ba)"
+    }
+  ],
+  "actions": []
+}

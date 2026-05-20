@@ -1,0 +1,85 @@
+{
+  "id": "20260513",
+  "date": "2026年05月13日",
+  "weekday": "周二",
+  "group": "三元 Agent 课程群",
+  "issue": "20260513",
+  "stats": {
+    "messages": 280,
+    "active": 42,
+    "texts": 195
+  },
+  "topics": {
+    "summary": "群里主要围绕 Agent 工程化实践、Skill/Memory 设计、AI 产品化与出海、开发者焦虑与职业思考、以及平台抽成等话题展开讨论。小花花等同学积极跟进课程实战，liwuhao05 分享了基于 Hermes 的群聊总结工具，Roy 和 sanyuan 透露了命理学 Agent 的计划。",
+    "tags": [
+      "Agent 工程化",
+      "Skill 设计",
+      "Claude Code",
+      "Hermes",
+      "AI 焦虑",
+      "AI 出海",
+      "命理学 Agent",
+      "聊天记录总结",
+      "平台抽成",
+      "实战课"
+    ]
+  },
+  "points": [
+    {
+      "title": "Agent 框架与工程化实践",
+      "desc": "sanyuan 强调真正重要的不是代码实现而是设计思路，Claude Code、OpenClaw、Hermes 等产品都没用传统框架。小花花分享了按场景加载工具、动态插拔的 Pipe 架构实践经验。"
+    },
+    {
+      "title": "群聊总结工具落地",
+      "desc": "liwuhao05 基于 Hermes + chatlog 实现了群聊日报自动生成，可读取本地微信聊天记录并总结输出，群内反响热烈。"
+    },
+    {
+      "title": "AI 产品出海与垂直机会",
+      "desc": "群友讨论了 AI 心理+玄学产品的出海机会，Roy 和 sanyuan 均在开发命理学 Agent，认为垂直领域+业务深度是差异化关键。"
+    },
+    {
+      "title": "开发者焦虑与应对",
+      "desc": "群内有同学表达学习焦虑，sanyuan 和多位群友安慰表示“学好 Agent 更好冲浪”，Roy 分享团队仍有 40% 人停留在传统开发模式，不必过度焦虑。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "liwuhao05",
+      "content": "基于 Hermes + chatlog 实现群聊日报自动生成：本地读取微信聊天记录 → Agent 分析总结 → 输出日报。已深度使用一个多月。"
+    },
+    {
+      "user": "Roy",
+      "content": "命理学 Agent 开发中，有星盘塔罗资质背景，计划将传统命理知识转化为 Agent 服务。"
+    },
+    {
+      "user": "小花花",
+      "content": "完成最新课程实战，搭建了 Agentic Search x RAG 系统，支持上传业务 PDF 并检索教学；采用 Pipe 架构实现按场景动态加载工具。"
+    },
+    {
+      "user": "sanyuan",
+      "content": "分享 Skill 写作经验文章《研读几十个热门 Skills 之后，我总结出了这十个写好 Skill 的套路》；表示正在开发命理学 Agent，计划下个月发布。"
+    },
+    {
+      "user": "鹤之",
+      "content": "字节 AI 产品经理，分享正在搓的 AI 心理+玄学出海产品，以及 AI 漫剧经验。"
+    },
+    {
+      "user": "JaguarLiu",
+      "content": "吐槽慕课网平台抽成高达 4-6 成，且要求课程兼顾零基础，导致 10 小时内容被扩到 60 多小时。"
+    },
+    {
+      "user": "阿五",
+      "content": "分享写好 Skill 的套路文章链接：https://mp.weixin.qq.com/s/BBJ3aLi0WxzUh1DM0_ytwA"
+    },
+    {
+      "user": "procrastination🐼",
+      "content": "推荐 weflow 库用于微信聊天记录导出，以及小红书数据抓取工具 xiaohingshuclaw。"
+    }
+  ],
+  "actions": [
+    "阅读 sanyuan 分享的 Skill 写作套路文章，优化自己的 Skill 设计。",
+    "参考 liwuhao05 的群聊总结方案，尝试搭建本地聊天记录分析工作流。",
+    "跟进课程实战进度，学习 Agentic Search x RAG 的 PDF 解析与检索实现。",
+    "关注垂直领域 Agent 产品机会，思考如何将业务深度与技术结合。"
+  ]
+}
