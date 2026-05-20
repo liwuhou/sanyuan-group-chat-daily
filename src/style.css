@@ -1338,6 +1338,18 @@ body {
   display: block;
 }
 
+/* 本地图片占位符 */
+.chat-image-placeholder {
+  display: inline-block;
+  padding: 8px 12px;
+  background: var(--bg-card);
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  color: var(--text-muted);
+  font-size: 13px;
+  margin-top: 4px;
+}
+
 /* 暗黑模式适配 */
 [data-theme="dark"] .chat-bubble {
   background: var(--bg-card);

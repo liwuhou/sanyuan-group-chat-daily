@@ -729,9 +729,13 @@ def generate_chat_page(data, group_id):
             # 转义 HTML
             content = content.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
             
-            # 恢复图片标签
+            # 恢复图片标签（过滤本地图片）
             for i, (alt, src) in enumerate(images):
-                content = content.replace(f"__IMG_{i}__", f'<img src="{src}" alt="{alt}" class="chat-image" loading="lazy" onerror="this.style.display=\'none\'">')
+                if "127.0.0.1" in src or "localhost" in src:
+                    # 本地图片替换为占位符
+                    content = content.replace(f"__IMG_{i}__", '<span class="chat-image-placeholder">[图片]</span>')
+                else:
+                    content = content.replace(f"__IMG_{i}__", f'<img src="{src}" alt="{alt}" class="chat-image" loading="lazy" onerror="this.style.display=\'none\'">')
             
             # 高亮链接
             content = re.sub(r'(https?://\S+)', r'<a href="\1" target="_blank" class="chat-link">\1</a>', content)
