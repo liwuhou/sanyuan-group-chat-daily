@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
                 <div class="image-overlay-stage">
                     <div class="image-overlay-loading">加载原图中...</div>
-                    <img src="${originalUrl}" alt="原图" class="loaded">
+                    <img src="${previewUrl}" alt="原图" class="loaded">
                 </div>
             </div>
         `;
@@ -79,6 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const img = overlay.querySelector('img');
         const loading = overlay.querySelector('.image-overlay-loading');
         const fullscreenBtn = overlay.querySelector('.image-overlay-fullscreen');
+        const previewUrl = originalUrl + (originalUrl.includes('?') ? '&' : '?') + 'preview=raw';
         let isFullscreen = false;
         let scale = 1;
         let baseScale = 1;
