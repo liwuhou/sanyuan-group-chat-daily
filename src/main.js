@@ -56,6 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     function showImageOverlay(originalUrl) {
+        const previewUrl = originalUrl;
         const overlay = document.createElement('div');
         overlay.className = 'image-overlay';
         overlay.innerHTML = `
@@ -79,7 +80,6 @@ document.addEventListener('DOMContentLoaded', function() {
         const img = overlay.querySelector('img');
         const loading = overlay.querySelector('.image-overlay-loading');
         const fullscreenBtn = overlay.querySelector('.image-overlay-fullscreen');
-        const previewUrl = originalUrl + (originalUrl.includes('?') ? '&' : '?') + 'preview=raw';
         let isFullscreen = false;
         let scale = 1;
         let baseScale = 1;
