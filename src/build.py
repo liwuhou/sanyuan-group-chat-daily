@@ -685,6 +685,8 @@ def generate_rss(digests_by_group):
 
 def generate_chat_page(data, group_id):
     """生成对话页面 HTML"""
+    import re
+    
     digest_id = data.get('id', '')
     raw_file = DATA_DIR / group_id / f"{digest_id}_raw.json"
     
@@ -714,11 +716,24 @@ def generate_chat_page(data, group_id):
             content = msg.get('content', '')
             time = msg.get('time', '')
             
+            # 转义 HTML（但保留图片标签）
+            # 先处理 Markdown 图片
+            images = []
+            def save_image(match):
+                alt, src = match.group(1), match.group(2)
+                images.append((alt, src))
+                return f"__IMG_{len(images)-1}__"
+            
+            content = re.sub(r'!\[([^\]]*)\]\(([^)]+)\)', save_image, content)
+            
             # 转义 HTML
             content = content.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
             
+            # 恢复图片标签
+            for i, (alt, src) in enumerate(images):
+                content = content.replace(f"__IMG_{i}__", f'<img src="{src}" alt="{alt}" class="chat-image" loading="lazy" onerror="this.style.display=\'none\'">')
+            
             # 高亮链接
-            import re
             content = re.sub(r'(https?://\S+)', r'<a href="\1" target="_blank" class="chat-link">\1</a>', content)
             
             messages_html += f"""
