@@ -726,6 +726,9 @@ def generate_chat_page(data, group_id):
             
             content = re.sub(r'!\[([^\]]*)\]\(([^)]+)\)', save_image, content)
             
+            # 高亮链接（在转义 HTML 之前）
+            content = re.sub(r'(https?://\S+)', r'<a href="\1" target="_blank" class="chat-link">\1</a>', content)
+            
             # 转义 HTML（但保留图片标签）
             content = content.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
             
@@ -744,9 +747,6 @@ def generate_chat_page(data, group_id):
                         content = content.replace(f"__IMG_{i}__", '<span class="chat-image-placeholder">[图片]</span>')
                 else:
                     content = content.replace(f"__IMG_{i}__", f'<img src="{src}" alt="{alt}" class="chat-image" loading="lazy" onerror="this.style.display=\'none\'">')
-            
-            # 高亮链接
-            content = re.sub(r'(https?://\S+)', r'<a href="\1" target="_blank" class="chat-link">\1</a>', content)
             
             messages_html += f"""
                 <div class="chat-message">
