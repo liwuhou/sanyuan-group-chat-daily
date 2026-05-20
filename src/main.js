@@ -30,8 +30,17 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
     
-    // 图片点击放大功能
-    window.showOriginalImage = function(img, originalUrl) {
+    // 图片点击放大功能（使用事件委托）
+    document.addEventListener('click', function(e) {
+        if (e.target.classList.contains('chat-image')) {
+            const originalUrl = e.target.getAttribute('data-original');
+            if (originalUrl) {
+                showImageOverlay(originalUrl);
+            }
+        }
+    });
+    
+    function showImageOverlay(originalUrl) {
         // 创建遮罩层
         const overlay = document.createElement('div');
         overlay.className = 'image-overlay';
@@ -50,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
         
         document.body.appendChild(overlay);
-    };
+    }
     
     // 搜索功能
     const searchInput = document.getElementById('searchInput');

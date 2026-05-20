@@ -726,7 +726,7 @@ def generate_chat_page(data, group_id):
             
             content = re.sub(r'!\[([^\]]*)\]\(([^)]+)\)', save_image, content)
             
-            # 转义 HTML
+            # 转义 HTML（但保留图片标签）
             content = content.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
             
             # 恢复图片标签（本地图片映射到下载的图片）
@@ -738,7 +738,8 @@ def generate_chat_page(data, group_id):
                         img_hash = hash_match.group(1)
                         compressed_img_path = f"/images/{img_hash}.jpg"
                         original_img_path = f"https://raw.githubusercontent.com/liwuhou/sanyuan-wechat-images/main/images/{img_hash}.jpg"
-                        content = content.replace(f"__IMG_{i}__", f'<img src="{compressed_img_path}" alt="{alt}" class="chat-image" loading="lazy" onerror="this.style.display=\'none\'" onclick="showOriginalImage(this, \'{original_img_path}\')">')
+                        # 使用 data 属性存储原图 URL，避免引号冲突
+                        content = content.replace(f"__IMG_{i}__", f'<img src="{compressed_img_path}" alt="{alt}" class="chat-image" loading="lazy" onerror="this.style.display=\'none\'" data-original="{original_img_path}">')
                     else:
                         content = content.replace(f"__IMG_{i}__", '<span class="chat-image-placeholder">[图片]</span>')
                 else:
