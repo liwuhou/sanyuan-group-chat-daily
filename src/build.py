@@ -726,13 +726,13 @@ def generate_chat_page(data, group_id):
             
             content = re.sub(r'!\[([^\]]*)\]\(([^)]+)\)', save_image, content)
             
-            # 高亮链接（在转义 HTML 之前）
-            content = re.sub(r'(https?://\S+)', r'<a href="\1" target="_blank" class="chat-link">\1</a>', content)
-            
-            # 转义 HTML（但保留图片标签）
+            # 先转义 HTML
             content = content.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
             
-            # 恢复图片标签（本地图片映射到下载的图片）
+            # 再高亮链接
+            content = re.sub(r'(https?://\S+)', r'<a href="\1" target="_blank" class="chat-link">\1</a>', content)
+            
+            # 最后恢复图片标签（本地图片映射到下载的图片）
             for i, (alt, src) in enumerate(images):
                 if "127.0.0.1" in src or "localhost" in src:
                     # 提取 hash
