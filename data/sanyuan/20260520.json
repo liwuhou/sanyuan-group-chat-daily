@@ -1,0 +1,80 @@
+{
+  "id": "20260520",
+  "date": "2026年05月20日",
+  "weekday": "周三",
+  "group": "三元 Agent 课程群",
+  "issue": "20260520",
+  "stats": {
+    "messages": 180,
+    "active": 27,
+    "texts": 135
+  },
+  "topics": {
+    "summary": "昨日群内主要围绕课程更新、私教能力边界、Agent/AI 工具链与实战踩坑展开：包括 Codex/Claude Code/Cursor 订阅与额度、设计系统 Skill 文章、课程代码 tsx watch 刷新问题，以及 thinking 模式兼容问题。晚上 sanyuan 宣布“知识体系的检索优化”小节更新，并且私教已支持上传图片。",
+    "tags": [
+      "课程更新",
+      "私教",
+      "Codex",
+      "Claude Code",
+      "tsx",
+      "thinking",
+      "MCP",
+      "A2A"
+    ]
+  },
+  "points": [
+    {
+      "title": "课程更新",
+      "desc": "知识体系的检索优化小节已更新；私教现在支持上传图片。"
+    },
+    {
+      "title": "私教边界",
+      "desc": "曾讨论“按学习进度生成公众号文章”，sanyuan 认为文章文风难统一，私教核心作用应是帮助学会，不应替代学员发文章。"
+    },
+    {
+      "title": "后续跟进",
+      "desc": "sanyuan 表示会查看实战课中反馈的几个问题。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "小花花",
+      "content": "分享《从零手写一个完整的设计系统Skill》：https://mp.weixin.qq.com/s/jTmQwvvl1FXKiChPs7uFxg"
+    },
+    {
+      "user": "procrastination🐼",
+      "content": "Codex Pro 相关额度理解：100 美元指模型额度；5 月 31 日前用量从 5x 提到 10x；不翻墙可考虑 Claude Code + DeepSeek。"
+    },
+    {
+      "user": "monkeytao",
+      "content": "课程代码踩坑：`tsx watch src/index.ts` 在交互输入时会不断刷新，`tsx src/index.ts` 不会；换 bun 执行可规避，怀疑与 watch 模式有关。"
+    },
+    {
+      "user": "忧郁之王",
+      "content": "实战课目前未兼容 thinking 模式，有些模型默认开启，需要 hack 关闭。"
+    },
+    {
+      "user": "小心甘",
+      "content": "提出可做一个 git commit 后基于代码 diff 自动总结、按个人风格输出文章的 Skill。"
+    },
+    {
+      "user": "procrastination🐼",
+      "content": "业务赋能思路：给同事安装 Claude Code CLI，并配置 DeepSeek v4。"
+    },
+    {
+      "user": "小花花",
+      "content": "架构表达思路：自研决策算法智能体通过 MCP 对外提供决策能力，multi-agents 之间通过 A2A 实现复杂业务场景的智能决策。"
+    },
+    {
+      "user": "Evan",
+      "content": "上下文实践观察：频繁切换问题时，为保持追问能力而把全量上下文交给 AI，会导致 AI 明显“降智”；大规模接口场景（Swagger 600+ 接口）尤其需做上下文管理。"
+    }
+  ],
+  "actions": [
+    "学习并查看新更新的“知识体系的检索优化”小节。",
+    "试用私教图片上传能力，反馈多模态场景体验。",
+    "跟进实战课 `tsx watch` 刷新、thinking 模式兼容问题。",
+    "阅读设计系统 Skill 文章：https://mp.weixin.qq.com/s/jTmQwvvl1FXKiChPs7uFxg",
+    "可尝试实现“git commit/diff → 自动生成技术文章”的个人 Skill。"
+  ]
+}
