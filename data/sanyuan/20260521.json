@@ -1,0 +1,26 @@
+{
+  "id": "20260520",
+  "date": "2026年05月20日",
+  "weekday": "周三",
+  "group": "三元 Agent 课程群",
+  "issue": "20260520",
+  "stats": {
+    "messages": 0,
+    "active": 0,
+    "texts": 0
+  },
+  "topics": {
+    "summary": "统计时间段内群内没有文字消息，因此没有形成可总结的核心讨论。",
+    "tags": [
+      "无消息"
+    ]
+  },
+  "points": [
+    {
+      "title": "昨日未发言",
+      "desc": "统计时间段内群内无文字消息，sanyuan 未发言。"
+    }
+  ],
+  "infos": [],
+  "actions": []
+}
