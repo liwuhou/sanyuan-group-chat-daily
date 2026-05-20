@@ -3,28 +3,61 @@
   "date": "2026年05月20日",
   "weekday": "周三",
   "group": "Sitor AI 产品用户群",
-  "issue": "20260520",
+  "issue": "每日精选",
   "stats": {
-    "messages": 0,
-    "active": 0,
-    "texts": 0
+    "messages": 61,
+    "active": 20,
+    "texts": 34
   },
   "topics": {
-    "summary": "统计时间范围内无群聊文字消息。",
+    "summary": "群聊主要围绕 Sitor 的资料输入能力、私教解读体验和学习场景展开，重点关注上传文件生成课程、联动思维导图/PPT，以及 PDF/图片素材消耗。",
     "tags": [
-      "无新增讨论"
+      "上传文件",
+      "图片支持",
+      "Token计费",
+      "私教进化版",
+      "英文学习"
     ]
   },
   "points": [
     {
-      "title": "无功能更新",
-      "desc": "统计时间范围内未捕捉到 Sitor 功能更新、版本发布或新功能介绍。"
+      "title": "上传文件能力获强需求反馈",
+      "desc": "用户希望上传文件后可制作课程，并联动思维导图、PPT 等能力。"
     },
     {
-      "title": "无核心话题",
-      "desc": "统计时间范围内消息总数为 0，暂无可汇总的 AI 产品相关讨论。"
+      "title": "图片支持与学力计费方案明确",
+      "desc": "sanyuan 确认图片会支持，学力后续按 token 使用量扣减。"
+    },
+    {
+      "title": "私教进化版展示",
+      "desc": "可基于资料生成更自然的解读文章，适合英文资料学习和长文理解。"
     }
   ],
-  "infos": [],
+  "infos": [
+    {
+      "user": "sanyuan",
+      "content": "预告上传文件能力，确认图片也会支持；后续学力按 token 使用量扣减。"
+    },
+    {
+      "user": "ZH",
+      "content": "建议文件可直接用于制作课程，并联动思维导图、PPT；对话教学可作为补充维度。"
+    },
+    {
+      "user": "小心甘",
+      "content": "关注 PDF 文件较大时的学力消耗问题，建议优先支持图片场景。"
+    },
+    {
+      "user": "宇",
+      "content": "关注最大文件支持大小，并认为该能力会提升英文材料学习效率。"
+    },
+    {
+      "user": "Harrison Wells",
+      "content": "分享资源 The-Founders-Playbook-05062026_v3.pdf：http://127.0.0.1:5030/file/e3c6b4a2586884881eec9df13fb381fa"
+    },
+    {
+      "user": "阿五",
+      "content": "推荐 UU 远程，用于 Mac 连接 Windows、SSH 终端操作 Claude Code/Codex 等工具链。"
+    }
+  ],
   "actions": []
 }
