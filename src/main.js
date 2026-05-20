@@ -30,6 +30,21 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
     
+    // 让所有懒加载图片在加载完成后显示出来
+    function bindLazyImageLoading(root = document) {
+        const imgs = root.querySelectorAll('img[loading="lazy"]');
+        imgs.forEach(img => {
+            const reveal = () => img.classList.add('loaded');
+            if (img.complete && img.naturalWidth > 0) {
+                reveal();
+            } else {
+                img.addEventListener('load', reveal, { once: true });
+                img.addEventListener('error', reveal, { once: true });
+            }
+        });
+    }
+    bindLazyImageLoading();
+    
     // 图片点击放大功能（使用事件委托）
     document.addEventListener('click', function(e) {
         if (e.target.classList.contains('chat-image')) {
