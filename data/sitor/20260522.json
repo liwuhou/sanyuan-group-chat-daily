@@ -1,0 +1,24 @@
+{
+  "id": "20260522",
+  "date": "2026年5月22日",
+  "weekday": "周五",
+  "group": "Sitor AI 产品用户群",
+  "issue": "20260522",
+  "stats": {
+    "messages": 0,
+    "active": 0,
+    "texts": 0
+  },
+  "topics": {
+    "summary": "统计周期内群聊无文字消息，暂无可汇总的核心话题。",
+    "tags": []
+  },
+  "points": [
+    {
+      "title": "无功能更新",
+      "desc": "统计周期内未检索到 Sitor 功能更新、版本发布或新功能介绍。"
+    }
+  ],
+  "infos": [],
+  "actions": []
+}
