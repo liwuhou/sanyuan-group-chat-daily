@@ -1,0 +1,2977 @@
+[
+  {
+    "time": "07:59",
+    "user": "Harrison Wells",
+    "content": "@sanyuan 三元君，这里是不是有笔误"
+  },
+  {
+    "time": "07:59",
+    "user": "Harrison Wells",
+    "content": "[图片]"
+  },
+  {
+    "time": "07:59",
+    "user": "财",
+    "content": "哈哈哈"
+  },
+  {
+    "time": "08:01",
+    "user": "Harrison Wells",
+    "content": "[图片]"
+  },
+  {
+    "time": "08:03",
+    "user": "Harrison Wells",
+    "content": "名词不统一了"
+  },
+  {
+    "time": "08:03",
+    "user": "Harrison Wells",
+    "content": "[图片]"
+  },
+  {
+    "time": "08:08",
+    "user": "Harrison Wells",
+    "content": "按上下文，这里是不是应是这样"
+  },
+  {
+    "time": "08:08",
+    "user": "Harrison Wells",
+    "content": "[图片]"
+  },
+  {
+    "time": "08:11",
+    "user": "Harrison Wells",
+    "content": "我的问题，没注意，开了梯子，被翻译了"
+  },
+  {
+    "time": "08:23",
+    "user": "sanyuan",
+    "content": "ok 我看看"
+  },
+  {
+    "time": "08:23",
+    "user": "Harrison Wells",
+    "content": "文章没问题"
+  },
+  {
+    "time": "08:23",
+    "user": "?",
+    "content": "\"sanyuan\" 拍了拍 \"Harrison Wells\" 再给我一点token吧[大哭]"
+  },
+  {
+    "time": "08:24",
+    "user": "Harrison Wells",
+    "content": "我说看着怎么像ai写的或者机翻文，一看果然被翻译了"
+  },
+  {
+    "time": "08:26",
+    "user": "sanyuan",
+    "content": "[破涕为笑]"
+  },
+  {
+    "time": "08:28",
+    "user": "April.",
+    "content": "哈哈哈"
+  },
+  {
+    "time": "08:28",
+    "user": "Chan.",
+    "content": "自动翻译害人[旺柴]"
+  },
+  {
+    "time": "08:34",
+    "user": "Harrison Wells",
+    "content": "三元君，实战最后是一个demo级别的agent，还是生产级别的agent @sanyuan"
+  },
+  {
+    "time": "08:35",
+    "user": "Harrison Wells",
+    "content": "现在实战课的日志都是console出来的，比如我没有后端日志系统的经验，生产级别agent错误我就很难排查"
+  },
+  {
+    "time": "08:43",
+    "user": "sanyuan",
+    "content": "生产级的啊"
+  },
+  {
+    "time": "08:43",
+    "user": "sanyuan",
+    "content": "对标openclaw的"
+  },
+  {
+    "time": "08:44",
+    "user": "Augenstern",
+    "content": "太强了[强]"
+  },
+  {
+    "time": "08:44",
+    "user": "sanyuan",
+    "content": "日志是持久化了的"
+  },
+  {
+    "time": "08:44",
+    "user": "sapen",
+    "content": "为啥语音输入手机可以 电脑就不行"
+  },
+  {
+    "time": "08:52",
+    "user": "不散和弦",
+    "content": "某光发了个广 里面引流的课也是我们这种1v1私教模式"
+  },
+  {
+    "time": "09:02",
+    "user": "sanyuan",
+    "content": "那个广告主也找我了"
+  },
+  {
+    "time": "09:02",
+    "user": "系统消息",
+    "content": "[系统] \"sanyuan\"邀请\"知吾猪²⁰²⁶\"加入了群聊"
+  },
+  {
+    "time": "09:02",
+    "user": "系统消息",
+    "content": "[系统] \"知吾猪²⁰²⁶\"与群里其他人都不是朋友关系，请注意隐私安全"
+  },
+  {
+    "time": "09:02",
+    "user": "sanyuan",
+    "content": "其实不是私教"
+  },
+  {
+    "time": "09:03",
+    "user": "sanyuan",
+    "content": "就是人工答疑"
+  },
+  {
+    "time": "09:05",
+    "user": "不散和弦",
+    "content": "[破涕为笑][破涕为笑][破涕为笑] 这样啊"
+  },
+  {
+    "time": "09:05",
+    "user": "不散和弦",
+    "content": "我还想这人抄的真快"
+  },
+  {
+    "time": "09:08",
+    "user": "Harrison Wells",
+    "content": "牛牛牛"
+  },
+  {
+    "time": "09:30",
+    "user": "小心甘",
+    "content": "开个课带大家搞个自己的专属私教[奸笑]"
+  },
+  {
+    "time": "09:31",
+    "user": "sanyuan",
+    "content": "那就贵了"
+  },
+  {
+    "time": "09:31",
+    "user": "sanyuan",
+    "content": "下半年看看情况"
+  },
+  {
+    "time": "09:31",
+    "user": "sanyuan",
+    "content": "上半年没几天了 加油更完了"
+  },
+  {
+    "time": "09:32",
+    "user": "xoxo",
+    "content": "[奸笑]"
+  },
+  {
+    "time": "09:32",
+    "user": "xoxo",
+    "content": "私教值得"
+  },
+  {
+    "time": "09:33",
+    "user": "小花花",
+    "content": "我感觉实战快更新完了"
+  },
+  {
+    "time": "09:33",
+    "user": "小花花",
+    "content": "好像没几节了吧"
+  },
+  {
+    "time": "09:33",
+    "user": "sanyuan",
+    "content": "还有十几节啊"
+  },
+  {
+    "time": "09:33",
+    "user": "sanyuan",
+    "content": "不少呢"
+  },
+  {
+    "time": "09:33",
+    "user": "不散和弦",
+    "content": "实战才到50%"
+  },
+  {
+    "time": "09:33",
+    "user": "不散和弦",
+    "content": "可能花神已经学完了[旺柴]"
+  },
+  {
+    "time": "09:34",
+    "user": "Amber",
+    "content": "先开教焚诀的课？"
+  },
+  {
+    "time": "09:36",
+    "user": "小花花",
+    "content": "我最近都没学了  两个项目 月底验收"
+  },
+  {
+    "time": "09:37",
+    "user": "小花花",
+    "content": "[图片]"
+  },
+  {
+    "time": "09:37",
+    "user": "小花花",
+    "content": "理论课快结束了"
+  },
+  {
+    "time": "09:40",
+    "user": "sanyuan",
+    "content": "理论课即将要接近尾声了"
+  },
+  {
+    "time": "09:41",
+    "user": "稚",
+    "content": "[天啊]"
+  },
+  {
+    "time": "09:41",
+    "user": "xia",
+    "content": "@sanyuan 下半年还有开课计划吗"
+  },
+  {
+    "time": "09:41",
+    "user": "稚",
+    "content": "我才学完tool"
+  },
+  {
+    "time": "09:41",
+    "user": "sanyuan",
+    "content": "计划暂时不公开"
+  },
+  {
+    "time": "09:41",
+    "user": "sanyuan",
+    "content": "我先休息两个月"
+  },
+  {
+    "time": "09:41",
+    "user": "稚",
+    "content": "不许"
+  },
+  {
+    "time": "09:41",
+    "user": "Harrison Wells",
+    "content": "赶紧赚钱"
+  },
+  {
+    "time": "09:42",
+    "user": "choose",
+    "content": "经过我们同意了吗"
+  },
+  {
+    "time": "09:42",
+    "user": "sanyuan",
+    "content": "我打算给 sitor 去投广告"
+  },
+  {
+    "time": "09:42",
+    "user": "choose",
+    "content": "[旺柴]"
+  },
+  {
+    "time": "09:42",
+    "user": "sanyuan",
+    "content": "公众号联系了一些号主"
+  },
+  {
+    "time": "09:42",
+    "user": "sanyuan",
+    "content": "前几天有个老哥非要买纯课程，不买私教，结果今天买了私教"
+  },
+  {
+    "time": "09:42",
+    "user": "小花花",
+    "content": "写完全部更新  我放假猛干"
+  },
+  {
+    "time": "09:42",
+    "user": "sanyuan",
+    "content": "我感觉还是体验做起来了"
+  },
+  {
+    "time": "09:43",
+    "user": "choose",
+    "content": "有种不好的预感"
+  },
+  {
+    "time": "09:43",
+    "user": "choose",
+    "content": "知道的人多了 竞争压力更大了[皱眉]"
+  },
+  {
+    "time": "09:43",
+    "user": "sanyuan",
+    "content": "@choose"
+  },
+  {
+    "time": "09:43",
+    "user": "sanyuan",
+    "content": "你是哪个"
+  },
+  {
+    "time": "09:43",
+    "user": "choose",
+    "content": "希望agent私教课少点人知道哈哈哈[奸笑]"
+  },
+  {
+    "time": "09:44",
+    "user": "choose",
+    "content": "我直接买的年费套餐[旺柴]"
+  },
+  {
+    "time": "09:44",
+    "user": "小花花",
+    "content": "你的意思是你打算也做一个[旺柴]"
+  },
+  {
+    "time": "09:44",
+    "user": "不散和弦",
+    "content": "希望下半年有更好的实战课程"
+  },
+  {
+    "time": "09:45",
+    "user": "sanyuan",
+    "content": "[动画表情]"
+  },
+  {
+    "time": "09:45",
+    "user": "罗十十.十",
+    "content": "不是 harness 课程嘛"
+  },
+  {
+    "time": "09:45",
+    "user": "罗十十.十",
+    "content": "[动画表情]"
+  },
+  {
+    "time": "09:45",
+    "user": "sanyuan",
+    "content": "下半年大家猜会有什么课程出来"
+  },
+  {
+    "time": "09:45",
+    "user": "choose",
+    "content": "[皱眉]不不不 只是针对于课程 知道的人多了 我们的竞争者不就多了么"
+  },
+  {
+    "time": "09:45",
+    "user": "Amber",
+    "content": "为啥你们不先学元佬的焚诀呢，这个学会才是精华吧"
+  },
+  {
+    "time": "09:45",
+    "user": "xoxo",
+    "content": "助教"
+  },
+  {
+    "time": "09:45",
+    "user": "xoxo",
+    "content": "？"
+  },
+  {
+    "time": "09:45",
+    "user": "?",
+    "content": "\"xoxo\" 拍了拍 \"sanyuan\" 并放了一束[烟花]"
+  },
+  {
+    "time": "09:46",
+    "user": "Pudge",
+    "content": "一人公司课程么"
+  },
+  {
+    "time": "09:46",
+    "user": "小花花",
+    "content": "猜对有奖吗"
+  },
+  {
+    "time": "09:46",
+    "user": "choose",
+    "content": "hermes"
+  },
+  {
+    "time": "09:46",
+    "user": "xoxo",
+    "content": "100学力"
+  },
+  {
+    "time": "09:47",
+    "user": "小花花",
+    "content": "100学力你看不起元神啊"
+  },
+  {
+    "time": "09:47",
+    "user": "xoxo",
+    "content": "那就1000"
+  },
+  {
+    "time": "09:47",
+    "user": "xoxo",
+    "content": "[奸笑]"
+  },
+  {
+    "time": "09:48",
+    "user": "不散和弦",
+    "content": "我只会准备好购买[旺柴]"
+  },
+  {
+    "time": "09:49",
+    "user": "xoxo",
+    "content": "[动画表情]"
+  },
+  {
+    "time": "10:09",
+    "user": "wxid_7hjaiz6g1wkj21",
+    "content": "这个老哥感觉有点像我[旺柴]"
+  },
+  {
+    "time": "10:10",
+    "user": "神往",
+    "content": "@sanyuan 焚绝"
+  },
+  {
+    "time": "10:10",
+    "user": "神往",
+    "content": "ai使用焚绝"
+  },
+  {
+    "time": "10:10",
+    "user": "神往",
+    "content": "还有就是 harness"
+  },
+  {
+    "time": "10:17",
+    "user": "苏彧",
+    "content": "就是就是"
+  },
+  {
+    "time": "10:18",
+    "user": "神往",
+    "content": "好了,三元哥,奖励记得发我"
+  },
+  {
+    "time": "10:18",
+    "user": "神往",
+    "content": "哈哈哈"
+  },
+  {
+    "time": "10:18",
+    "user": "小心甘",
+    "content": "啥，还有奖励"
+  },
+  {
+    "time": "10:31",
+    "user": "TreeWish",
+    "content": "焚诀呢"
+  },
+  {
+    "time": "10:31",
+    "user": "苏彧",
+    "content": "@神往 让花神奖励你[阴险]"
+  },
+  {
+    "time": "10:35",
+    "user": "sonada🤫",
+    "content": "我买的时候也不知道私教是主打啊，光买了课[发呆]"
+  },
+  {
+    "time": "10:38",
+    "user": "yearning",
+    "content": "我就是纯买课程的[捂脸]"
+  },
+  {
+    "time": "10:38",
+    "user": "TreeWish",
+    "content": "什么叫纯买课程，599 吗？"
+  },
+  {
+    "time": "10:39",
+    "user": "苏彧",
+    "content": "是的"
+  },
+  {
+    "time": "10:40",
+    "user": "阿五",
+    "content": "很正常，只能说首发那会的 sitor 确实功能比较简单，我都觉得我自己去问其他 ai 也一样的[破涕为笑]"
+  },
+  {
+    "time": "10:40",
+    "user": "阿五",
+    "content": "但我抱着支持元老相信元老的心态一起买了"
+  },
+  {
+    "time": "10:40",
+    "user": "小心甘",
+    "content": "400上车[旺柴]"
+  },
+  {
+    "time": "10:40",
+    "user": "阿五",
+    "content": "现在看只能说很值"
+  },
+  {
+    "time": "10:42",
+    "user": "小心甘",
+    "content": "来吧，兄弟们"
+  },
+  {
+    "time": "10:42",
+    "user": "小心甘",
+    "content": "[图片]"
+  },
+  {
+    "time": "10:43",
+    "user": "Evan",
+    "content": "有元老优惠吗"
+  },
+  {
+    "time": "10:46",
+    "user": "🐰哎哟喔哟🐰",
+    "content": "元老可能没优惠有 但是 元佬应该有"
+  },
+  {
+    "time": "10:46",
+    "user": "🐰哎哟喔哟🐰",
+    "content": "[动画表情]"
+  },
+  {
+    "time": "11:26",
+    "user": "苏彧",
+    "content": "这五月份也过的太快了吧 "
+  },
+  {
+    "time": "11:27",
+    "user": "苏彧",
+    "content": "4.15-5.22都更的差不多了[捂脸]"
+  },
+  {
+    "time": "11:27",
+    "user": "auv",
+    "content": "我都是直接梭哈999"
+  },
+  {
+    "time": "11:27",
+    "user": "CJ",
+    "content": "我这里看怎么不是这个价格[苦涩]"
+  },
+  {
+    "time": "11:27",
+    "user": "auv",
+    "content": "因为感觉私教AI比较有作用"
+  },
+  {
+    "time": "11:28",
+    "user": "苏彧",
+    "content": "首页吧"
+  },
+  {
+    "time": "11:29",
+    "user": "鲸鱼",
+    "content": "这哥们升级套餐了吧"
+  },
+  {
+    "time": "11:37",
+    "user": "sanyuan",
+    "content": "早买了都是超值"
+  },
+  {
+    "time": "11:37",
+    "user": "sanyuan",
+    "content": "下个月开始 sitor 打算做成标准定价模式，20 美刀一个月"
+  },
+  {
+    "time": "11:38",
+    "user": "Evan",
+    "content": "太有实力了"
+  },
+  {
+    "time": "11:38",
+    "user": "Evan",
+    "content": "我就买个课"
+  },
+  {
+    "time": "11:38",
+    "user": "sanyuan",
+    "content": "现在 sitor 配的上了"
+  },
+  {
+    "time": "11:38",
+    "user": "Evan",
+    "content": "都已经用尽全力了"
+  },
+  {
+    "time": "11:38",
+    "user": "sanyuan",
+    "content": "功能业界一流"
+  },
+  {
+    "time": "11:38",
+    "user": "Evan",
+    "content": "老师，有没有贫困人员帮扶计划"
+  },
+  {
+    "time": "11:38",
+    "user": "暂无",
+    "content": "老师，有没有贫困人员帮扶计划"
+  },
+  {
+    "time": "11:38",
+    "user": "小心甘",
+    "content": "老师，有没有贫困人员帮扶计划"
+  },
+  {
+    "time": "11:39",
+    "user": "sanyuan",
+    "content": "你们去试下最新的那个生成播客的功能就知道了"
+  },
+  {
+    "time": "11:39",
+    "user": "小花花",
+    "content": "老师，有没有贫困人员帮扶计划"
+  },
+  {
+    "time": "11:39",
+    "user": "那时晴天",
+    "content": "老师，有没有贫困人员帮扶计划"
+  },
+  {
+    "time": "11:39",
+    "user": "sonada🤫",
+    "content": "老师，有没有贫困人员帮扶计划"
+  },
+  {
+    "time": "11:39",
+    "user": "sanyuan",
+    "content": "现在的帮扶程度不够🐴"
+  },
+  {
+    "time": "11:39",
+    "user": "一雯",
+    "content": "老师，有没有贫困人员帮扶计划"
+  },
+  {
+    "time": "11:39",
+    "user": "CJ",
+    "content": "入口在哪里？"
+  },
+  {
+    "time": "11:40",
+    "user": "CJ",
+    "content": "老师，有没有贫困人员帮扶计划"
+  },
+  {
+    "time": "11:40",
+    "user": "一雯",
+    "content": "+1"
+  },
+  {
+    "time": "11:40",
+    "user": "sanyuan",
+    "content": "你们看现在的sitor定价 简直是骨折"
+  },
+  {
+    "time": "11:40",
+    "user": "sanyuan",
+    "content": "学完节点再路线图里面 点击生成对谈"
+  },
+  {
+    "time": "11:40",
+    "user": "一雯",
+    "content": "那你收回这句？"
+  },
+  {
+    "time": "11:41",
+    "user": "sanyuan",
+    "content": "就海外版涨吧 国内版看情况"
+  },
+  {
+    "time": "11:41",
+    "user": "sanyuan",
+    "content": "@一雯 找到了吗"
+  },
+  {
+    "time": "11:42",
+    "user": "xoxo",
+    "content": "牛逼"
+  },
+  {
+    "time": "11:42",
+    "user": "?",
+    "content": "\"xoxo\" 拍了拍 \"sanyuan\" 并放了一束[烟花]"
+  },
+  {
+    "time": "11:44",
+    "user": "sanyuan",
+    "content": "[图片]"
+  },
+  {
+    "time": "11:44",
+    "user": "sanyuan",
+    "content": "生成精彩对谈"
+  },
+  {
+    "time": "11:47",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "[图片]"
+  },
+  {
+    "time": "11:47",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "一句话，带走我400块"
+  },
+  {
+    "time": "11:48",
+    "user": "暂无",
+    "content": "男人一句话，竟让我为他花了400块"
+  },
+  {
+    "time": "11:48",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "对对对，我就是想说这个"
+  },
+  {
+    "time": "11:49",
+    "user": "暂无",
+    "content": "哈哈哈哈"
+  },
+  {
+    "time": "11:49",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "其实sitor我都很少用"
+  },
+  {
+    "time": "11:49",
+    "user": "auv",
+    "content": "现在playwright做web自动化测试效果咋样？"
+  },
+  {
+    "time": "11:49",
+    "user": "auv",
+    "content": "有做过的吗"
+  },
+  {
+    "time": "11:49",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "基本都看课程的"
+  },
+  {
+    "time": "11:51",
+    "user": "🍭拜托啦俊酱丶",
+    "content": "直接用吧🤔"
+  },
+  {
+    "time": "11:51",
+    "user": "sanyuan",
+    "content": "用起来很丝滑 先导入个 YouTube 学习视频看看效果"
+  },
+  {
+    "time": "11:51",
+    "user": "sanyuan",
+    "content": "e2e 标配"
+  },
+  {
+    "time": "11:52",
+    "user": "auv",
+    "content": "好 我去瞅瞅"
+  },
+  {
+    "time": "11:53",
+    "user": "苏彧",
+    "content": "之前的也可以吗@sanyuan "
+  },
+  {
+    "time": "11:54",
+    "user": "苏彧",
+    "content": "还好还好 吓死了"
+  },
+  {
+    "time": "11:54",
+    "user": "sanyuan",
+    "content": "可以"
+  },
+  {
+    "time": "11:54",
+    "user": "sanyuan",
+    "content": "@苏彧"
+  },
+  {
+    "time": "11:54",
+    "user": "sanyuan",
+    "content": "之前已经掌握的节点都可以生成精彩对谈"
+  },
+  {
+    "time": "11:55",
+    "user": "苏彧",
+    "content": "OK"
+  },
+  {
+    "time": "11:57",
+    "user": "系统消息",
+    "content": "[系统] \"sanyuan\"邀请\"保护前额叶\"加入了群聊"
+  },
+  {
+    "time": "11:57",
+    "user": "系统消息",
+    "content": "[系统] \"保护前额叶\"与群里其他人都不是朋友关系，请注意隐私安全"
+  },
+  {
+    "time": "12:06",
+    "user": "sanyuan",
+    "content": "https://sitor.ai/slide-preview/c57023dc-7f9a-4f03-aa73-277fea5d2d61"
+  },
+  {
+    "time": "12:06",
+    "user": "sanyuan",
+    "content": "图解手记支持分享了"
+  },
+  {
+    "time": "12:07",
+    "user": "sanyuan",
+    "content": "学完一门课之后可以直接分享"
+  },
+  {
+    "time": "12:16",
+    "user": "苏彧",
+    "content": "我发现一个问题@sanyuan "
+  },
+  {
+    "time": "12:16",
+    "user": "苏彧",
+    "content": "不知当讲不当讲"
+  },
+  {
+    "time": "12:16",
+    "user": "sanyuan",
+    "content": "请讲"
+  },
+  {
+    "time": "12:17",
+    "user": "sanyuan",
+    "content": "别讲了"
+  },
+  {
+    "time": "12:21",
+    "user": "Neo",
+    "content": "[图片]"
+  },
+  {
+    "time": "12:21",
+    "user": "Neo",
+    "content": "有的时候语音输入会变成繁体字"
+  },
+  {
+    "time": "12:21",
+    "user": "Neo",
+    "content": "大家有遇到这个现象嘛"
+  },
+  {
+    "time": "12:22",
+    "user": "Forrest",
+    "content": "一定要和私教聊完之后才能生成导图和对谈吗？如果说直接从课程文章里面能不能生成？ @sanyuan "
+  },
+  {
+    "time": "12:23",
+    "user": "sanyuan",
+    "content": "这。。。"
+  },
+  {
+    "time": "12:23",
+    "user": "sanyuan",
+    "content": "还没考虑"
+  },
+  {
+    "time": "12:23",
+    "user": "sanyuan",
+    "content": "需要吗"
+  },
+  {
+    "time": "12:23",
+    "user": "sanyuan",
+    "content": "比如说导入一个视频、文章，自动转成导图和对谈"
+  },
+  {
+    "time": "12:23",
+    "user": "sanyuan",
+    "content": "这个大家有强需求的扣 1"
+  },
+  {
+    "time": "12:24",
+    "user": "Neo",
+    "content": "1"
+  },
+  {
+    "time": "12:24",
+    "user": "sanyuan",
+    "content": "你看 需求不多"
+  },
+  {
+    "time": "12:25",
+    "user": "燚龘",
+    "content": "111111111[旺柴]"
+  },
+  {
+    "time": "12:25",
+    "user": "Neo",
+    "content": "这步未免太形式了"
+  },
+  {
+    "time": "12:25",
+    "user": "Neo",
+    "content": "[汗]"
+  },
+  {
+    "time": "12:26",
+    "user": "sanyuan",
+    "content": "[旺柴] 看下大家反馈啊"
+  },
+  {
+    "time": "12:26",
+    "user": "薛定谔的猫",
+    "content": "这个就像NotebookLM ?"
+  },
+  {
+    "time": "12:26",
+    "user": "sanyuan",
+    "content": "对啊 就成了 notebookLM L"
+  },
+  {
+    "time": "12:26",
+    "user": "sanyuan",
+    "content": "定位就变了"
+  },
+  {
+    "time": "12:26",
+    "user": "sanyuan",
+    "content": "要警惕了"
+  },
+  {
+    "time": "12:27",
+    "user": "sanyuan",
+    "content": "我这个主打还是私教引擎"
+  },
+  {
+    "time": "12:27",
+    "user": "sanyuan",
+    "content": "其它都是加分项"
+  },
+  {
+    "time": "12:27",
+    "user": "薛定谔的猫",
+    "content": "牢记初心，勿忘使命"
+  },
+  {
+    "time": "12:27",
+    "user": "薛定谔的猫",
+    "content": "大而全反而不好"
+  },
+  {
+    "time": "12:27",
+    "user": "sanyuan",
+    "content": "牢记初心，勿忘使命"
+  },
+  {
+    "time": "12:30",
+    "user": "苏彧",
+    "content": "嗯嗯 私教主要是让你真正的学到东西 其他导图手记属于知识总结了"
+  },
+  {
+    "time": "12:39",
+    "user": "yearning",
+    "content": "我感觉不管问什么需求，只要水群时间都会扣 1"
+  },
+  {
+    "time": "12:39",
+    "user": "yearning",
+    "content": "[旺柴]"
+  },
+  {
+    "time": "12:44",
+    "user": "sanyuan",
+    "content": "[Sly]"
+  },
+  {
+    "time": "13:38",
+    "user": "sanyuan",
+    "content": "今天还有人在问我平时做设计用什么 skill"
+  },
+  {
+    "time": "13:38",
+    "user": "sanyuan",
+    "content": "我最后来强调一下哈 https://impeccable.style/"
+  },
+  {
+    "time": "13:38",
+    "user": "sanyuan",
+    "content": "改天写篇文章来介绍我具体怎么用的"
+  },
+  {
+    "time": "13:39",
+    "user": "不散和弦",
+    "content": "择日不如撞日吧"
+  },
+  {
+    "time": "13:39",
+    "user": "sanyuan",
+    "content": "这个 skill 质量非常高 平时设计可以大量使用 效果提升非常明显"
+  },
+  {
+    "time": "13:39",
+    "user": "小花花",
+    "content": "[强]"
+  },
+  {
+    "time": "13:39",
+    "user": "小花花",
+    "content": "撞日不如今日吧"
+  },
+  {
+    "time": "13:40",
+    "user": "Chan.",
+    "content": "我在用用open design做设计。"
+  },
+  {
+    "time": "13:40",
+    "user": "小花花",
+    "content": "我在用 superdesign"
+  },
+  {
+    "time": "13:42",
+    "user": "L",
+    "content": "太贵了"
+  },
+  {
+    "time": "13:42",
+    "user": "L",
+    "content": "100 额度够用吗"
+  },
+  {
+    "time": "13:42",
+    "user": "小花花",
+    "content": "1天100额度好像"
+  },
+  {
+    "time": "13:42",
+    "user": "小花花",
+    "content": "我就偶尔设计一个界面 不是经常设计"
+  },
+  {
+    "time": "13:42",
+    "user": "L",
+    "content": "那也好贵感觉"
+  },
+  {
+    "time": "13:42",
+    "user": "L",
+    "content": "那还行"
+  },
+  {
+    "time": "13:42",
+    "user": "木木彡哥",
+    "content": "[图片]"
+  },
+  {
+    "time": "13:42",
+    "user": "L",
+    "content": "期待"
+  },
+  {
+    "time": "13:42",
+    "user": "sanyuan",
+    "content": "design 的终点是 claudecode ➕ skill"
+  },
+  {
+    "time": "13:42",
+    "user": "木木彡哥",
+    "content": "1天 100 刀吧"
+  },
+  {
+    "time": "13:43",
+    "user": "L",
+    "content": "赞 无比认同"
+  },
+  {
+    "time": "13:45",
+    "user": "zls",
+    "content": "用了openspec，感觉好废token"
+  },
+  {
+    "time": "13:46",
+    "user": "苏彧",
+    "content": "和superpowers有什么不同吗"
+  },
+  {
+    "time": "13:46",
+    "user": "L",
+    "content": "刚下那个 21个指令每个都是干一件事"
+  },
+  {
+    "time": "13:46",
+    "user": "zls",
+    "content": "不知道啊 没用过superpowers"
+  },
+  {
+    "time": "13:52",
+    "user": "小花花",
+    "content": "[图片]"
+  },
+  {
+    "time": "13:53",
+    "user": "小花花",
+    "content": "npx skills add pbakaus/impeccable"
+  },
+  {
+    "time": "13:53",
+    "user": "小花花",
+    "content": "按照不了吗"
+  },
+  {
+    "time": "13:55",
+    "user": "木木彡哥",
+    "content": "[图片]"
+  },
+  {
+    "time": "13:55",
+    "user": "木木彡哥",
+    "content": "我装好了"
+  },
+  {
+    "time": "13:55",
+    "user": "木木彡哥",
+    "content": "等文章"
+  },
+  {
+    "time": "13:57",
+    "user": "小花花",
+    "content": "俺也装好了"
+  },
+  {
+    "time": "13:57",
+    "user": "小花花",
+    "content": "等文章"
+  },
+  {
+    "time": "14:10",
+    "user": "不散和弦",
+    "content": "y1s1 我觉得huashu的design做静态页面的设计还不错"
+  },
+  {
+    "time": "14:10",
+    "user": "不散和弦",
+    "content": "Impeccable 我不太会用好[破涕为笑]"
+  },
+  {
+    "time": "14:11",
+    "user": "小心甘",
+    "content": "Stitch + Stitch mcp呢"
+  },
+  {
+    "time": "14:17",
+    "user": "不曾相识",
+    "content": "这个干嘛的skill 花神"
+  },
+  {
+    "time": "14:17",
+    "user": "嘻🇨🇳嘻",
+    "content": "设计"
+  },
+  {
+    "time": "14:17",
+    "user": "不散和弦",
+    "content": "design的"
+  },
+  {
+    "time": "14:17",
+    "user": "不曾相识",
+    "content": "自动设计前端页面吗"
+  },
+  {
+    "time": "14:18",
+    "user": "不散和弦",
+    "content": "你用了就知道了 功能很多"
+  },
+  {
+    "time": "14:18",
+    "user": "不曾相识",
+    "content": "好的，谢谢大佬"
+  },
+  {
+    "time": "14:19",
+    "user": "sanyuan",
+    "content": "[图片]"
+  },
+  {
+    "time": "14:20",
+    "user": "sanyuan",
+    "content": "正在学习中"
+  },
+  {
+    "time": "14:20",
+    "user": "sanyuan",
+    "content": "很舒适"
+  },
+  {
+    "time": "14:24",
+    "user": "Amber",
+    "content": "@sanyuan 你咋这么多精力呢"
+  },
+  {
+    "time": "14:24",
+    "user": "木木彡哥",
+    "content": "记得文章要写啊"
+  },
+  {
+    "time": "14:27",
+    "user": "Satisfied",
+    "content": "大佬们，.fig文件有没有什么skill或mcp可以用来复现代码的"
+  },
+  {
+    "time": "14:27",
+    "user": "小花花",
+    "content": "[图片]"
+  },
+  {
+    "time": "14:27",
+    "user": "小花花",
+    "content": "[图片]"
+  },
+  {
+    "time": "14:27",
+    "user": "小花花",
+    "content": "cursor给出的答案"
+  },
+  {
+    "time": "14:27",
+    "user": "小花花",
+    "content": "HyDE 并不占优啊"
+  },
+  {
+    "time": "14:32",
+    "user": "木木彡哥",
+    "content": "[图片]"
+  },
+  {
+    "time": "14:32",
+    "user": "木木彡哥",
+    "content": "自己学自己学"
+  },
+  {
+    "time": "14:34",
+    "user": "财",
+    "content": "上了吗"
+  },
+  {
+    "time": "14:34",
+    "user": "忧郁之王",
+    "content": "私教值得升级不？ 体验咋样"
+  },
+  {
+    "time": "14:34",
+    "user": "Juan",
+    "content": "你爱问问题就买"
+  },
+  {
+    "time": "14:35",
+    "user": "Juan",
+    "content": "平时没有问问题的习惯的话"
+  },
+  {
+    "time": "14:35",
+    "user": "小心甘",
+    "content": "可以自己写一个私教，就怼着三元君的产品抄"
+  },
+  {
+    "time": "14:36",
+    "user": "小心甘",
+    "content": "[旺柴]"
+  },
+  {
+    "time": "14:36",
+    "user": "April.",
+    "content": "哈哈哈哈哈"
+  },
+  {
+    "time": "14:36",
+    "user": "April.",
+    "content": "特别值得升级"
+  },
+  {
+    "time": "14:45",
+    "user": "嘻🇨🇳嘻",
+    "content": "[图片]"
+  },
+  {
+    "time": "14:46",
+    "user": "小心甘",
+    "content": "自己搞得吗"
+  },
+  {
+    "time": "14:46",
+    "user": "神往",
+    "content": "牛皮可以的"
+  },
+  {
+    "time": "14:47",
+    "user": "嘻🇨🇳嘻",
+    "content": "[图片]"
+  },
+  {
+    "time": "14:47",
+    "user": "嘻🇨🇳嘻",
+    "content": "用的这个 impeccable"
+  },
+  {
+    "time": "14:47",
+    "user": "小心甘",
+    "content": "咋玩，还没玩上呢"
+  },
+  {
+    "time": "14:48",
+    "user": "小花花",
+    "content": "强啊  后端用的 py"
+  },
+  {
+    "time": "14:48",
+    "user": "嘻🇨🇳嘻",
+    "content": "https://impeccable.style/ 直接看官网"
+  },
+  {
+    "time": "14:48",
+    "user": "嘻🇨🇳嘻",
+    "content": "nest.js"
+  },
+  {
+    "time": "14:49",
+    "user": "TreeWish",
+    "content": "用了，但是没用好 哈哈"
+  },
+  {
+    "time": "14:50",
+    "user": "财",
+    "content": "有点慢"
+  },
+  {
+    "time": "14:56",
+    "user": "sanyuan",
+    "content": "@财 稍等下"
+  },
+  {
+    "time": "14:58",
+    "user": "稚",
+    "content": "有没有那种专业名词扫盲的文章"
+  },
+  {
+    "time": "14:58",
+    "user": "稚",
+    "content": "有个hr朋友要招做agent开发的"
+  },
+  {
+    "time": "14:58",
+    "user": "稚",
+    "content": "讲起来太麻烦了"
+  },
+  {
+    "time": "14:59",
+    "user": "稚",
+    "content": "熟练掌握openCode/codeX/claude code等工具的使用，Agent的设计、创建与使用。候选人简历里写了这么一条，他还来问我这算是经验丰富么"
+  },
+  {
+    "time": "14:59",
+    "user": "木木彡哥",
+    "content": "懒得看文档，直接 sitor 学了多简单"
+  },
+  {
+    "time": "14:59",
+    "user": "稚",
+    "content": "我说就像是你用手刷牙他用了电动牙刷跟你说掌握了电动牙刷的各种使用方法一样"
+  },
+  {
+    "time": "14:59",
+    "user": "小心甘",
+    "content": "你让私教给你生成一个[旺柴]"
+  },
+  {
+    "time": "15:00",
+    "user": "木木彡哥",
+    "content": "与其单调的看文档，不如跟我的私教聊聊天，就学会了"
+  },
+  {
+    "time": "15:00",
+    "user": "稚",
+    "content": "我给他他会当成豆包"
+  },
+  {
+    "time": "15:00",
+    "user": "稚",
+    "content": "把简历扔进去问问行不行"
+  },
+  {
+    "time": "15:00",
+    "user": "稚",
+    "content": "[动画表情]"
+  },
+  {
+    "time": "15:01",
+    "user": "Pudge",
+    "content": "hr 为啥不直接问豆包 就问你[旺柴]"
+  },
+  {
+    "time": "15:01",
+    "user": "小心甘",
+    "content": "把他当豆包用"
+  },
+  {
+    "time": "15:01",
+    "user": "小心甘",
+    "content": "[旺柴]"
+  },
+  {
+    "time": "15:01",
+    "user": "TreeWish",
+    "content": "可能他是面试官吧"
+  },
+  {
+    "time": "15:01",
+    "user": "Roy",
+    "content": "豆包：我用最直接最简单最准确的回答告诉你，这就是大模型时代公司最需要的人才"
+  },
+  {
+    "time": "15:02",
+    "user": "稚",
+    "content": "一个朋友招人"
+  },
+  {
+    "time": "15:02",
+    "user": "稚",
+    "content": "来问的"
+  },
+  {
+    "time": "15:04",
+    "user": "Pudge",
+    "content": "[图片]"
+  },
+  {
+    "time": "15:07",
+    "user": "小心甘",
+    "content": "直接三元君群里招得了[旺柴]"
+  },
+  {
+    "time": "15:12",
+    "user": "稚",
+    "content": "他们给50"
+  },
+  {
+    "time": "15:12",
+    "user": "稚",
+    "content": "有兴趣的去试试呗"
+  },
+  {
+    "time": "15:12",
+    "user": "稚",
+    "content": "[旺柴]"
+  },
+  {
+    "time": "15:12",
+    "user": "Pudge",
+    "content": "[Flushed]误闯天家"
+  },
+  {
+    "time": "15:13",
+    "user": "Pudge",
+    "content": "有请高级架构师 哈哈"
+  },
+  {
+    "time": "15:13",
+    "user": "神往",
+    "content": "查看ai工作完成的结构这样子做是不是更加合理呢"
+  },
+  {
+    "time": "15:13",
+    "user": "神往",
+    "content": "[图片]"
+  },
+  {
+    "time": "15:15",
+    "user": "系统消息",
+    "content": "[系统] \"sanyuan\"邀请\"- chen。\"加入了群聊"
+  },
+  {
+    "time": "15:15",
+    "user": "系统消息",
+    "content": "[系统] \"- chen。\"与群里其他人都不是朋友关系，请注意隐私安全"
+  },
+  {
+    "time": "15:17",
+    "user": "procrastination🐼",
+    "content": "参考实战做的吗"
+  },
+  {
+    "time": "15:18",
+    "user": "嘻🇨🇳嘻",
+    "content": "实战不做这个啊"
+  },
+  {
+    "time": "15:33",
+    "user": "sanyuan",
+    "content": "[图片]"
+  },
+  {
+    "time": "15:34",
+    "user": "sanyuan",
+    "content": "我每天的 claude code harness 开销"
+  },
+  {
+    "time": "15:34",
+    "user": "sanyuan",
+    "content": "美元单位"
+  },
+  {
+    "time": "15:34",
+    "user": "Juan",
+    "content": "每天吗？？？？"
+  },
+  {
+    "time": "15:34",
+    "user": "Juan",
+    "content": "哈？"
+  },
+  {
+    "time": "15:34",
+    "user": "sanyuan",
+    "content": "对的"
+  },
+  {
+    "time": "15:34",
+    "user": "Juan",
+    "content": "每天的量？"
+  },
+  {
+    "time": "15:34",
+    "user": "sanyuan",
+    "content": "是的"
+  },
+  {
+    "time": "15:35",
+    "user": "罗十十.十",
+    "content": "[动画表情]"
+  },
+  {
+    "time": "15:35",
+    "user": "sanyuan",
+    "content": "日均 一两百刀"
+  },
+  {
+    "time": "15:35",
+    "user": "sanyuan",
+    "content": "可见我输出量"
+  },
+  {
+    "time": "15:35",
+    "user": "sanyuan",
+    "content": "我自己感觉输出也爆表了"
+  },
+  {
+    "time": "15:36",
+    "user": "Juan",
+    "content": "$1,206.74"
+  },
+  {
+    "time": "15:36",
+    "user": "Juan",
+    "content": "一天"
+  },
+  {
+    "time": "15:36",
+    "user": "sanyuan",
+    "content": "一两百刀一天"
+  },
+  {
+    "time": "15:36",
+    "user": "神往",
+    "content": "关键,感觉你的输出效率比很高"
+  },
+  {
+    "time": "15:36",
+    "user": "Juan",
+    "content": "哦哦哦"
+  },
+  {
+    "time": "15:36",
+    "user": "神往",
+    "content": "好像重拾的机会不是很多"
+  },
+  {
+    "time": "15:36",
+    "user": "神往",
+    "content": "重试"
+  },
+  {
+    "time": "15:37",
+    "user": "Juan",
+    "content": "说实话 主要还是cluade 贵"
+  },
+  {
+    "time": "15:37",
+    "user": "Juan",
+    "content": "没办法"
+  },
+  {
+    "time": "15:37",
+    "user": "Juan",
+    "content": "token 量应该还好"
+  },
+  {
+    "time": "15:37",
+    "user": "神往",
+    "content": "[图片]"
+  },
+  {
+    "time": "15:37",
+    "user": "神往",
+    "content": "我直接就是本地号池猛干"
+  },
+  {
+    "time": "15:38",
+    "user": "系统消息",
+    "content": "[系统] \"Juan\" 撤回了一条消息"
+  },
+  {
+    "time": "15:40",
+    "user": "Juan",
+    "content": "不止编程环节用的ai 开销吧？ harness这个是工作流和信息获取都行的"
+  },
+  {
+    "time": "15:40",
+    "user": "procrastination🐼",
+    "content": "开的200$的套餐吗"
+  },
+  {
+    "time": "15:41",
+    "user": "Juan",
+    "content": "肯定顶不住啊 200套餐"
+  },
+  {
+    "time": "15:42",
+    "user": "Juan",
+    "content": "有几天一天都干了不止200刀了"
+  },
+  {
+    "time": "15:42",
+    "user": "神往",
+    "content": "现在还是codex更实惠一些"
+  },
+  {
+    "time": "15:42",
+    "user": "sanyuan",
+    "content": "200刀的 claude code 随便造"
+  },
+  {
+    "time": "15:42",
+    "user": "sanyuan",
+    "content": "以后一个月 10000 块我感觉都不得不出了"
+  },
+  {
+    "time": "15:42",
+    "user": "sanyuan",
+    "content": "被模型厂商养成深度用户了"
+  },
+  {
+    "time": "15:43",
+    "user": "闰土和猹",
+    "content": "你是中转还是纯官方啊"
+  },
+  {
+    "time": "15:43",
+    "user": "Juan",
+    "content": "除了编程你还有哪些场景现在也重度ai？"
+  },
+  {
+    "time": "15:43",
+    "user": "Pudge",
+    "content": "用 opus4.6 而不是 4.7, 是不是因为 4.7 性价比还是低了额"
+  },
+  {
+    "time": "15:43",
+    "user": "sanyuan",
+    "content": "产品 运营 日常聊天"
+  },
+  {
+    "time": "15:45",
+    "user": "Juan",
+    "content": "运营  ??? 怎么用ai"
+  },
+  {
+    "time": "15:46",
+    "user": "procrastination🐼",
+    "content": "cc现在有算力 给的量变大了 而且国内时区量本身也大 综合来说一天200$ 可能也能管够?"
+  },
+  {
+    "time": "15:46",
+    "user": "Juan",
+    "content": "产品我还能理解 需求挖掘 边界考量 数据收集分析 或者模拟用户 都能用上。运营？？怎么ai"
+  },
+  {
+    "time": "15:46",
+    "user": "sanyuan",
+    "content": "可以用"
+  },
+  {
+    "time": "15:47",
+    "user": "sanyuan",
+    "content": "但是暂不外传"
+  },
+  {
+    "time": "15:47",
+    "user": "sanyuan",
+    "content": "和业务强挂钩吧"
+  },
+  {
+    "time": "15:48",
+    "user": "Y.",
+    "content": "怎么统计的？直接在 cc 里面说帮我统计消耗吗？"
+  },
+  {
+    "time": "15:48",
+    "user": "嗯哼",
+    "content": "日抛？"
+  },
+  {
+    "time": "15:48",
+    "user": "嗯哼",
+    "content": "乐 这个被举报了"
+  },
+  {
+    "time": "15:48",
+    "user": "嗯哼",
+    "content": "[图片]"
+  },
+  {
+    "time": "15:49",
+    "user": "稚",
+    "content": "cpa啥也没干啊"
+  },
+  {
+    "time": "15:49",
+    "user": "稚",
+    "content": "举报他干嘛"
+  },
+  {
+    "time": "15:49",
+    "user": "稚",
+    "content": "[捂脸]"
+  },
+  {
+    "time": "15:50",
+    "user": "浮游",
+    "content": "没人用reclaude吗"
+  },
+  {
+    "time": "15:50",
+    "user": "嗯哼",
+    "content": "不理解"
+  },
+  {
+    "time": "15:50",
+    "user": "神往",
+    "content": "一群傻逼"
+  },
+  {
+    "time": "15:50",
+    "user": "Chan.",
+    "content": "傻逼太多了"
+  },
+  {
+    "time": "15:50",
+    "user": "神往",
+    "content": "上次有个开中转站的傻逼,去官方把所有的渠道点了"
+  },
+  {
+    "time": "15:50",
+    "user": "啊岩dee",
+    "content": "有呀"
+  },
+  {
+    "time": "15:50",
+    "user": "神往",
+    "content": "自爆"
+  },
+  {
+    "time": "15:50",
+    "user": "sanyuan",
+    "content": "@啊岩dee  @浮游 reclaude 用下来如何"
+  },
+  {
+    "time": "15:51",
+    "user": "神往",
+    "content": "reclaude 这个是啥"
+  },
+  {
+    "time": "15:51",
+    "user": "choose",
+    "content": "中转站吧"
+  },
+  {
+    "time": "15:52",
+    "user": "sanyuan",
+    "content": "看上去不错的 就是很贵 几乎是原价 是不是是怎么盈利的"
+  },
+  {
+    "time": "15:53",
+    "user": "神往",
+    "content": "哦哦哦"
+  },
+  {
+    "time": "15:53",
+    "user": "神往",
+    "content": "ok"
+  },
+  {
+    "time": "15:53",
+    "user": "L",
+    "content": "我在用"
+  },
+  {
+    "time": "15:53",
+    "user": "啊岩dee",
+    "content": "基本是原生账号体验了，封号了会自动换号，用了前 10 天还比较稳定，上周末感觉是号池炸了，触发了一波自动换号，等了几小时，不过我今天看到给我订阅又续了 3 天"
+  },
+  {
+    "time": "15:54",
+    "user": "Omos",
+    "content": "我好奇他是怎么给claude账号写到配置里面，还不封号"
+  },
+  {
+    "time": "15:54",
+    "user": "L",
+    "content": "感觉和原生体验没区别，价格和官方一样"
+  },
+  {
+    "time": "15:54",
+    "user": "Omos",
+    "content": "我之前也用过"
+  },
+  {
+    "time": "15:54",
+    "user": "啊岩dee",
+    "content": "[图片]"
+  },
+  {
+    "time": "15:54",
+    "user": "Omos",
+    "content": "买了按量的体验了一下"
+  },
+  {
+    "time": "15:54",
+    "user": "Y.",
+    "content": "你是买的独享吗"
+  },
+  {
+    "time": "15:54",
+    "user": "L",
+    "content": "我俩都是拼车"
+  },
+  {
+    "time": "15:54",
+    "user": "浮游",
+    "content": "我感觉还行，拼车的，稳定性还可以"
+  },
+  {
+    "time": "15:54",
+    "user": "L",
+    "content": "[阴险]"
+  },
+  {
+    "time": "15:54",
+    "user": "啊岩dee",
+    "content": "拼车的"
+  },
+  {
+    "time": "15:55",
+    "user": "啊岩dee",
+    "content": "之前是每 5h 50💲，现在给到 60💲了"
+  },
+  {
+    "time": "15:55",
+    "user": "啊岩dee",
+    "content": "[图片]"
+  },
+  {
+    "time": "15:55",
+    "user": "L",
+    "content": "哈哈"
+  },
+  {
+    "time": "15:56",
+    "user": "L",
+    "content": "[图片]"
+  },
+  {
+    "time": "15:56",
+    "user": "?",
+    "content": "\"啊岩dee\" 拍了拍 \"L\""
+  },
+  {
+    "time": "15:56",
+    "user": "财",
+    "content": "啥价格一个月"
+  },
+  {
+    "time": "15:56",
+    "user": "Rudy",
+    "content": "有点想升级到 200$的codex 但是 大善人总是重置额度"
+  },
+  {
+    "time": "15:56",
+    "user": "嗯哼",
+    "content": "[旺柴]"
+  },
+  {
+    "time": "15:57",
+    "user": "?",
+    "content": "\"L\" 拍了拍 \"啊岩dee\" 的肩膀说，啊！岩～[太阳]"
+  },
+  {
+    "time": "15:57",
+    "user": "?",
+    "content": "\"失明的靓仔\" 拍了拍 \"L\""
+  },
+  {
+    "time": "15:57",
+    "user": "L",
+    "content": "有 200 400 800 1600 的"
+  },
+  {
+    "time": "15:57",
+    "user": "失明的靓仔",
+    "content": "哪里买的？"
+  },
+  {
+    "time": "15:57",
+    "user": "啊岩dee",
+    "content": "独享 1600"
+  },
+  {
+    "time": "15:57",
+    "user": "啊岩dee",
+    "content": "[图片]"
+  },
+  {
+    "time": "15:58",
+    "user": "神往",
+    "content": "好贵"
+  },
+  {
+    "time": "15:58",
+    "user": "sanyuan",
+    "content": "这还贵"
+  },
+  {
+    "time": "15:58",
+    "user": "sanyuan",
+    "content": "够便宜了bro"
+  },
+  {
+    "time": "15:58",
+    "user": "L",
+    "content": "还行的"
+  },
+  {
+    "time": "15:59",
+    "user": "稚",
+    "content": "朋友买了个pro"
+  },
+  {
+    "time": "15:59",
+    "user": "稚",
+    "content": "反代出来给我用"
+  },
+  {
+    "time": "15:59",
+    "user": "稚",
+    "content": "现在用着呢"
+  },
+  {
+    "time": "16:00",
+    "user": "Juan",
+    "content": "已经是另一维度的消费标准习惯了"
+  },
+  {
+    "time": "16:00",
+    "user": "嗯哼",
+    "content": "很耐造"
+  },
+  {
+    "time": "16:02",
+    "user": "神往",
+    "content": "是因为我一直是找的优惠价格"
+  },
+  {
+    "time": "16:02",
+    "user": "神往",
+    "content": "我一般一个月用到爽就是600块钱左右"
+  },
+  {
+    "time": "16:02",
+    "user": "procrastination🐼",
+    "content": "20$的都用不完 除了5h [旺柴]"
+  },
+  {
+    "time": "16:02",
+    "user": "Y.",
+    "content": "给个链接，我看看"
+  },
+  {
+    "time": "16:03",
+    "user": "神往",
+    "content": "我自己买的日抛搭的本地号池啊"
+  },
+  {
+    "time": "16:03",
+    "user": "Y.",
+    "content": "哦哦"
+  },
+  {
+    "time": "16:03",
+    "user": "神往",
+    "content": "我买一个号两三天不掉"
+  },
+  {
+    "time": "16:03",
+    "user": "Y.",
+    "content": "你用的 gpt"
+  },
+  {
+    "time": "16:04",
+    "user": "神往",
+    "content": "codex"
+  },
+  {
+    "time": "16:04",
+    "user": "神往",
+    "content": "claude 感觉性价比太低了"
+  },
+  {
+    "time": "16:05",
+    "user": "嗯哼",
+    "content": "是的日抛现在掉到两三块了"
+  },
+  {
+    "time": "16:05",
+    "user": "嗯哼",
+    "content": "[动画表情]"
+  },
+  {
+    "time": "16:06",
+    "user": "神往",
+    "content": "实在不行就是整几个plus 优惠点的月卡反代也是可以的"
+  },
+  {
+    "time": "16:06",
+    "user": "嗯哼",
+    "content": "pp渠道估计也快凉了"
+  },
+  {
+    "time": "16:08",
+    "user": "神往",
+    "content": "是这个吗?"
+  },
+  {
+    "time": "16:08",
+    "user": "神往",
+    "content": "[图片]"
+  },
+  {
+    "time": "16:10",
+    "user": "嗯哼",
+    "content": "不是"
+  },
+  {
+    "time": "16:10",
+    "user": "我是东山呀",
+    "content": "PayPal"
+  },
+  {
+    "time": "16:10",
+    "user": "嗯哼",
+    "content": "pp无卡玩法"
+  },
+  {
+    "time": "16:10",
+    "user": "神往",
+    "content": "哦哦哦"
+  },
+  {
+    "time": "16:10",
+    "user": "我是东山呀",
+    "content": "无卡随便搓"
+  },
+  {
+    "time": "16:10",
+    "user": "神往",
+    "content": "现在以及不行了"
+  },
+  {
+    "time": "16:10",
+    "user": "我是东山呀",
+    "content": "现在还能搓啊"
+  },
+  {
+    "time": "16:10",
+    "user": "我是东山呀",
+    "content": "我刚搓了一个"
+  },
+  {
+    "time": "16:10",
+    "user": "神往",
+    "content": "现在的上codex 都需要接码的啊"
+  },
+  {
+    "time": "16:10",
+    "user": "神往",
+    "content": "牛皮"
+  },
+  {
+    "time": "16:11",
+    "user": "我是东山呀",
+    "content": "解码平台接码就好了。"
+  },
+  {
+    "time": "16:11",
+    "user": "Liuc",
+    "content": "对，只能直接买 cpa 导入，不然太麻烦了"
+  },
+  {
+    "time": "16:11",
+    "user": "我是东山呀",
+    "content": "还有公益的接码平台呢。"
+  },
+  {
+    "time": "16:11",
+    "user": "嗯哼",
+    "content": "有人吧pp无卡注册机都开源了"
+  },
+  {
+    "time": "16:11",
+    "user": "嗯哼",
+    "content": "[旺柴]那不快噶了"
+  },
+  {
+    "time": "16:11",
+    "user": "我是东山呀",
+    "content": "要是想时间长一点 就花点小钱，一个卡绑一个号"
+  },
+  {
+    "time": "16:12",
+    "user": "我是东山呀",
+    "content": "自动化 pp 都有了"
+  },
+  {
+    "time": "16:12",
+    "user": "我是东山呀",
+    "content": "[破涕为笑]"
+  },
+  {
+    "time": "16:12",
+    "user": "尤里安的红茶",
+    "content": "codex有没有好用的中转站啊"
+  },
+  {
+    "time": "16:12",
+    "user": "奈落",
+    "content": "现在用国产模型也还好"
+  },
+  {
+    "time": "16:12",
+    "user": "嗯哼",
+    "content": "最好的就是自己玩日抛"
+  },
+  {
+    "time": "16:13",
+    "user": "神往",
+    "content": "有好用的但是贵"
+  },
+  {
+    "time": "16:13",
+    "user": "我是东山呀",
+    "content": "自己玩日抛不想麻烦就是 买日抛号呗"
+  },
+  {
+    "time": "16:13",
+    "user": "神往",
+    "content": "我再tg上看到的,"
+  },
+  {
+    "time": "16:13",
+    "user": "我是东山呀",
+    "content": "3 快钱一个"
+  },
+  {
+    "time": "16:13",
+    "user": "神往",
+    "content": "号池里全是pro号"
+  },
+  {
+    "time": "16:13",
+    "user": "神往",
+    "content": "我现在这个5快卡一个,但是一个能用两三天"
+  },
+  {
+    "time": "16:13",
+    "user": "嗯哼",
+    "content": "[动画表情]"
+  },
+  {
+    "time": "16:14",
+    "user": "我是东山呀",
+    "content": "今天 free 大面积死亡。。"
+  },
+  {
+    "time": "16:14",
+    "user": "神往",
+    "content": "我知道"
+  },
+  {
+    "time": "16:14",
+    "user": "神往",
+    "content": "plus都挂了好多"
+  },
+  {
+    "time": "16:14",
+    "user": "我是东山呀",
+    "content": "pp 也是且行且珍惜"
+  },
+  {
+    "time": "16:14",
+    "user": "abc123",
+    "content": "https://pay.ldxp.cn/shop/FNAOIGBK\n\n2块一个"
+  },
+  {
+    "time": "16:15",
+    "user": "我是东山呀",
+    "content": "基本都是日抛哈哈哈，没招，有的家宽加一卡一绑的还能久一点"
+  },
+  {
+    "time": "16:15",
+    "user": "我是东山呀",
+    "content": "无卡的2-3 就跪了"
+  },
+  {
+    "time": "16:15",
+    "user": "我是东山呀",
+    "content": "天"
+  },
+  {
+    "time": "16:16",
+    "user": "尤里安的红茶",
+    "content": "tg不是更容易跑路吗"
+  },
+  {
+    "time": "16:16",
+    "user": "嗯哼",
+    "content": "[动画表情]"
+  },
+  {
+    "time": "16:17",
+    "user": "财",
+    "content": "@嗯哼 怎么避免接码"
+  },
+  {
+    "time": "16:17",
+    "user": "财",
+    "content": "我感觉现在 codex 的登录都是接码"
+  },
+  {
+    "time": "16:17",
+    "user": "嗯哼",
+    "content": "无法避免了"
+  },
+  {
+    "time": "16:17",
+    "user": "我是东山呀",
+    "content": "cpa 或者 sub2api 导入文件"
+  },
+  {
+    "time": "16:18",
+    "user": "财",
+    "content": "cpa 好像也会有"
+  },
+  {
+    "time": "16:18",
+    "user": "我是东山呀",
+    "content": "登录没法避免了。"
+  },
+  {
+    "time": "16:18",
+    "user": "王大智",
+    "content": "这种大都当天就封了"
+  },
+  {
+    "time": "16:18",
+    "user": "我是东山呀",
+    "content": "我一个 gafffgiff 给我三个号接码了[破涕为笑]"
+  },
+  {
+    "time": "16:18",
+    "user": "财",
+    "content": "接码跟封号有啥关系"
+  },
+  {
+    "time": "16:18",
+    "user": "财",
+    "content": "。。。"
+  },
+  {
+    "time": "16:18",
+    "user": "嗯哼",
+    "content": "有的号注册完提取rt是可以的"
+  },
+  {
+    "time": "16:18",
+    "user": "嗯哼",
+    "content": "关系不大"
+  },
+  {
+    "time": "16:18",
+    "user": "我是东山呀",
+    "content": "关系不大"
+  },
+  {
+    "time": "16:19",
+    "user": "我是东山呀",
+    "content": "pp 这种特别是无卡的。基本活不过第二天"
+  },
+  {
+    "time": "16:19",
+    "user": "财",
+    "content": "无卡肯定活不过"
+  },
+  {
+    "time": "16:19",
+    "user": "财",
+    "content": "只能这么说"
+  },
+  {
+    "time": "16:20",
+    "user": "嗯哼",
+    "content": "这东西封号速度是看权重的\n\n一个是邮箱 一个是支付渠道  网络环境"
+  },
+  {
+    "time": "16:20",
+    "user": "神往",
+    "content": "对"
+  },
+  {
+    "time": "16:20",
+    "user": "我是东山呀",
+    "content": "家宽加一卡一绑，能多狗一点。"
+  },
+  {
+    "time": "16:20",
+    "user": "财",
+    "content": "是这样"
+  },
+  {
+    "time": "16:20",
+    "user": "我是东山呀",
+    "content": "但是 3 块钱买不到哈哈哈"
+  },
+  {
+    "time": "16:20",
+    "user": "我是东山呀",
+    "content": "这种成本高一点"
+  },
+  {
+    "time": "16:20",
+    "user": "神往",
+    "content": "我这家的就是两天一个好我也可以接受的"
+  },
+  {
+    "time": "16:21",
+    "user": "财",
+    "content": "我看前两天有直绑"
+  },
+  {
+    "time": "16:21",
+    "user": "财",
+    "content": "绑windsurf  krio plus"
+  },
+  {
+    "time": "16:21",
+    "user": "嗯哼",
+    "content": "[抠鼻]"
+  },
+  {
+    "time": "16:21",
+    "user": "财",
+    "content": "但是现在也凉了"
+  },
+  {
+    "time": "16:21",
+    "user": "财",
+    "content": "1 刀卡"
+  },
+  {
+    "time": "16:21",
+    "user": "嗯哼",
+    "content": "昨天又啥了一批卡头"
+  },
+  {
+    "time": "16:22",
+    "user": "我是东山呀",
+    "content": "这种就不知道吹没吹牛逼了哈哈哈"
+  },
+  {
+    "time": "16:22",
+    "user": "我是东山呀",
+    "content": "[图片]"
+  },
+  {
+    "time": "16:22",
+    "user": "嗯哼",
+    "content": "cpa 的"
+  },
+  {
+    "time": "16:23",
+    "user": "嗯哼",
+    "content": "提at就行了"
+  },
+  {
+    "time": "16:23",
+    "user": "我是东山呀",
+    "content": "我有个 icloud 的邮箱搓的已经活了 16 天了"
+  },
+  {
+    "time": "16:23",
+    "user": "嗯哼",
+    "content": "日抛也不需要rt"
+  },
+  {
+    "time": "16:23",
+    "user": "嗯哼",
+    "content": "at 有效期10天左右"
+  },
+  {
+    "time": "16:23",
+    "user": "我是东山呀",
+    "content": "不知道还能活多久"
+  },
+  {
+    "time": "16:23",
+    "user": "嗯哼",
+    "content": "够造了"
+  },
+  {
+    "time": "16:23",
+    "user": "嗯哼",
+    "content": "[破涕为笑]"
+  },
+  {
+    "time": "16:24",
+    "user": "我是东山呀",
+    "content": "还有两个上古的 team 还有一个上古直充的 plus"
+  },
+  {
+    "time": "16:24",
+    "user": "我是东山呀",
+    "content": "这四个号。坚挺的一批"
+  },
+  {
+    "time": "16:24",
+    "user": "嗯哼",
+    "content": "到月底team就结束了"
+  },
+  {
+    "time": "16:25",
+    "user": "我是东山呀",
+    "content": "够本了。"
+  },
+  {
+    "time": "16:25",
+    "user": "我是东山呀",
+    "content": "都快被我蹬冒烟了"
+  },
+  {
+    "time": "16:26",
+    "user": "我是东山呀",
+    "content": "那个上古直充的 plus 其实已经过期了，但是plus 还在[捂脸]"
+  },
+  {
+    "time": "16:26",
+    "user": "嗯哼",
+    "content": "有账期"
+  },
+  {
+    "time": "16:26",
+    "user": "嗯哼",
+    "content": "他在尝试二次扣费"
+  },
+  {
+    "time": "16:27",
+    "user": "嗯哼",
+    "content": "缓冲吧没成功就掉了"
+  },
+  {
+    "time": "16:27",
+    "user": "我是东山呀",
+    "content": "随便吧，这批号登完拉倒，再找个中转 或者搞日抛了。"
+  },
+  {
+    "time": "16:29",
+    "user": "我是东山呀",
+    "content": "gemini 的反重力不是提额度了么哈哈哈 没有人去试试看么"
+  },
+  {
+    "time": "16:40",
+    "user": "小洛",
+    "content": "有没有好用稳定的vpn 推荐呀"
+  },
+  {
+    "time": "16:43",
+    "user": "sanyuan",
+    "content": "这种话题不要在群里聊"
+  },
+  {
+    "time": "16:43",
+    "user": "sanyuan",
+    "content": "要聊跟我私聊"
+  },
+  {
+    "time": "16:43",
+    "user": "小洛",
+    "content": "ok"
+  },
+  {
+    "time": "16:47",
+    "user": "木木彡哥",
+    "content": "[图片]"
+  },
+  {
+    "time": "16:48",
+    "user": "木木彡哥",
+    "content": "他怎么问的怪怪的，问我哪个命令最依赖之前跑过 teach，他想说的是 teach 自己"
+  },
+  {
+    "time": "16:48",
+    "user": "木木彡哥",
+    "content": "[图片]"
+  },
+  {
+    "time": "16:49",
+    "user": "木木彡哥",
+    "content": "这里又自己否定自己了"
+  },
+  {
+    "time": "17:53",
+    "user": "系统消息",
+    "content": "[系统] \"不散和弦\" 撤回了一条消息"
+  },
+  {
+    "time": "17:53",
+    "user": "不散和弦",
+    "content": "有个小问题，如何防止用户输入的提示词不会影响到系统提示词规定的功能和输出？"
+  },
+  {
+    "time": "17:54",
+    "user": "苏彧",
+    "content": "你说的是提示词注入"
+  },
+  {
+    "time": "17:56",
+    "user": "不散和弦",
+    "content": "对 是针对某单一场景引入的AI功能，我只想把AI的回答限制在特定场景内，但是提供了让用户输入描述的功能"
+  },
+  {
+    "time": "17:56",
+    "user": "不散和弦",
+    "content": "我就担心用户瞎输入[破涕为笑]"
+  },
+  {
+    "time": "17:58",
+    "user": "不散和弦",
+    "content": "引入小模型判断下用户意图吗"
+  },
+  {
+    "time": "18:05",
+    "user": "一期一会",
+    "content": "[图片]"
+  },
+  {
+    "time": "18:06",
+    "user": "小花花",
+    "content": "你这右侧 用的 webcontainer m"
+  },
+  {
+    "time": "18:07",
+    "user": "一期一会",
+    "content": "opensandbox，接的真实文件系统，可以跑真实的LLM请求"
+  },
+  {
+    "time": "18:07",
+    "user": "Harrison Wells",
+    "content": "牛逼"
+  },
+  {
+    "time": "18:07",
+    "user": "小花花",
+    "content": "我尝试过用的 webcontainer"
+  },
+  {
+    "time": "18:07",
+    "user": "一期一会",
+    "content": "[图片]"
+  },
+  {
+    "time": "18:07",
+    "user": "Harrison Wells",
+    "content": "你们不会以后都发布私教agent吧"
+  },
+  {
+    "time": "18:07",
+    "user": "一期一会",
+    "content": "不会的，就是学习用"
+  },
+  {
+    "time": "18:08",
+    "user": "一期一会",
+    "content": "把课程学的实践下"
+  },
+  {
+    "time": "18:08",
+    "user": "一期一会",
+    "content": "[旺柴]"
+  },
+  {
+    "time": "18:08",
+    "user": "?",
+    "content": "\"啊岩dee\" 拍了拍 \"一期一会\" 送你烟花，要开心哦[烟花]"
+  },
+  {
+    "time": "18:08",
+    "user": "啊岩dee",
+    "content": "很厉害"
+  },
+  {
+    "time": "18:08",
+    "user": "小花花",
+    "content": "你服务器几G的吗"
+  },
+  {
+    "time": "18:09",
+    "user": "一期一会",
+    "content": "目前没话那个钱上云，全部本地，反正练习用"
+  },
+  {
+    "time": "18:09",
+    "user": "一期一会",
+    "content": "哈哈你也在[旺柴]"
+  },
+  {
+    "time": "18:09",
+    "user": "小花花",
+    "content": "minio 也本地？"
+  },
+  {
+    "time": "18:10",
+    "user": "系统消息",
+    "content": "[系统] \"一期一会\" 撤回了一条消息"
+  },
+  {
+    "time": "18:10",
+    "user": "一期一会",
+    "content": "嗯嗯，单机模拟多服务"
+  },
+  {
+    "time": "18:10",
+    "user": "小花花",
+    "content": "看来我也要加快脚步了"
+  },
+  {
+    "time": "18:10",
+    "user": "小花花",
+    "content": "我的 私教已经停滞一个星期没更新了"
+  },
+  {
+    "time": "18:11",
+    "user": "不散和弦",
+    "content": "大佬们 帮帮孩子吧"
+  },
+  {
+    "time": "18:15",
+    "user": "苏彧",
+    "content": "好像有一节讲到过"
+  },
+  {
+    "time": "18:15",
+    "user": "苏彧",
+    "content": "[图片]"
+  },
+  {
+    "time": "18:15",
+    "user": "苏彧",
+    "content": "第四章的第二节"
+  },
+  {
+    "time": "18:33",
+    "user": "?",
+    "content": "\"不散和弦\" 拍了拍 \"苏彧\" 并顺走了一颗[炸弹]"
+  },
+  {
+    "time": "18:58",
+    "user": "苏彧",
+    "content": "[图片]"
+  },
+  {
+    "time": "19:55",
+    "user": "Amber",
+    "content": "妈的，降薪了"
+  },
+  {
+    "time": "19:56",
+    "user": "procrastination🐼",
+    "content": "遥遥领先也降吗"
+  },
+  {
+    "time": "20:19",
+    "user": "Amber",
+    "content": "嗐"
+  },
+  {
+    "time": "20:19",
+    "user": "Amber",
+    "content": "是啊"
+  },
+  {
+    "time": "20:20",
+    "user": "Amber",
+    "content": "我是小小外包仔"
+  },
+  {
+    "time": "20:28",
+    "user": "CJ",
+    "content": "不接受会如何？"
+  },
+  {
+    "time": "20:28",
+    "user": "Amber",
+    "content": "是通知"
+  },
+  {
+    "time": "20:29",
+    "user": "Amber",
+    "content": "不是让反驳[捂脸]"
+  },
+  {
+    "time": "20:34",
+    "user": "不散和弦",
+    "content": "上海吗？我广州的朋友他好像没影响"
+  },
+  {
+    "time": "20:34",
+    "user": "Amber",
+    "content": "深圳"
+  },
+  {
+    "time": "20:35",
+    "user": "不散和弦",
+    "content": "坂田？"
+  },
+  {
+    "time": "20:35",
+    "user": "Amber",
+    "content": "嗯嗯"
+  },
+  {
+    "time": "20:35",
+    "user": "小花花",
+    "content": "[图片]"
+  },
+  {
+    "time": "20:35",
+    "user": "不散和弦",
+    "content": "他好像是做财务方面的业务"
+  },
+  {
+    "time": "20:36",
+    "user": "不散和弦",
+    "content": "没事的 我两年没涨过工资了[破涕为笑]"
+  },
+  {
+    "time": "20:37",
+    "user": "不散和弦",
+    "content": "大佬 这又是什么"
+  },
+  {
+    "time": "20:40",
+    "user": "小花花",
+    "content": "RAG啊  刚学完"
+  },
+  {
+    "time": "20:41",
+    "user": "不散和弦",
+    "content": "你不是都已经实现了图片的rag了[破涕为笑]"
+  },
+  {
+    "time": "20:42",
+    "user": "不散和弦",
+    "content": "https://github.com/mattpocock/skills/tree/main\n分享一个今天看到的一个大佬的skill仓库 试了几个蛮好用的"
+  },
+  {
+    "time": "20:43",
+    "user": "不散和弦",
+    "content": "100K Stars 我是有点后知后觉了"
+  },
+  {
+    "time": "20:46",
+    "user": "小花花",
+    "content": "我现在在加功能  重排，MMR,拆分，改写"
+  },
+  {
+    "time": "21:12",
+    "user": "苏彧",
+    "content": "牛批啊"
+  },
+  {
+    "time": "21:17",
+    "user": "小花花",
+    "content": "@sanyuan  大佬，HNSW 索引最大2000维，我用的模型 vector4096. 没法用HNSW 了。怎么搞"
+  },
+  {
+    "time": "21:18",
+    "user": "不散和弦",
+    "content": "[链接|DeepSeek-V4-Pro API 降价通知](https://www.xiaohongshu.com/discovery/item/6a104dcd000000000702c94a?app_platform=harmony&app_version=9.30.2&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBXCK-r-681r4yoZ5yF9wzN0MukaFvonAbPe7l-cH4b-g=&author_share=1&&apptime=1779455880&share_id=e3016600658d40f2912ba07321b209c9&xhsshare=WeixinSession)"
+  },
+  {
+    "time": "21:22",
+    "user": "我是东山呀",
+    "content": "梁圣牛逼"
+  },
+  {
+    "time": "21:29",
+    "user": "monkeytao",
+    "content": "[强]"
+  },
+  {
+    "time": "21:30",
+    "user": "mk",
+    "content": "良币驱逐劣币，真不错"
+  },
+  {
+    "time": "21:44",
+    "user": "Stephen",
+    "content": "666"
+  },
+  {
+    "time": "21:44",
+    "user": "Stephen",
+    "content": "真不错的"
+  },
+  {
+    "time": "21:45",
+    "user": "系统消息",
+    "content": "[系统] \"monkeytao\" 撤回了一条消息"
+  },
+  {
+    "time": "21:52",
+    "user": "系统消息",
+    "content": "[系统] \"小花花\" 撤回了一条消息"
+  },
+  {
+    "time": "21:53",
+    "user": "小花花",
+    "content": "给大家看看我的鸡"
+  },
+  {
+    "time": "21:53",
+    "user": "小花花",
+    "content": "[旺柴]"
+  },
+  {
+    "time": "21:53",
+    "user": "monkeytao",
+    "content": "年化多少"
+  },
+  {
+    "time": "21:54",
+    "user": "monkeytao",
+    "content": "你在这里发是想说用 sitor 学到的投资吗"
+  },
+  {
+    "time": "21:54",
+    "user": "小花花",
+    "content": "-4500"
+  },
+  {
+    "time": "21:54",
+    "user": "小花花",
+    "content": "[捂脸]"
+  },
+  {
+    "time": "21:56",
+    "user": "系统消息",
+    "content": "[系统] \"monkeytao\" 撤回了一条消息"
+  },
+  {
+    "time": "21:56",
+    "user": "monkeytao",
+    "content": "速速退下，肯定不是 sitor 教的[旺柴]"
+  },
+  {
+    "time": "21:57",
+    "user": "monkeytao",
+    "content": "以后亏了钱，不要把为师说出来就行了"
+  },
+  {
+    "time": "21:59",
+    "user": "豆子芝麻茶",
+    "content": "今天更新吗"
+  },
+  {
+    "time": "22:07",
+    "user": "浮游",
+    "content": "用上播客了，太太太吊了"
+  },
+  {
+    "time": "22:08",
+    "user": "CJ",
+    "content": "怎么用的"
+  },
+  {
+    "time": "22:09",
+    "user": "浮游",
+    "content": "路线图里触发生产"
+  },
+  {
+    "time": "22:09",
+    "user": "浮游",
+    "content": "生成"
+  },
+  {
+    "time": "22:11",
+    "user": "苏彧",
+    "content": "生成精彩对谈"
+  }
+]

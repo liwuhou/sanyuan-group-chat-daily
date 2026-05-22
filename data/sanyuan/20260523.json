@@ -1,0 +1,77 @@
+{
+  "id": "20260522",
+  "date": "2026年05月22日",
+  "weekday": "周五",
+  "group": "三元 Agent 课程群",
+  "issue": "20260522",
+  "stats": {
+    "messages": 595,
+    "active": 10,
+    "texts": 451
+  },
+  "topics": {
+    "summary": "群里主要围绕 Sitor 私教功能迭代、Agent 实战课程进度、AI 设计 skill、Claude/Codex 使用成本与账号方案展开。后半段还有提示词注入、RAG/向量索引、opensandbox 本地私教实践等技术讨论。",
+    "tags": [
+      "Sitor",
+      "Agent实战",
+      "Impeccable",
+      "Claude Code",
+      "RAG",
+      "提示词注入"
+    ]
+  },
+  "points": [
+    {
+      "title": "生产级 Agent 实战",
+      "desc": "sanyuan 确认实战课目标为生产级 Agent，对标 openclaw，日志已持久化。"
+    },
+    {
+      "title": "Sitor 功能与定价",
+      "desc": "生成精彩对谈/播客、图解手记分享上线；海外版计划 20 美刀/月。"
+    },
+    {
+      "title": "设计 Skill 推荐",
+      "desc": "sanyuan 推荐 Impeccable，认为设计工作流终点是 Claude Code + skill。"
+    },
+    {
+      "title": "AI 使用成本讨论",
+      "desc": "sanyuan 分享 Claude Code harness 日均一两百美元，AI 用于产品、运营和日常聊天。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "sanyuan",
+      "content": "实战课目标是生产级 Agent，对标 openclaw；日志已做持久化。"
+    },
+    {
+      "user": "sanyuan",
+      "content": "Sitor 新功能「生成精彩对谈/播客」上线，路线图里学完节点即可生成，旧节点也支持。"
+    },
+    {
+      "user": "sanyuan",
+      "content": "图解手记支持分享：https://sitor.ai/slide-preview/c57023dc-7f9a-4f03-aa73-277fea5d2d61"
+    },
+    {
+      "user": "sanyuan",
+      "content": "推荐设计 skill Impeccable：https://impeccable.style/；design 的终点是 Claude Code + skill。"
+    },
+    {
+      "user": "小花花/嘻🇨🇳嘻",
+      "content": "Impeccable 安装命令：npx skills add pbakaus/impeccable；可用于前端页面设计实践。"
+    },
+    {
+      "user": "不散和弦",
+      "content": "分享 skills 仓库：https://github.com/mattpocock/skills/tree/main"
+    },
+    {
+      "user": "小花花",
+      "content": "RAG 在加重排、MMR、拆分、改写；遇到 HNSW 2000 维限制与 4096 维向量模型冲突。"
+    }
+  ],
+  "actions": [
+    "体验 Sitor 生成精彩对谈/播客与图解手记分享功能。",
+    "尝试安装 Impeccable：npx skills add pbakaus/impeccable，并关注 sanyuan 后续使用文章。",
+    "回看课程第四章第二节，补提示词注入防护方案。",
+    "跟进 RAG 的 HNSW 维度限制：考虑换低维 embedding、降维或改用支持高维索引方案。"
+  ]
+}
