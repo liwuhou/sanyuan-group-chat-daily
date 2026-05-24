@@ -1,0 +1,29 @@
+{
+  "id": "20260525",
+  "date": "2026年05月25日",
+  "weekday": "周一",
+  "group": "三元 Agent 课程群",
+  "issue": "20260525",
+  "stats": {
+    "messages": 2,
+    "active": 1,
+    "texts": 0
+  },
+  "topics": {
+    "summary": "昨日群内仅有 2 条图片消息，无文字讨论内容。未出现可提炼的 Agent、AI、LLM、开发实践或副业变现相关信息。",
+    "tags": [
+      "低活跃",
+      "无文字消息"
+    ]
+  },
+  "points": [
+    {
+      "title": "sanyuan 昨日未发言",
+      "desc": "统计周期内未发现 sanyuan 的文字发言。"
+    }
+  ],
+  "infos": [],
+  "actions": [
+    "暂无需要跟进的资源或待办。"
+  ]
+}
