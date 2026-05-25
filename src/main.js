@@ -534,170 +534,41 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function drawQr(ctx, url, x, y, size) {
-        const qr = createQrCode(url);
-        const count = qr.length;
-        const moduleSize = size / count;
+        if (typeof qrcode !== 'function') {
+            throw new Error('QR generator is not loaded');
+        }
+        const qr = qrcode(0, 'M');
+        qr.addData(url);
+        qr.make();
+        const count = qr.getModuleCount();
+        const quietModules = 4;
+        const totalModules = count + quietModules * 2;
+        const moduleSize = Math.max(1, Math.floor(size / totalModules));
+        const actualSize = moduleSize * totalModules;
+        const offsetX = x + Math.floor((size - actualSize) / 2);
+        const offsetY = y + Math.floor((size - actualSize) / 2);
+
+        // QR codes need a clean white quiet zone and integer-sized modules.
+        // Fractional canvas coordinates look fine visually, but become blurry
+        // after image preview/compression and fail WeChat's QR recognizer.
+        ctx.save();
+        ctx.imageSmoothingEnabled = false;
         ctx.fillStyle = '#FFFFFF';
-        ctx.fillRect(x, y, size, size);
-        ctx.fillStyle = '#3D3229';
+        ctx.fillRect(offsetX, offsetY, actualSize, actualSize);
+        ctx.fillStyle = '#000000';
         for (let row = 0; row < count; row++) {
             for (let col = 0; col < count; col++) {
-                if (qr[row][col]) {
-                    ctx.fillRect(x + col * moduleSize, y + row * moduleSize, Math.ceil(moduleSize), Math.ceil(moduleSize));
+                if (qr.isDark(row, col)) {
+                    ctx.fillRect(
+                        offsetX + (col + quietModules) * moduleSize,
+                        offsetY + (row + quietModules) * moduleSize,
+                        moduleSize,
+                        moduleSize
+                    );
                 }
             }
         }
-    }
-
-    // Minimal QR Code generator for byte-mode Version 5-L URLs.
-    // Keeps poster generation dependency-free on the static site.
-    function createQrCode(text) {
-        const version = 5;
-        const size = 17 + version * 4;
-        const dataCodewords = 108;
-        const ecCodewords = 26;
-        const modules = Array.from({ length: size }, () => Array(size).fill(null));
-        const reserved = Array.from({ length: size }, () => Array(size).fill(false));
-
-        function setModule(x, y, dark, isReserved = true) {
-            if (x < 0 || y < 0 || x >= size || y >= size) return;
-            modules[y][x] = !!dark;
-            if (isReserved) reserved[y][x] = true;
-        }
-
-        function drawFinder(x, y) {
-            for (let dy = -1; dy <= 7; dy++) {
-                for (let dx = -1; dx <= 7; dx++) {
-                    const xx = x + dx;
-                    const yy = y + dy;
-                    const isBorder = dx === -1 || dx === 7 || dy === -1 || dy === 7;
-                    const isOuter = dx === 0 || dx === 6 || dy === 0 || dy === 6;
-                    const isInner = dx >= 2 && dx <= 4 && dy >= 2 && dy <= 4;
-                    setModule(xx, yy, !isBorder && (isOuter || isInner));
-                }
-            }
-        }
-
-        function drawAlignment(cx, cy) {
-            for (let dy = -2; dy <= 2; dy++) {
-                for (let dx = -2; dx <= 2; dx++) {
-                    const dist = Math.max(Math.abs(dx), Math.abs(dy));
-                    setModule(cx + dx, cy + dy, dist !== 1);
-                }
-            }
-        }
-
-        drawFinder(0, 0);
-        drawFinder(size - 7, 0);
-        drawFinder(0, size - 7);
-
-        for (let i = 8; i < size - 8; i++) {
-            setModule(i, 6, i % 2 === 0);
-            setModule(6, i, i % 2 === 0);
-        }
-        drawAlignment(30, 30);
-        setModule(8, size - 8, true);
-
-        // Reserve format information areas.
-        for (let i = 0; i < 9; i++) {
-            if (i !== 6) {
-                reserved[8][i] = true;
-                reserved[i][8] = true;
-            }
-        }
-        for (let i = 0; i < 8; i++) {
-            reserved[8][size - 1 - i] = true;
-            reserved[size - 1 - i][8] = true;
-        }
-
-        function appendBits(arr, value, length) {
-            for (let i = length - 1; i >= 0; i--) arr.push((value >>> i) & 1);
-        }
-
-        const bytes = new TextEncoder().encode(text);
-        const bits = [];
-        appendBits(bits, 0b0100, 4); // byte mode
-        appendBits(bits, Math.min(bytes.length, 106), 8);
-        bytes.slice(0, 106).forEach(byte => appendBits(bits, byte, 8));
-        const totalBits = dataCodewords * 8;
-        appendBits(bits, 0, Math.min(4, totalBits - bits.length));
-        while (bits.length % 8) bits.push(0);
-        const data = [];
-        for (let i = 0; i < bits.length; i += 8) {
-            data.push(bits.slice(i, i + 8).reduce((acc, bit) => (acc << 1) | bit, 0));
-        }
-        for (let pad = 0; data.length < dataCodewords; pad ^= 1) data.push(pad ? 0x11 : 0xEC);
-
-        const gfExp = Array(512).fill(0);
-        const gfLog = Array(256).fill(0);
-        let x = 1;
-        for (let i = 0; i < 255; i++) {
-            gfExp[i] = x;
-            gfLog[x] = i;
-            x <<= 1;
-            if (x & 0x100) x ^= 0x11d;
-        }
-        for (let i = 255; i < 512; i++) gfExp[i] = gfExp[i - 255];
-        const gfMul = (a, b) => (a && b) ? gfExp[gfLog[a] + gfLog[b]] : 0;
-
-        let gen = [1];
-        for (let i = 0; i < ecCodewords; i++) {
-            const next = Array(gen.length + 1).fill(0);
-            for (let j = 0; j < gen.length; j++) {
-                next[j] ^= gfMul(gen[j], gfExp[i]);
-                next[j + 1] ^= gen[j];
-            }
-            gen = next;
-        }
-
-        const ec = Array(ecCodewords).fill(0);
-        data.forEach(byte => {
-            const factor = byte ^ ec.shift();
-            ec.push(0);
-            for (let i = 0; i < ecCodewords; i++) ec[i] ^= gfMul(gen[i], factor);
-        });
-        const allCodewords = data.concat(ec);
-        const allBits = [];
-        allCodewords.forEach(byte => appendBits(allBits, byte, 8));
-
-        let bitIndex = 0;
-        let upward = true;
-        for (let col = size - 1; col >= 1; col -= 2) {
-            if (col === 6) col--;
-            for (let i = 0; i < size; i++) {
-                const row = upward ? size - 1 - i : i;
-                for (let c = 0; c < 2; c++) {
-                    const xx = col - c;
-                    if (!reserved[row][xx]) {
-                        let bit = bitIndex < allBits.length ? allBits[bitIndex++] : 0;
-                        if ((row + xx) % 2 === 0) bit ^= 1; // mask pattern 0
-                        setModule(xx, row, bit, false);
-                    }
-                }
-            }
-            upward = !upward;
-        }
-
-        function formatBits(ecl, mask) {
-            let dataBits = (ecl << 3) | mask;
-            let rem = dataBits << 10;
-            const poly = 0x537;
-            for (let i = 14; i >= 10; i--) {
-                if ((rem >>> i) & 1) rem ^= poly << (i - 10);
-            }
-            return ((dataBits << 10) | rem) ^ 0x5412;
-        }
-
-        const fmt = formatBits(1, 0); // ECL L, mask 0
-        for (let i = 0; i < 15; i++) {
-            const bit = ((fmt >>> i) & 1) === 1;
-            const a = [[0,8],[1,8],[2,8],[3,8],[4,8],[5,8],[7,8],[8,8],[8,7],[8,5],[8,4],[8,3],[8,2],[8,1],[8,0]][i];
-            const b = [[size-1,8],[size-2,8],[size-3,8],[size-4,8],[size-5,8],[size-6,8],[size-7,8],[8,size-8],[8,size-7],[8,size-6],[8,size-5],[8,size-4],[8,size-3],[8,size-2],[8,size-1]][i];
-            setModule(a[0], a[1], bit);
-            setModule(b[0], b[1], bit);
-        }
-
-        return modules.map(row => row.map(cell => !!cell));
+        ctx.restore();
     }
 
     async function generateDigestPoster() {
@@ -839,14 +710,14 @@ document.addEventListener('DOMContentLoaded', function() {
         ctx.lineTo(764, footerY - 36);
         ctx.stroke();
 
-        drawQr(ctx, data.url, 96, footerY, 118);
+        drawQr(ctx, data.url, 96, footerY - 10, 150);
         ctx.fillStyle = '#3D3229';
         ctx.font = '600 28px "Noto Serif SC", serif';
-        ctx.fillText('扫码阅读完整日报', 242, footerY + 40);
+        ctx.fillText('扫码阅读完整日报', 270, footerY + 34);
         ctx.fillStyle = '#8B7355';
         ctx.font = '400 22px "Noto Sans SC", sans-serif';
-        ctx.fillText(data.groupName + ' · 群聊日报', 242, footerY + 78);
-        ctx.fillText(new URL(data.url).host, 242, footerY + 110);
+        ctx.fillText(data.groupName + ' · 群聊日报', 270, footerY + 72);
+        ctx.fillText(new URL(data.url).host, 270, footerY + 104);
 
         return canvas.toDataURL('image/png');
     }

@@ -385,6 +385,7 @@ def generate_html(data, group_id):
 
         {generate_footer()}
     </div>
+    <script src="/vendor/qrcode.js"></script>
     <script src="/main.js"></script>
 </body>
 </html>
@@ -563,6 +564,7 @@ def generate_index(digests_by_group):
     </div>
     
     <script src="/search.js"></script>
+    <script src="/vendor/qrcode.js"></script>
     <script src="/main.js"></script>
     <script>
         // 趋势图表
@@ -784,6 +786,7 @@ def generate_archive(digests_by_group):
         
         {generate_footer()}
     </div>
+    <script src="/vendor/qrcode.js"></script>
     <script src="/main.js"></script>
 </body>
 </html>
@@ -976,6 +979,7 @@ def generate_chat_page(data, group_id):
         
         {generate_footer()}
     </div>
+    <script src="/vendor/qrcode.js"></script>
     <script src="/main.js"></script>
 </body>
 </html>
@@ -1004,11 +1008,16 @@ def build():
     for js_file in ["search.js", "main.js", "charts.js"]:
         js_source = BASE_DIR / "src" / js_file
         if js_source.exists():
-            with open(js_source, "r") as f:
-                js_content = f.read()
-            with open(DIST_DIR / js_file, "w") as f:
-                f.write(js_content)
+            shutil.copy2(js_source, DIST_DIR / js_file)
             print(f"✓ {js_file} copied")
+
+    vendor_source = BASE_DIR / "src" / "vendor"
+    if vendor_source.exists():
+        vendor_dest = DIST_DIR / "vendor"
+        if vendor_dest.exists():
+            shutil.rmtree(vendor_dest)
+        shutil.copytree(vendor_source, vendor_dest)
+        print("✓ vendor assets copied")
     
     # 复制图片（preserve original extensions; these are best-available WeChat originals）
     images_dir = BASE_DIR / "images"
