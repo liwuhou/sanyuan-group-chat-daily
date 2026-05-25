@@ -83,6 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const img = overlay.querySelector('img');
         const loading = overlay.querySelector('.image-overlay-loading');
         const fullscreenBtn = overlay.querySelector('.image-overlay-fullscreen');
+        const closeBtn = overlay.querySelector('.image-overlay-close');
         const zoomInBtn = overlay.querySelector('.image-overlay-zoom-in');
         const zoomOutBtn = overlay.querySelector('.image-overlay-zoom-out');
         const zoomResetBtn = overlay.querySelector('.image-overlay-zoom-reset');
@@ -97,28 +98,38 @@ document.addEventListener('DOMContentLoaded', function() {
         let startTranslateY = 0;
         let pinchStartDistance = 0;
         let pinchStartScale = 1;
+        let rafId = 0;
         let cleaned = false;
 
         const lockScroll = () => {
+            const scrollY = window.scrollY || document.documentElement.scrollTop || 0;
             document.body.dataset.prevOverflow = document.body.style.overflow;
             document.body.dataset.prevPosition = document.body.style.position;
             document.body.dataset.prevWidth = document.body.style.width;
+            document.body.dataset.prevTop = document.body.style.top;
+            document.body.dataset.prevScrollY = String(scrollY);
             document.documentElement.dataset.prevOverflow = document.documentElement.style.overflow;
             document.body.style.overflow = 'hidden';
             document.documentElement.style.overflow = 'hidden';
             document.body.style.position = 'fixed';
+            document.body.style.top = `-${scrollY}px`;
             document.body.style.width = '100%';
         };
 
         const unlockScroll = () => {
+            const scrollY = Number(document.body.dataset.prevScrollY || '0');
             document.body.style.overflow = document.body.dataset.prevOverflow || '';
             document.body.style.position = document.body.dataset.prevPosition || '';
             document.body.style.width = document.body.dataset.prevWidth || '';
+            document.body.style.top = document.body.dataset.prevTop || '';
             document.documentElement.style.overflow = document.documentElement.dataset.prevOverflow || '';
             delete document.body.dataset.prevOverflow;
             delete document.body.dataset.prevPosition;
             delete document.body.dataset.prevWidth;
+            delete document.body.dataset.prevTop;
+            delete document.body.dataset.prevScrollY;
             delete document.documentElement.dataset.prevOverflow;
+            window.scrollTo(0, scrollY);
         };
 
         const cleanup = () => {
@@ -126,6 +137,7 @@ document.addEventListener('DOMContentLoaded', function() {
             cleaned = true;
             unlockScroll();
             document.removeEventListener('keydown', onKeyDown);
+            if (rafId) cancelAnimationFrame(rafId);
             window.removeEventListener('mousemove', onDragMove);
             window.removeEventListener('mouseup', onDragEnd);
             window.removeEventListener('touchmove', onTouchMove, { passive: false });
@@ -142,8 +154,12 @@ document.addEventListener('DOMContentLoaded', function() {
         const getDistance = (t1, t2) => Math.hypot(t1.clientX - t2.clientX, t1.clientY - t2.clientY);
 
         const applyTransform = () => {
-            img.style.transform = `translate3d(${translateX}px, ${translateY}px, 0) scale(${scale})`;
             stage.classList.toggle('zoomed', scale > 1.02);
+            if (rafId) return;
+            rafId = requestAnimationFrame(() => {
+                rafId = 0;
+                img.style.transform = `translate3d(${translateX}px, ${translateY}px, 0) scale(${scale})`;
+            });
         };
 
         const resetView = () => {
@@ -188,9 +204,15 @@ document.addEventListener('DOMContentLoaded', function() {
         }, { once: true });
 
         overlay.addEventListener('click', (e) => {
-            if (e.target === overlay || e.target.classList.contains('image-overlay-close')) {
+            if (e.target === overlay) {
                 closeOverlay();
             }
+        });
+
+        closeBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            closeOverlay();
         });
 
         content.addEventListener('click', (e) => e.stopPropagation());

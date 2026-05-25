@@ -1454,6 +1454,7 @@ body {
   cursor: zoom-in;
   transform-origin: center center;
   transition: transform 0.12s ease;
+  will-change: transform;
 }
 
 .image-overlay-stage.zoomed {
@@ -1466,6 +1467,7 @@ body {
   max-width: none;
   max-height: none;
   cursor: grab;
+  transition: none;
 }
 
 .image-overlay-stage.zoomed img:active,
