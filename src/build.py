@@ -276,11 +276,14 @@ def generate_html(data, group_id):
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>{group_name} · 每日精选</title>
     <meta name="description" content="{summary[:100]}...">
+    <meta property="og:title" content="{group_name} · 每日精选">
+    <meta property="og:description" content="{summary[:100]}...">
+    <meta property="og:type" content="article">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
     <link rel="alternate" type="application/rss+xml" title="群聊日报 RSS" href="/rss.xml">
 </head>
-<body>
+<body data-page-type="digest" data-group-name="{group_name}" data-digest-date="{display_date}" data-issue="{issue}">
     <div class="page">
         {generate_nav("detail")}
         
@@ -376,7 +379,7 @@ def generate_html(data, group_id):
         
         <div class="share-section">
             <a href="/{group_id}/{digest_page_id(data)}_chat.html" class="view-chat-btn">💬 查看完整对话</a>
-            <button id="shareBtn" class="share-btn">📤 分享日报</button>
+            <button id="shareBtn" class="share-btn" type="button">🎨 生成分享海报</button>
         </div>
 
         {generate_footer()}
