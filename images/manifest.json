@@ -1,0 +1,38 @@
+{
+  "0bfa693ce53b013e722e032c38a83792": {
+    "bytes": 384157,
+    "data_file": "data/sanyuan/20260524_raw.json",
+    "file": "0bfa693ce53b013e722e032c38a83792.png",
+    "hash": "0bfa693ce53b013e722e032c38a83792",
+    "height": 988,
+    "rel_path": "msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/7c331823760e35a13560dd4675077376",
+    "sha256": "8d3bb65f820b67d73776e05e8c5f49af5a200c47765558623f27289dbf523b99",
+    "source": "wechatlog-endpoint",
+    "source_path": "http://127.0.0.1:5030/image/0bfa693ce53b013e722e032c38a83792,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/7c331823760e35a13560dd4675077376",
+    "width": 1913
+  },
+  "1620d47650e16eb5a1b72a088a5c7f09": {
+    "bytes": 65948,
+    "data_file": "data/sanyuan/20260524_raw.json",
+    "file": "1620d47650e16eb5a1b72a088a5c7f09.png",
+    "hash": "1620d47650e16eb5a1b72a088a5c7f09",
+    "height": 542,
+    "rel_path": "msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/d2758c8bc362edba56c7f611d93276cb",
+    "sha256": "700c77a4921e125bd8125e1425929427c4451f5e6a97d164112863704e1577d5",
+    "source": "wechatlog-endpoint",
+    "source_path": "http://127.0.0.1:5030/image/1620d47650e16eb5a1b72a088a5c7f09,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/d2758c8bc362edba56c7f611d93276cb",
+    "width": 1120
+  },
+  "224830057c5ea2f076deb0d430110d60": {
+    "bytes": 4425,
+    "data_file": "data/sanyuan/20260524_raw.json",
+    "file": "224830057c5ea2f076deb0d430110d60.png",
+    "hash": "224830057c5ea2f076deb0d430110d60",
+    "height": 82,
+    "rel_path": "msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/03beb9ba685107f36de68256b68c0746",
+    "sha256": "43dc9e008246681ab55e5187634a41b7ec804394a3c4748e41db92d032e31f59",
+    "source": "wechatlog-endpoint",
+    "source_path": "http://127.0.0.1:5030/image/224830057c5ea2f076deb0d430110d60,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/03beb9ba685107f36de68256b68c0746",
+    "width": 243
+  }
+}

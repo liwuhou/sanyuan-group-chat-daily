@@ -27,7 +27,7 @@
   {
     "time": "2026-05-24 13:56",
     "user": "yearning",
-    "content": "[动画表情]"
+    "content": "[表情]"
   },
   {
     "time": "2026-05-24 13:56",
@@ -37,7 +37,7 @@
   {
     "time": "2026-05-24 13:56",
     "user": "yearning",
-    "content": "[动画表情]"
+    "content": "[表情]"
   },
   {
     "time": "2026-05-24 14:13",
@@ -47,12 +47,12 @@
   {
     "time": "2026-05-24 15:03",
     "user": "系统消息",
-    "content": "\"sanyuan\"邀请\"lelele\"加入了群聊"
+    "content": "[系统] \"sanyuan\"邀请\"lelele\"加入了群聊"
   },
   {
     "time": "2026-05-24 15:03",
     "user": "系统消息",
-    "content": "\"lelele\"与群里其他人都不是朋友关系，请注意隐私安全"
+    "content": "[系统] \"lelele\"与群里其他人都不是朋友关系，请注意隐私安全"
   },
   {
     "time": "2026-05-24 19:29",
@@ -62,12 +62,12 @@
   {
     "time": "2026-05-24 19:53",
     "user": "sanyuan",
-    "content": "@Mention All 实战课今天已更新，今天我们说了这么久的prompt cache，今天我们在实战里面把这个东西落实，首先，我会带大家搞清楚真实世界里面各家模型厂商 Cache 机制的差异，比如豆包、deepseek、openai、anthropic 等等，然后我们会给 Agent 加上完整的成本追踪链路，实现在 super agent 的runtime 中，最后我们做终端面板让你随时看上下"
+    "content": "@Mention All 实战课今天已更新，今天我们说了这么久的prompt cache，今天我们在实战里面把这个东西落实，首先，我会带大家搞清楚真实世界里面各家模型厂商 Cache 机制的差异，比如豆包、deepseek、openai、anthropic 等等，然后我们会给 Agent 加上完整的成本追踪链路，实现在 super agent 的runtime 中，最后我们做终端面板让你随时看上下文占用和花费，仿照 Claude Code 的 usage 看板"
   },
   {
     "time": "2026-05-24 19:53",
     "user": "sanyuan",
-    "content": "[图片]"
+    "content": "![图片](http://127.0.0.1:5030/image/c81ca642740481b7cfd087ed7e59301f,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/cabda1212b73493a1ed52efca57e38cc)"
   },
   {
     "time": "2026-05-24 19:53",
@@ -92,7 +92,7 @@
   {
     "time": "2026-05-24 19:54",
     "user": "Chan.",
-    "content": "[动画表情]"
+    "content": "[表情]"
   },
   {
     "time": "2026-05-24 19:55",
@@ -162,7 +162,7 @@
   {
     "time": "2026-05-24 20:16",
     "user": "lyz",
-    "content": "[动画表情]"
+    "content": "[表情]"
   },
   {
     "time": "2026-05-24 20:16",
@@ -172,11 +172,11 @@
   {
     "time": "2026-05-25 06:57",
     "user": "🍭拜托啦俊酱丶",
-    "content": "[图片]"
+    "content": "![图片](http://127.0.0.1:5030/image/6dc41224f6c35c1e872ab197214891ac,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/3170469cde63fbc6ab53d3bfda148523)"
   },
   {
     "time": "2026-05-25 06:57",
     "user": "🍭拜托啦俊酱丶",
-    "content": "[图片]"
+    "content": "![图片](http://127.0.0.1:5030/image/cef9d23b1f8206c19135b6af7229fcc3,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/06c21f7780618f226a57663a4374281e)"
   }
 ]
