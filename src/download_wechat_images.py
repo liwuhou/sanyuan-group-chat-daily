@@ -159,6 +159,8 @@ def candidate_paths(ref: ImageRef) -> list[Path]:
     # files sit next to undecodable _h.dat files with nearly identical sizes.
     exts = [".jpg", ".jpeg", ".png", ".gif", ".webp", ".bmp", "", ".dat"]
     names = [base_name + suffix + ext for suffix in suffixes for ext in exts]
+    stem = Path(base_name).stem
+    sibling_prefixes = {base_name, stem}
 
     roots: list[Path] = []
     # Most URLs are relative to xwechat_files/{account}/.
@@ -174,6 +176,12 @@ def candidate_paths(ref: ImageRef) -> list[Path]:
             p = parent / name
             if p.exists() and is_under(p, WECHAT_FILES_ROOT):
                 candidates.append(p)
+        if parent.exists() and is_under(parent, WECHAT_FILES_ROOT):
+            for p in parent.iterdir():
+                if not p.is_file() or p.suffix.lower() not in ALLOWED_IMAGE_SUFFIXES:
+                    continue
+                if any(p.name.startswith(prefix) for prefix in sibling_prefixes) and is_under(p, WECHAT_FILES_ROOT):
+                    candidates.append(p)
     # Deduplicate while preserving order.
     result = []
     seen = set()
@@ -320,7 +328,7 @@ def main() -> int:
                 "hash": ref.hash,
                 "rel_path": ref.rel_path,
                 "data_file": str(ref.data_file.relative_to(BASE_DIR)),
-                "reason": "not found in local WeChat files and wechatlog endpoint returned no decodable image",
+                "reason": "local WeChat files are missing or encrypted/undecodable, and wechatlog endpoint did not return a decodable image",
             }
             print(f"✗ {ref.hash} failed ({ref.rel_path})", file=sys.stderr)
 

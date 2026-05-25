@@ -41,84 +41,90 @@
   "23ec1a2c8327c69a8b0aa43beb061422": {
     "data_file": "data/sanyuan/20260524_raw.json",
     "hash": "23ec1a2c8327c69a8b0aa43beb061422",
-    "reason": "not found in local WeChat files and wechatlog endpoint returned no decodable image",
+    "reason": "local WeChat files are missing or encrypted/undecodable, and wechatlog endpoint did not return a decodable image",
     "rel_path": "msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/8e27795328630032e6d8d1622c5274c8",
     "status": "failed"
   },
   "27fcd9eb8018171d670818ce5b9f5bff": {
     "data_file": "data/sanyuan/20260524_raw.json",
     "hash": "27fcd9eb8018171d670818ce5b9f5bff",
-    "reason": "not found in local WeChat files and wechatlog endpoint returned no decodable image",
+    "reason": "local WeChat files are missing or encrypted/undecodable, and wechatlog endpoint did not return a decodable image",
     "rel_path": "msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/f00ad6080e0e349d28f234aa7ed7f0c6",
     "status": "failed"
   },
   "2b5bf05336f4b8139c501c300321e428": {
     "data_file": "data/sanyuan/20260524_raw.json",
     "hash": "2b5bf05336f4b8139c501c300321e428",
-    "reason": "not found in local WeChat files and wechatlog endpoint returned no decodable image",
+    "reason": "local WeChat files are missing or encrypted/undecodable, and wechatlog endpoint did not return a decodable image",
     "rel_path": "msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/26c23820cd33dfc69888ab16c0ab46aa",
     "status": "failed"
   },
   "2ced841529c79d69366a245f6feaddac": {
     "data_file": "data/sanyuan/20260524_raw.json",
     "hash": "2ced841529c79d69366a245f6feaddac",
-    "reason": "not found in local WeChat files and wechatlog endpoint returned no decodable image",
+    "reason": "local WeChat files are missing or encrypted/undecodable, and wechatlog endpoint did not return a decodable image",
     "rel_path": "msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/d9a9066066f24ba21867252d79791d0d",
     "status": "failed"
   },
   "323faf6d84dbfaae5afa4dd280ff25b2": {
     "data_file": "data/sanyuan/20260524_raw.json",
     "hash": "323faf6d84dbfaae5afa4dd280ff25b2",
-    "reason": "not found in local WeChat files and wechatlog endpoint returned no decodable image",
+    "reason": "local WeChat files are missing or encrypted/undecodable, and wechatlog endpoint did not return a decodable image",
     "rel_path": "msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/747f365a36f009fa143921bceeedeaf7",
     "status": "failed"
   },
   "40b3e5d8a840b1d36396b669bf5b6fbb": {
     "data_file": "data/sanyuan/20260524_raw.json",
     "hash": "40b3e5d8a840b1d36396b669bf5b6fbb",
-    "reason": "not found in local WeChat files and wechatlog endpoint returned no decodable image",
+    "reason": "local WeChat files are missing or encrypted/undecodable, and wechatlog endpoint did not return a decodable image",
     "rel_path": "msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/62ea945a26f0b45dc9eb04feac3a956d",
     "status": "failed"
   },
   "52445bdf27cca8458513e2f86c293ca6": {
     "data_file": "data/sanyuan/20260524_raw.json",
     "hash": "52445bdf27cca8458513e2f86c293ca6",
-    "reason": "not found in local WeChat files and wechatlog endpoint returned no decodable image",
+    "reason": "local WeChat files are missing or encrypted/undecodable, and wechatlog endpoint did not return a decodable image",
     "rel_path": "msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/26c60b1f8f68c8adac53677cba1a78d8",
     "status": "failed"
   },
   "5ef9e774d560bf55298a52bb1b23e38c": {
     "data_file": "data/sanyuan/20260524_raw.json",
     "hash": "5ef9e774d560bf55298a52bb1b23e38c",
-    "reason": "not found in local WeChat files and wechatlog endpoint returned no decodable image",
+    "reason": "local WeChat files are missing or encrypted/undecodable, and wechatlog endpoint did not return a decodable image",
     "rel_path": "msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/6f786f4b91fa5b5fd4214931c0da0d9d",
     "status": "failed"
   },
   "6dc41224f6c35c1e872ab197214891ac": {
     "data_file": "data/sanyuan/20260525_raw.json",
     "hash": "6dc41224f6c35c1e872ab197214891ac",
-    "reason": "not found in local WeChat files and wechatlog endpoint returned no decodable image",
+    "reason": "local WeChat files are missing or encrypted/undecodable, and wechatlog endpoint did not return a decodable image",
     "rel_path": "msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/3170469cde63fbc6ab53d3bfda148523",
     "status": "failed"
   },
   "87249862e3d31e9ef0ddd05cb76bbc22": {
     "data_file": "data/sanyuan/20260524_raw.json",
     "hash": "87249862e3d31e9ef0ddd05cb76bbc22",
-    "reason": "not found in local WeChat files and wechatlog endpoint returned no decodable image",
+    "reason": "local WeChat files are missing or encrypted/undecodable, and wechatlog endpoint did not return a decodable image",
     "rel_path": "msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/dbb675889176ef37354ec43bebd39907",
     "status": "failed"
   },
   "c81ca642740481b7cfd087ed7e59301f": {
+    "bytes": 121313,
     "data_file": "data/sanyuan/20260525_raw.json",
+    "file": "c81ca642740481b7cfd087ed7e59301f.png",
     "hash": "c81ca642740481b7cfd087ed7e59301f",
-    "reason": "not found in local WeChat files and wechatlog endpoint returned no decodable image",
+    "height": 854,
     "rel_path": "msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/cabda1212b73493a1ed52efca57e38cc",
-    "status": "failed"
+    "sha256": "613a39f24440e27edc027be9c6ae9219cbe84ba2ab998648fad48d67b1c1c7c6",
+    "source": "wechatlog-endpoint",
+    "source_path": "http://127.0.0.1:5030/image/c81ca642740481b7cfd087ed7e59301f,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/cabda1212b73493a1ed52efca57e38cc",
+    "status": "ok",
+    "width": 1312
   },
   "cef9d23b1f8206c19135b6af7229fcc3": {
     "data_file": "data/sanyuan/20260525_raw.json",
     "hash": "cef9d23b1f8206c19135b6af7229fcc3",
-    "reason": "not found in local WeChat files and wechatlog endpoint returned no decodable image",
+    "reason": "local WeChat files are missing or encrypted/undecodable, and wechatlog endpoint did not return a decodable image",
     "rel_path": "msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/06c21f7780618f226a57663a4374281e",
     "status": "failed"
   }

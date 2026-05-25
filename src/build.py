@@ -921,7 +921,7 @@ def generate_chat_page(data, group_id):
                                 f'<img src="{escaped_img_src}" alt="{escaped_alt}" class="chat-image" loading="lazy" onerror="this.style.display=\'none\'" data-original="{escaped_img_src}">'
                             )
                         else:
-                            content = content.replace(f"__IMG_{i}__", '<span class="chat-image-placeholder">[图片未下载]</span>')
+                            content = content.replace(f"__IMG_{i}__", '<span class="chat-image-placeholder">[图片暂不可用]</span>')
                     else:
                         content = content.replace(f"__IMG_{i}__", '<span class="chat-image-placeholder">[图片]</span>')
                 else:
