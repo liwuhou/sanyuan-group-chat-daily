@@ -23,9 +23,12 @@ import json
 import os
 import re
 import shutil
+import struct
+import subprocess
 import sys
 import tempfile
 import urllib.request
+from functools import lru_cache
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable
@@ -46,6 +49,8 @@ WECHAT_FILES_ROOT = (
 IMAGE_RE = re.compile(r"!\[[^\]]*\]\((http://127\.0\.0\.1:5030/image/([^,]+),([^\)]+))\)")
 SAFE_HASH_RE = re.compile(r"^[A-Fa-f0-9]{32,64}$")
 ALLOWED_IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png", ".gif", ".webp", ".bmp"}
+V2_MAGIC_FULL = b"\x07\x08V2\x08\x07"
+IMAGE_MAGICS = (b"\xff\xd8\xff", b"\x89PNG", b"GIF", b"RIFF", b"wxgf")
 
 
 @dataclass
@@ -193,11 +198,199 @@ def candidate_paths(ref: ImageRef) -> list[Path]:
     return result
 
 
+
+
+def normalize_wxid(account_id: str) -> str:
+    aid = (account_id or "").strip()
+    if aid.lower().startswith("wxid_"):
+        m = re.match(r"^(wxid_[^_]+)", aid, re.IGNORECASE)
+        return m.group(1) if m else aid
+    m = re.match(r"^(.+)_([a-zA-Z0-9]{4})$", aid)
+    return m.group(1) if m else aid
+
+
+def derive_image_keys(uin: int, wxid: str) -> tuple[int, str]:
+    xor_key = int(uin) & 0xFF
+    aes_key = hashlib.md5(f"{uin}{wxid}".encode("utf-8")).hexdigest()[:16]
+    return xor_key, aes_key
+
+
+def account_root_from_path(path: Path) -> Path | None:
+    parts = path.resolve().parts
+    try:
+        idx = parts.index("xwechat_files")
+    except ValueError:
+        return None
+    if idx + 1 >= len(parts):
+        return None
+    return Path(*parts[: idx + 2])
+
+
+def collect_kvcomm_uins() -> list[int]:
+    kvcomm_dir = Path.home() / "Library/Containers/com.tencent.xinWeChat/Data/Documents/app_data/net/kvcomm"
+    if not kvcomm_dir.is_dir():
+        return []
+    uins: set[int] = set()
+    for p in kvcomm_dir.iterdir():
+        m = re.match(r"^key_(\d+)_.+\.statistic$", p.name, re.IGNORECASE)
+        if not m:
+            continue
+        try:
+            uins.add(int(m.group(1)))
+        except ValueError:
+            pass
+    return sorted(uins)
+
+
+def v2_template_ciphertexts(account_root: Path, max_templates: int = 3) -> list[bytes]:
+    attach_dir = account_root / "msg" / "attach"
+    if not attach_dir.is_dir():
+        return []
+    out: list[bytes] = []
+    seen: set[bytes] = set()
+    for suffix in ("*_t.dat", "*.dat"):
+        for p in attach_dir.rglob(suffix):
+            try:
+                data = p.read_bytes()[:0x20]
+            except OSError:
+                continue
+            if len(data) >= 0x1F and data[:6] == V2_MAGIC_FULL:
+                ct = data[0xF:0x1F]
+                if ct not in seen:
+                    seen.add(ct)
+                    out.append(ct)
+                    if len(out) >= max_templates:
+                        return out
+        if out:
+            return out
+    return out
+
+
+def aes_ecb_decrypt_nopad(ciphertext: bytes, aes_key_ascii: str) -> bytes | None:
+    # WeChat uses the ASCII bytes of the 16-char hex-looking key as AES-128 key.
+    key_hex = aes_key_ascii.encode("ascii")[:16].hex()
+    try:
+        proc = subprocess.run(
+            ["openssl", "enc", "-d", "-aes-128-ecb", "-K", key_hex, "-nopad"],
+            input=ciphertext,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.DEVNULL,
+            check=False,
+        )
+    except Exception:
+        return None
+    if proc.returncode != 0:
+        return None
+    return proc.stdout
+
+
+def pkcs7_unpad(data: bytes, block_size: int = 16) -> bytes | None:
+    if not data or len(data) % block_size:
+        return None
+    pad = data[-1]
+    if pad < 1 or pad > block_size or data[-pad:] != bytes([pad]) * pad:
+        return None
+    return data[:-pad]
+
+
+def verify_v2_key(aes_key: str, templates: list[bytes]) -> bool:
+    if not templates:
+        return False
+    for ct in templates:
+        dec = aes_ecb_decrypt_nopad(ct, aes_key)
+        if not dec or not any(dec.startswith(magic) for magic in IMAGE_MAGICS):
+            return False
+    return True
+
+
+@lru_cache(maxsize=16)
+def derive_v2_key_for_account(account_root_str: str) -> tuple[int, str] | None:
+    account_root = Path(account_root_str)
+    account_id = account_root.name
+    wxid_candidates = [account_id]
+    normalized = normalize_wxid(account_id)
+    if normalized and normalized != account_id:
+        wxid_candidates.append(normalized)
+    templates = v2_template_ciphertexts(account_root)
+    if not templates:
+        return None
+    for wxid in wxid_candidates:
+        for uin in collect_kvcomm_uins():
+            xor_key, aes_key = derive_image_keys(uin, wxid)
+            if verify_v2_key(aes_key, templates):
+                print(f"derived WeChat V2 image key for {account_id}: wxid={wxid} uin={uin} xor=0x{xor_key:02x}")
+                return xor_key, aes_key
+    return None
+
+
+def decrypt_v2_dat(path: Path, out_dir: Path, out_hash: str) -> dict | None:
+    try:
+        data = path.read_bytes()
+    except OSError:
+        return None
+    if len(data) < 31 or data[:6] != V2_MAGIC_FULL:
+        return None
+    account_root = account_root_from_path(path)
+    if not account_root:
+        return None
+    keys = derive_v2_key_for_account(str(account_root))
+    if not keys:
+        return None
+    xor_key, aes_key = keys
+    aes_size, xor_size = struct.unpack_from("<LL", data, 6)
+    aligned_aes_size = aes_size + (16 - (aes_size % 16))
+    offset = 15
+    if offset + aligned_aes_size > len(data) or xor_size > len(data):
+        return None
+    dec_aes_padded = aes_ecb_decrypt_nopad(data[offset: offset + aligned_aes_size], aes_key)
+    if not dec_aes_padded:
+        return None
+    dec_aes = pkcs7_unpad(dec_aes_padded)
+    if dec_aes is None:
+        return None
+    raw_start = offset + aligned_aes_size
+    raw_end = len(data) - xor_size
+    if raw_end < raw_start:
+        return None
+    raw_data = data[raw_start:raw_end]
+    dec_xor = bytes(b ^ xor_key for b in data[raw_end:])
+    decrypted = dec_aes + raw_data + dec_xor
+    with tempfile.NamedTemporaryFile(delete=False) as tmp:
+        tmp.write(decrypted)
+        tmp_path = Path(tmp.name)
+    try:
+        if not is_decodable_image(tmp_path):
+            return None
+        ext = sniff_ext(tmp_path) or "jpg"
+        if ext == "jpeg":
+            ext = "jpg"
+        dest = out_dir / f"{out_hash}.{ext}"
+        shutil.move(str(tmp_path), dest)
+        dims = image_dimensions(dest)
+        return {
+            "file": dest.name,
+            "source": "wechat-v2-dat",
+            "source_path": str(path),
+            "bytes": dest.stat().st_size,
+            "width": dims[0] if dims else None,
+            "height": dims[1] if dims else None,
+            "sha256": sha256(dest),
+        }
+    finally:
+        if tmp_path.exists():
+            tmp_path.unlink()
+
+
 def copy_best_local(ref: ImageRef, out_dir: Path) -> dict | None:
     if not is_safe_hash(ref.hash):
         return None
-    candidates = [p for p in candidate_paths(ref) if is_decodable_image(p)]
+    all_candidates = candidate_paths(ref)
+    candidates = [p for p in all_candidates if is_decodable_image(p)]
     if not candidates:
+        for p in all_candidates:
+            info = decrypt_v2_dat(p, out_dir, ref.hash)
+            if info:
+                return info
         return None
     best = max(candidates, key=score)
     ext = sniff_ext(best) or best.suffix.lstrip(".").lower() or "jpg"
