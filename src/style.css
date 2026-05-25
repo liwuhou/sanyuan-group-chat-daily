@@ -1271,14 +1271,45 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: var(--accent);
-  color: white;
+  background: var(--avatar-bg, var(--accent));
+  color: var(--avatar-fg, white);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(61, 50, 41, 0.10), inset 0 0 0 1px rgba(255, 255, 255, 0.35);
+  overflow: hidden;
+  user-select: none;
+}
+
+.chat-avatar-real {
+  position: relative;
+}
+
+.chat-avatar-real img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: inherit;
+}
+
+.chat-avatar-fallback {
+  display: none;
+}
+
+.chat-avatar-real.avatar-load-failed img {
+  display: none;
+}
+
+.chat-avatar-real.avatar-load-failed .chat-avatar-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
 }
 
 /* 消息气泡 */

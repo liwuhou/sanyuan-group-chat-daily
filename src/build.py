@@ -12,6 +12,7 @@ import re
 from pathlib import Path
 from datetime import datetime
 import html
+import hashlib
 from urllib.parse import quote, urlparse
 
 
@@ -74,6 +75,65 @@ def safe_external_image_url(value):
     if not parsed.netloc:
         return ""
     return value
+
+
+AVATAR_COLORS = [
+    ("#8B5E3C", "#F8EFE5"),
+    ("#7C6A42", "#F6F0DD"),
+    ("#6C7A58", "#F2F6EA"),
+    ("#3F716B", "#E8F5F2"),
+    ("#456D8A", "#EAF2F7"),
+    ("#5E5C8A", "#EFEEF8"),
+    ("#8A5C78", "#F8EEF4"),
+    ("#9A5A4F", "#F8ECE8"),
+    ("#9A6A3A", "#F8F0E5"),
+    ("#61745A", "#EFF5EA"),
+]
+
+
+def stable_avatar_colors(user):
+    digest = hashlib.sha256(str(user or "?").encode("utf-8")).digest()
+    return AVATAR_COLORS[digest[0] % len(AVATAR_COLORS)]
+
+
+def avatar_initial(user):
+    user = str(user or "?").strip()
+    if not user:
+        return "?"
+    for char in user:
+        if not char.isspace():
+            return char.upper() if char.isascii() else char
+    return "?"
+
+
+def safe_avatar_url(value):
+    value = str(value or "")
+    parsed = urlparse(value)
+    if parsed.scheme or parsed.netloc:
+        return ""
+    if not value.startswith("/avatars/"):
+        return ""
+    return value if re.fullmatch(r"/avatars/[A-Za-z0-9_.-]+", value) else ""
+
+
+def render_chat_avatar(user, avatar_url=""):
+    safe_avatar = safe_avatar_url(avatar_url)
+    initial = h(avatar_initial(user))
+    label = h(f"{user or '未知用户'} 的头像")
+    bg, fg = stable_avatar_colors(user)
+    fallback_attrs = f'style="--avatar-bg: {bg}; --avatar-fg: {fg};"'
+    if safe_avatar:
+        return (
+            f'<div class="chat-avatar chat-avatar-real" {fallback_attrs}>'
+            f'<img src="{h(safe_avatar)}" alt="{label}" loading="lazy" '
+            f'onerror="this.parentElement.classList.add(\'avatar-load-failed\')">'
+            f'<span class="chat-avatar-fallback" aria-hidden="true">{initial}</span>'
+            f'</div>'
+        )
+    return (
+        f'<div class="chat-avatar" {fallback_attrs} '
+        f'aria-hidden="true">{initial}</div>'
+    )
 
 
 def render_chat_link(match):
@@ -938,9 +998,10 @@ def generate_chat_page(data, group_id):
                     else:
                         content = content.replace(f"__IMG_{i}__", '<span class="chat-image-placeholder">[图片地址无效]</span>')
             
+            avatar_html = render_chat_avatar(user, msg.get('avatar') or msg.get('avatar_url') or '')
             messages_html += f"""
                 <div class="chat-message">
-                    <div class="chat-avatar">{h(user[0] if user else '?')}</div>
+                    {avatar_html}
                     <div class="chat-bubble">
                         <div class="chat-header">
                             <span class="chat-user">{h(user)}</span>
