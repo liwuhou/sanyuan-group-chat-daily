@@ -1030,6 +1030,18 @@ body {
 }
 
 /* ===== 分享按钮 ===== */
+.share-section {
+  display: flex;
+  align-items: stretch;
+  gap: 12px;
+  margin: 32px 0 0;
+}
+
+.share-btn, .view-chat-btn {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
 .share-btn {
   display: inline-flex;
   align-items: center;

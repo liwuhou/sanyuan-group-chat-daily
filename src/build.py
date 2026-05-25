@@ -10,10 +10,52 @@ import os
 import shutil
 from pathlib import Path
 from datetime import datetime
+import html
+
+
+def format_digest_date_from_id(digest_id):
+    if isinstance(digest_id, str) and len(digest_id) == 8 and digest_id.isdigit():
+        return f"{digest_id[:4]}年{digest_id[4:6]}月{digest_id[6:8]}日"
+    return ""
 
 BASE_DIR = Path(__file__).parent.parent
 DIST_DIR = BASE_DIR / "dist"
 DATA_DIR = BASE_DIR / "data"
+
+IMAGES_DIR = BASE_DIR / "images"
+IMAGE_MANIFEST_PATH = IMAGES_DIR / "manifest.json"
+IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".gif", ".webp", ".bmp")
+
+
+def load_image_manifest():
+    """Load downloaded WeChat image metadata, including actual file extensions."""
+    if IMAGE_MANIFEST_PATH.exists():
+        try:
+            with open(IMAGE_MANIFEST_PATH, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"Warning: failed to read image manifest: {e}")
+    return {}
+
+
+IMAGE_MANIFEST = load_image_manifest()
+
+
+def resolve_chat_image(hash_value):
+    """Return the best local URL for a WeChat image hash.
+
+    New image downloads may be png/webp/bmp instead of blindly renamed .jpg, so
+    the generated HTML must use the manifest or probe existing files.
+    """
+    info = IMAGE_MANIFEST.get(hash_value, {})
+    file_name = info.get("file")
+    if file_name and (IMAGES_DIR / file_name).exists():
+        return f"/images/{file_name}"
+    for ext in IMAGE_EXTENSIONS:
+        candidate = IMAGES_DIR / f"{hash_value}{ext}"
+        if candidate.exists():
+            return f"/images/{candidate.name}"
+    return None
 
 # 群聊配置
 GROUPS = {
@@ -30,6 +72,17 @@ GROUPS = {
         "description": "Sitor AI 产品用户交流群"
     }
 }
+
+
+def digest_page_id(data):
+    """Return the canonical page/raw id for a loaded digest.
+
+    Historical cron runs sometimes wrote a file like 20260523.json whose
+    internal JSON still said id=20260522. The static site should use the actual
+    data file stem when available, otherwise links point to the wrong page/raw
+    file and users see empty/missing records.
+    """
+    return data.get("_file") or data.get("id", "")
 
 
 def load_group_data(group_id):
@@ -113,6 +166,8 @@ def generate_breadcrumb(group_name, date_str):
 
 def generate_html(data, group_id):
     """生成日报 HTML"""
+    page_id = digest_page_id(data)
+    display_date = format_digest_date_from_id(page_id) or data.get('date', '')
     group = GROUPS.get(group_id, {})
     
     tags_html = "".join([f'<span class="tag">{tag}</span>' for tag in data.get("topics", {}).get("tags", [])])
@@ -147,7 +202,7 @@ def generate_html(data, group_id):
     <div class="page">
         {generate_nav("detail")}
         
-        {generate_breadcrumb(data.get('group', ''), data.get('date', ''))}
+        {generate_breadcrumb(data.get('group', ''), display_date)}
         
         <header class="digest-header">
             <div class="header-top">
@@ -164,7 +219,7 @@ def generate_html(data, group_id):
             <div class="meta-bar">
                 <div class="meta-item">
                     <span class="meta-label">DATE</span>
-                    <span class="meta-value">{data.get('date')}</span>
+                    <span class="meta-value">{display_date}</span>
                 </div>
                 <div class="meta-divider"></div>
                 <div class="meta-item">
@@ -238,7 +293,7 @@ def generate_html(data, group_id):
         </section>
         
         <div class="share-section">
-            <a href="/{group_id}/{data.get('id')}_chat.html" class="view-chat-btn">💬 查看完整对话</a>
+            <a href="/{group_id}/{digest_page_id(data)}_chat.html" class="view-chat-btn">💬 查看完整对话</a>
             <button id="shareBtn" class="share-btn">📤 分享日报</button>
         </div>
 
@@ -260,8 +315,8 @@ def generate_index(digests_by_group):
         
         cards_html = ""
         for i, digest in enumerate(digests[:3]):  # 只显示最近3条
-            # 从 id (YYYYMMDD) 解析日期
-            digest_id = digest['id']
+            # 从页面 id (YYYYMMDD) 解析日期
+            digest_id = digest_page_id(digest)
             if len(digest_id) == 8 and digest_id.isdigit():
                 day = digest_id[6:8]  # 日
                 month = digest_id[4:6]  # 月
@@ -278,14 +333,14 @@ def generate_index(digests_by_group):
             is_new = digest_id == today
             
             cards_html += f"""
-                <a href="/{group_id}/{digest['id']}.html" class="history-card {group_id}" data-tags="{','.join(digest.get('topics', {}).get('tags', []))}">
+                <a href="/{group_id}/{digest_id}.html" class="history-card {group_id}" data-tags="{','.join(digest.get('topics', {}).get('tags', []))}">
                     <div class="history-date">
                         <span class="day">{day}</span>
                         <span class="month">{month}月</span>
                     </div>
                     <div class="history-info">
                         <div class="title">{GROUPS[group_id]['name']} · 每日精选 {'<span class="new-badge">NEW</span>' if is_new else ''}</div>
-                        <div class="meta">{digest.get('date')} · {digest.get('weekday', '')}</div>
+                        <div class="meta">{format_digest_date_from_id(digest_id) or digest.get('date')} · {digest.get('weekday', '')}</div>
                     </div>
                     <div class="history-stats">
                         <span>💬 {digest.get('stats', {}).get('messages', 0)}</span>
@@ -444,7 +499,7 @@ def generate_chart_data(digests_by_group):
     sitor_data = []
     
     for digest in all_digests:
-        digest_id = digest.get("id", "")
+        digest_id = digest_page_id(digest)
         if len(digest_id) == 8:
             date_label = f"{digest_id[4:6]}/{digest_id[6:8]}"
         else:
@@ -547,7 +602,7 @@ def generate_archive(digests_by_group):
         # 按月份分组
         months = {}
         for digest in digests:
-            digest_id = digest.get("id", "")
+            digest_id = digest_page_id(digest)
             if len(digest_id) == 8:
                 year_month = f"{digest_id[:4]}年{digest_id[4:6]}月"
             else:
@@ -564,7 +619,7 @@ def generate_archive(digests_by_group):
             """
             
             for digest in sorted(month_digests, key=lambda x: x.get("id", ""), reverse=True):
-                digest_id = digest.get("id", "")
+                digest_id = digest_page_id(digest)
                 
                 if len(digest_id) == 8:
                     day = digest_id[6:8]
@@ -581,7 +636,7 @@ def generate_archive(digests_by_group):
                         </div>
                         <div class="history-info">
                             <div class="title">{GROUPS[group_id]['name']} · 每日精选</div>
-                            <div class="meta">{digest.get('date', '')} · {digest.get('weekday', '')}</div>
+                            <div class="meta">{format_digest_date_from_id(digest_id) or digest.get('date', '')} · {digest.get('weekday', '')}</div>
                         </div>
                         <div class="history-stats">
                             <span>💬 {digest.get('stats', {}).get('messages', 0)}</span>
@@ -644,7 +699,7 @@ def generate_rss(digests_by_group):
     
     for digest in all_digests[:20]:
         group_id = digest.get("_group_id", "")
-        digest_id = digest.get("id", "")
+        digest_id = digest_page_id(digest)
         
         # 构建描述
         description = digest.get("topics", {}).get("summary", "")
@@ -656,7 +711,8 @@ def generate_rss(digests_by_group):
         
         # 转义 XML 特殊字符
         description = description.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
-        title = f"{digest.get('group', '群聊日报')} · {digest.get('date', '')}"
+        display_date = format_digest_date_from_id(digest_id) or digest.get('date', '')
+        title = f"{digest.get('group', '群聊日报')} · {display_date}"
         title = title.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
         
         items.append(f"""
@@ -665,7 +721,7 @@ def generate_rss(digests_by_group):
       <link>https://sanyuan-group-chat-daily.vercel.app/{group_id}/{digest_id}.html</link>
       <guid>https://sanyuan-group-chat-daily.vercel.app/{group_id}/{digest_id}.html</guid>
       <description>{description}</description>
-      <pubDate>{digest.get('date', '')}</pubDate>
+      <pubDate>{display_date}</pubDate>
     </item>
         """)
     
@@ -687,8 +743,9 @@ def generate_chat_page(data, group_id):
     """生成对话页面 HTML"""
     import re
     
-    digest_id = data.get('id', '')
+    digest_id = digest_page_id(data)
     raw_file = DATA_DIR / group_id / f"{digest_id}_raw.json"
+    display_date = format_digest_date_from_id(digest_id) or data.get('date', '')
     
     if not raw_file.exists():
         return None
@@ -739,14 +796,20 @@ def generate_chat_page(data, group_id):
                     hash_match = re.search(r'/image/([^,]+)', src)
                     if hash_match:
                         img_hash = hash_match.group(1)
-                        compressed_img_path = f"/images/{img_hash}.jpg"
-                        original_img_path = f"https://raw.githubusercontent.com/liwuhou/sanyuan-wechat-images/main/images/{img_hash}.jpg"
-                        # 使用 data 属性存储原图 URL，避免引号冲突
-                        content = content.replace(f"__IMG_{i}__", f'<img src="{compressed_img_path}" alt="{alt}" class="chat-image" loading="lazy" onerror="this.style.display=\'none\'" data-original="{original_img_path}">')
+                        local_img_path = resolve_chat_image(img_hash)
+                        escaped_alt = html.escape(alt, quote=True)
+                        if local_img_path:
+                            # Use the locally stored best-available image for both inline view and overlay.
+                            content = content.replace(
+                                f"__IMG_{i}__",
+                                f'<img src="{local_img_path}" alt="{escaped_alt}" class="chat-image" loading="lazy" onerror="this.style.display=\'none\'" data-original="{local_img_path}">'
+                            )
+                        else:
+                            content = content.replace(f"__IMG_{i}__", '<span class="chat-image-placeholder">[图片未下载]</span>')
                     else:
                         content = content.replace(f"__IMG_{i}__", '<span class="chat-image-placeholder">[图片]</span>')
                 else:
-                    content = content.replace(f"__IMG_{i}__", f'<img src="{src}" alt="{alt}" class="chat-image" loading="lazy" onerror="this.style.display=\'none\'">')
+                    content = content.replace(f"__IMG_{i}__", f'<img src="{src}" alt="{html.escape(alt, quote=True)}" class="chat-image" loading="lazy" onerror="this.style.display=\'none\'">')
             
             messages_html += f"""
                 <div class="chat-message">
@@ -767,7 +830,7 @@ def generate_chat_page(data, group_id):
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>{data.get('group', '群聊')} · 完整对话</title>
-    <meta name="description" content="{data.get('date', '')} 的完整聊天记录">
+    <meta name="description" content="{display_date} 的完整聊天记录">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
 </head>
@@ -775,11 +838,11 @@ def generate_chat_page(data, group_id):
     <div class="page">
         {generate_nav("detail")}
         
-        {generate_breadcrumb(data.get('group', ''), data.get('date', '') + ' 完整对话')}
+        {generate_breadcrumb(data.get('group', ''), display_date + ' 完整对话')}
         
         <header class="chat-page-header">
             <h1 class="chat-page-title">💬 完整对话</h1>
-            <p class="chat-page-subtitle">{data.get('group', '')} · {data.get('date', '')}</p>
+            <p class="chat-page-subtitle">{data.get('group', '')} · {display_date}</p>
             <a href="/{group_id}/{digest_id}.html" class="back-to-digest">← 返回日报</a>
         </header>
         
@@ -823,14 +886,19 @@ def build():
                 f.write(js_content)
             print(f"✓ {js_file} copied")
     
-    # 复制图片
+    # 复制图片（preserve original extensions; these are best-available WeChat originals）
     images_dir = BASE_DIR / "images"
     if images_dir.exists():
         dist_images = DIST_DIR / "images"
         dist_images.mkdir(exist_ok=True)
-        for img_file in images_dir.glob("*.jpg"):
-            shutil.copy2(img_file, dist_images / img_file.name)
-        print(f"✓ Images copied ({len(list(images_dir.glob('*.jpg')))} files)")
+        copied = 0
+        for img_file in images_dir.iterdir():
+            if img_file.is_file() and img_file.suffix.lower() in IMAGE_EXTENSIONS:
+                shutil.copy2(img_file, dist_images / img_file.name)
+                copied += 1
+        if (images_dir / "manifest.json").exists():
+            shutil.copy2(images_dir / "manifest.json", dist_images / "manifest.json")
+        print(f"✓ Images copied ({copied} files)")
     
     # 加载数据
     digests_by_group = {}
@@ -847,14 +915,15 @@ def build():
             # 生成每个日报的 HTML
             for digest in digests:
                 html = generate_html(digest, group_id)
-                file_path = group_dir / f"{digest['id']}.html"
+                page_id = digest_page_id(digest)
+                file_path = group_dir / f"{page_id}.html"
                 with open(file_path, "w", encoding="utf-8") as f:
                     f.write(html)
                 
                 # 生成对话页面
                 chat_html = generate_chat_page(digest, group_id)
                 if chat_html:
-                    chat_file_path = group_dir / f"{digest['id']}_chat.html"
+                    chat_file_path = group_dir / f"{page_id}_chat.html"
                     with open(chat_file_path, "w", encoding="utf-8") as f:
                         f.write(chat_html)
             
