@@ -1,0 +1,59 @@
+{
+  "id": "20260526",
+  "date": "2026年05月26日",
+  "weekday": "周二",
+  "group": "Sitor AI 产品用户群 1",
+  "issue": "20260526",
+  "stats": {
+    "messages": 100,
+    "active": 19,
+    "texts": 67
+  },
+  "topics": {
+    "summary": "群内主要围绕 Sitor 文档导入、图解手记、先对话再生成学习路线图、复习入口和 PWA/编辑器体验展开反馈。",
+    "tags": [
+      "Sitor更新",
+      "文档导入",
+      "图解手记",
+      "学习路线图",
+      "PWA体验"
+    ]
+  },
+  "points": [
+    {
+      "title": "学习流程调整",
+      "desc": "新流程改为先对话再生成路线图，已掌握节点会自动标记完成，降低新人进入门槛。"
+    },
+    {
+      "title": "文档导入与图解手记",
+      "desc": "Sitor 支持 PDF/TXT/Markdown 等导入，图解手记已内置并作为核心体验优化。"
+    },
+    {
+      "title": "体验反馈集中",
+      "desc": "用户反馈复习入口、PWA 跳转、布局比例、目录折叠和时间格式等问题，部分已快速处理。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "sanyuan",
+      "content": "确认支持 PDF、TXT、Markdown 等格式导入学习，PDF 在首页上传。"
+    },
+    {
+      "user": "sanyuan",
+      "content": "图解手记能力已内置，用 nano banana，并作为核心体验优化。"
+    },
+    {
+      "user": "sanyuan",
+      "content": "学习路线图改为先聊后生成，避免新人劝退；已掌握节点会标记完成。"
+    },
+    {
+      "user": "sanyuan",
+      "content": "实战课不提供理论课那种问答私教，重点在实战跑通看效果。"
+    },
+    {
+      "user": "Ki. / Chan.",
+      "content": "反馈 PWA 内跳转、小屏编辑器目录折叠和区域宽度调节等体验需求。"
+    }
+  ],
+  "actions": []
+}
