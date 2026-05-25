@@ -90,6 +90,7 @@ def format_digest_date_from_id(digest_id):
 BASE_DIR = Path(__file__).parent.parent
 DIST_DIR = BASE_DIR / "dist"
 DATA_DIR = BASE_DIR / "data"
+SITE_URL = "https://sy-digest.vercel.app"
 
 IMAGES_DIR = BASE_DIR / "images"
 IMAGE_MANIFEST_PATH = IMAGES_DIR / "manifest.json"
@@ -829,8 +830,8 @@ def generate_rss(digests_by_group):
         items.append(f"""
     <item>
       <title>{title}</title>
-      <link>https://sanyuan-group-chat-daily.vercel.app/{group_id}/{digest_id}.html</link>
-      <guid>https://sanyuan-group-chat-daily.vercel.app/{group_id}/{digest_id}.html</guid>
+      <link>{SITE_URL}/{group_id}/{digest_id}.html</link>
+      <guid>{SITE_URL}/{group_id}/{digest_id}.html</guid>
       <description>{description}</description>
       <pubDate>{display_date}</pubDate>
     </item>
@@ -840,7 +841,7 @@ def generate_rss(digests_by_group):
 <rss version="2.0">
   <channel>
     <title>群聊日报 - Daily Digest</title>
-    <link>https://sanyuan-group-chat-daily.vercel.app</link>
+    <link>{SITE_URL}</link>
     <description>自动聚合微信群聊精华，每日精选社区讨论内容</description>
     <language>zh-CN</language>
     <lastBuildDate>{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</lastBuildDate>
