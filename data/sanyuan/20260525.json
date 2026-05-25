@@ -5,25 +5,46 @@
   "group": "三元 Agent 课程群",
   "issue": "20260525",
   "stats": {
-    "messages": 2,
-    "active": 1,
-    "texts": 0
+    "messages": 36,
+    "active": 18,
+    "texts": 26
   },
   "topics": {
-    "summary": "昨日群内仅有 2 条图片消息，无文字讨论内容。未出现可提炼的 Agent、AI、LLM、开发实践或副业变现相关信息。",
+    "summary": "统计周期为 2026-05-24 07:00 至 2026-05-25 07:00，群内共有 36 条消息。主要内容是三元更新实战课，围绕 prompt cache、模型厂商缓存机制差异、Agent 成本追踪和终端 usage 面板展开；其他交流以周末闲聊和课程学习反馈为主。",
     "tags": [
-      "低活跃",
-      "无文字消息"
+      "Prompt Cache",
+      "Agent 成本追踪",
+      "课程更新",
+      "LLM",
+      "Sitor"
     ]
   },
   "points": [
     {
-      "title": "sanyuan 昨日未发言",
-      "desc": "统计周期内未发现 sanyuan 的文字发言。"
+      "title": "实战课更新：Cache 与成本追踪",
+      "desc": "sanyuan 宣布实战课更新，内容覆盖豆包、DeepSeek、OpenAI、Anthropic 等厂商的 Cache 机制差异，并在 Super Agent runtime 中加入成本追踪链路。"
+    },
+    {
+      "title": "终端 usage 面板",
+      "desc": "课程会仿照 Claude Code 的 usage 看板，做一个终端面板，用于查看上下文占用和花费。"
+    },
+    {
+      "title": "成员学习反馈",
+      "desc": "多位成员对课程更新表示已收到或准备学习，lyz 提到进度已经到 trace 相关内容。"
     }
   ],
-  "infos": [],
+  "infos": [
+    {
+      "user": "sanyuan",
+      "content": "实战课更新：围绕 prompt cache、不同模型厂商缓存机制、Agent 成本追踪链路、终端上下文与花费看板展开。"
+    },
+    {
+      "user": "sanyuan",
+      "content": "课程链接：https://sitor.ai/courses/super-agent/sa-10-cache-and-cost"
+    }
+  ],
   "actions": [
-    "暂无需要跟进的资源或待办。"
+    "查看课程 sa-10-cache-and-cost，重点关注 prompt cache 与成本追踪实现。",
+    "后续可对比 Claude Code usage 面板，思考自己的 Agent runtime 是否也需要成本可视化。"
   ]
 }
