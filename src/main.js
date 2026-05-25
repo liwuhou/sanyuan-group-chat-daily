@@ -504,6 +504,35 @@ document.addEventListener('DOMContentLoaded', function() {
         return y + lines.length * lineHeight;
     }
 
+    function drawWrappedWithin(ctx, text, x, y, maxWidth, lineHeight, maxLines, bottomY) {
+        const availableLines = Math.max(0, Math.floor((bottomY - y) / lineHeight));
+        const allowedLines = Math.min(maxLines, availableLines);
+        if (allowedLines <= 0) {
+            return { y, truncated: true, lines: 0 };
+        }
+
+        const allLines = wrapText(ctx, text, maxWidth, maxLines);
+        const visibleLines = allLines.slice(0, allowedLines);
+        const truncated = allLines.length > allowedLines;
+        if (truncated && visibleLines.length) {
+            let last = visibleLines[visibleLines.length - 1].replace(/…$/, '');
+            while (last.length > 0 && ctx.measureText(last + '…').width > maxWidth) {
+                last = last.slice(0, -1);
+            }
+            visibleLines[visibleLines.length - 1] = last + '…';
+        }
+
+        visibleLines.forEach((line, i) => ctx.fillText(line, x, y + i * lineHeight));
+        return { y: y + visibleLines.length * lineHeight, truncated, lines: visibleLines.length };
+    }
+
+    function drawMoreHint(ctx, x, y, text) {
+        ctx.fillStyle = '#8B7355';
+        ctx.font = '400 22px "Noto Sans SC", sans-serif';
+        ctx.fillText(text, x, y);
+        return y + 30;
+    }
+
     function drawQr(ctx, url, x, y, size) {
         const qr = createQrCode(url);
         const count = qr.length;
@@ -762,30 +791,47 @@ document.addEventListener('DOMContentLoaded', function() {
             y += 46;
         }
 
+        const footerY = 1128;
+        const contentBottomY = footerY - 70;
+
         ctx.fillStyle = '#3D3229';
         ctx.font = '600 30px "Noto Serif SC", serif';
         ctx.fillText('① 核心概览', 96, y);
         y += 46;
         ctx.fillStyle = '#5A4B3F';
-        ctx.font = '400 28px "Noto Sans SC", sans-serif';
-        y = drawWrapped(ctx, data.summary, 96, y, 668, 42, 5) + 54;
+        ctx.font = '400 27px "Noto Sans SC", sans-serif';
+        const summaryResult = drawWrappedWithin(ctx, data.summary, 96, y, 668, 40, 4, contentBottomY - 90);
+        y = summaryResult.y + 42;
 
-        if (data.points.length) {
+        if (data.points.length && y < contentBottomY - 92) {
             ctx.fillStyle = '#3D3229';
             ctx.font = '600 30px "Noto Serif SC", serif';
             ctx.fillText('② 精选要点', 96, y);
-            y += 46;
-            ctx.font = '400 25px "Noto Sans SC", sans-serif';
-            ctx.fillStyle = '#5A4B3F';
-            data.points.forEach((point, idx) => {
+            y += 44;
+            ctx.font = '400 24px "Noto Sans SC", sans-serif';
+            let truncatedPoints = summaryResult.truncated;
+            for (let idx = 0; idx < data.points.length; idx++) {
+                if (y > contentBottomY - 58) {
+                    truncatedPoints = true;
+                    break;
+                }
                 ctx.fillStyle = '#8B7355';
                 ctx.fillText(String(idx + 1).padStart(2, '0'), 96, y);
                 ctx.fillStyle = '#5A4B3F';
-                y = drawWrapped(ctx, point, 142, y, 622, 36, 2) + 18;
-            });
+                const pointResult = drawWrappedWithin(ctx, data.points[idx], 142, y, 622, 34, 2, contentBottomY);
+                y = pointResult.y + 14;
+                if (pointResult.truncated) {
+                    truncatedPoints = true;
+                    break;
+                }
+            }
+            if (truncatedPoints && y < contentBottomY - 10) {
+                y = drawMoreHint(ctx, 142, y + 4, '更多要点请扫码阅读全文');
+            }
+        } else if (summaryResult.truncated && y < contentBottomY - 10) {
+            y = drawMoreHint(ctx, 96, y, '更多内容请扫码阅读全文');
         }
 
-        const footerY = 1128;
         ctx.strokeStyle = '#E3D8CA';
         ctx.lineWidth = 2;
         ctx.beginPath();
