@@ -88,11 +88,17 @@
     "status": "failed"
   },
   "5ef9e774d560bf55298a52bb1b23e38c": {
+    "bytes": 232505,
     "data_file": "data/sanyuan/20260524_raw.json",
+    "file": "5ef9e774d560bf55298a52bb1b23e38c.png",
     "hash": "5ef9e774d560bf55298a52bb1b23e38c",
-    "reason": "local WeChat files are missing or encrypted/undecodable, and wechatlog endpoint did not return a decodable image",
+    "height": 1660,
     "rel_path": "msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/6f786f4b91fa5b5fd4214931c0da0d9d",
-    "status": "failed"
+    "sha256": "270a4be3a4946ba69fa1eb9360d8dc0e2046a3fc8420bfabc4c0a65f57950fae",
+    "source": "wechatlog-endpoint",
+    "source_path": "http://127.0.0.1:5030/image/5ef9e774d560bf55298a52bb1b23e38c,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/6f786f4b91fa5b5fd4214931c0da0d9d",
+    "status": "ok",
+    "width": 2976
   },
   "6dc41224f6c35c1e872ab197214891ac": {
     "data_file": "data/sanyuan/20260525_raw.json",
@@ -116,8 +122,8 @@
     "height": 854,
     "rel_path": "msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/cabda1212b73493a1ed52efca57e38cc",
     "sha256": "613a39f24440e27edc027be9c6ae9219cbe84ba2ab998648fad48d67b1c1c7c6",
-    "source": "wechatlog-endpoint",
-    "source_path": "http://127.0.0.1:5030/image/c81ca642740481b7cfd087ed7e59301f,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/cabda1212b73493a1ed52efca57e38cc",
+    "source": "wechat-local",
+    "source_path": "/Users/awu/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/liwuhao05_e1a7/msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-05/Img/cabda1212b73493a1ed52efca57e38cc_h.png",
     "status": "ok",
     "width": 1312
   },
