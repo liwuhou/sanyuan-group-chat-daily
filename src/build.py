@@ -8,9 +8,78 @@ Daily Digest - Static Site Generator v3.0
 import json
 import os
 import shutil
+import re
 from pathlib import Path
 from datetime import datetime
 import html
+from urllib.parse import quote, urlparse
+
+
+def h(value):
+    """Escape a dynamic value for safe HTML text/attribute insertion."""
+    return html.escape(str(value or ""), quote=True)
+
+
+def safe_int(value, default=0):
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return default
+
+
+def safe_page_id(value):
+    value = str(value or "")
+    return value if re.fullmatch(r"\d{8}", value) else ""
+
+
+def safe_group_id(value):
+    value = str(value or "")
+    return value if value in GROUPS else ""
+
+
+def safe_topics(digest):
+    topics = digest.get("topics") if isinstance(digest, dict) else None
+    if not isinstance(topics, dict):
+        return {}
+    return topics
+
+
+def safe_tags_from_topics(topics):
+    tags = topics.get("tags", []) if isinstance(topics, dict) else []
+    if not isinstance(tags, list):
+        return []
+    return [str(tag) for tag in tags if isinstance(tag, (str, int, float))]
+
+
+def safe_stats(digest):
+    stats = digest.get("stats") if isinstance(digest, dict) else None
+    return stats if isinstance(stats, dict) else {}
+
+
+def safe_local_image_url(value):
+    value = str(value or "")
+    parsed = urlparse(value)
+    if parsed.scheme or parsed.netloc:
+        return ""
+    if not value.startswith("/images/"):
+        return ""
+    return value if re.fullmatch(r"/images/[A-Za-z0-9_.-]+", value) else ""
+
+
+def safe_external_image_url(value):
+    value = str(value or "")
+    parsed = urlparse(value)
+    if parsed.scheme not in {"http", "https"}:
+        return ""
+    if not parsed.netloc:
+        return ""
+    return value
+
+
+def render_chat_link(match):
+    url = match.group(0)
+    escaped_url = h(url)
+    return f'<a href="{escaped_url}" target="_blank" rel="noopener noreferrer" class="chat-link">{escaped_url}</a>'
 
 
 def format_digest_date_from_id(digest_id):
@@ -82,7 +151,7 @@ def digest_page_id(data):
     data file stem when available, otherwise links point to the wrong page/raw
     file and users see empty/missing records.
     """
-    return data.get("_file") or data.get("id", "")
+    return safe_page_id(data.get("_file") or data.get("id", ""))
 
 
 def load_group_data(group_id):
@@ -112,7 +181,7 @@ def get_all_tags(digests):
     """获取所有标签"""
     tags = {}
     for digest in digests:
-        for tag in digest.get("topics", {}).get("tags", []):
+        for tag in safe_tags_from_topics(safe_topics(digest)):
             tags[tag] = tags.get(tag, 0) + 1
     return tags
 
@@ -151,6 +220,8 @@ def generate_footer():
 
 def generate_breadcrumb(group_name, date_str):
     """生成面包屑导航"""
+    group_name = h(group_name)
+    date_str = h(date_str)
     return f"""
         <nav class="breadcrumb" aria-label="breadcrumb">
             <ol class="breadcrumb-list">
@@ -167,23 +238,34 @@ def generate_breadcrumb(group_name, date_str):
 def generate_html(data, group_id):
     """生成日报 HTML"""
     page_id = digest_page_id(data)
-    display_date = format_digest_date_from_id(page_id) or data.get('date', '')
+    if not page_id:
+        return ""
+    display_date = h(format_digest_date_from_id(page_id) or data.get('date', ''))
     group = GROUPS.get(group_id, {})
-    
-    tags_html = "".join([f'<span class="tag">{tag}</span>' for tag in data.get("topics", {}).get("tags", [])])
+    group_name = h(data.get('group') or group.get('name', '群聊日报'))
+    issue = h(data.get('issue', '001'))
+    topics = safe_topics(data)
+    stats = safe_stats(data)
+    messages = safe_int(stats.get("messages", 0))
+    active = safe_int(stats.get("active", 0))
+    texts = safe_int(stats.get("texts", 0))
+    summary = h(topics.get('summary', ''))
+    tags_html = "".join([f'<span class="tag">{h(tag)}</span>' for tag in safe_tags_from_topics(topics)])
     
     points_html = "".join([
-        f'<li><strong>{p["title"]}</strong> — {p["desc"]}</li>'
+        f'<li><strong>{h(p.get("title", ""))}</strong> — {h(p.get("desc", ""))}</li>'
         for p in data.get("points", [])
+        if isinstance(p, dict)
     ]) if data.get("points") else "<li>暂无数据</li>"
     
     infos_html = "".join([
-        f'<li><strong>{i["user"]}</strong> {i["content"]}</li>'
+        f'<li><strong>{h(i.get("user", ""))}</strong> {h(i.get("content", ""))}</li>'
         for i in data.get("infos", [])
+        if isinstance(i, dict)
     ]) if data.get("infos") else "<li>暂无数据</li>"
     
     actions_html = "".join([
-        f'<li>{a}</li>'
+        f'<li>{h(a)}</li>'
         for a in data.get("actions", [])
     ]) if data.get("actions") else "<li>暂无数据</li>"
     
@@ -192,8 +274,8 @@ def generate_html(data, group_id):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>{data.get('group')} · 每日精选</title>
-    <meta name="description" content="{data.get('topics', {}).get('summary', '')[:100]}...">
+    <title>{group_name} · 每日精选</title>
+    <meta name="description" content="{summary[:100]}...">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
     <link rel="alternate" type="application/rss+xml" title="群聊日报 RSS" href="/rss.xml">
@@ -202,18 +284,18 @@ def generate_html(data, group_id):
     <div class="page">
         {generate_nav("detail")}
         
-        {generate_breadcrumb(data.get('group', ''), display_date)}
+        {generate_breadcrumb(group_name, display_date)}
         
         <header class="digest-header">
             <div class="header-top">
                 <div class="brand">Daily Digest</div>
                 <div class="issue-badge">
                     <span class="dot"></span>
-                    <span class="issue-number">Issue No.{data.get('issue', '001')}</span>
+                    <span class="issue-number">Issue No.{issue}</span>
                 </div>
             </div>
 
-            <h1 class="digest-title">{data.get('group')} · 每日精选</h1>
+            <h1 class="digest-title">{group_name} · 每日精选</h1>
             <p class="digest-subtitle">Curated conversations from the community</p>
 
             <div class="meta-bar">
@@ -224,17 +306,17 @@ def generate_html(data, group_id):
                 <div class="meta-divider"></div>
                 <div class="meta-item">
                     <span class="meta-label">MESSAGES</span>
-                    <span class="meta-value">{data.get('stats', {}).get('messages', 0)}</span>
+                    <span class="meta-value">{messages}</span>
                 </div>
                 <div class="meta-divider"></div>
                 <div class="meta-item">
                     <span class="meta-label">ACTIVE</span>
-                    <span class="meta-value">{data.get('stats', {}).get('active', 0)}</span>
+                    <span class="meta-value">{active}</span>
                 </div>
                 <div class="meta-divider"></div>
                 <div class="meta-item">
                     <span class="meta-label">TEXTS</span>
-                    <span class="meta-value">{data.get('stats', {}).get('texts', 0)}</span>
+                    <span class="meta-value">{texts}</span>
                 </div>
             </div>
         </header>
@@ -246,7 +328,7 @@ def generate_html(data, group_id):
                 <div class="content-section-line"></div>
             </div>
             <div class="content-section-body">
-                <p class="lead-text">{data.get('topics', {}).get('summary', '')}</p>
+                <p class="lead-text">{summary}</p>
                 <div class="tag-list">
                     {tags_html}
                 </div>
@@ -317,6 +399,8 @@ def generate_index(digests_by_group):
         for i, digest in enumerate(digests[:3]):  # 只显示最近3条
             # 从页面 id (YYYYMMDD) 解析日期
             digest_id = digest_page_id(digest)
+            if not digest_id:
+                continue
             if len(digest_id) == 8 and digest_id.isdigit():
                 day = digest_id[6:8]  # 日
                 month = digest_id[4:6]  # 月
@@ -332,19 +416,25 @@ def generate_index(digests_by_group):
             today = datetime.now().strftime("%Y%m%d")
             is_new = digest_id == today
             
+            safe_tags = ','.join(h(tag) for tag in safe_tags_from_topics(safe_topics(digest)))
+            safe_group_name = h(GROUPS[group_id]['name'])
+            safe_meta_date = h(format_digest_date_from_id(digest_id) or digest.get('date', ''))
+            safe_weekday = h(digest.get('weekday', ''))
+            messages = safe_int(safe_int(safe_stats(digest).get('messages', 0)))
+            active = safe_int(safe_int(safe_stats(digest).get('active', 0)))
             cards_html += f"""
-                <a href="/{group_id}/{digest_id}.html" class="history-card {group_id}" data-tags="{','.join(digest.get('topics', {}).get('tags', []))}">
+                <a href="/{group_id}/{digest_id}.html" class="history-card {group_id}" data-tags="{safe_tags}">
                     <div class="history-date">
-                        <span class="day">{day}</span>
-                        <span class="month">{month}月</span>
+                        <span class="day">{h(day)}</span>
+                        <span class="month">{h(month)}月</span>
                     </div>
                     <div class="history-info">
-                        <div class="title">{GROUPS[group_id]['name']} · 每日精选 {'<span class="new-badge">NEW</span>' if is_new else ''}</div>
-                        <div class="meta">{format_digest_date_from_id(digest_id) or digest.get('date')} · {digest.get('weekday', '')}</div>
+                        <div class="title">{safe_group_name} · 每日精选 {'<span class="new-badge">NEW</span>' if is_new else ''}</div>
+                        <div class="meta">{safe_meta_date} · {safe_weekday}</div>
                     </div>
                     <div class="history-stats">
-                        <span>💬 {digest.get('stats', {}).get('messages', 0)}</span>
-                        <span>👥 {digest.get('stats', {}).get('active', 0)}</span>
+                        <span>💬 {messages}</span>
+                        <span>👥 {active}</span>
                     </div>
                 </a>
             """
@@ -364,12 +454,12 @@ def generate_index(digests_by_group):
         all_digests.extend(group_digests)
     
     tags = get_all_tags(all_digests)
-    tags_html = "".join([f'<a href="/archive.html?tag={tag}" class="tag">{tag} ({count})</a>' for tag, count in sorted(tags.items(), key=lambda x: -x[1])[:10]])
+    tags_html = "".join([f'<a href="/archive.html?tag={quote(str(tag))}" class="tag">{h(tag)} ({safe_int(count)})</a>' for tag, count in sorted(tags.items(), key=lambda x: -x[1])[:10]])
     
     # 计算统计数据
     total_digests = len(all_digests)
-    total_messages = sum(d.get('stats', {}).get('messages', 0) for d in all_digests)
-    total_active = sum(d.get('stats', {}).get('active', 0) for d in all_digests)
+    total_messages = sum(safe_int(safe_stats(d).get('messages', 0)) for d in all_digests)
+    total_active = sum(safe_int(safe_stats(d).get('active', 0)) for d in all_digests)
     
     # 生成图表数据
     chart_data = generate_chart_data(digests_by_group)
@@ -488,7 +578,7 @@ def generate_chart_data(digests_by_group):
             all_digests.append(digest)
     
     # 按日期排序
-    all_digests.sort(key=lambda x: x.get("id", ""))
+    all_digests.sort(key=lambda x: digest_page_id(x))
     
     if len(all_digests) < 2:
         return "// 数据不足，无法生成图表"
@@ -500,6 +590,8 @@ def generate_chart_data(digests_by_group):
     
     for digest in all_digests:
         digest_id = digest_page_id(digest)
+        if not digest_id:
+            continue
         if len(digest_id) == 8:
             date_label = f"{digest_id[4:6]}/{digest_id[6:8]}"
         else:
@@ -509,7 +601,7 @@ def generate_chart_data(digests_by_group):
             labels.append(date_label)
         
         group_id = digest.get("_group_id", "")
-        messages = digest.get('stats', {}).get('messages', 0)
+        messages = safe_int(safe_stats(digest).get('messages', 0))
         
         if group_id == "sanyuan":
             sanyuan_data.append(messages)
@@ -594,15 +686,19 @@ def generate_archive(digests_by_group):
         if not digests:
             continue
         
+        safe_group_icon = h(GROUPS[group_id]['icon'])
+        safe_group_name = h(GROUPS[group_id]['name'])
         archive_html += f"""
             <div class="archive-group">
-                <h3 class="archive-group-title">{GROUPS[group_id]['icon']} {GROUPS[group_id]['name']}</h3>
+                <h3 class="archive-group-title">{safe_group_icon} {safe_group_name}</h3>
         """
         
         # 按月份分组
         months = {}
         for digest in digests:
             digest_id = digest_page_id(digest)
+            if not digest_id:
+                continue
             if len(digest_id) == 8:
                 year_month = f"{digest_id[:4]}年{digest_id[4:6]}月"
             else:
@@ -618,8 +714,10 @@ def generate_archive(digests_by_group):
                     <h4 class="archive-month-title">{month}</h4>
             """
             
-            for digest in sorted(month_digests, key=lambda x: x.get("id", ""), reverse=True):
+            for digest in sorted(month_digests, key=lambda x: digest_page_id(x), reverse=True):
                 digest_id = digest_page_id(digest)
+                if not digest_id:
+                    continue
                 
                 if len(digest_id) == 8:
                     day = digest_id[6:8]
@@ -628,19 +726,23 @@ def generate_archive(digests_by_group):
                     day = "--"
                     month_num = "--"
                 
+                safe_meta_date = h(format_digest_date_from_id(digest_id) or digest.get('date', ''))
+                safe_weekday = h(digest.get('weekday', ''))
+                messages = safe_int(safe_int(safe_stats(digest).get('messages', 0)))
+                active = safe_int(safe_int(safe_stats(digest).get('active', 0)))
                 archive_html += f"""
                     <a href="/{group_id}/{digest_id}.html" class="history-card {group_id}">
                         <div class="history-date">
-                            <span class="day">{day}</span>
-                            <span class="month">{month_num}月</span>
+                            <span class="day">{h(day)}</span>
+                            <span class="month">{h(month_num)}月</span>
                         </div>
                         <div class="history-info">
-                            <div class="title">{GROUPS[group_id]['name']} · 每日精选</div>
-                            <div class="meta">{format_digest_date_from_id(digest_id) or digest.get('date', '')} · {digest.get('weekday', '')}</div>
+                            <div class="title">{safe_group_name} · 每日精选</div>
+                            <div class="meta">{safe_meta_date} · {safe_weekday}</div>
                         </div>
                         <div class="history-stats">
-                            <span>💬 {digest.get('stats', {}).get('messages', 0)}</span>
-                            <span>👥 {digest.get('stats', {}).get('active', 0)}</span>
+                            <span>💬 {messages}</span>
+                            <span>👥 {active}</span>
                         </div>
                     </a>
                 """
@@ -695,19 +797,25 @@ def generate_rss(digests_by_group):
             all_digests.append(digest)
     
     # 按日期排序，取最近20条
-    all_digests.sort(key=lambda x: x.get("id", ""), reverse=True)
+    all_digests.sort(key=lambda x: digest_page_id(x), reverse=True)
     
     for digest in all_digests[:20]:
         group_id = digest.get("_group_id", "")
         digest_id = digest_page_id(digest)
+        if not digest_id:
+            continue
         
         # 构建描述
-        description = digest.get("topics", {}).get("summary", "")
+        topics = safe_topics(digest)
+        description = str(topics.get("summary", "") or "")
         points = digest.get("points", [])
+        if not isinstance(points, list):
+            points = []
         if points:
             description += "\n\n核心要点：\n"
             for p in points[:3]:
-                description += f"- {p.get('title', '')}\n"
+                if isinstance(p, dict):
+                    description += f"- {p.get('title', '')}\n"
         
         # 转义 XML 特殊字符
         description = description.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
@@ -744,8 +852,11 @@ def generate_chat_page(data, group_id):
     import re
     
     digest_id = digest_page_id(data)
+    if not digest_id:
+        return None
     raw_file = DATA_DIR / group_id / f"{digest_id}_raw.json"
-    display_date = format_digest_date_from_id(digest_id) or data.get('date', '')
+    display_date = h(format_digest_date_from_id(digest_id) or data.get('date', ''))
+    group_name = h(data.get('group', '群聊'))
     
     if not raw_file.exists():
         return None
@@ -753,6 +864,8 @@ def generate_chat_page(data, group_id):
     try:
         with open(raw_file, "r", encoding="utf-8") as f:
             raw_messages = json.load(f)
+        if not isinstance(raw_messages, list):
+            raw_messages = []
     except Exception as e:
         print(f"Error reading {raw_file}: {e}")
         return None
@@ -769,9 +882,11 @@ def generate_chat_page(data, group_id):
         """
     else:
         for msg in raw_messages:
-            user = msg.get('user', '未知用户')
-            content = msg.get('content', '')
-            time = msg.get('time', '')
+            if not isinstance(msg, dict):
+                continue
+            user = str(msg.get('user') or '未知用户')
+            content = str(msg.get('content') or '')
+            time = str(msg.get('time') or '')
             
             # 转义 HTML（但保留图片标签）
             # 先处理 Markdown 图片
@@ -784,10 +899,10 @@ def generate_chat_page(data, group_id):
             content = re.sub(r'!\[([^\]]*)\]\(([^)]+)\)', save_image, content)
             
             # 先转义 HTML
-            content = content.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+            content = h(content)
             
             # 再高亮链接
-            content = re.sub(r'(https?://\S+)', r'<a href="\1" target="_blank" class="chat-link">\1</a>', content)
+            content = re.sub(r'https?://[^\s<]+', render_chat_link, content)
             
             # 最后恢复图片标签（本地图片映射到下载的图片）
             for i, (alt, src) in enumerate(images):
@@ -796,28 +911,33 @@ def generate_chat_page(data, group_id):
                     hash_match = re.search(r'/image/([^,]+)', src)
                     if hash_match:
                         img_hash = hash_match.group(1)
-                        local_img_path = resolve_chat_image(img_hash)
-                        escaped_alt = html.escape(alt, quote=True)
+                        local_img_path = safe_local_image_url(resolve_chat_image(img_hash))
+                        escaped_alt = h(alt)
                         if local_img_path:
+                            escaped_img_src = h(local_img_path)
                             # Use the locally stored best-available image for both inline view and overlay.
                             content = content.replace(
                                 f"__IMG_{i}__",
-                                f'<img src="{local_img_path}" alt="{escaped_alt}" class="chat-image" loading="lazy" onerror="this.style.display=\'none\'" data-original="{local_img_path}">'
+                                f'<img src="{escaped_img_src}" alt="{escaped_alt}" class="chat-image" loading="lazy" onerror="this.style.display=\'none\'" data-original="{escaped_img_src}">'
                             )
                         else:
                             content = content.replace(f"__IMG_{i}__", '<span class="chat-image-placeholder">[图片未下载]</span>')
                     else:
                         content = content.replace(f"__IMG_{i}__", '<span class="chat-image-placeholder">[图片]</span>')
                 else:
-                    content = content.replace(f"__IMG_{i}__", f'<img src="{src}" alt="{html.escape(alt, quote=True)}" class="chat-image" loading="lazy" onerror="this.style.display=\'none\'">')
+                    safe_src = safe_external_image_url(src)
+                    if safe_src:
+                        content = content.replace(f"__IMG_{i}__", f'<img src="{h(safe_src)}" alt="{h(alt)}" class="chat-image" loading="lazy" onerror="this.style.display=\'none\'">')
+                    else:
+                        content = content.replace(f"__IMG_{i}__", '<span class="chat-image-placeholder">[图片地址无效]</span>')
             
             messages_html += f"""
                 <div class="chat-message">
-                    <div class="chat-avatar">{user[0]}</div>
+                    <div class="chat-avatar">{h(user[0] if user else '?')}</div>
                     <div class="chat-bubble">
                         <div class="chat-header">
-                            <span class="chat-user">{user}</span>
-                            <span class="chat-time">{time}</span>
+                            <span class="chat-user">{h(user)}</span>
+                            <span class="chat-time">{h(time)}</span>
                         </div>
                         <div class="chat-content">{content}</div>
                     </div>
@@ -829,7 +949,7 @@ def generate_chat_page(data, group_id):
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>{data.get('group', '群聊')} · 完整对话</title>
+    <title>{group_name} · 完整对话</title>
     <meta name="description" content="{display_date} 的完整聊天记录">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
@@ -838,11 +958,11 @@ def generate_chat_page(data, group_id):
     <div class="page">
         {generate_nav("detail")}
         
-        {generate_breadcrumb(data.get('group', ''), display_date + ' 完整对话')}
+        {generate_breadcrumb(group_name, display_date + ' 完整对话')}
         
         <header class="chat-page-header">
             <h1 class="chat-page-title">💬 完整对话</h1>
-            <p class="chat-page-subtitle">{data.get('group', '')} · {display_date}</p>
+            <p class="chat-page-subtitle">{group_name} · {display_date}</p>
             <a href="/{group_id}/{digest_id}.html" class="back-to-digest">← 返回日报</a>
         </header>
         
@@ -914,8 +1034,12 @@ def build():
             
             # 生成每个日报的 HTML
             for digest in digests:
-                html = generate_html(digest, group_id)
                 page_id = digest_page_id(digest)
+                if not page_id:
+                    continue
+                html = generate_html(digest, group_id)
+                if not html:
+                    continue
                 file_path = group_dir / f"{page_id}.html"
                 with open(file_path, "w", encoding="utf-8") as f:
                     f.write(html)
