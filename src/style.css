@@ -1403,7 +1403,10 @@ body {
 }
 
 .image-overlay-fullscreen,
-.image-overlay-close {
+.image-overlay-close,
+.image-overlay-zoom-in,
+.image-overlay-zoom-out,
+.image-overlay-zoom-reset {
   border: 0;
   background: rgba(255, 255, 255, 0.14);
   color: #fff;
@@ -1415,7 +1418,10 @@ body {
 }
 
 .image-overlay-fullscreen:hover,
-.image-overlay-close:hover {
+.image-overlay-close:hover,
+.image-overlay-zoom-in:hover,
+.image-overlay-zoom-out:hover,
+.image-overlay-zoom-reset:hover {
   background: rgba(255, 255, 255, 0.22);
 }
 
@@ -1455,13 +1461,15 @@ body {
   justify-content: flex-start;
 }
 
-.image-overlay-stage.zoomed img {
+.image-overlay-stage.zoomed img,
+.image-overlay-stage.is-dragging img {
   max-width: none;
   max-height: none;
   cursor: grab;
 }
 
-.image-overlay-stage.zoomed img:active {
+.image-overlay-stage.zoomed img:active,
+.image-overlay-stage.is-dragging img {
   cursor: grabbing;
 }
 
