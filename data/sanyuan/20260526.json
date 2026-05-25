@@ -1,0 +1,66 @@
+{
+  "id": "20260526",
+  "date": "2026年05月26日",
+  "weekday": "周二",
+  "group": "三元 Agent 课程群",
+  "issue": "20260526",
+  "stats": {
+    "messages": 132,
+    "texts": 98,
+    "active": 29
+  },
+  "topics": {
+    "summary": "统计周期内群内主要围绕 Agent 课程学习推进、章节难点答疑、课程复习功能需求，以及 AI Agent 评测与工具链有效性展开讨论。sanyuan 对课程公式口径、学习节奏和后续大章复习安排作出回应；成员也分享了群聊日报 Web 应用、公益 API 中转站风险文章和 Agent 办公评测文章。",
+    "tags": [
+      "Agent课程",
+      "公式答疑",
+      "大章复习",
+      "browser-use",
+      "群聊日报",
+      "KV cache",
+      "prompt cache"
+    ]
+  },
+  "points": [
+    {
+      "title": "课程公式口径修正",
+      "desc": "sanyuan 明确以文章为准：rank < 0 时，score = -rank / (1 - rank)，映射到 [0, 1)。"
+    },
+    {
+      "title": "大章复习需求被采纳",
+      "desc": "群友提出每章学完后希望获得汇总复习，sanyuan 表示会安排，当前主要更新仍集中在 sitor。"
+    },
+    {
+      "title": "Agent 评测方法讨论",
+      "desc": "知行和一指出某 Agent 自动办公评测使用裸模型、OpenAI 兼容 chat 端口和较老 browser-use 方案，结论需结合 harness 设计解读。"
+    },
+    {
+      "title": "群聊日报 Web 应用案例",
+      "desc": "阿五展示群聊日报 Web 应用，并计划在 2026-05-26 开放给群友试用。"
+    }
+  ],
+  "infos": [
+    {
+      "user": "嗯哼",
+      "content": "分享《API公益中转站建议还是先了解后再用》，提醒使用公益 API 中转站前先了解风险与背景。https://mp.weixin.qq.com/s?__biz=MjM5Mjc3MDM2Mw==&mid=2651144341&idx=1&sn=a7a8df4f5847a4961b3eb72124f08882&chksm=bcdf7e6a634e5ec9a5e64351da1260d2ee3542c99b102d56114a527038dfe75ed325c99b2cbf&mpshare=1&scene=1&srcid=0525yRhcuKmYBoAL73MMq4PN&sharer_shareinfo=57f770b76d93a883127d2b0fb17b9034&sharer_shareinfo_first=57f770b76d93a883127d2b0fb17b9034#rd"
+    },
+    {
+      "user": "知行和一",
+      "content": "讨论某 Agent 自动办公评测文章的局限，指出其工具链与 harness 设计可能影响结论。https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652702683&idx=1&sn=4b599847af8358c4722e06e7a6e52c63&chksm=f023ed921747f55343c9370d8788c2bdc7d2b463bc547c5d162032d0930d3329002b95b54196&mpshare=1&scene=1&srcid=0525AiGEViFCDU18HIFKM7pu&sharer_shareinfo=e4f5e582e819470bdf5ba17c3d7d268d&sharer_shareinfo_first=e4f5e582e819470bdf5ba17c3d7d268d#rd"
+    },
+    {
+      "user": "阿五",
+      "content": "展示群聊日报 Web 应用，并计划在 2026-05-26 开放给群友试用。"
+    },
+    {
+      "user": "Harrison Wells / 苏彧",
+      "content": "讨论最新实战章节涉及 KV cache 与 prompt cache，适合作为重点复习内容。"
+    }
+  ],
+  "actions": [
+    "关注 sanyuan 后续补充的大章复习功能。",
+    "阅读公益 API 中转站风险文章与 Agent 自动办公评测文章，重点关注风险点与评测方法。",
+    "跟进阿五的群聊日报 Web 应用试用，评估课程群复盘场景。",
+    "集中复习 KV cache / prompt cache 最新实战章节，并核对 rank 到 score 的公式口径。"
+  ]
+}
