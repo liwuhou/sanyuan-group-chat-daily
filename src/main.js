@@ -44,6 +44,45 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     bindLazyImageLoading();
+
+    // 首页 NEW 标识：由前端按每个群当前可见卡片里的最新日期计算，避免构建日期/缓存/时区导致错位
+    function updateLatestDigestBadges() {
+        const cards = Array.from(document.querySelectorAll('.history-card[data-group][data-date]'));
+        if (!cards.length) return;
+
+        const latestDateByGroup = new Map();
+        cards.forEach(card => {
+            const group = card.dataset.group;
+            const date = card.dataset.date || '';
+            if (!group || !/^\d{8}$/.test(date)) return;
+            const current = latestDateByGroup.get(group);
+            if (!current || date > current) {
+                latestDateByGroup.set(group, date);
+            }
+        });
+
+        cards.forEach(card => {
+            const title = card.querySelector('.history-info .title');
+            if (!title) return;
+
+            const existingBadge = title.querySelector('.new-badge');
+            const isLatest = card.dataset.date === latestDateByGroup.get(card.dataset.group);
+
+            if (isLatest && !existingBadge) {
+                const badge = document.createElement('span');
+                badge.className = 'new-badge';
+                badge.textContent = 'NEW';
+                title.appendChild(document.createTextNode(' '));
+                title.appendChild(badge);
+            } else if (!isLatest && existingBadge) {
+                if (existingBadge.previousSibling && existingBadge.previousSibling.nodeType === Node.TEXT_NODE) {
+                    existingBadge.previousSibling.remove();
+                }
+                existingBadge.remove();
+            }
+        });
+    }
+    updateLatestDigestBadges();
     
     // 图片点击放大功能（使用事件委托）
     document.addEventListener('click', function(e) {

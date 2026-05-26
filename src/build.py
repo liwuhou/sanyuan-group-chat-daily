@@ -21,6 +21,14 @@ def h(value):
     return html.escape(str(value or ""), quote=True)
 
 
+def render_plain_text_block(value):
+    """Render plain-text push content safely while preserving line breaks."""
+    text = str(value or "").strip()
+    if not text:
+        return ""
+    return h(text).replace("\n", "<br>")
+
+
 def safe_int(value, default=0):
     try:
         return int(value)
@@ -329,6 +337,77 @@ def generate_html(data, group_id):
         f'<li>{h(a)}</li>'
         for a in data.get("actions", [])
     ]) if data.get("actions") else "<li>暂无数据</li>"
+
+    wechat_push_text = data.get("wechat_push_text") or data.get("push_text") or data.get("wechat_text")
+    wechat_push_html = render_plain_text_block(wechat_push_text)
+    if wechat_push_html:
+        main_content_html = f"""
+        <section class="content-section wechat-push-section">
+            <div class="content-section-header">
+                <div class="content-section-number">✦</div>
+                <h2 class="content-section-title">微信推送原文</h2>
+                <div class="content-section-line"></div>
+            </div>
+            <div class="content-section-body">
+                <div class="wechat-push-text">{wechat_push_html}</div>
+            </div>
+        </section>
+        """
+    else:
+        main_content_html = f"""
+        <section class="content-section">
+            <div class="content-section-header">
+                <div class="content-section-number">1</div>
+                <h2 class="content-section-title">统计周期核心话题</h2>
+                <div class="content-section-line"></div>
+            </div>
+            <div class="content-section-body">
+                <p class="lead-text">{summary}</p>
+                <div class="tag-list">
+                    {tags_html}
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="content-section-header">
+                <div class="content-section-number">2</div>
+                <h2 class="content-section-title">核心要点</h2>
+                <div class="content-section-line"></div>
+            </div>
+            <div class="content-section-body">
+                <ul class="point-list">
+                    {points_html}
+                </ul>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="content-section-header">
+                <div class="content-section-number">3</div>
+                <h2 class="content-section-title">有价值信息</h2>
+                <div class="content-section-line"></div>
+            </div>
+            <div class="content-section-body">
+                <ul class="info-list">
+                    {infos_html}
+                </ul>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="content-section-header">
+                <div class="content-section-number">4</div>
+                <h2 class="content-section-title">行动建议</h2>
+                <div class="content-section-line"></div>
+            </div>
+            <div class="content-section-body">
+                <ul class="action-list">
+                    {actions_html}
+                </ul>
+            </div>
+        </section>
+        """
     
     return f"""<!DOCTYPE html>
 <html lang="zh-CN">
@@ -385,58 +464,7 @@ def generate_html(data, group_id):
             </div>
         </header>
 
-        <section class="content-section">
-            <div class="content-section-header">
-                <div class="content-section-number">1</div>
-                <h2 class="content-section-title">昨日核心话题</h2>
-                <div class="content-section-line"></div>
-            </div>
-            <div class="content-section-body">
-                <p class="lead-text">{summary}</p>
-                <div class="tag-list">
-                    {tags_html}
-                </div>
-            </div>
-        </section>
-
-        <section class="content-section">
-            <div class="content-section-header">
-                <div class="content-section-number">2</div>
-                <h2 class="content-section-title">核心要点</h2>
-                <div class="content-section-line"></div>
-            </div>
-            <div class="content-section-body">
-                <ul class="point-list">
-                    {points_html}
-                </ul>
-            </div>
-        </section>
-
-        <section class="content-section">
-            <div class="content-section-header">
-                <div class="content-section-number">3</div>
-                <h2 class="content-section-title">有价值信息</h2>
-                <div class="content-section-line"></div>
-            </div>
-            <div class="content-section-body">
-                <ul class="info-list">
-                    {infos_html}
-                </ul>
-            </div>
-        </section>
-
-        <section class="content-section">
-            <div class="content-section-header">
-                <div class="content-section-number">4</div>
-                <h2 class="content-section-title">行动建议</h2>
-                <div class="content-section-line"></div>
-            </div>
-            <div class="content-section-body">
-                <ul class="action-list">
-                    {actions_html}
-                </ul>
-            </div>
-        </section>
+        {main_content_html}
         
         <div class="share-section">
             <a href="/{group_id}/{digest_page_id(data)}_chat.html" class="view-chat-btn">💬 查看完整对话</a>
@@ -477,10 +505,6 @@ def generate_index(digests_by_group):
                 else:
                     month, day = "--", "--"
             
-            # 判断是否为最新（今天或昨天）
-            today = datetime.now().strftime("%Y%m%d")
-            is_new = digest_id == today
-            
             safe_tags = ','.join(h(tag) for tag in safe_tags_from_topics(safe_topics(digest)))
             safe_group_name = h(GROUPS[group_id]['name'])
             safe_meta_date = h(format_digest_date_from_id(digest_id) or digest.get('date', ''))
@@ -488,13 +512,13 @@ def generate_index(digests_by_group):
             messages = safe_int(safe_int(safe_stats(digest).get('messages', 0)))
             active = safe_int(safe_int(safe_stats(digest).get('active', 0)))
             cards_html += f"""
-                <a href="/{group_id}/{digest_id}.html" class="history-card {group_id}" data-tags="{safe_tags}">
+                <a href="/{group_id}/{digest_id}.html" class="history-card {group_id}" data-group="{h(group_id)}" data-date="{h(digest_id)}" data-tags="{safe_tags}">
                     <div class="history-date">
                         <span class="day">{h(day)}</span>
                         <span class="month">{h(month)}月</span>
                     </div>
                     <div class="history-info">
-                        <div class="title">{safe_group_name} · 每日精选 {'<span class="new-badge">NEW</span>' if is_new else ''}</div>
+                        <div class="title">{safe_group_name} · 每日精选</div>
                         <div class="meta">{safe_meta_date} · {safe_weekday}</div>
                     </div>
                     <div class="history-stats">

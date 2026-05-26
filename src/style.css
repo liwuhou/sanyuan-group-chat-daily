@@ -679,6 +679,24 @@ body {
   padding-left: 44px;
 }
 
+.wechat-push-text {
+  padding: 22px 24px;
+  background: linear-gradient(135deg, #FAF7F1 0%, #F3EDE4 100%);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 16px;
+  color: var(--text-primary);
+  font-size: 15px;
+  line-height: 1.9;
+  letter-spacing: 0.01em;
+  box-shadow: 0 8px 24px var(--shadow);
+}
+
+.wechat-push-section .content-section-number {
+  background: var(--accent);
+  color: var(--bg-primary);
+}
+
 /* 要点列表 */
 .point-list {
   list-style: none;
