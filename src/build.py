@@ -661,43 +661,39 @@ def generate_index(digests_by_group):
 
 def generate_chart_data(digests_by_group):
     """生成图表数据"""
-    all_digests = []
+    # Chart.js datasets must align by index with the shared labels array.
+    # Build a date -> group -> messages table first, otherwise groups with
+    # different start dates/coverage get shifted onto the wrong x-axis dates.
+    date_group_messages = {}
+
     for group_id, digests in digests_by_group.items():
         for digest in digests:
-            digest["_group_id"] = group_id
-            all_digests.append(digest)
-    
-    # 按日期排序
-    all_digests.sort(key=lambda x: digest_page_id(x))
-    
-    if len(all_digests) < 2:
+            digest_id = digest_page_id(digest)
+            if not digest_id:
+                continue
+            date_group_messages.setdefault(digest_id, {})[group_id] = safe_int(
+                safe_stats(digest).get('messages', 0)
+            )
+
+    labels_dates = sorted(date_group_messages.keys())
+
+    if len(labels_dates) < 2:
         return "// 数据不足，无法生成图表"
-    
-    # 准备数据
+
     labels = []
     sanyuan_data = []
     sitor_data = []
-    
-    for digest in all_digests:
-        digest_id = digest_page_id(digest)
-        if not digest_id:
-            continue
+
+    for digest_id in labels_dates:
         if len(digest_id) == 8:
-            date_label = f"{digest_id[4:6]}/{digest_id[6:8]}"
+            labels.append(f"{digest_id[4:6]}/{digest_id[6:8]}")
         else:
-            date_label = digest_id
-        
-        if date_label not in labels:
-            labels.append(date_label)
-        
-        group_id = digest.get("_group_id", "")
-        messages = safe_int(safe_stats(digest).get('messages', 0))
-        
-        if group_id == "sanyuan":
-            sanyuan_data.append(messages)
-        elif group_id == "sitor":
-            sitor_data.append(messages)
-    
+            labels.append(digest_id)
+
+        values = date_group_messages.get(digest_id, {})
+        sanyuan_data.append(values.get("sanyuan"))
+        sitor_data.append(values.get("sitor"))
+
     labels_json = json.dumps(labels, ensure_ascii=False)
     sanyuan_json = json.dumps(sanyuan_data)
     sitor_json = json.dumps(sitor_data)
