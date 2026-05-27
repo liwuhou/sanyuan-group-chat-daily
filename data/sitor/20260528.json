@@ -1,0 +1,42 @@
+{
+  "date": "2026年05月28日",
+  "group": "Sitor AI 产品用户群 1",
+  "wechat_push_text": "**Sitor AI 产品用户群 · 每日精选**\n📅 2026-05-28\n\n### 🚀 Sitor 功能更新（置顶）\nSitor 语音模式灰度名额新增 50 个，可在浏览器地址栏添加 `?features=voice_mode` 体验；无麦克风设备暂不建议使用该功能。\n5月27日已支持文章链接直接粘贴解析，公众号文章可被读取并进入学习流程，示例链接：https://mp.weixin.qq.com/s/pOb2LkU1DR_xhl4jWYSJIQ\nSitor Chrome Extension 已正式上架 Chrome 插件商店，支持大部分文章解析，并可一键跳转 Sitor 学习；飞书文档支持仍在推进中。\n扫描件 PDF 即将支持；首页访问慢的问题定位为 Vercel/GFW 影响，计划迁移到阿里云部署。\n\n### 🔥 昨日核心话题\n群内围绕 Sitor 内容解析、Chrome 插件、语音模式和移动端访问性能展开集中反馈。另一个高频话题是 Agent 实战课学习方法，大家讨论手搓代码、Mock Model 理解、RAG 实战催更等实践路径。\n\n### 💡 AI 产品有价值信息\n- sanyuan: 语音模式开放更多体验名额，入口为 URL 参数 `?features=voice_mode`；无麦克风环境可能出现异常生成内容，建议暂不使用。\n- April. / sanyuan: 公众号链接解析已验证可用，并进一步支持直接粘贴链接进入学习，降低文章学习入口成本。\n- sanyuan: Chrome 插件正式上架，定位为文章解析与一键跳转学习入口；后续会继续处理飞书文档权限与解析问题。\n- yinp: 对需要鉴权的文档，Chrome 插件可作为主体内容抓取方案，图片也可一起处理。\n- 沉默的话唠 / 暂无 / sanyuan: 手机 PWA 与电脑端首页加载慢，学习页正常；问题定位为前端部署在 Vercel，拟迁移国内云提升访问稳定性。\n- April. / 稚: 建议课程学习支持左侧材料、右侧 Sitor 的双栏开卷答题模式，对初学者更友好。\n- yearning / push me: Agent 实战课建议多看几遍并手搓；将 JS/TS 代码转写为 Python 有助于理解，Mock Model 章节对理解大模型返回逻辑很关键。",
+  "topics": [
+    "Sitor 内容解析与 Chrome 插件发布",
+    "语音模式灰度体验与无麦克风异常反馈",
+    "首页/PWA 访问性能与部署迁移讨论",
+    "Agent 实战课学习方法与 RAG 催更"
+  ],
+  "points": [
+    "语音模式新增 50 个灰度名额，入口为 ?features=voice_mode。",
+    "文章链接直接粘贴解析已支持，公众号文章可进入学习流程。",
+    "Sitor Chrome Extension 已正式上架，支持大部分文章解析和一键跳转学习。",
+    "扫描件 PDF 即将支持，飞书文档支持仍在评估权限方案。"
+  ],
+  "infos": [
+    {
+      "speaker": "sanyuan",
+      "content": "语音模式开放更多体验名额；无麦克风设备暂不建议使用。"
+    },
+    {
+      "speaker": "sanyuan",
+      "content": "Chrome 插件正式上架，支持文章解析并一键跳转 Sitor 学习。"
+    },
+    {
+      "speaker": "yinp",
+      "content": "Chrome 插件可解决鉴权文档主体内容抓取，图片也可处理。"
+    },
+    {
+      "speaker": "yearning / push me",
+      "content": "Agent 实战学习建议手搓代码、跨语言改写以加深理解。"
+    }
+  ],
+  "actions": [],
+  "stats": {
+    "messages": 193,
+    "texts": 139,
+    "active": 28
+  },
+  "id": "20260528"
+}
