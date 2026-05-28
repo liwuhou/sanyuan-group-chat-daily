@@ -7,23 +7,43 @@
     "until": "2026-05-28 07:00"
   },
   "stats": {
-    "messages": 0,
-    "texts": 0,
-    "active": 0
+    "messages": 367,
+    "texts": 272,
+    "active": 44
   },
-  "summary": "统计周期内没有拉取到群聊文字消息，因此没有形成可总结的核心讨论。",
+  "summary": "统计周期内核心围绕 Sitor 新能力、公众号文章导入学习、UI 焚决 / Impeccable Skill、LLM Wiki 课程更新以及移动端规划展开。群友集中反馈了微信公众号链接导入学力消耗、PWA/通知、iOS App、Codex 登录接码、Chrome CDP 调试、抓取小红书等工具链问题。",
   "topics": [
-    "统计周期内没有拉取到群聊文字消息，因此没有形成可总结的核心讨论。"
+    "Sitor 支持导入微信公众号文章，课程与长文可直接链接导入学习",
+    "UI 焚决 / Impeccable Skill 用于界面 critique、polish、adapt，群友反馈评分和优化效果明显",
+    "Sitor iOS App 使用原生 Swift 开发，处于上架审核中，Android 后续规划",
+    "LLM Wiki 课程已更新，讨论 voice mode 学英语、扫描件导入等学习场景",
+    "Codex 登录接码、Chrome CDP、Playwright/Puppeteer、小红书抓取等工具链经验"
   ],
   "points": [
-    "统计周期内未发言"
+    "sanyuan 分享新公众号内容“UI 焚决”，建议按需学习，并给出站点 https://sitor.ai",
+    "sanyuan 说明 Sitor 首页已支持导入微信公众号文章，自己的历史文章以及其他公众号文章都可导入学习",
+    "sanyuan 回应公众号文章学力消耗：读取文章 1 个学力较合理，后续调整为 1+1；解读步骤另需 5 个学力，整体从 6+1 优化到 5+1+1",
+    "sanyuan 说明 Sitor PWA 9 点推送复习通知，iOS App 正在上架审核，采用原生 Swift；Android 后续推进",
+    "sanyuan 建议已有界面审查使用 /critique，而非 /polish 或 /adapt",
+    "sanyuan 表示微信公众号抓取技术路线暂不公开，文章导入可按文章相关性和大小决定单篇或多篇处理",
+    "sanyuan 发布课程更新方向：LLM Wiki，会讲得更细；并展示扫描件导入及通过 Voice mode 学英语"
   ],
   "infos": [
-    "统计周期内无可提炼的 Agent、AI、LLM、副业搞钱、开发框架、部署、工具链或编程实践相关高价值内容。"
+    "Chan.: 提到 open design 可在 GUI 中划定指定区域进行修改，可作为 UI 迭代参考工具",
+    "L: 使用 craft 起草新功能，计划尝试 front design；确认 Impeccable Skill 子命令可直接调用，也可自行 pin",
+    "宇 / 阿五: /impeccable 安装一个主 skill 即可使用子命令，也可把子命令单独复制到 agent 的 skill 目录",
+    "不散和弦: 使用 /critique 后界面评分从 15/40 优化到 32/40，背后使用 Claude Code Sonnet",
+    "procrastination🐼: 分享小红书抓取 CLI 参考：https://github.com/jackwener/xiaohongshu-cli；Roy 补充小红书风控升级频繁，稳定抓取难度高",
+    "Harrison Wells / Roy: 浏览器自动化可看 Playwright MCP 或 Puppeteer；Harrison Wells 提到 Chrome 147 的 CDP 可让 AI 操作当前浏览器实例，设置里开启即可",
+    "苏彧: 分享文章《我们如何用 A2UI + Vue，让大模型长出“可交互界面”》https://mp.weixin.qq.com/s?__biz=Mzg3Njc0NTgwMg==&mid=2247504267&idx=1&sn=e3163144d913971f97fb015c3b791e1d&chksm=ce6fec517ee5d9736628c9a9fac67b8f080dce54d4a8caf9e92096a864037389c2d11afb1f2e&mpshare=1&scene=1&srcid=0527GGrxgzeZT5CPYHKWYmf7&sharer_shareinfo=8f03e28fee4a5112664d46280f0904cf&sharer_shareinfo_first=8f03e28fee4a5112664d46280f0904cf#rd"
   ],
   "actions": [
-    "暂无需要跟进的资源链接、待办事项或讨论。"
+    "阅读并实践 sanyuan 的 UI 焚决文章，将界面先用 /critique 做审查，再按建议优化",
+    "在 https://sitor.ai 首页导入公众号文章或课程资料，优先按主题相关性分批学习",
+    "关注 Sitor iOS App 上架、Android 版本规划及 PWA 复习通知体验",
+    "学习统计周期内更新的 LLM Wiki 课程，并尝试 Voice mode 英语练习与扫描件导入",
+    "需要浏览器自动化能力的群友可跟进 Playwright MCP、Puppeteer、Chrome CDP 方案"
   ],
-  "wechat_push_text": "**三元 Agent 课程群 · 每日精选**\n📅 2026-05-27 07:00 ~ 2026-05-28 07:00\n\n### 🔥 统计周期核心话题\n统计周期内没有拉取到群聊文字消息，因此没有形成可总结的核心讨论。\n\n### 📌 sanyuan 要点\n统计周期内未发言\n\n### 💡 有价值信息\n统计周期内无可提炼的 Agent、AI、LLM、副业搞钱、开发框架、部署、工具链或编程实践相关高价值内容。\n\n### 🗓️ 行动建议\n暂无需要跟进的资源链接、待办事项或讨论。",
+  "wechat_push_text": "**三元 Agent 课程群 · 每日精选**\n📅 2026-05-27\n\n### 🔥 统计周期核心话题\n统计周期内主要围绕 Sitor 新能力、公众号文章导入学习、UI 焚决 / Impeccable Skill、LLM Wiki 课程更新展开。群友还集中讨论了原生 App 规划、Codex 登录接码、Chrome CDP 调试、Playwright/Puppeteer、小红书抓取等工具链问题。\n\n### 📌 sanyuan 要点\n- sanyuan: 发布并推荐“UI 焚决”相关公众号内容，入口：https://sitor.ai\n- sanyuan: Sitor 首页已支持导入微信公众号文章，历史文章和其他公众号长文都可导入学习。\n- sanyuan: 公众号文章导入的学力消耗会调整；读取文章约 1 个学力，解读步骤另计，避免单篇消耗过高。\n- sanyuan: Sitor PWA 9 点推送复习通知；iOS App 原生 Swift 开发，处于上架审核中，Android 后续推进。\n- sanyuan: 已有界面审查建议使用 /critique；统计周期内课程更新为 LLM Wiki，并展示扫描件导入、Voice mode 学英语。\n\n### 💡 有价值信息\n- L: 可用 craft 起草新功能，后续可尝试 front design；Impeccable Skill 子命令可直接调用或自行 pin。\n- 宇 / 阿五: /impeccable 装主 skill 即可用子命令，也可把子命令单独复制到 agent skill 目录。\n- 不散和弦: 使用 /critique 优化 UI，评分从 15/40 提升到 32/40，背后使用 Claude Code Sonnet。\n- procrastination🐼 / Roy: 小红书抓取可参考 https://github.com/jackwener/xiaohongshu-cli，但小红书风控升级频繁，稳定抓取难度高。\n- Harrison Wells / Roy: 浏览器自动化可看 Playwright MCP、Puppeteer；Chrome 147 的 CDP 能让 AI 操作当前浏览器实例，设置里开启即可。\n- 苏彧: 分享 A2UI + Vue 文章：https://mp.weixin.qq.com/s?__biz=Mzg3Njc0NTgwMg==&mid=2247504267&idx=1&sn=e3163144d913971f97fb015c3b791e1d#rd\n\n### 🗓️ 行动建议\n- 去 https://sitor.ai 导入公众号文章或课程资料，按主题相关性分批学习。\n- 用 /critique 审查现有界面，再结合 UI 焚决流程迭代。\n- 学习统计周期内更新的 LLM Wiki 课程，尝试 Voice mode 英语练习与扫描件导入。\n- 需要浏览器自动化的群友可跟进 Playwright MCP、Puppeteer、Chrome CDP。",
   "id": "20260528"
 }
