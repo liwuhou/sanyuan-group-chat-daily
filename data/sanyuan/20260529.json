@@ -1,0 +1,43 @@
+{
+  "group_id": "sanyuan",
+  "group": "三元 Agent 课程群 1",
+  "date": "2026年05月29日",
+  "since": "2026-05-28 07:00",
+  "until": "2026-05-29 07:00",
+  "stats": {
+    "messages": 529,
+    "texts": 387,
+    "active": 54
+  },
+  "wechat_push_text": "**三元 Agent 课程群 · 每日精选**\n📅 2026-05-28\n\n### 🔥 统计周期核心话题\n统计周期内主要围绕 Sitor 国内/海外双域名部署、课程与私教使用、PDF/文章/视频解析能力、Agent loop 与上下文压缩机制展开。群友还讨论了企业 Agent 落地、Claude Code 子 Agent、微信聊天记录总结、微调蒸馏学习资源与前端交互设计。\n\n### 📌 sanyuan 要点\n- sanyuan: sitor.cc 已修复并作为国内纯部署入口，sitor.ai 为海外入口；两套服务器和数据隔离，功能同步上线。\n- sanyuan: 国内版后续会关闭 Google 登录；iOS 会做两套，iOS 6 月发布，Android 预计 7 月。\n- sanyuan: 国内版 YouTube 解析存在合规风险，可能禁用；B 站、微信、知乎解析没问题。\n- sanyuan: Sitor PDF 支持扫描件解析，普通 PDF 方案课程中有讲，扫描件通过 VLM 识别；跨页文字、图片、标注引用、水印页码等也可处理。\n- sanyuan: Sitor 私教调用会占用额度，不建议自定义 Key；不同任务会精心选择不同模型，内部有几十处模型调用。\n- sanyuan: Agent 乒乓循环检测主要覆盖 ABAB 类真实循环；如需构造死循环测试，可改 mock model。\n\n### 💡 有价值信息\n- 苏彧: 分享 Claude Code 云端部署与魔改 SDK 实现 HTTP 流式调用教程：https://mp.weixin.qq.com/s?__biz=MzIzOTU0NTQ0MA==&mid=2247560355&idx=1&sn=c7c83c7bf352322ee7221ca404468fb6&chksm=e80cba21c3e44de262761f127123cb5e67b147b3fc0e4e44478e9869179cc1b3d4a8ae8f0118&mpshare=1&scene=1&srcid=05282AYWHBey6QbRjulGfnwD&sharer_shareinfo=10d8039870e516e27b97be12e5a7b06b&sharer_shareinfo_first=10d8039870e516e27b97be12e5a7b06b#rd\n- 阿五 / procrastination🐼: 微信聊天记录总结可考虑桥接工具落盘再分析，提到 WeFlow：https://github.com/hicccc77/WeFlow\n- 我是东山呀: 分享芒果模型平台，统计周期内可免费体验，Claude 接入速度可用：https://aigc.mgtv.com/develop/docs#text-models\n- Roy: 企业 Agent 落地常见做法是在 Claude Code 基础上二创，粒度集中在 skill 与 subAgent。\n- Pudge: 邮件自动回复 Agent 实践中会遇到 token 消耗问题，可设置 max token 或判断剩余额度，并保证最终必须产出 Response。\n- 苏彧 / Chan.: 讨论 Claude Code 上下文压缩与子 Agent；可参考 shareAI-lab 的 subagent 实现：https://github.com/shareAI-lab/learn-claude-code/blob/main/s06_subagent/README.md\n- lyz / 小花花: 登录页卡通形象跟随鼠标、输入账号密码和显示隐藏密码变化，可作为个人站互动设计参考：https://careercompassai.vercel.app/login\n\n### 🗓️ 行动建议\n- 国内访问优先使用 https://sitor.cc，海外环境使用 https://sitor.ai；涉及 Google 登录或 YouTube 学习场景需留意后续策略。\n- 学习课程 RAG/PDF 解析部分，并结合 VLM 思路验证扫描件、跨页内容和图文混排 PDF。\n- 想做群聊总结或微信数据分析的群友，可评估 WeFlow 等桥接方案，但需注意隐私与合规风险。\n- 企业 Agent 实践可重点复盘：工具调用循环检测、上下文压缩、子 Agent 编排、token 预算与兜底输出策略。",
+  "topics": [
+    "Sitor 国内/海外双域名部署与合规策略",
+    "Sitor 私教、课程、PDF/视频/文章解析能力",
+    "Agent loop、上下文压缩与 Claude Code 子 Agent",
+    "企业 Agent 落地与工具链实践"
+  ],
+  "points": [
+    "sitor.cc 已修复并作为国内纯部署入口，sitor.ai 为海外入口；两套服务器和数据隔离，功能同步上线。",
+    "国内版后续会关闭 Google 登录；iOS 会做两套，iOS 6 月发布，Android 预计 7 月。",
+    "国内版 YouTube 解析存在合规风险，可能禁用；B 站、微信、知乎解析没问题。",
+    "Sitor PDF 支持扫描件解析，扫描件通过 VLM 识别；跨页文字、图片、标注引用、水印页码等也可处理。",
+    "Sitor 私教调用会占用额度，不建议自定义 Key；不同任务会精心选择不同模型。",
+    "Agent 乒乓循环检测主要覆盖 ABAB 类真实循环；如需构造死循环测试，可改 mock model。"
+  ],
+  "infos": [
+    "苏彧: 分享 Claude Code 云端部署与魔改 SDK 实现 HTTP 流式调用教程。",
+    "阿五 / procrastination🐼: 微信聊天记录总结可考虑桥接工具落盘再分析，提到 WeFlow。",
+    "我是东山呀: 分享芒果模型平台，统计周期内可免费体验，Claude 接入速度可用。",
+    "Roy: 企业 Agent 落地常见做法是在 Claude Code 基础上二创，粒度集中在 skill 与 subAgent。",
+    "Pudge: 邮件自动回复 Agent 实践中会遇到 token 消耗问题，可设置 max token 或判断剩余额度，并保证最终必须产出 Response。",
+    "苏彧 / Chan.: 讨论 Claude Code 上下文压缩与子 Agent，可参考 shareAI-lab 的 subagent 实现。",
+    "lyz / 小花花: 登录页卡通形象跟随鼠标、输入账号密码和显示隐藏密码变化，可作为个人站互动设计参考。"
+  ],
+  "actions": [
+    "国内访问优先使用 https://sitor.cc，海外环境使用 https://sitor.ai；涉及 Google 登录或 YouTube 学习场景需留意后续策略。",
+    "学习课程 RAG/PDF 解析部分，并结合 VLM 思路验证扫描件、跨页内容和图文混排 PDF。",
+    "想做群聊总结或微信数据分析的群友，可评估 WeFlow 等桥接方案，但需注意隐私与合规风险。",
+    "企业 Agent 实践可重点复盘：工具调用循环检测、上下文压缩、子 Agent 编排、token 预算与兜底输出策略。"
+  ],
+  "id": "20260529"
+}
