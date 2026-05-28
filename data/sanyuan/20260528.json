@@ -1,49 +1,56 @@
 {
-  "group": "三元 Agent 课程群 1",
-  "group_id": "sanyuan",
+  "id": "20260528",
   "date": "2026年05月28日",
-  "period": {
-    "since": "2026-05-27 07:00",
-    "until": "2026-05-28 07:00"
-  },
+  "weekday": "周四",
+  "group": "三元 Agent 课程群",
+  "issue": "20260528",
   "stats": {
     "messages": 367,
     "texts": 272,
     "active": 44
   },
-  "summary": "统计周期内核心围绕 Sitor 新能力、公众号文章导入学习、UI 焚决 / Impeccable Skill、LLM Wiki 课程更新以及移动端规划展开。群友集中反馈了微信公众号链接导入学力消耗、PWA/通知、iOS App、Codex 登录接码、Chrome CDP 调试、抓取小红书等工具链问题。",
+  "summary": "统计周期内群聊围绕 Sitor 公众号文章导入、UI 审查与 Impeccable/critique 工作流、Sitor iOS 原生 App 与学力消耗机制展开。群友还讨论了小红书抓取风控、Codex 登录验证、中转/API key、A2UI + Vue 等工具链与实践话题。",
   "topics": [
-    "Sitor 支持导入微信公众号文章，课程与长文可直接链接导入学习",
-    "UI 焚决 / Impeccable Skill 用于界面 critique、polish、adapt，群友反馈评分和优化效果明显",
-    "Sitor iOS App 使用原生 Swift 开发，处于上架审核中，Android 后续规划",
-    "LLM Wiki 课程已更新，讨论 voice mode 学英语、扫描件导入等学习场景",
-    "Codex 登录接码、Chrome CDP、Playwright/Puppeteer、小红书抓取等工具链经验"
+    "Sitor 支持导入公众号文章与学习",
+    "UI 审查、Impeccable、/critique 与页面优化",
+    "Sitor iOS 原生 App、PWA 推送与 Android 规划",
+    "学力消耗机制调整：公众号文章读取与解读成本",
+    "小红书抓取风控、Codex 登录验证、中转/API key"
   ],
   "points": [
-    "sanyuan 分享新公众号内容“UI 焚决”，建议按需学习，并给出站点 https://sitor.ai",
-    "sanyuan 说明 Sitor 首页已支持导入微信公众号文章，自己的历史文章以及其他公众号文章都可导入学习",
-    "sanyuan 回应公众号文章学力消耗：读取文章 1 个学力较合理，后续调整为 1+1；解读步骤另需 5 个学力，整体从 6+1 优化到 5+1+1",
-    "sanyuan 说明 Sitor PWA 9 点推送复习通知，iOS App 正在上架审核，采用原生 Swift；Android 后续推进",
-    "sanyuan 建议已有界面审查使用 /critique，而非 /polish 或 /adapt",
-    "sanyuan 表示微信公众号抓取技术路线暂不公开，文章导入可按文章相关性和大小决定单篇或多篇处理",
-    "sanyuan 发布课程更新方向：LLM Wiki，会讲得更细；并展示扫描件导入及通过 Voice mode 学英语"
+    {
+      "title": "Sitor 公众号文章导入",
+      "desc": "sanyuan 在 2026-05-27 10:30 提到 Sitor 已支持导入公众号文章，之前的文章可以通过链接导入学习，入口在首页。"
+    },
+    {
+      "title": "移动端与原生 App 方向",
+      "desc": "sanyuan 表示 iOS App 正在上架审核中，使用原生 Swift；Flutter 坑较多，Android 后续再做。"
+    },
+    {
+      "title": "学力消耗机制调整",
+      "desc": "围绕公众号文章与 YouTube 视频的消耗讨论后，sanyuan 表示读取文章 1 个学力应够用，并考虑将原本 6+1 调整为 1+1；YouTube 视频则按长度消耗。"
+    },
+    {
+      "title": "UI 审查与 Impeccable 实践",
+      "desc": "群友讨论 /impeccable 与 /critique 的使用方式，反馈 UI 审查能将页面评分从 15 提升到 32，适合拿来优化已有界面。"
+    },
+    {
+      "title": "爬虫与账号登录经验",
+      "desc": "群友讨论小红书稳定抓取难度、风控升级、xiaohongshu-cli，以及 Codex 手机号验证、中转/API key 接入等问题。"
+    }
   ],
   "infos": [
-    "Chan.: 提到 open design 可在 GUI 中划定指定区域进行修改，可作为 UI 迭代参考工具",
-    "L: 使用 craft 起草新功能，计划尝试 front design；确认 Impeccable Skill 子命令可直接调用，也可自行 pin",
-    "宇 / 阿五: /impeccable 安装一个主 skill 即可使用子命令，也可把子命令单独复制到 agent 的 skill 目录",
-    "不散和弦: 使用 /critique 后界面评分从 15/40 优化到 32/40，背后使用 Claude Code Sonnet",
-    "procrastination🐼: 分享小红书抓取 CLI 参考：https://github.com/jackwener/xiaohongshu-cli；Roy 补充小红书风控升级频繁，稳定抓取难度高",
-    "Harrison Wells / Roy: 浏览器自动化可看 Playwright MCP 或 Puppeteer；Harrison Wells 提到 Chrome 147 的 CDP 可让 AI 操作当前浏览器实例，设置里开启即可",
-    "苏彧: 分享文章《我们如何用 A2UI + Vue，让大模型长出“可交互界面”》https://mp.weixin.qq.com/s?__biz=Mzg3Njc0NTgwMg==&mid=2247504267&idx=1&sn=e3163144d913971f97fb015c3b791e1d&chksm=ce6fec517ee5d9736628c9a9fac67b8f080dce54d4a8caf9e92096a864037389c2d11afb1f2e&mpshare=1&scene=1&srcid=0527GGrxgzeZT5CPYHKWYmf7&sharer_shareinfo=8f03e28fee4a5112664d46280f0904cf&sharer_shareinfo_first=8f03e28fee4a5112664d46280f0904cf#rd"
+    "sanyuan：Sitor 支持导入公众号文章，可把历史文章链接导入学习：https://sitor.ai",
+    "sanyuan：2026-05-27 更新 llm wiki，内容会讲得更细；英语学习可尝试 Voice mode。",
+    "procrastination🐼：小红书风控很强，提到 xiaohongshu-cli：https://github.com/jackwener/xiaohongshu-cli",
+    "苏彧：分享《我们如何用 A2UI + Vue，让大模型长出“可交互界面”》微信公众号文章。",
+    "群友：Codex 登录基本需要手机号验证，可考虑中转/API key 接入等路径。"
   ],
   "actions": [
-    "阅读并实践 sanyuan 的 UI 焚决文章，将界面先用 /critique 做审查，再按建议优化",
-    "在 https://sitor.ai 首页导入公众号文章或课程资料，优先按主题相关性分批学习",
-    "关注 Sitor iOS App 上架、Android 版本规划及 PWA 复习通知体验",
-    "学习统计周期内更新的 LLM Wiki 课程，并尝试 Voice mode 英语练习与扫描件导入",
-    "需要浏览器自动化能力的群友可跟进 Playwright MCP、Puppeteer、Chrome CDP 方案"
+    "试用 Sitor 的公众号文章导入功能，把三元历史文章导入学习。",
+    "尝试用 /critique 或 Impeccable 对已有页面做 UI 审查与优化。",
+    "关注 Sitor iOS App 上架、Android 后续计划，以及 PWA 9 点推送。",
+    "如需抓取小红书内容，优先评估 App 接口与风控成本，不要假设有稳定方案。"
   ],
-  "wechat_push_text": "**三元 Agent 课程群 · 每日精选**\n📅 2026-05-27\n\n### 🔥 统计周期核心话题\n统计周期内主要围绕 Sitor 新能力、公众号文章导入学习、UI 焚决 / Impeccable Skill、LLM Wiki 课程更新展开。群友还集中讨论了原生 App 规划、Codex 登录接码、Chrome CDP 调试、Playwright/Puppeteer、小红书抓取等工具链问题。\n\n### 📌 sanyuan 要点\n- sanyuan: 发布并推荐“UI 焚决”相关公众号内容，入口：https://sitor.ai\n- sanyuan: Sitor 首页已支持导入微信公众号文章，历史文章和其他公众号长文都可导入学习。\n- sanyuan: 公众号文章导入的学力消耗会调整；读取文章约 1 个学力，解读步骤另计，避免单篇消耗过高。\n- sanyuan: Sitor PWA 9 点推送复习通知；iOS App 原生 Swift 开发，处于上架审核中，Android 后续推进。\n- sanyuan: 已有界面审查建议使用 /critique；统计周期内课程更新为 LLM Wiki，并展示扫描件导入、Voice mode 学英语。\n\n### 💡 有价值信息\n- L: 可用 craft 起草新功能，后续可尝试 front design；Impeccable Skill 子命令可直接调用或自行 pin。\n- 宇 / 阿五: /impeccable 装主 skill 即可用子命令，也可把子命令单独复制到 agent skill 目录。\n- 不散和弦: 使用 /critique 优化 UI，评分从 15/40 提升到 32/40，背后使用 Claude Code Sonnet。\n- procrastination🐼 / Roy: 小红书抓取可参考 https://github.com/jackwener/xiaohongshu-cli，但小红书风控升级频繁，稳定抓取难度高。\n- Harrison Wells / Roy: 浏览器自动化可看 Playwright MCP、Puppeteer；Chrome 147 的 CDP 能让 AI 操作当前浏览器实例，设置里开启即可。\n- 苏彧: 分享 A2UI + Vue 文章：https://mp.weixin.qq.com/s?__biz=Mzg3Njc0NTgwMg==&mid=2247504267&idx=1&sn=e3163144d913971f97fb015c3b791e1d#rd\n\n### 🗓️ 行动建议\n- 去 https://sitor.ai 导入公众号文章或课程资料，按主题相关性分批学习。\n- 用 /critique 审查现有界面，再结合 UI 焚决流程迭代。\n- 学习统计周期内更新的 LLM Wiki 课程，尝试 Voice mode 英语练习与扫描件导入。\n- 需要浏览器自动化的群友可跟进 Playwright MCP、Puppeteer、Chrome CDP。",
-  "id": "20260528"
+  "wechat_push_text": "**三元 Agent 课程群 · 每日精选**\n📅 2026-05-27 07:00 ~ 2026-05-28 07:00\n\n### 🔥 统计周期核心话题\n统计周期内共抓取到 367 条消息，其中 272 条文字消息，44 位成员参与。讨论重点集中在 Sitor 公众号文章导入、UI 审查与 Impeccable/critique 工作流、Sitor iOS 原生 App 与学力消耗机制；同时也涉及小红书抓取风控、Codex 登录验证、中转/API key、A2UI + Vue 等工具链实践。\n\n### 📌 sanyuan 要点\n- sanyuan：Sitor 已支持导入公众号文章，之前的文章都可以通过链接导入学习，入口在首页：https://sitor.ai\n- sanyuan：iOS App 正在上架审核中，采用原生 Swift；Flutter 坑较多，Android 后续再做。\n- sanyuan：公众号文章读取 1 个学力应该够用，并准备调整学力消耗；YouTube 视频按长度消耗，解读步骤另算。\n- sanyuan：针对 UI 优化问题建议使用 `/critique`。\n- sanyuan：2026-05-27 晚间更新 llm wiki，内容会讲得更细；英语学习可尝试 Voice mode。\n\n### 💡 有价值信息\n- Chan.：提到 open design 可在 GUI 中划定指定区域让 AI 修改，适合局部 UI 调整场景。\n- 不散和弦 / L / 苏彧：围绕 Impeccable、`/critique` 做 UI 审查展开实践，反馈页面评分可从 15 提升到 32，适合优化已有界面。\n- procrastination🐼：小红书风控很强，提到可参考 xiaohongshu-cli：https://github.com/jackwener/xiaohongshu-cli\n- Roy：补充小红书抓取很难稳定，风控几个月就会升级一次。\n- 小花花等：讨论 Codex 登录需要手机号验证，可考虑中转/API key 接入，避免卡在账号认证。\n- 苏彧：分享 A2UI + Vue 文章：《我们如何用 A2UI + Vue，让大模型长出“可交互界面”》。\n\n### 🗓️ 行动建议\n- 把三元历史公众号文章导入 Sitor，测试长文学习与复习体验。\n- 对已有页面试用 `/critique` 或 Impeccable，验证 UI 审查与自动优化效果。\n- 关注 Sitor iOS App 上架、Android 后续计划，以及公众号文章导入的学力消耗调整。\n- 如果要做小红书抓取，先评估风控与维护成本，不要默认存在长期稳定方案。"
 }
