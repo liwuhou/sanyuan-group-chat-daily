@@ -1,0 +1,39 @@
+{
+  "group": "三元 Agent 课程群 1",
+  "group_id": "sanyuan",
+  "date": "2026年05月30日",
+  "stats": {
+    "messages": 317,
+    "texts": 244,
+    "active": 48
+  },
+  "summary": "统计周期内围绕模型版本与额度成本、UI/设计工具链、语音识别方案、码头 Agent 场景和课程更新展开讨论。sanyuan 分享了语音转文字模型选择，并说明课程将进入 memory 与 multi Agent 相关内容。",
+  "topics": [
+    "模型体验与成本：群友讨论 GPT/Claude/Codex、Copilot 计费变化、中转套餐与 token 消耗。",
+    "UI/设计工具链：围绕 OpenDesign、frontend-design、impeccable、Stitch、Figma 的适用场景与体验展开。",
+    "课程与产品：sanyuan 说明 context engineering 将收尾，后续更新 memory、multi Agent 与面试官方向。"
+  ],
+  "points": [
+    "sanyuan 表示 Web Speech API 可用但准确率不足，优势主要在实时性。",
+    "sanyuan 推荐语音转文字可搜索 Groq 的 whisper v3，使用 LPU 部署，速度比其他方案快 5～10 倍。",
+    "sanyuan 确认 sitor.ai 首页会跳转到上次学习链接属于产品 feature，并回应 PDF 上传当前限制约 10MB。",
+    "sanyuan 表示统计周期后续会加紧更新，memory 即将开始，先更理论再更实战，context engineering 即将结尾；后续计划做面试官。"
+  ],
+  "infos": [
+    "Pudge: 提出团队内 Agent 需求：创建 Jira ticket、访问 AWS 日志并分析问题，讨论是否应从零开发，或基于 Hermes Agent 扩展 Skill/MCP，以复用安全、token 优化和 IM 集成能力。",
+    "Chan.: UI 设计可尝试 skill 或 OpenDesign；OpenDesign 内置不同风格。",
+    "小心甘: 做 UI 可结合元神推荐的 skill 与 Stitch；frontend-design + impeccable 被提及为可用组合。",
+    "小花花: 分享码头场景 Agent 思路：AI+TOS 分层 Agent 智能管控架构，通过 Agent 打通 TOS 与 AI 智能算法调用通道；无人码头更像无人化自动码头，真正 AI Agent 落地仍处理论研究阶段。",
+    "薛定谔的猫: Claude Code 更新后部分 DS/小米模型出现 401，可尝试降级到 150 版本。",
+    "Chan.: Claude Code 之前需要调整上下文参数，可调到 1M。",
+    "我是东山呀 / Satisfied: 芒果 TV 模型平台近期可用，接入 key 后可选 qwen3.7，体验尚可。"
+  ],
+  "actions": [
+    "关注 Groq whisper v3（https://groq.com/）用于低延迟语音转文字评估。",
+    "关注 sitor.ai（https://sitor.ai/）课程更新：memory、multi Agent、实战与面试官能力。",
+    "做 UI/UX 的群友可对比 OpenDesign、Stitch、Figma，以及 frontend-design + impeccable skill 组合。",
+    "使用 Claude Code 且遇到 401 的群友，可排查版本更新影响并尝试降级到 150。"
+  ],
+  "wechat_push_text": "**三元 Agent 课程群 · 每日精选**\n📅 2026-05-29 07:00 ~ 2026-05-30 07:00\n\n### 🔥 统计周期核心话题\n统计周期内主要围绕模型版本体验、额度成本、UI/设计工具链、语音识别方案、码头 Agent 场景和课程更新展开。群友重点讨论 Codex/Claude/GPT、中转套餐、OpenDesign/Stitch/Figma，以及企业级 Agent 是否应基于 Hermes Agent + Skill/MCP 扩展。\n\n### 📌 sanyuan 要点\n- sanyuan: Web Speech API 可用但准确率不足，主要优势是实时。\n- sanyuan: 推荐语音转文字方案搜索 Groq 的 whisper v3，使用 LPU 部署，速度比其他家快 5～10 倍。链接：https://groq.com/\n- sanyuan: 确认 https://sitor.ai/ 会跳转到上次学习链接是产品 feature；PDF 上传当前约 10MB 限制。\n- sanyuan: context engineering 即将结尾，后续进入 memory，先更理论再更实战；memory 和 multi Agent 后会做专门的面试官。\n\n### 💡 有价值信息\n- Pudge: 团队 Agent 需求包括创建 Jira ticket、访问 AWS 日志并分析问题；讨论是否应基于 Hermes Agent 扩展 Skill/MCP，避免重复处理安全、token 优化和 IM 集成。\n- Chan.: UI 设计可用 skill 或 OpenDesign，OpenDesign 内置不同风格。\n- 小心甘: UI/UX 可结合 Stitch，以及 frontend-design + impeccable 这类 skill 组合。\n- 小花花: 码头方向提出“AI+TOS 分层 Agent 智能管控架构”，通过 Agent 打通 TOS 与 AI 智能算法调用；业界仍处理论研究和方案评审阶段。\n- 薛定谔的猫: Claude Code 更新后部分 DS/小米模型出现 401，可尝试降级到 150 版本。\n- 我是东山呀 / Satisfied: 芒果 TV 模型平台近期可用，接入 key 后可选 qwen3.7，体验尚可。\n\n### 🗓️ 行动建议\n- 评估 Groq whisper v3：https://groq.com/\n- 关注课程平台更新：https://sitor.ai/\n- 做 UI/UX 的群友可对比 OpenDesign、Stitch、Figma，以及 frontend-design + impeccable。\n- 遇到 Claude Code 401 的群友，优先排查版本更新影响并尝试降级到 150。",
+  "id": "20260530"
+}
