@@ -1,0 +1,36 @@
+{
+  "group_id": "sanyuan",
+  "group": "三元 Agent 课程群 1",
+  "since": "2026-05-31 07:00",
+  "until": "2026-06-01 07:00",
+  "date": "2026年06月01日",
+  "stats": {
+    "messages": 84,
+    "texts": 72,
+    "active": 15
+  },
+  "topics": [
+    "统计周期内主要围绕课程平台稳定性、服务部署迁移、AI 工具链增强展开。",
+    "群友反馈编辑器、AI 校验、验证码和登录异常，sanyuan 多次响应并完成修复、部署与回滚。",
+    "群内分享了 Claude Code ultracode 强开工具，以及用 Codex + Obsidian 做私教答复复盘的新实践。"
+  ],
+  "points": [
+    "sanyuan 回复 GitHub 可通过邮箱联系，并说明 GitHub 资料里有邮箱。",
+    "sanyuan 修复课程编辑器不可用问题。",
+    "sanyuan 修复邮件重复发送问题，将触达频率限制为最多一周一次。",
+    "sanyuan 说明服务端部署与阿里云机器升级情况；部署后短暂异常，随后回滚并恢复。"
+  ],
+  "infos": [
+    "知行和一: 分享 unlock-claude-ultracode-windows，可让第三方 API 强开 Claude Code 的 ultracode / dynamicworkflow 能力，并行运行 sub agent，降低编码流程中 AI 跳过质量门的风险；代价是 token 消耗约提升 10 倍。链接：https://github.com/daixudk96-max/unlock-claude-ultracode-windows",
+    "wing: 提出用 Codex + Obsidian 总结与复盘私教老师答复过程，让 AI 提炼回答不足并沉淀到 Obsidian，便于后续高效复盘。",
+    "L: 反馈中文推理能力上 qwen3.7 max 相比 ds4-pro 更强，可作为中文任务模型选择参考。"
+  ],
+  "actions": [
+    "关注课程平台迁移后的稳定性，尤其是编辑器、AI 校验、验证码和登录状态。",
+    "评估 ultracode 强开工具的实际收益与 token 成本，注意第三方 API 兼容性。",
+    "可尝试 Codex + Obsidian 复盘工作流，用于学习反馈沉淀。",
+    "关注课程更新节奏与迁移完成后的内容安排。"
+  ],
+  "wechat_push_text": "**三元 Agent 课程群 · 每日精选**\n📅 2026-05-31 07:00 ~ 2026-06-01 07:00\n\n### 🔥 统计周期核心话题\n统计周期内主要围绕课程平台稳定性、服务部署迁移、AI 工具链增强展开。群友反馈编辑器、AI 校验、验证码和登录异常，sanyuan 多次响应并完成修复、部署与回滚；同时群内分享了 ultracode 强开工具和 Codex + Obsidian 复盘实践。\n\n### 📌 sanyuan 要点\n- 回复 GitHub 可通过邮箱联系，并说明 GitHub 资料里有邮箱。\n- 修复课程编辑器不可用问题。\n- 修复邮件重复发送问题，将触达频率限制为最多一周一次。\n- 说明服务端部署与阿里云机器升级情况；部署后短暂异常，随后回滚并恢复。\n\n### 💡 有价值信息\n知行和一: 分享 unlock-claude-ultracode-windows，可让第三方 API 强开 Claude Code 的 ultracode / dynamicworkflow 能力，并行运行 sub agent，降低编码流程中 AI 跳过质量门的风险；代价是 token 消耗约提升 10 倍。链接：https://github.com/daixudk96-max/unlock-claude-ultracode-windows\n\nwing: 提出用 Codex + Obsidian 总结与复盘私教老师答复过程，让 AI 提炼回答不足并沉淀到 Obsidian，便于后续高效复盘。\n\nL: 反馈中文推理能力上 qwen3.7 max 相比 ds4-pro 更强，可作为中文任务模型选择参考。\n\n### 🗓️ 行动建议\n- 关注课程平台迁移后的稳定性，尤其是编辑器、AI 校验、验证码和登录状态。\n- 评估 ultracode 强开工具的实际收益与 token 成本，注意第三方 API 兼容性。\n- 可尝试 Codex + Obsidian 复盘工作流，用于学习反馈沉淀。\n- 关注课程更新节奏与迁移完成后的内容安排。",
+  "id": "20260601"
+}
