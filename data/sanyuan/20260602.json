@@ -1,0 +1,36 @@
+{
+  "group": "三元 Agent 课程群 1",
+  "group_id": "sanyuan",
+  "date": "2026年06月02日",
+  "stats": {
+    "messages": 292,
+    "texts": 212,
+    "active": 38
+  },
+  "wechat_push_text": "**三元 Agent 课程群 · 每日精选**\n📅 2026-06-01 07:00 ~ 2026-06-02 07:00\n\n### 🔥 统计周期核心话题\n统计周期内核心围绕 Memory 课程更新、Sitor 国内域名迁移与登录体验、AI 开发工具链实践展开。群友还集中讨论了 Impeccable、Agentic RAG、Claude Code/Codex 使用，以及课程平台与语音快捷键的体验反馈。\n\n### 📌 sanyuan 要点\n- 发布 Memory 课程更新，说明这是 context engineer 章节最后一站，将继续拆解 Agent memory 的理论与实战。课程链接：https://sitor.cc/courses/agent-fundamentals/23-memory-system\n- 说明 sitor.ai 对国内用户会自动跳转到 sitor.cc；.ai 需代理访问，.cc 已迁到国内，模型、服务、权限和数据与 .ai 一致，重新登录即可。\n- 针对账号迁移答疑：sitor.cc 可直接微信登录，已有数据已迁移；邮箱账号可先微信登录再在设置里绑定邮箱。\n- 回复“把 GitHub 地址丢进 Sitor 拆解学习项目”的需求：相关能力正在做。\n- 针对语音输入快捷键与系统输入法冲突，表示会增加设置，支持关闭/删除或调整快捷键。\n\n### 💡 有价值信息\n小花花: 分享阿里开源 AgentScope 文章，可作为企业级 Agent 框架选型参考：https://mp.weixin.qq.com/s/bZnj58YjY9RvzMAdp27r7w\n🍭拜托啦俊酱丶: 反馈 Impeccable 页面生成能力很强，直接 init 的页面效果接近设计师产出；群友补充效果与项目基础有关，部分场景先 front design 再用 Impeccable 更稳。\nHarrison Wells: 体验 Tavily 搜索集成，指出搜索消耗较高，且 skill 命令缺少提示会影响使用体验。\n苏彧 / 小花花 / L: 讨论“知识库 + 网页搜索”需求，结论是可将知识库检索和网络搜索做成两个工具；若业务要求 AND 关系，就两个都查再综合结果，而不是只让 Agent 二选一。\n苏彧: 分享字节 Agent 开发岗二面题链接，sanyuan 判断题目难度较高，群友提醒不要被评论区“基础题”叙事制造焦虑：https://www.xiaohongshu.com/discovery/item/6a1ab93a0000000035029e6f\n\n### 🗓️ 行动建议\n- 学习并实践 Memory 课程新章节，重点关注 Agent memory 的理论拆解与实战模式。\n- 国内访问优先使用 https://sitor.cc，并检查微信登录、邮箱绑定、课程权限是否正常。\n- 跟进 Sitor 后续 GitHub 项目拆解能力与语音快捷键设置更新。\n- 有“知识库 + 联网搜索”需求的项目，可优先设计双工具并行检索 + 结果融合流程。",
+  "topics": [
+    "统计周期内核心围绕 Memory 课程更新、Sitor 国内域名迁移与登录体验、AI 开发工具链实践展开。",
+    "群友集中讨论了 Impeccable、Agentic RAG、Claude Code/Codex 使用，以及课程平台与语音快捷键的体验反馈。"
+  ],
+  "points": [
+    "发布 Memory 课程更新，说明这是 context engineer 章节最后一站，将继续拆解 Agent memory 的理论与实战。",
+    "说明 sitor.ai 对国内用户会自动跳转到 sitor.cc；.ai 需代理访问，.cc 已迁到国内，模型、服务、权限和数据与 .ai 一致。",
+    "说明 sitor.cc 可直接微信登录，已有数据已迁移；邮箱账号可先微信登录再在设置里绑定邮箱。",
+    "回复 GitHub 项目拆解学习需求，表示相关能力正在做。",
+    "针对语音输入快捷键与系统输入法冲突，表示会增加设置，支持关闭、删除或调整快捷键。"
+  ],
+  "infos": [
+    "小花花: 分享阿里开源 AgentScope 文章，可作为企业级 Agent 框架选型参考：https://mp.weixin.qq.com/s/bZnj58YjY9RvzMAdp27r7w",
+    "🍭拜托啦俊酱丶: 反馈 Impeccable 页面生成能力很强，直接 init 的页面效果接近设计师产出；群友补充效果与项目基础有关，部分场景先 front design 再用 Impeccable 更稳。",
+    "Harrison Wells: 体验 Tavily 搜索集成，指出搜索消耗较高，且 skill 命令缺少提示会影响使用体验。",
+    "苏彧 / 小花花 / L: 讨论知识库与网页搜索需求，结论是可将知识库检索和网络搜索做成两个工具；若业务要求 AND 关系，就两个都查再综合结果。",
+    "苏彧: 分享字节 Agent 开发岗二面题链接，sanyuan 判断题目难度较高，群友提醒不要被评论区基础题叙事制造焦虑：https://www.xiaohongshu.com/discovery/item/6a1ab93a0000000035029e6f"
+  ],
+  "actions": [
+    "学习并实践 Memory 课程新章节，重点关注 Agent memory 的理论拆解与实战模式。",
+    "国内访问优先使用 https://sitor.cc，并检查微信登录、邮箱绑定、课程权限是否正常。",
+    "跟进 Sitor 后续 GitHub 项目拆解能力与语音快捷键设置更新。",
+    "有知识库与联网搜索需求的项目，可优先设计双工具并行检索与结果融合流程。"
+  ],
+  "id": "20260602"
+}
