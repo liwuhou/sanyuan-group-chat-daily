@@ -1,0 +1,33 @@
+{
+  "date": "2026年06月03日",
+  "group": "Sitor AI 产品用户群 1",
+  "wechat_push_text": "**Sitor AI 产品用户群 · 每日精选**\n📅 2026-06-03\n\n### 🚀 Sitor 功能更新（置顶）\n无功能更新\n\n### 🔥 昨日核心话题\n群里主要讨论了无字幕视频解析、AI 设计平台和 GLM 订阅购买方式。也有成员反馈麦克风权限、上传失败等使用问题，但未形成统一结论。\n\n### 💡 AI 产品有价值信息\n- Harrison Wells / sanyuan / 小花花: 无字幕视频可尝试上传视频，群里提到已做字幕提取；也有人建议用 yt-dlp + ffmpeg 处理。\n- Forrest: 推荐 Stitch 作为 UI/UX 低代码 AI 设计平台；可参考文章 https://mp.weixin.qq.com/s?__biz=MzA4MjYwMTc5Nw==&mid=2649014184&idx=1&sn=376d252e070eb73f50e9afc9f5f3c0fe&chksm=86f9c4087c5a178950ce7073a0021cec1c03ba12431cbc609cd0f5a0a8da3f1c1596cca770ab&mpshare=1&scene=1&srcid=0602ZoxtmbdU28feIzIfkaKs&sharer_shareinfo=f7b436bff03f69aa3e2ee555d3a2cf0c0&sharer_shareinfo_first=f7b436bff03f69aa3e2ee555d3a2cf0c0#rd\n- CJ / Lx / 知行和一: GLM 可在官网购买，提到的套餐是 coding plan / 阿里 codingplan。",
+  "topics": [
+    "群里主要讨论无字幕视频解析、AI 设计平台和 GLM 订阅购买方式。",
+    "麦克风权限、上传失败等使用问题有零散反馈，但未形成统一结论。"
+  ],
+  "points": [
+    "无功能更新"
+  ],
+  "infos": [
+    {
+      "speaker": "Harrison Wells / sanyuan / 小花花",
+      "content": "无字幕视频可尝试上传视频，群里提到已做字幕提取；也有人建议用 yt-dlp + ffmpeg 处理。"
+    },
+    {
+      "speaker": "Forrest",
+      "content": "推荐 Stitch 作为 UI/UX 低代码 AI 设计平台；参考文章：https://mp.weixin.qq.com/s?__biz=MzA4MjYwMTc5Nw==&mid=2649014184&idx=1&sn=376d252e070eb73f50e9afc9f5f3c0fe&chksm=86f9c4087c5a178950ce7073a0021cec1c03ba12431cbc609cd0f5a0a8da3f1c1596cca770ab&mpshare=1&scene=1&srcid=0602ZoxtmbdU28feIzIfkaKs&sharer_shareinfo=f7b436bff03f69aa3e2ee555d3a2cf0c0&sharer_shareinfo_first=f7b436bff03f69aa3e2ee555d3a2cf0c0#rd"
+    },
+    {
+      "speaker": "CJ / Lx / 知行和一",
+      "content": "GLM 可在官网购买，提到的套餐是 coding plan / 阿里 codingplan。"
+    }
+  ],
+  "actions": [],
+  "stats": {
+    "messages": 48,
+    "texts": 33,
+    "active": 11
+  },
+  "id": "20260603"
+}
