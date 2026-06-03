@@ -1,0 +1,992 @@
+[
+  {
+    "time": "2026-06-03 07:44",
+    "user": "sanyuan",
+    "content": "你这不是有吗"
+  },
+  {
+    "time": "2026-06-03 07:45",
+    "user": "sanyuan",
+    "content": "会根据课程和你的对话记录生成这种图片"
+  },
+  {
+    "time": "2026-06-03 10:21",
+    "user": "小花花",
+    "content": "![图片](http://127.0.0.1:5030/image/e16ffa32887ba43b09bfb3a97bc8d07e,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-06/Img/498490ca2fdd23f9249b08183b32833c)"
+  },
+  {
+    "time": "2026-06-03 10:21",
+    "user": "小花花",
+    "content": "super agent"
+  },
+  {
+    "time": "2026-06-03 10:31",
+    "user": "阿五",
+    "content": "就差了一个空格"
+  },
+  {
+    "time": "2026-06-03 10:32",
+    "user": "阿五",
+    "content": "没想到课程都还没出完，就被老东家抄过去了"
+  },
+  {
+    "time": "2026-06-03 10:32",
+    "user": "wxid_vemw0rehg8lg22",
+    "content": "[旺柴]"
+  },
+  {
+    "time": "2026-06-03 10:39",
+    "user": "Pudge",
+    "content": "哈哈 这个名字确实也巧了, 我昨天在 github 上搜 superagent, 感觉都是学 三元的课程"
+  },
+  {
+    "time": "2026-06-03 10:40",
+    "user": "sanyuan",
+    "content": "[捂脸]"
+  },
+  {
+    "time": "2026-06-03 10:43",
+    "user": "Nauxscript",
+    "content": "要赶紧查查是不是老东家买了你的课程 让一个组的人共享一个号看你的教程然后把东西抄过来了[旺柴]"
+  },
+  {
+    "time": "2026-06-03 10:43",
+    "user": "知行和一",
+    "content": "字节：花600块钱，就把以前要花几万块钱一个月雇员工的钱给省了，看我多机智"
+  },
+  {
+    "time": "2026-06-03 10:44",
+    "user": "Nauxscript",
+    "content": "哈哈哈哈"
+  },
+  {
+    "time": "2026-06-03 10:44",
+    "user": "Pudge",
+    "content": "笑死, 哈哈"
+  },
+  {
+    "time": "2026-06-03 10:48",
+    "user": "Pudge",
+    "content": "[ThumbsUp][ThumbsUp]"
+  },
+  {
+    "time": "2026-06-03 10:48",
+    "user": "Pudge",
+    "content": "![图片](http://127.0.0.1:5030/image/63d612ba43802994000734a61571c3c8,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-06/Img/27ed86d3434acf510abc31347aa64d3e)"
+  },
+  {
+    "time": "2026-06-03 10:49",
+    "user": "Cerror.",
+    "content": "可能要内部转岗到agent开发了"
+  },
+  {
+    "time": "2026-06-03 10:51",
+    "user": "Stone",
+    "content": "好事啊"
+  },
+  {
+    "time": "2026-06-03 10:51",
+    "user": "mk",
+    "content": "这是好事啊"
+  },
+  {
+    "time": "2026-06-03 10:51",
+    "user": "Cerror.",
+    "content": "聊了两轮 听的我一愣一愣的"
+  },
+  {
+    "time": "2026-06-03 10:51",
+    "user": "Cerror.",
+    "content": "抓紧跟进下学习进度了..."
+  },
+  {
+    "time": "2026-06-03 10:52",
+    "user": "阿五",
+    "content": "只能说非常羡慕"
+  },
+  {
+    "time": "2026-06-03 10:52",
+    "user": "Cerror.",
+    "content": "![图片](http://127.0.0.1:5030/image/6dd74ba2fa6243e9c644e14da2782a6d,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-06/Img/86bfb499652bf6c820165199fe1ed3c1)"
+  },
+  {
+    "time": "2026-06-03 10:52",
+    "user": "Roy",
+    "content": "我现在在的前端组目前很想做一整套开发流程harness"
+  },
+  {
+    "time": "2026-06-03 10:52",
+    "user": "Roy",
+    "content": "但业务需求都做不过来"
+  },
+  {
+    "time": "2026-06-03 10:53",
+    "user": "Cerror.",
+    "content": "刚刚那面负责人 边跟我讲 边写的 有点听懵了[捂脸]"
+  },
+  {
+    "time": "2026-06-03 10:54",
+    "user": "Pudge",
+    "content": "看上去没啥特殊的, 有点像 manus?"
+  },
+  {
+    "time": "2026-06-03 10:54",
+    "user": "Roy",
+    "content": "还行吧 这些都是课程里提到过的 就是实战需要点"
+  },
+  {
+    "time": "2026-06-03 10:54",
+    "user": "sapen",
+    "content": "ts吗"
+  },
+  {
+    "time": "2026-06-03 10:54",
+    "user": "sapen",
+    "content": "还是python"
+  },
+  {
+    "time": "2026-06-03 10:54",
+    "user": "Evan",
+    "content": "还不错，核心思路是脑子和手的解耦"
+  },
+  {
+    "time": "2026-06-03 10:54",
+    "user": "Pudge",
+    "content": "是的 慢慢迭代, 感觉没啥问题, 这个 agent 是对外用还是对内用呀?"
+  },
+  {
+    "time": "2026-06-03 10:54",
+    "user": "Cerror.",
+    "content": "说要用deepagents搞"
+  },
+  {
+    "time": "2026-06-03 10:55",
+    "user": "sapen",
+    "content": "langchain😧"
+  },
+  {
+    "time": "2026-06-03 10:55",
+    "user": "稚",
+    "content": "挺好的啊"
+  },
+  {
+    "time": "2026-06-03 10:55",
+    "user": "稚",
+    "content": "算是增加实际项目经验了"
+  },
+  {
+    "time": "2026-06-03 10:56",
+    "user": "一期一会",
+    "content": "目前agent系统最大的瓶颈是token，我们这2天烧掉了20w人民币[捂脸]"
+  },
+  {
+    "time": "2026-06-03 10:56",
+    "user": "Cerror.",
+    "content": "抓紧恶补下了  实战课程 我还没开始搞"
+  },
+  {
+    "time": "2026-06-03 10:56",
+    "user": "知行和一",
+    "content": " Deep agent"
+  },
+  {
+    "time": "2026-06-03 10:56",
+    "user": "知行和一",
+    "content": "现在公司一般都用这个吧，我感觉，但是感觉这个不太极致啊"
+  },
+  {
+    "time": "2026-06-03 10:57",
+    "user": "Evan",
+    "content": "这些其实我们都还没 care"
+  },
+  {
+    "time": "2026-06-03 10:57",
+    "user": "Evan",
+    "content": "能不能做出来好用的东西才是关键"
+  },
+  {
+    "time": "2026-06-03 10:58",
+    "user": "一期一会",
+    "content": "20w 2天，一个月就300w了"
+  },
+  {
+    "time": "2026-06-03 10:58",
+    "user": "Roy",
+    "content": "搞点缓存机制你今年绩效就好了"
+  },
+  {
+    "time": "2026-06-03 10:58",
+    "user": "Roy",
+    "content": "能省点是点"
+  },
+  {
+    "time": "2026-06-03 10:58",
+    "user": "知行和一",
+    "content": "我昨天那个说的，他们用的，一次他对话就用5~6块钱，就是缓存没做好"
+  },
+  {
+    "time": "2026-06-03 10:58",
+    "user": "Liuc",
+    "content": "你们烧claude吗？"
+  },
+  {
+    "time": "2026-06-03 10:58",
+    "user": "一期一会",
+    "content": "缓存是一部分，主要是大家都用最好的，opus 4.8， gpt 5.5"
+  },
+  {
+    "time": "2026-06-03 10:59",
+    "user": "Evan",
+    "content": "我只敢用 5.4"
+  },
+  {
+    "time": "2026-06-03 10:59",
+    "user": "Roy",
+    "content": "4.8现在就是很烧token"
+  },
+  {
+    "time": "2026-06-03 10:59",
+    "user": "知行和一",
+    "content": "正经不应该是4.6配5.5干活吗？"
+  },
+  {
+    "time": "2026-06-03 10:59",
+    "user": "Roy",
+    "content": "他的thinking时间太长了"
+  },
+  {
+    "time": "2026-06-03 10:59",
+    "user": "知行和一",
+    "content": "4.8的说的东西，你们真的能看懂？"
+  },
+  {
+    "time": "2026-06-03 10:59",
+    "user": "一期一会",
+    "content": "合规问题公司的渠道必须要合规，好像大部分源是copilot来的，6.1号开始策略改了之后，直接疯狂烧token了"
+  },
+  {
+    "time": "2026-06-03 10:59",
+    "user": "Roy",
+    "content": "而且输出的内容也太多了"
+  },
+  {
+    "time": "2026-06-03 10:59",
+    "user": "阿五",
+    "content": "5.5 确实贵，但也比 4.7 4.8 便宜了"
+  },
+  {
+    "time": "2026-06-03 11:00",
+    "user": "Roy",
+    "content": "虽然准确率更高 但是贵"
+  },
+  {
+    "time": "2026-06-03 11:00",
+    "user": "Liuc",
+    "content": "我这边有aws的渠道，有xd需要吗"
+  },
+  {
+    "time": "2026-06-03 11:00",
+    "user": "Evan",
+    "content": "其实5.4就够用了"
+  },
+  {
+    "time": "2026-06-03 11:00",
+    "user": "Evan",
+    "content": "[表情]"
+  },
+  {
+    "time": "2026-06-03 11:00",
+    "user": "Evan",
+    "content": "5.5输出价格直接翻倍"
+  },
+  {
+    "time": "2026-06-03 11:47",
+    "user": "Chan.",
+    "content": "5.5做深度的，5.4做一般的。"
+  },
+  {
+    "time": "2026-06-03 12:05",
+    "user": "兰糊糊",
+    "content": "三元现在用什么模型 @sanyuan"
+  },
+  {
+    "time": "2026-06-03 12:17",
+    "user": "sanyuan",
+    "content": "4.8opus"
+  },
+  {
+    "time": "2026-06-03 12:17",
+    "user": "sanyuan",
+    "content": "神一样的模型"
+  },
+  {
+    "time": "2026-06-03 12:17",
+    "user": "zkam",
+    "content": "我怎么觉得cc没gpt好用"
+  },
+  {
+    "time": "2026-06-03 12:18",
+    "user": "sanyuan",
+    "content": "虽然网上很多人在骂 Claude，但是真正用好了你会变得很强"
+  },
+  {
+    "time": "2026-06-03 12:18",
+    "user": "zkam",
+    "content": "写代码方面，但是出架构方案cc还是不错的"
+  },
+  {
+    "time": "2026-06-03 12:19",
+    "user": "sanyuan",
+    "content": "gpt5.5水平上差不多的"
+  },
+  {
+    "time": "2026-06-03 12:19",
+    "user": "sanyuan",
+    "content": "选一个就行了"
+  },
+  {
+    "time": "2026-06-03 12:19",
+    "user": "sanyuan",
+    "content": "我两个都买了"
+  },
+  {
+    "time": "2026-06-03 12:19",
+    "user": "Cyan",
+    "content": "claude有啥便宜的使用渠道吗[破涕为笑]现在买的中转站只支持gpt"
+  },
+  {
+    "time": "2026-06-03 12:19",
+    "user": "sanyuan",
+    "content": "模型的差距现在不值一提"
+  },
+  {
+    "time": "2026-06-03 12:20",
+    "user": "sanyuan",
+    "content": "如果你的Claude还在用中转 建议不要用了"
+  },
+  {
+    "time": "2026-06-03 12:20",
+    "user": "sanyuan",
+    "content": "转gpt"
+  },
+  {
+    "time": "2026-06-03 12:21",
+    "user": "尤里安的红茶",
+    "content": "怎么才能用的好啊"
+  },
+  {
+    "time": "2026-06-03 12:21",
+    "user": "尤里安的红茶",
+    "content": "出一门课吧"
+  },
+  {
+    "time": "2026-06-03 12:22",
+    "user": "sanyuan",
+    "content": "[发呆]"
+  },
+  {
+    "time": "2026-06-03 12:22",
+    "user": "Pudge",
+    "content": "用好 claude 的第一步:"
+  },
+  {
+    "time": "2026-06-03 12:23",
+    "user": "Pudge",
+    "content": "问 claude 如何用好 claude [旺柴]"
+  },
+  {
+    "time": "2026-06-03 12:23",
+    "user": "lhvision",
+    "content": "[表情]"
+  },
+  {
+    "time": "2026-06-03 12:34",
+    "user": "阿五",
+    "content": "昨天刚80块买了一个月的gpt plus"
+  },
+  {
+    "time": "2026-06-03 12:34",
+    "user": "阿五",
+    "content": "![图片](http://127.0.0.1:5030/image/706f118dffa674a1df3b6b13361bfff0,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-06/Img/4f81b11a275bac9a1817ffcfa8534eb2)"
+  },
+  {
+    "time": "2026-06-03 12:57",
+    "user": "Chan.",
+    "content": "佬，咋买的。"
+  },
+  {
+    "time": "2026-06-03 13:02",
+    "user": "我是东山呀",
+    "content": "最简单就是土区 apple 订阅"
+  },
+  {
+    "time": "2026-06-03 13:11",
+    "user": "我是东山呀",
+    "content": "codex 挂了。429  估计又要重置额度了"
+  },
+  {
+    "time": "2026-06-03 13:13",
+    "user": "我是东山呀",
+    "content": "![图片](http://127.0.0.1:5030/image/f45924ec98bfaec58b583d6cf3d97959,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-06/Img/030b8310f1b5b3acc5784382643c534b)"
+  },
+  {
+    "time": "2026-06-03 13:44",
+    "user": "系统消息",
+    "content": "[系统] \"lyz\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-06-03 13:46",
+    "user": "杰宝大黄",
+    "content": "LLM 编译知识库：如何让知识库持续积累和互联？\n这门课感谢学的不透 @小花花 你彻底掌握了吗"
+  },
+  {
+    "time": "2026-06-03 13:49",
+    "user": "小花花",
+    "content": "没有"
+  },
+  {
+    "time": "2026-06-03 14:22",
+    "user": "杰宝大黄",
+    "content": "我感觉这章比其他章节更加跳跃一点。"
+  },
+  {
+    "time": "2026-06-03 14:27",
+    "user": "sanyuan",
+    "content": "这个其实是比较独立的一块内容"
+  },
+  {
+    "time": "2026-06-03 14:27",
+    "user": "Harrison Wells",
+    "content": "大佬们，我的好像不太对， search_tool 发现了 正确的mcp__github__xxx 工具，但是下一步没有直接调用，而是执行了 bash工具"
+  },
+  {
+    "time": "2026-06-03 14:28",
+    "user": "Harrison Wells",
+    "content": "![图片](http://127.0.0.1:5030/image/90711e4b05b9758f6ff7fc024df4455c,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-06/Img/b51bedf03ba56c44a7f3eedc0e74407d)"
+  },
+  {
+    "time": "2026-06-03 14:36",
+    "user": "sanyuan",
+    "content": "可以稳定复现吗"
+  },
+  {
+    "time": "2026-06-03 14:38",
+    "user": "Harrison Wells",
+    "content": "稳定，我发现search tool 后，总是用 bash工具去调用这个tool"
+  },
+  {
+    "time": "2026-06-03 14:38",
+    "user": "Harrison Wells",
+    "content": "![图片](http://127.0.0.1:5030/image/6d35203bb8b5e18a2501be425f6caace,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-06/Img/818f5d99ca666525b3ea5d4114f90c01)"
+  },
+  {
+    "time": "2026-06-03 14:40",
+    "user": "Harrison Wells",
+    "content": "非defer的情况就一步到位了"
+  },
+  {
+    "time": "2026-06-03 14:40",
+    "user": "Harrison Wells",
+    "content": "![图片](http://127.0.0.1:5030/image/caca8af07debeda8125c8819ad94c6ec,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-06/Img/03338a0c5242fce829ef70d6c24b666f)"
+  },
+  {
+    "time": "2026-06-03 14:40",
+    "user": "Harrison Wells",
+    "content": "难道是我的工具发现后，没有正确注册到 tools 里面吗"
+  },
+  {
+    "time": "2026-06-03 14:41",
+    "user": "sanyuan",
+    "content": "正常吧 这个 echo 是用来打印日志的 逻辑也能理解 你可以稍微调下prompt 看看"
+  },
+  {
+    "time": "2026-06-03 14:41",
+    "user": "sanyuan",
+    "content": "不让他打日志了"
+  },
+  {
+    "time": "2026-06-03 14:47",
+    "user": "Harrison Wells",
+    "content": "确实不对劲，上一步发现了工具，但是没注册进去"
+  },
+  {
+    "time": "2026-06-03 14:47",
+    "user": "Harrison Wells",
+    "content": "![图片](http://127.0.0.1:5030/image/617be17fcf41a6d6de0d7b248c6b4abe,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-06/Img/09a7688f3138b1738a9004ad27838d13)"
+  },
+  {
+    "time": "2026-06-03 14:47",
+    "user": "Harrison Wells",
+    "content": "我的问题"
+  },
+  {
+    "time": "2026-06-03 14:48",
+    "user": "sanyuan",
+    "content": "ok"
+  },
+  {
+    "time": "2026-06-03 15:02",
+    "user": "小洛",
+    "content": "挂了"
+  },
+  {
+    "time": "2026-06-03 15:02",
+    "user": "小洛",
+    "content": "![图片](http://127.0.0.1:5030/image/3d466d5f27c037f2dccdab4a49cfaf0d,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-06/Img/06b6f15e6d96a4bcb331df266cc1c7dd)"
+  },
+  {
+    "time": "2026-06-03 15:03",
+    "user": "sanyuan",
+    "content": "![图片](http://127.0.0.1:5030/image/b8a3fcc333eb6354609dc4c976f6122b,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-06/Img/6fd99d55dc55381339a39266080a21dd)"
+  },
+  {
+    "time": "2026-06-03 15:03",
+    "user": "sanyuan",
+    "content": "没挂"
+  },
+  {
+    "time": "2026-06-03 15:03",
+    "user": "sanyuan",
+    "content": "刷新下"
+  },
+  {
+    "time": "2026-06-03 15:04",
+    "user": "小洛",
+    "content": "还是报错"
+  },
+  {
+    "time": "2026-06-03 15:04",
+    "user": "小洛",
+    "content": "![图片](http://127.0.0.1:5030/image/2fd53fc59e18d3bdd96c8fe23f6b8809,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-06/Img/e4de502680a1bde590aeea7654512b54)"
+  },
+  {
+    "time": "2026-06-03 15:08",
+    "user": "杰宝大黄",
+    "content": "你这不会还是走的ai 而不是cc"
+  },
+  {
+    "time": "2026-06-03 15:08",
+    "user": "杰宝大黄",
+    "content": "@小洛 退出重新登录就好了"
+  },
+  {
+    "time": "2026-06-03 15:08",
+    "user": "sanyuan",
+    "content": "https://sitor.cc"
+  },
+  {
+    "time": "2026-06-03 15:09",
+    "user": "小洛",
+    "content": "是这个地址进去"
+  },
+  {
+    "time": "2026-06-03 15:09",
+    "user": "杰宝大黄",
+    "content": "要重新登录，我昨天还是前天就是这样的"
+  },
+  {
+    "time": "2026-06-03 15:10",
+    "user": "小洛",
+    "content": "我试试"
+  },
+  {
+    "time": "2026-06-03 15:11",
+    "user": "小洛",
+    "content": "我退出登陆了 。还是报错"
+  },
+  {
+    "time": "2026-06-03 15:11",
+    "user": "系统消息",
+    "content": "[系统] \"小洛\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-06-03 15:12",
+    "user": "小洛",
+    "content": "我点击进入应用就报错了"
+  },
+  {
+    "time": "2026-06-03 15:14",
+    "user": "小洛",
+    "content": "[视频]"
+  },
+  {
+    "time": "2026-06-03 15:14",
+    "user": "小洛",
+    "content": "点重新加载 也不行"
+  },
+  {
+    "time": "2026-06-03 15:18",
+    "user": "sanyuan",
+    "content": "看看控制台有什么报错没"
+  },
+  {
+    "time": "2026-06-03 15:21",
+    "user": "小洛",
+    "content": "![图片](http://127.0.0.1:5030/image/dbdfd7f67b3b67015f5f9af0c8a2c7b9,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-06/Img/69174325fc194864a0e0079f33559dbe)"
+  },
+  {
+    "time": "2026-06-03 15:23",
+    "user": "L",
+    "content": "打开无痕试一下"
+  },
+  {
+    "time": "2026-06-03 15:23",
+    "user": "L",
+    "content": "@小洛"
+  },
+  {
+    "time": "2026-06-03 15:24",
+    "user": "L",
+    "content": "可能是插件影响吧"
+  },
+  {
+    "time": "2026-06-03 15:26",
+    "user": "Evan",
+    "content": "好难"
+  },
+  {
+    "time": "2026-06-03 15:26",
+    "user": "Evan",
+    "content": "![图片](http://127.0.0.1:5030/image/5ce0bec4061b32234fb26e6a73ec636a,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-06/Img/031b14fcfe976c8f61b2d3cd39fa8b8b)"
+  },
+  {
+    "time": "2026-06-03 15:26",
+    "user": "小洛",
+    "content": "也不太行 。换了另外历览器 也是不行"
+  },
+  {
+    "time": "2026-06-03 15:26",
+    "user": "sanyuan",
+    "content": "我来排查下"
+  },
+  {
+    "time": "2026-06-03 15:26",
+    "user": "Evan",
+    "content": "offload 就得设计召回精准度，我已经调试了两天了"
+  },
+  {
+    "time": "2026-06-03 16:18",
+    "user": "系统消息",
+    "content": "[系统] \"sanyuan\"邀请\"Dolby\"加入了群聊"
+  },
+  {
+    "time": "2026-06-03 16:18",
+    "user": "系统消息",
+    "content": "[系统] \"Dolby\"与群里其他人都不是朋友关系，请注意隐私安全"
+  },
+  {
+    "time": "2026-06-03 17:57",
+    "user": "系统消息",
+    "content": "[系统] \"sanyuan\"邀请\"叶sir\"加入了群聊"
+  },
+  {
+    "time": "2026-06-03 17:57",
+    "user": "系统消息",
+    "content": "[系统] \"叶sir\"与群里其他人都不是朋友关系，请注意隐私安全"
+  },
+  {
+    "time": "2026-06-03 19:10",
+    "user": "小花花",
+    "content": "大佬，今天来点课程吧，上瘾了"
+  },
+  {
+    "time": "2026-06-03 19:10",
+    "user": "小花花",
+    "content": "@sanyuan "
+  },
+  {
+    "time": "2026-06-03 19:10",
+    "user": "小花花",
+    "content": "起初是三元带我进去的"
+  },
+  {
+    "time": "2026-06-03 19:10",
+    "user": "小花花",
+    "content": "现在上瘾了"
+  },
+  {
+    "time": "2026-06-03 19:11",
+    "user": "苏彧",
+    "content": "我也是"
+  },
+  {
+    "time": "2026-06-03 19:11",
+    "user": "苏彧",
+    "content": "难受"
+  },
+  {
+    "time": "2026-06-03 19:12",
+    "user": "小花花",
+    "content": "[旺柴]"
+  },
+  {
+    "time": "2026-06-03 19:12",
+    "user": "L",
+    "content": "小号"
+  },
+  {
+    "time": "2026-06-03 19:12",
+    "user": "L",
+    "content": "理论课最后一节 memory 了吧"
+  },
+  {
+    "time": "2026-06-03 19:21",
+    "user": "sanyuan",
+    "content": "今天实战"
+  },
+  {
+    "time": "2026-06-03 19:22",
+    "user": "wxid_xs95ug964g7s22",
+    "content": "看的吃力 脑力不行了"
+  },
+  {
+    "time": "2026-06-03 19:22",
+    "user": "sanyuan",
+    "content": "和私教聊聊"
+  },
+  {
+    "time": "2026-06-03 19:23",
+    "user": "sanyuan",
+    "content": "难度正在加大了"
+  },
+  {
+    "time": "2026-06-03 19:23",
+    "user": "sanyuan",
+    "content": "前面有人说没啥东西的 现在不说话了吧"
+  },
+  {
+    "time": "2026-06-03 19:23",
+    "user": "苏彧",
+    "content": "谁"
+  },
+  {
+    "time": "2026-06-03 19:28",
+    "user": "小花花",
+    "content": "难度一般"
+  },
+  {
+    "time": "2026-06-03 19:28",
+    "user": "小花花",
+    "content": "[抠鼻]"
+  },
+  {
+    "time": "2026-06-03 19:45",
+    "user": "小花花",
+    "content": "实战更新了，大佬快速学起来"
+  },
+  {
+    "time": "2026-06-03 19:46",
+    "user": "测不准'  '&a=3",
+    "content": "[666]"
+  },
+  {
+    "time": "2026-06-03 19:46",
+    "user": "苏彧",
+    "content": "学完了"
+  },
+  {
+    "time": "2026-06-03 19:46",
+    "user": "苏彧",
+    "content": "[旺柴][旺柴][旺柴]"
+  },
+  {
+    "time": "2026-06-03 19:57",
+    "user": "测不准'  '&a=3",
+    "content": "公司agent都是从0写么，还是基于框架啊"
+  },
+  {
+    "time": "2026-06-03 19:57",
+    "user": "sapen",
+    "content": "从零写"
+  },
+  {
+    "time": "2026-06-03 19:58",
+    "user": "测不准'  '&a=3",
+    "content": "[好的]"
+  },
+  {
+    "time": "2026-06-03 19:58",
+    "user": "小花花",
+    "content": "课程第一课，看业务场景"
+  },
+  {
+    "time": "2026-06-03 20:17",
+    "user": "测不准'  '&a=3",
+    "content": "编辑器代码是不没不是最新的，少内容，我看memory目录都没"
+  },
+  {
+    "time": "2026-06-03 20:17",
+    "user": "测不准'  '&a=3",
+    "content": "@sanyuan"
+  },
+  {
+    "time": "2026-06-03 20:17",
+    "user": "测不准'  '&a=3",
+    "content": "![图片](http://127.0.0.1:5030/image/87e7e9e569233cc7e5c1a07743dadf7b,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-06/Img/14e1c9ad0b85ffeacc55a2317b83f8d7)"
+  },
+  {
+    "time": "2026-06-03 20:18",
+    "user": "sanyuan",
+    "content": "![图片](http://127.0.0.1:5030/image/7c727634516e4d7d8c73bde048f676f4,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-06/Img/c987c3c93ea90bf77f1ba4ec6fd46bbf)"
+  },
+  {
+    "time": "2026-06-03 20:18",
+    "user": "sanyuan",
+    "content": "有啊"
+  },
+  {
+    "time": "2026-06-03 20:18",
+    "user": "sanyuan",
+    "content": "还有人没有吗"
+  },
+  {
+    "time": "2026-06-03 20:18",
+    "user": "sanyuan",
+    "content": "你是不是没点 apply"
+  },
+  {
+    "time": "2026-06-03 20:18",
+    "user": "sanyuan",
+    "content": "@测不准'  '&a=3"
+  },
+  {
+    "time": "2026-06-03 20:20",
+    "user": "测不准'  '&a=3",
+    "content": "不这个么"
+  },
+  {
+    "time": "2026-06-03 20:20",
+    "user": "测不准'  '&a=3",
+    "content": "![图片](http://127.0.0.1:5030/image/f98efd3be9c639f81d57ccc944a0ce8b,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-06/Img/655c5c0a3a27c25100da857a5acbeab8)"
+  },
+  {
+    "time": "2026-06-03 20:21",
+    "user": "测不准'  '&a=3",
+    "content": "难道缓存，我试试"
+  },
+  {
+    "time": "2026-06-03 20:22",
+    "user": "系统消息",
+    "content": "[系统] \"sanyuan\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-06-03 20:22",
+    "user": "sanyuan",
+    "content": "后面的 memory的代码块点了应用吗"
+  },
+  {
+    "time": "2026-06-03 20:23",
+    "user": "测不准'  '&a=3",
+    "content": "keyile"
+  },
+  {
+    "time": "2026-06-03 20:23",
+    "user": "测不准'  '&a=3",
+    "content": "[社会社会]"
+  },
+  {
+    "time": "2026-06-03 20:24",
+    "user": "测不准'  '&a=3",
+    "content": "第一个commands 拆分 带 memory，所以没出来，点后面的行"
+  },
+  {
+    "time": "2026-06-03 20:29",
+    "user": "sanyuan",
+    "content": "ok"
+  },
+  {
+    "time": "2026-06-03 20:30",
+    "user": "系统消息",
+    "content": "[系统] \"sanyuan\"邀请\"Swaggy Z\"加入了群聊"
+  },
+  {
+    "time": "2026-06-03 21:04",
+    "user": "小洛",
+    "content": "大佬，我现在还不行[破涕为笑]"
+  },
+  {
+    "time": "2026-06-03 21:06",
+    "user": "小洛",
+    "content": "我知道怎么复现了 只要我去删除会话，就会出现"
+  },
+  {
+    "time": "2026-06-03 21:06",
+    "user": "小洛",
+    "content": "![图片](http://127.0.0.1:5030/image/755736212653303f25ac9e31cf4a7abb,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-06/Img/6720da5a2fedb87d5a977136fc815f99)"
+  },
+  {
+    "time": "2026-06-03 21:07",
+    "user": "小洛",
+    "content": "感觉这个数据有问题：https://sitor.cc/learn/593c833c-66db-4062-bd21-0b4f7b7a4c46"
+  },
+  {
+    "time": "2026-06-03 21:56",
+    "user": "Evan",
+    "content": "@sanyuan sensi，现在如何灵活的判断模型的上下文还有多少哇，尤其是面对可以自己选不同模型的情况下"
+  },
+  {
+    "time": "2026-06-03 23:05",
+    "user": "测不准'  '&a=3",
+    "content": "元佬，我记得是不是说过会有agenttoagent 的课程了"
+  },
+  {
+    "time": "2026-06-03 23:24",
+    "user": "苏彧",
+    "content": "a2a吗"
+  },
+  {
+    "time": "2026-06-03 23:25",
+    "user": "测不准'  '&a=3",
+    "content": "dui"
+  },
+  {
+    "time": "2026-06-03 23:28",
+    "user": "忧郁之王",
+    "content": "大家有没有做过在服务端的 agent？ 面对多个对话请求打来的时候"
+  },
+  {
+    "time": "2026-06-03 23:28",
+    "user": "忧郁之王",
+    "content": "怎么设计服务的？"
+  },
+  {
+    "time": "2026-06-03 23:32",
+    "user": "Miraitowa",
+    "content": "每个请求维护一个连接吧，不够就排队"
+  },
+  {
+    "time": "2026-06-03 23:49",
+    "user": "苏彧",
+    "content": "多个对话请求，指的是对话并发吗"
+  },
+  {
+    "time": "2026-06-03 23:49",
+    "user": "苏彧",
+    "content": "@陕甘宁忧郁之神 "
+  },
+  {
+    "time": "2026-06-03 23:56",
+    "user": "忧郁之王",
+    "content": "是的是的"
+  },
+  {
+    "time": "2026-06-04 00:00",
+    "user": "苏彧",
+    "content": "我感觉大部分在LLM API上吧"
+  },
+  {
+    "time": "2026-06-04 00:00",
+    "user": "苏彧",
+    "content": "得问问元神@陕甘宁忧郁之神 "
+  },
+  {
+    "time": "2026-06-04 00:15",
+    "user": "忧郁之王",
+    "content": "嗯呐，明天问问元神"
+  },
+  {
+    "time": "2026-06-04 01:18",
+    "user": "苏彧",
+    "content": "我也想知道"
+  }
+]

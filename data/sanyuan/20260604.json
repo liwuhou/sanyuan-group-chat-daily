@@ -1,0 +1,36 @@
+{
+  "group_id": "sanyuan",
+  "group": "三元 Agent 课程群 1",
+  "date": "2026年06月04日",
+  "stats": {
+    "messages": 198,
+    "texts": 156,
+    "active": 31
+  },
+  "wechat_push_text": "**三元 Agent 课程群 · 每日精选**\n📅 2026-06-03 07:00 ~ 2026-06-04 07:00\n\n### 🔥 统计周期核心话题\n统计周期内群里重点围绕 Agent 实战、模型选择与成本控制展开讨论。实战课程更新后，大家集中反馈 memory 代码应用、工具发现注册、上下文管理、服务端并发等问题，同时也讨论了 Claude/GPT 的使用取舍与 token 成本压力。\n\n### 📌 sanyuan 要点\n- sanyuan: 课程难度正在加大，2026-06-03 晚间更新实战内容，并建议学习吃力的同学多和私教沟通。\n- sanyuan: 当前主要使用 Claude 4.8 Opus，评价为“神一样的模型”；认为 GPT 5.5 水平也相近，模型差距已不值得过度纠结，选一个用好即可。\n- sanyuan: 提醒如果 Claude 还在走中转，建议转 GPT；对 `search_tool` 后工具调用异常的情况，判断可通过调整 prompt、减少日志输出排查。\n- sanyuan: 对 sitor.cc 访问异常进行排查，入口链接：https://sitor.cc\n\n### 💡 有价值信息\n- Cerror.: 公司可能转岗做 Agent 开发，方案倾向使用 deepagents；群友建议实战项目经验很关键。\n- Roy: 前端组想做一整套开发流程 harness，但业务需求压力较大；Agent 实战需要持续迭代。\n- Evan: Agent 核心思路可理解为“脑子和手的解耦”；offload 需要设计召回精准度，调试成本较高。\n- 一期一会: 公司两天烧掉约 20w 人民币 token，策略调整后成本上升明显；缓存机制是重要优化方向。\n- Roy / 知行和一: 可通过缓存、模型分层降低成本；深度任务用高阶模型，一般任务用较低成本模型更合理。\n- Harrison Wells: defer 工具发现后未正确注册到 tools，会导致模型改用 bash 调用；确认是自身注册链路问题，排查方向有参考价值。\n- 测不准: memory 目录缺失是因为后续 memory 代码块未点击 apply，按后面的代码块应用后恢复。\n- 忧郁之王 / 苏彧 / Miraitowa: 服务端 Agent 面对多对话并发时，可考虑每个请求维护连接，不够则排队；瓶颈大多在 LLM API。\n\n### 🗓️ 行动建议\n- 关注新实战课程，尤其是 memory、工具注册、上下文管理、offload 召回精度相关章节。\n- 遇到 sitor.cc 进入应用报错，可尝试重新登录、无痕模式、换浏览器，并查看控制台错误；复现线索是“删除会话后出现异常”。\n- 有企业 Agent 成本压力的同学，优先补缓存、模型分层与请求排队/限流方案。",
+  "topics": [
+    "Agent 实战课程更新后，群里集中讨论 memory、工具注册、上下文管理、offload 召回精度与服务端并发设计。",
+    "模型选择与成本控制是另一条主线，涉及 Claude 4.8 Opus、GPT 5.5、缓存机制和模型分层。"
+  ],
+  "points": [
+    "sanyuan 表示课程难度正在加大，2026-06-03 晚间更新实战内容，建议学习吃力的同学多和私教沟通。",
+    "sanyuan 当前主要使用 Claude 4.8 Opus，同时认为 GPT 5.5 水平相近，模型差距不值得过度纠结。",
+    "sanyuan 建议如果 Claude 还在走中转，可以考虑转 GPT；对工具调用异常，建议从 prompt 和日志输出方向排查。",
+    "sanyuan 提供 sitor.cc 入口链接：https://sitor.cc，并对访问异常进行排查。"
+  ],
+  "infos": [
+    "Cerror.: 公司可能转岗做 Agent 开发，方案倾向使用 deepagents，实战经验值得跟进。",
+    "Roy: 前端组想做开发流程 harness，但业务压力大；Agent 产品需要持续迭代。",
+    "Evan: Agent 核心思路可理解为脑子和手的解耦；offload 需要设计召回精准度。",
+    "一期一会: 公司两天 token 成本约 20w 人民币，缓存机制是重要优化方向。",
+    "Harrison Wells: defer 工具发现后若未注册到 tools，会导致后续调用异常。",
+    "测不准: memory 目录缺失可能是后续 memory 代码块未点击 apply。",
+    "忧郁之王 / 苏彧 / Miraitowa: 服务端 Agent 并发可考虑每请求连接、资源不足排队，瓶颈多在 LLM API。"
+  ],
+  "actions": [
+    "跟进实战课程中的 memory、工具注册、上下文管理和 offload 召回精度。",
+    "访问 sitor.cc 异常时，检查重新登录、无痕模式、浏览器插件和控制台报错；链接：https://sitor.cc",
+    "企业 Agent 项目优先设计缓存、模型分层、限流排队方案，以控制 token 成本。"
+  ],
+  "id": "20260604"
+}
