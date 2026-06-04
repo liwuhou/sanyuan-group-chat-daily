@@ -1,0 +1,40 @@
+{
+  "group_id": "sanyuan",
+  "group": "三元 Agent 课程群 1",
+  "since": "2026-06-04 07:00",
+  "until": "2026-06-05 07:00",
+  "date": "2026年06月05日",
+  "stats": {
+    "messages": 312,
+    "texts": 238,
+    "active": 47
+  },
+  "summary": "统计周期内群里主要围绕 Agent 记忆触发、多 Agent 架构、vibe coding 是否值得系统学习、企业 AI 使用成本与课程站点迁移展开。sanyuan 补充了课程定位、sitor.cc 迁移信息，并提到当前业务中多 Agent 架构已经带来明显提效。",
+  "topics": [
+    "Agent 记忆触发与 memory tool 调用方式",
+    "vibe coding、spec coding 与企业 AI 落地",
+    "多 Agent 架构与业务 harness 后续课程方向",
+    "sitor.ai 迁移至 sitor.cc 与课程登录问题"
+  ],
+  "points": [
+    "sanyuan: 关于“我的偏好是 TypeScript”是否能触发记忆，大模型可以处理，不一定必须显式说“记住”。",
+    "sanyuan: vibe coding 有方法和门道，但是否需要单独开课持保留意见。",
+    "sanyuan: 多 Agent 架构搭起来后确实轻松很多，自己公司主要由 agent 系统在运转。理论课讲原理，实操在实战课；业务 harness 与多 Agent 搭建可能放到下半年新课程。",
+    "sanyuan: sitor.ai 域名和服务已迁移到国内，直接使用 https://sitor.cc/courses。"
+  ],
+  "infos": [
+    "小心甘: 可加意图识别 tool，让 Agent 自己判断是否调用 save 做记忆写入。",
+    "wxid_xs95ug964g7s22: 团队在摸索复杂项目中如何让 AI 持续更新设计/过程文档，避免多轮后滑向无约束 vibe coding。",
+    "小心甘: 可在聊需求阶段形成一道文档，写完一个需求后要求 AI 输出功能总结文档。",
+    "一日看盡長安花 / 一期一会: 公司级 AI 使用成本可能快速失控，出现单日 20W、两天 20W+ 账单后会开始配额；需要衡量 token 成本与实际提效。",
+    "万扬: 分享 freemodel.dev 额度链接，称可白嫖 $10，包含 Claude 4.8、4.6、GPT-5.5：https://freemodel.dev/invite/FRE-1db24092"
+  ],
+  "actions": [
+    "课程与会员登录统一关注 https://sitor.cc/courses，使用邮箱登录；Chrome 桌面应用可能需要卸载重装。",
+    "关注后续实战课中多 Agent 内容，以及下半年可能展开的业务 harness / 多 Agent 搭建课程。",
+    "团队实践 AI coding 时，可尝试建立“需求文档 -> 功能实现 -> 功能总结文档”的固定检查点，减少上下文漂移。",
+    "企业内推广 AI 工具时，建议同步建立配额、账单监控和产出评估机制。"
+  ],
+  "wechat_push_text": "**三元 Agent 课程群 · 每日精选**\n📅 2026-06-04 07:00 ~ 2026-06-05 07:00\n\n### 🔥 统计周期核心话题\n统计周期内主要围绕 Agent 记忆触发、多 Agent 架构、vibe coding 是否值得系统学习、企业 AI 使用成本与课程站点迁移展开。sanyuan 补充了课程定位、sitor.cc 迁移信息，并提到当前业务中多 Agent 架构已经带来明显提效。\n\n### 📌 sanyuan 要点\n「sanyuan」: 关于“我的偏好是 TypeScript”是否能触发记忆，大模型可以处理，不一定必须显式说“记住”。\n「sanyuan」: vibe coding 有方法和门道，但是否需要单独开课持保留意见。\n「sanyuan」: 多 Agent 架构搭起来后确实轻松很多，自己公司主要由 agent 系统在运转。理论课讲原理，实操在实战课；业务 harness 与多 Agent 搭建可能放到下半年新课程。\n「sanyuan」: sitor.ai 域名和服务已迁移到国内，课程入口改为 https://sitor.cc/courses。\n\n### 💡 有价值信息\n「小心甘」: 可加意图识别 tool，让 Agent 自己判断是否调用 save 做记忆写入。\n「wxid_xs95ug964g7s22」: 团队在摸索复杂项目中如何让 AI 持续更新设计/过程文档，避免多轮后滑向无约束 vibe coding。\n「小心甘」: 可在聊需求阶段形成一道文档，写完一个需求后要求 AI 输出功能总结文档。\n「一日看盡長安花 / 一期一会」: 公司级 AI 使用成本可能快速失控，出现单日 20W、两天 20W+ 账单后会开始配额；需要衡量 token 成本与实际提效。\n「万扬」: 分享 freemodel.dev 额度链接，称可白嫖 $10，包含 Claude 4.8、4.6、GPT-5.5：https://freemodel.dev/invite/FRE-1db24092\n\n### 🗓️ 行动建议\n1. 课程与会员登录统一关注 https://sitor.cc/courses，使用邮箱登录；Chrome 桌面应用可能需要卸载重装。\n2. 关注后续实战课中多 Agent 内容，以及下半年可能展开的业务 harness / 多 Agent 搭建课程。\n3. 团队实践 AI coding 时，可尝试建立“需求文档 -> 功能实现 -> 功能总结文档”的固定检查点，减少上下文漂移。\n4. 企业内推广 AI 工具时，建议同步建立配额、账单监控和产出评估机制。",
+  "id": "20260605"
+}
