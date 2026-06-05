@@ -1,0 +1,45 @@
+{
+  "group_id": "sanyuan",
+  "group": "三元 Agent 课程群 1",
+  "date": "2026年06月06日",
+  "period": {
+    "since": "2026-06-05 07:00",
+    "until": "2026-06-06 07:00"
+  },
+  "stats": {
+    "messages": 182,
+    "texts": 130,
+    "active": 30
+  },
+  "summary": "统计周期内群内主要围绕课程更新、焚决相关后续内容期待、Agent 协作实践、AI 编码测试方法、Windows/Cursor/Codex 中文编码乱码问题，以及 Qoder、Codex、Claude Code 等工具体验展开。sanyuan 确认课程已更新，并提醒先完成当前两门课程，后续内容预计下半年再规划。",
+  "topics": [
+    "课程更新与焚决后续内容期待",
+    "Agent 协作中的语义冲突、TDD 与测试实践",
+    "Windows/Cursor/Codex 中文 UTF-8 编码乱码排查",
+    "Qoder、Codex、Claude Code、Trae 等 AI 编程工具体验"
+  ],
+  "points": [
+    "sanyuan 在 2026-06-05 上午提前通知课程会更新，2026-06-05 晚间确认课程已更新。",
+    "面对群友对焚决内容的高期待，sanyuan 表示先把当前两门课程学完，后续内容下半年再说，并提醒群内多讨论课程。",
+    "针对 memory 缺少 tool-search 文件的问题，sanyuan 回复课程资源中还有该内容，并判断可能与缓存有关，建议继续观察。",
+    "sanyuan 对 Qoder Desktop 相关文章的分享表示，是觉得好用才推荐。"
+  ],
+  "infos": [
+    "我是东山呀: Windows 下 Cursor/Codex 出现中文乱码时，建议使用 PowerShell 7，并将终端编码切到 UTF-8；也可以直接把 Codex 跑在 WSL 中，通常能减少乱码问题。",
+    "April.: 提出 Git 合并无冲突、编译通过也不等于语义正确的例子，引出 Agent 协作中函数行为变化但依赖方未改代码的隐性风险。",
+    "神往: 说明 Git 只检测双方是否同时修改同一区域，参数或返回值类型变化才可能触发 TS 错误；语义正确性仍需要测试兜底，并提到自己会让 AI 生成 TDD/红绿测试来减少低级错误。",
+    "Cyan: 反馈 Codex 如果不固定 UTF-8 编码，处理中文文件时可能把内容改成乱码，曾导致线上 Nginx 配置异常。",
+    "小心甘: 提到 cshtml 文件为 UTF-8 BOM 时也遇到过乱码，后来通过明确告知 AI 文件编码后有所改善。",
+    "小花花: 分享文章《用完 Qoder Desktop，我想明白了 Harness 究竟是怎么回事》：https://mp.weixin.qq.com/s?__biz=MzU0MTU4OTU2MA==&mid=2247492936&idx=1&sn=ee351b7c4ee3cbe4bca4862431795503&chksm=fa94821a1dfd22268a3cad4d652378877b7891869b0f201c030ea372968b93a0b39f6d60be61&mpshare=1&scene=1&srcid=0605naRUODVKPNCb6JeLR6Wi&sharer_shareinfo=7d1abe8b6f10403452a3efd848b56de2&sharer_shareinfo_first=7d1abe8b6f10403452a3efd848b56de2#rd",
+    "燚龘: 反馈 Qoder + max 模型查日志时表现僵硬，查了较久没有定位到关键点，后续改回 Claude Code。",
+    "我是东山呀 / 神往: 讨论 Codex token/费用统计，提到 ccswitch 统计不准，API 与账号登录能力存在差异。"
+  ],
+  "actions": [
+    "Windows 用户可优先检查 Cursor/Codex 终端是否使用 PowerShell 7，并统一 UTF-8 编码；高频中文项目可考虑 WSL。",
+    "Agent 协作开发时，除 Git 冲突和编译检查外，建议补充 TDD/红绿测试覆盖关键业务语义。",
+    "跟进 Qoder Desktop/Harness 相关文章，并结合自身日志排查、项目开发场景做工具对比。",
+    "遇到 memory 缺少 tool-search 文件的同学，可先清缓存或重新应用课程资源，并继续观察是否复现。"
+  ],
+  "wechat_push_text": "**三元 Agent 课程群 · 每日精选**\n📅 2026-06-05 07:00 ~ 2026-06-06 07:00\n\n### 🔥 统计周期核心话题\n统计周期内群里主要围绕课程更新、焚决后续内容期待、Agent 协作实践、AI 编码测试方法，以及 Windows/Cursor/Codex 中文乱码问题展开。工具体验方面，群友集中讨论了 Qoder、Codex、Claude Code、Trae 等 AI 编程工具的使用感受与踩坑。\n\n### 📌 sanyuan 要点\n「sanyuan」: 提前通知课程会更新，并在 2026-06-05 晚间确认已更新。\n「sanyuan」: 面对群友对焚决内容的期待，表示先把当前两门课程学完，后续内容下半年再说，并提醒大家多讨论课程。\n「sanyuan」: 针对 memory 缺少 tool-search 文件的问题，回复课程资源中还有该内容，并判断可能是缓存原因，建议继续观察。\n「sanyuan」: 对 Qoder Desktop 相关文章的分享表示，是觉得好用才会推荐。\n\n### 💡 有价值信息\n「我是东山呀」: Windows 下 Cursor/Codex 出现中文乱码，建议使用 PowerShell 7，并把终端编码切到 UTF-8；也可以直接把 Codex 跑在 WSL 中，通常能减少乱码问题。\n「April.」: 提出 Git 合并无冲突、编译通过也不等于语义正确的例子，引出 Agent 协作中函数行为变化但依赖方未改代码的隐性风险。\n「神往」: 说明 Git 只检测双方是否同时修改同一区域，语义正确性仍需要测试兜底；自己会让 AI 生成 TDD/红绿测试来减少低级错误。\n「Cyan」: 反馈 Codex 如果不固定 UTF-8 编码，处理中文文件时可能把内容改成乱码，曾导致线上 Nginx 配置异常。\n「小心甘」: cshtml 文件为 UTF-8 BOM 时也遇到过乱码，后来通过明确告知 AI 文件编码后有所改善。\n「小花花」: 分享文章《用完 Qoder Desktop，我想明白了 Harness 究竟是怎么回事》：https://mp.weixin.qq.com/s?__biz=MzU0MTU4OTU2MA==&mid=2247492936&idx=1&sn=ee351b7c4ee3cbe4bca4862431795503&chksm=fa94821a1dfd22268a3cad4d652378877b7891869b0f201c030ea372968b93a0b39f6d60be61&mpshare=1&scene=1&srcid=0605naRUODVKPNCb6JeLR6Wi&sharer_shareinfo=7d1abe8b6f10403452a3efd848b56de2&sharer_shareinfo_first=7d1abe8b6f10403452a3efd848b56de2#rd\n「燚龘」: 反馈 Qoder + max 模型查日志时表现偏僵硬，查了较久没有定位到关键点，后续改回 Claude Code。\n\n### 🗓️ 行动建议\n1. Windows 用户可优先检查 Cursor/Codex 终端是否使用 PowerShell 7，并统一 UTF-8 编码；高频中文项目可考虑 WSL。\n2. Agent 协作开发时，除 Git 冲突和编译检查外，建议补充 TDD/红绿测试覆盖关键业务语义。\n3. 跟进 Qoder Desktop/Harness 文章，并结合自身日志排查、项目开发场景做工具对比。\n4. 遇到 memory 缺少 tool-search 文件的同学，可先清缓存或重新应用课程资源，并继续观察是否复现。",
+  "id": "20260606"
+}
