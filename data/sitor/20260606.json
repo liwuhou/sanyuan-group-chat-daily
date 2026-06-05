@@ -1,0 +1,51 @@
+{
+  "group": "Sitor AI 产品用户群 1",
+  "group_id": "sitor",
+  "date": "2026年06月06日",
+  "range": {
+    "since": "2026-06-05 07:00",
+    "until": "2026-06-06 07:00"
+  },
+  "stats": {
+    "messages": 121,
+    "texts": 97,
+    "active": 34
+  },
+  "wechat_push_text": "**Sitor AI 产品用户群 · 每日精选**\n📅 2026-06-06\n\n### 🚀 Sitor 功能更新（置顶）\nSitor 原生 iOS App 计划于 2026 年 6 月内上线，sanyuan 表示这是原生 App，值得期待。Android 版本因软著与上架审核流程，预计 2026 年 7 月发布；开发本身预计较快，但审核周期约一个月。Sitor 已支持本地视频学习，群友询问 B 站和 YouTube 之外的本地视频能力时，sanyuan 明确回复“已支持”。群友提出“沉浸模式”需求，希望隐藏页面信息、只保留聊天框以降低使用时的干扰，sanyuan 回复可以做、没问题。\n\n### 🔥 昨日核心话题\n群里重点围绕 Sitor 多端 App 进展、视频学习体验、沉浸模式等产品能力展开，同时讨论了 AI 辅助开发工作流的搭建价值。另一个高频话题是 Qoder、Gemini 等 AI 工具的体验差异，以及企业版 AI 编程工具带来的使用数据可见性问题。\n\n### 💡 AI 产品有价值信息\n- sanyuan: 介绍 Sitor 多平台开发节奏，称前期搭建 AI 开发 workflow/harness 花了数周，后续新增平台开发会快很多。\n- wxid_j2end9msr6gm22: 建议增加“沉浸模式”，隐藏干扰信息只保留聊天框，面向办公场景更低调地学习。\n- winhok的打工日记: 反馈多视频定位仍存在不准的问题；后续又询问本地视频学习，sanyuan 回复已支持。\n- 冷冰: 询问划线提问对话框删除后如何重新唤起；sanyuan 回复目前只能重新划线，然后查看历史记录。\n- sanyuan: 评价 Qoder 产品能力很强，认为除 UI 不如 Codex 外，其他产品功能都比较超前。\n- 何如不见时: 分享 Qoder 企业版可见员工采纳率、使用率、提交有效代码量等管理数据，引发对企业 AI 编程工具隐私与考核边界的讨论。\n- sanyuan: 提到 Gemini 的“人味”很强；群友也反馈 Gemini 有时容易触发“I cannot fulfill this request”。\n- yinp: 分享 PDF《置身钉内 14.34.50.pdf》，群友评价内容包含产品与工作经验，链接：http://127.0.0.1:5030/file/a7a613b1fc98ec856bd94de7671f2090",
+  "topics": [
+    "Sitor iOS 原生 App 计划 2026 年 6 月内上线，Android 版本预计 2026 年 7 月发布。",
+    "Sitor 已支持本地视频学习，并收到多视频定位不准、沉浸模式、划线提问恢复等产品反馈。",
+    "群内讨论 Qoder、Gemini 等 AI 工具体验，以及企业版 AI 编程工具的数据可见性问题。"
+  ],
+  "points": [
+    "Sitor 原生 iOS App 计划 2026 年 6 月内上线。",
+    "Android 版本因软著和上架审核预计 2026 年 7 月发布。",
+    "本地视频学习已支持。",
+    "沉浸模式需求已被 sanyuan 确认可做。"
+  ],
+  "infos": [
+    {
+      "speaker": "sanyuan",
+      "summary": "前期搭建 AI 开发 workflow/harness 花了数周，后续新增平台开发会明显加速。"
+    },
+    {
+      "speaker": "wxid_j2end9msr6gm22",
+      "summary": "建议增加沉浸模式，隐藏页面信息，只保留聊天框。"
+    },
+    {
+      "speaker": "winhok的打工日记",
+      "summary": "反馈多视频定位不准，并确认本地视频学习已获支持。"
+    },
+    {
+      "speaker": "何如不见时",
+      "summary": "分享 Qoder 企业版可见员工采纳率、使用率、提交有效代码量等数据，引发隐私与管理讨论。"
+    },
+    {
+      "speaker": "yinp",
+      "summary": "分享 PDF《置身钉内 14.34.50.pdf》。",
+      "link": "http://127.0.0.1:5030/file/a7a613b1fc98ec856bd94de7671f2090"
+    }
+  ],
+  "actions": [],
+  "id": "20260606"
+}
