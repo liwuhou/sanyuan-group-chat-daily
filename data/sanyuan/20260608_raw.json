@@ -1,0 +1,102 @@
+[
+  {
+    "time": "2026-06-07 10:25",
+    "user": "杰宝大黄",
+    "content": "@sanyuan 三元老师，请教一个问题，像这些code agent 他们写文件是怎么先write loading 的，像我们正常tool注册的话，文件写入他要准备 input schema ，要等好久，然后文件写入很快。但他们没调用工具之前，我又不知道他要写入"
+  },
+  {
+    "time": "2026-06-07 11:25",
+    "user": "sanyuan",
+    "content": "tool params 会流式输出，可以知道是调用哪个工具"
+  },
+  {
+    "time": "2026-06-07 19:55",
+    "user": "Harrison Wells",
+    "content": "发现现在各大厂商的chat页面，也都做了一定的记忆能力"
+  },
+  {
+    "time": "2026-06-07 19:56",
+    "user": "Harrison Wells",
+    "content": "豆包，chatgpt 现在都有之前的聊天信息了"
+  },
+  {
+    "time": "2026-06-07 20:10",
+    "user": "Nauxscript",
+    "content": "![图片](http://127.0.0.1:5030/image/111ffd210cf14393bb1410ac28a06759,msg/attach/3f7beb232dafb3270d02a7f2829da936/2026-06/Img/9516e354f742d765d9b3d7de70d157d7)"
+  },
+  {
+    "time": "2026-06-07 20:11",
+    "user": "Nauxscript",
+    "content": "我感觉在这里提一个 Obsidian 有点突兀，如果没有用过这个软件的人，在这个语境下其实理解不了这句话是什么意思"
+  },
+  {
+    "time": "2026-06-07 20:17",
+    "user": "Mr. Yu",
+    "content": "都买三元的课了，自学的能力还是有的吧，遇到不知道的，查就完了"
+  },
+  {
+    "time": "2026-06-07 20:20",
+    "user": "Nauxscript",
+    "content": "我想表达的不是这个意思"
+  },
+  {
+    "time": "2026-06-07 20:25",
+    "user": "Harrison Wells",
+    "content": "那这里的名词可多了 ide  llm wiki"
+  },
+  {
+    "time": "2026-06-07 20:25",
+    "user": "sanyuan",
+    "content": "Obsidian 就是一个知识管理软件，旁边加个解释更好"
+  },
+  {
+    "time": "2026-06-07 20:25",
+    "user": "Harrison Wells",
+    "content": "而且还是是别人的原话 "
+  },
+  {
+    "time": "2026-06-07 21:37",
+    "user": "sanyuan",
+    "content": "明天更新实战"
+  },
+  {
+    "time": "2026-06-07 21:37",
+    "user": "sanyuan",
+    "content": "超硬核"
+  },
+  {
+    "time": "2026-06-07 21:37",
+    "user": "苏彧",
+    "content": "[强][强][强]"
+  },
+  {
+    "time": "2026-06-07 21:37",
+    "user": "sir.",
+    "content": "[强][强][强]"
+  },
+  {
+    "time": "2026-06-07 21:38",
+    "user": "苏彧",
+    "content": "这么强嘛"
+  },
+  {
+    "time": "2026-06-07 21:48",
+    "user": "sanyuan",
+    "content": "期待一下吧"
+  },
+  {
+    "time": "2026-06-07 21:49",
+    "user": "系统消息",
+    "content": "[系统] \"苏彧\" 撤回了一条消息"
+  },
+  {
+    "time": "2026-06-07 21:49",
+    "user": "苏彧",
+    "content": "期待"
+  },
+  {
+    "time": "2026-06-07 22:01",
+    "user": "wxid_osux2o4fxtdo22",
+    "content": "[表情]"
+  }
+]

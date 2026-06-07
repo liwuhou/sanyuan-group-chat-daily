@@ -1,0 +1,35 @@
+{
+  "group_id": "sanyuan",
+  "group": "三元 Agent 课程群 1",
+  "date": "2026年06月08日",
+  "stats": {
+    "messages": 20,
+    "texts": 16,
+    "active": 7
+  },
+  "summary": "统计周期内主要围绕 Code Agent 工具调用流式输出、AI 产品记忆能力，以及课程内容表达清晰度展开。sanyuan 回答了 tool params 可流式输出、可提前识别工具调用的问题，并提示 Obsidian 这类专业名词旁边加解释更友好；同时预告 2026-06-08 将更新硬核实战内容。",
+  "topics": [
+    "Code Agent 写文件前的 loading 与工具参数流式输出",
+    "各大厂商 Chat 页面记忆能力趋势",
+    "课程文案中 Obsidian 等工具名词的解释必要性",
+    "2026-06-08 硬核实战内容更新预告"
+  ],
+  "points": [
+    "sanyuan: tool params 会流式输出，因此在工具真正执行前，可以知道模型将调用哪个工具。",
+    "sanyuan: Obsidian 是知识管理软件，在课程语境中旁边加解释会更好。",
+    "sanyuan: 2026-06-08 将更新实战内容，并强调内容会很硬核。"
+  ],
+  "infos": [
+    "杰宝大黄: 提出 Code Agent 写文件时如何先展示 write loading 的问题，核心在于工具 input schema 生成较慢，但实际写入很快。",
+    "sanyuan: 给出关键实现线索——工具参数可以流式输出，前端可据此提前识别工具调用并展示 loading。",
+    "Harrison Wells: 观察到豆包、ChatGPT 等大厂 Chat 页面已经加入一定记忆能力，提示记忆能力正在成为 AI 产品基础体验。",
+    "Nauxscript: 反馈在课程表达中直接提 Obsidian 可能对未使用过该工具的人不够友好，需要补充上下文。"
+  ],
+  "actions": [
+    "关注 2026-06-08 sanyuan 预告更新的硬核实战内容。",
+    "如做 Agent 前端交互，可重点研究 tool params 流式输出，用于提前展示工具调用状态。",
+    "课程文案中涉及 Obsidian、IDE、LLM、wiki 等术语时，建议补一句解释，降低理解门槛。"
+  ],
+  "wechat_push_text": "**三元 Agent 课程群 · 每日精选**\n📅 2026-06-07 07:00 ~ 2026-06-08 07:00\n\n### 🔥 统计周期核心话题\n统计周期内文字消息 16 条，讨论集中在 Code Agent 工具调用体验、AI 产品记忆能力，以及课程内容表达清晰度。重点技术点是：Code Agent 在写文件前如何提前展示 loading，可通过 tool params 流式输出来判断即将调用的工具。\n\n### 📌 sanyuan 要点\n- sanyuan: tool params 会流式输出，因此在工具真正执行前，可以知道模型将调用哪个工具。\n- sanyuan: Obsidian 是知识管理软件，在课程语境中旁边加解释会更好。\n- sanyuan: 2026-06-08 将更新实战内容，并强调内容会很硬核。\n\n### 💡 有价值信息\n- 杰宝大黄: 提出 Code Agent 写文件时如何先展示 write loading 的问题，核心在于工具 input schema 生成较慢，但实际写入很快。\n- sanyuan: 给出关键实现线索——工具参数可以流式输出，前端可据此提前识别工具调用并展示 loading。\n- Harrison Wells: 观察到豆包、ChatGPT 等大厂 Chat 页面已经加入一定记忆能力，提示记忆能力正在成为 AI 产品基础体验。\n- Nauxscript: 反馈在课程表达中直接提 Obsidian 可能对未使用过该工具的人不够友好，需要补充上下文。\n\n### 🗓️ 行动建议\n- 关注 2026-06-08 sanyuan 预告更新的硬核实战内容。\n- 如做 Agent 前端交互，可重点研究 tool params 流式输出，用于提前展示工具调用状态。\n- 课程文案中涉及 Obsidian、IDE、LLM、wiki 等术语时，建议补一句解释，降低理解门槛。",
+  "id": "20260608"
+}
