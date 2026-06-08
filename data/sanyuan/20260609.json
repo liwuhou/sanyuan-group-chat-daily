@@ -1,0 +1,40 @@
+{
+  "group_id": "sanyuan",
+  "group": "三元 Agent 课程群 1",
+  "date": "2026年06月09日",
+  "stats": {
+    "messages": 169,
+    "texts": 133,
+    "active": 29
+  },
+  "wechat_push_text": "**三元 Agent 课程群 · 每日精选**\n📅 2026-06-08 07:00 ~ 2026-06-09 07:00\n\n### 🔥 统计周期核心话题\n统计周期内主要围绕 HITL/权限实战、RAG 实战课更新、课程笔记划线能力、移动端登录，以及 spec/需求讨论工作流展开。群友还交流了多 Claude Code 并行开发的 worktree 方案，以及工具链如 super powers、gsd、gstack、oh-my-claudecode 等。\n\n### 📌 sanyuan 要点\n- sanyuan: HITL 会在课程“权限”部分做实战，先看理论课权限章节即可理解。\n- sanyuan: 对课程内“划线/笔记”功能反馈表示会评估，但实现成本偏高。\n- sanyuan: 针对对话输入 Esc 修改后回复消失的问题，确认属于偶发问题，正在修复；频繁修改同一条消息可能触发。\n- sanyuan: 宣布 RAG 实战课已更新，并说明 RAG 本身相对独立；实战课未包含 query 改写，可按需自行添加。\n- sanyuan: 移动端可用邮箱登录，或在微信内直接打开 https://sitor.cc；Chrome 若无法唤起微信登录，可绑定邮箱后用邮箱登录。\n\n### 💡 有价值信息\n- Evan: 关注 HITL 不应只等同于权限，实际生产应用还可能涉及审批、人工确认、风险控制等流程。\n- 稚: 提出课程/对话中希望支持个人划线与笔记保存；随后尝试浏览器划线插件，反馈效果不错。\n- Evan: 建议可考虑接入 Readwise，把划线内容存到 Readwise Reader。\n- 小花花 / 知行和一 / 苏彧: spec 与需求讨论工具链交流：super powers 常用于写 spec；知行和一建议 gstack 用于需求讨论，gsd 用于上下文准备和计划，执行阶段可结合 gsd sub agent 与 super powers。\n- 薛定谔的猫: 补充需求讨论还可关注 oh-my-claudecode。\n- Pudge / 阿五 / Roy / 奈落: 多个 Claude Code 并行改代码可用 git worktree；Ghostty 多窗口配合 worktree 较方便，但需注意本地端口冲突；也可关注 jj 或 GitButler 这类代码管理方案。\n\n### 🗓️ 行动建议\n- 学 HITL 的同学优先补课程“权限”理论与实战部分，并把审批/人工确认流程作为扩展设计点。\n- RAG 实战课已更新，可在完成主线后自行补充 query 改写、重排、评测等模块。\n- 需要做课程笔记的同学可先使用浏览器划线插件或 Readwise Reader 过渡，等待课程内能力评估。\n- 做 spec/需求澄清的同学可对比 super powers、gsd、gstack、oh-my-claudecode，并沉淀适合自己的技能路由工作流。\n- 多 Agent/多 Claude Code 并行开发建议实践 git worktree，并提前规划端口、环境变量和分支管理。",
+  "topics": [
+    "HITL 与权限实战",
+    "RAG 实战课更新",
+    "课程笔记划线能力",
+    "spec 与需求讨论工具链",
+    "多 Claude Code 并行开发"
+  ],
+  "points": [
+    "sanyuan 表示 HITL 会在课程权限部分做实战，先看理论课权限章节即可理解。",
+    "sanyuan 对课程划线笔记功能表示会评估，但实现成本偏高。",
+    "sanyuan 确认对话输入偶发消失问题正在修复，频繁修改同一条消息可能触发。",
+    "sanyuan 宣布 RAG 实战课已更新，说明 RAG 相对独立，query 改写可按需自行添加。",
+    "sanyuan 说明移动端可用邮箱登录或在微信内打开 https://sitor.cc。"
+  ],
+  "infos": [
+    "Evan 提到 HITL 不应只等同于权限，生产应用还可能涉及审批、人工确认和风险控制。",
+    "稚 提出课程和对话中希望支持个人划线与笔记保存，并试用浏览器划线插件。",
+    "Evan 建议考虑接入 Readwise，将划线内容存到 Readwise Reader。",
+    "知行和一 建议 gstack 用于需求讨论，gsd 用于上下文准备和计划，执行阶段结合 gsd sub agent 与 super powers。",
+    "Pudge、阿五、Roy、奈落 讨论多 Claude Code 并行开发可用 git worktree，也可关注 jj 或 GitButler。"
+  ],
+  "actions": [
+    "学习 HITL 的同学优先补课程权限理论与实战部分，并设计审批和人工确认流程。",
+    "学习 RAG 实战课后可补充 query 改写、重排和评测模块。",
+    "需要课程笔记的同学可先使用浏览器划线插件或 Readwise Reader。",
+    "做 spec 和需求澄清的同学可对比 super powers、gsd、gstack、oh-my-claudecode。",
+    "多 Agent 并行开发建议实践 git worktree，并提前规划端口、环境变量和分支管理。"
+  ],
+  "id": "20260609"
+}
