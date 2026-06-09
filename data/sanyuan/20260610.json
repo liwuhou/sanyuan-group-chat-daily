@@ -1,0 +1,43 @@
+{
+  "group_id": "sanyuan",
+  "group": "三元 Agent 课程群 1",
+  "date": "2026年06月10日",
+  "period": {
+    "since": "2026-06-09 07:00",
+    "until": "2026-06-10 07:00"
+  },
+  "stats": {
+    "messages": 263,
+    "texts": 197,
+    "active": 45
+  },
+  "wechat_push_text": "**三元 Agent 课程群 · 每日精选**\n📅 2026-06-09 07:00 ~ 2026-06-10 07:00\n\n### 🔥 统计周期核心话题\n统计周期内主要围绕 Claude Code / Codex 的 computer use、Agent 操作桌面与自动化测试场景展开讨论；同时群内推进飞书群迁移尝试，并关注课程新章节更新。晚间重点讨论低价 LLM token 中转、缓存命中率与企业 RAG 权限控制。\n\n### 📌 sanyuan 要点\n- 分享 Claude Code 已支持 computer use，可直接操作电脑，并正在用它操作小程序 IDE 开发 sitor 微信小程序；认为 e2e 自动化不一定能覆盖真实使用，computer use 更适合模拟真人操作。\n- 尝试组织飞书群迁移，发现二维码进入方式会变成加入企业，后续需创建外部群并认证。\n- 课程方面表示 2026-06-09 晚间会上线理论课，正式进入下一章；多协作相关内容受到群友期待。\n- 推荐低价中转平台 nbility：https://nbility.dev/auth/register?aff=FQ1u ，提到 cheap 分组约 0.08 倍率，且缓存率可达 85%+，看价格不能只看倍率，也要看缓存率。\n- 回答企业 RAG 数据安全：一般不做加密，重点做好文档权限管控。\n\n### 💡 有价值信息\n- Pudge: 提出 computer use 适合没有 MCP/CLI 的重复操作，并追问屏幕输入框识别准确率；群内补充可用于 exe 自动化测试。\n- 小心甘 / Omos / LooMou: Codex 也可开启 computer/browser use；Windows 端可能需更新或尝试 codex++，Mac 端已有可用截图反馈。\n- 小花花: 提到 ppt-master skill，可生成可编辑 PPT，适合作为课程手记/PDF 之外的内容生产方向。\n- 群友讨论: 飞书群容量约 5k，适合承载课程社群，但需注意外部群与企业组织入口差异。\n- sanyuan: nbility 平台链接：https://nbility.dev/auth/register?aff=FQ1u ，适合关注低成本模型调用与缓存优化的同学试用。\n\n### 🗓️ 行动建议\n- 关注 2026-06-09 晚间发布的理论课更新，重点跟进多 Agent 协作章节。\n- 需要桌面自动化/小程序 IDE 操作的同学，可测试 Claude Code 或 Codex 的 computer use，并记录系统版本差异。\n- 企业 RAG 项目优先梳理文档权限模型；如需更高安全等级，再评估存储层/传输层加密。\n- 对 token 成本敏感的同学可试用 nbility，并重点观察实际缓存率、稳定性与账号风险。",
+  "topics": [
+    "Claude Code / Codex computer use 与桌面自动化",
+    "飞书群迁移与外部群配置",
+    "课程理论课进入下一章与多 Agent 协作期待",
+    "低价 LLM token 中转与缓存率",
+    "企业 RAG 权限控制"
+  ],
+  "points": [
+    "sanyuan 分享 Claude Code 支持 computer use，并用于操作小程序 IDE 开发 sitor 微信小程序。",
+    "sanyuan 认为 computer use 比传统 e2e 更适合模拟真人使用。",
+    "sanyuan 尝试飞书群迁移，后续需创建外部群并认证。",
+    "sanyuan 表示 2026-06-09 晚间会上线理论课，正式进入下一章。",
+    "sanyuan 推荐 nbility 中转平台：https://nbility.dev/auth/register?aff=FQ1u ，强调 0.08 倍率与 85%+ 缓存率。",
+    "sanyuan 回答企业 RAG 通常不加密数据，重点做权限管控。"
+  ],
+  "infos": [
+    "Pudge 提出 computer use 适合没有 MCP/CLI 的重复操作，群内补充可用于 exe 自动化测试。",
+    "小心甘、Omos、LooMou 讨论 Codex computer/browser use，Windows 端可尝试更新或 codex++。",
+    "小花花 提到 ppt-master skill 可生成可编辑 PPT。",
+    "飞书群容量约 5k，但需区分企业组织入口与外部群。"
+  ],
+  "actions": [
+    "跟进 2026-06-09 晚间理论课更新，重点关注多 Agent 协作章节。",
+    "测试 Claude Code 或 Codex computer use 在桌面自动化、小程序 IDE、exe 自动化中的可用性。",
+    "企业 RAG 项目先设计文档权限模型，再评估加密需求。",
+    "试用 nbility 时关注缓存率、稳定性与账号风险：https://nbility.dev/auth/register?aff=FQ1u"
+  ],
+  "id": "20260610"
+}
